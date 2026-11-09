@@ -16,6 +16,7 @@ const SITE_URL =
   );
 
 export default defineConfig({
+  output: 'static',
   site: SITE_URL,
   trailingSlash: 'always',
   i18n: {
