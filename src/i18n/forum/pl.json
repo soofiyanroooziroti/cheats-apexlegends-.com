@@ -1,0 +1,181 @@
+{
+  "categories": {
+    "General": "Ogólne",
+    "Guides & Builds": "Poradniki i Buildy",
+    "Patch Talk": "Dyskusje o aktualizacjach",
+    "Community": "Społeczność"
+  },
+  "posts": {
+    "vanguard-pre-check-november-2026": {
+      "title": "Vanguard Pre-Check i ramy integralności na listopad 2026",
+      "excerpt": "Notatki Riot z VCT 2027 wspominają o surowszych sprawdzianach w kwalifikacjach online. Co gracz trybu rankingowego powinien właściwie przeczytać ponownie?",
+      "body": [
+        "Listopadowy wpis na blogu mówi o zautomatyzowanych sprawdzianach przed startem otwartych kwalifikacji.",
+        "Czy to zmienia to, co czytamy na stronie statusu przed zwykłą kolejką bez rankingu, czy dotyczy to tylko turniejów?"
+      ],
+      "flair": "✅ Rozwiązane",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Pre-Check jest projektowany z myślą o ścieżkach turniejowych i otwartych kwalifikacjach, a nie jako obietnica dotycząca zachowania w kolejkach casualowych. Kierunek nadal ma znaczenie: więcej przeglądów na poziomie oprogramowania przed grą. Tak czy inaczej, po uwadze przeczytaj etykietę statusu. ZIELONY wyświetla plik. To nie jest przepustka. Oś czasu bezpieczeństwa Vanguard na blogu podsumowuje egzekwowanie z maja DMA, czerwcowe bazowe zapotrzebowanie oraz te listopadowe ramy w jednym miejscu.",
+          "replies": []
+        },
+        {
+          "author": "QueueGoblin",
+          "body": "ok, więc tryb bez rankingu nie jest magicznie wyłączony 😭 traktowałem ten blog tak, jakby dotyczył tylko turniejów. najpierw strona statusu, potem kolejka. dzięki za wyjaśnienie tego 🙏",
+          "replies": []
+        },
+        {
+          "author": "NightShiftDuo",
+          "body": "ten wątek naprawdę pomógł. „ZIELONY wyświetla plik” to kwestia, którą ludzie ciągle pomijają 💀 dodaję post z osią czasu do zakładek.",
+          "replies": []
+        }
+      ]
+    },
+    "third-party-valorant-cheats-risks": {
+      "title": "Czy zewnętrzne Valorant cheats są warte ryzyka dla konta?",
+      "excerpt": "Strony sprzedawców i posty na forum nie mówią tego samego. Chcę, aby ta przepaść została przedstawiona jasno.",
+      "body": [
+        "Ciągle widzę pewne siebie twierdzenia obok skromnych szczegółów. Nie proszę o żaden bypass.",
+        "Co w tym sklepie jest opublikowanym menu, a co nadal pozostaje po prostu ryzykiem?"
+      ],
+      "flair": "✅ Rozwiązane",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Opublikowane menu to player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot oraz streamproof overlay. Vanguard nadal może podjąć działania wobec konta. ZIELONY na stronie statusu oznacza, że adnotacja wymienia plik do załadowania. To nie jest zweryfikowane, czyste dopasowanie.",
+          "replies": []
+        },
+        {
+          "author": "FinePrintFan",
+          "body": "strony sprzedawców mówią tak, jakby sprawa była już rozwiązana 😤 odpowiedź administracji ukazuje lukę: wymienione menu to nie obietnica czystego dopasowania. to się zgadza.",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-anti-cheat-vs-cs2": {
+      "title": "Valorant anti-cheat kontra CS2: Vanguard oraz VAC",
+      "excerpt": "Ludzie porównują Vanguard z VAC tak, jakby to był ten sam sterownik. Nie są.",
+      "body": [
+        "Gram w obie gry. Porady napisane dla VAC nie przekładają się jeden do jednego na Vanguard.",
+        "Co kupujący powinien uznać za odmienne przed załadowaniem czegokolwiek?"
+      ],
+      "flair": "🔥 Otwarte",
+      "comments": []
+    },
+    "valorant-cheat-menu-use-cases": {
+      "title": "Do czego tak naprawdę przydaje się menu cheatów Valorant?",
+      "excerpt": "Praktyka w grach niestandardowych i menu do meczów na żywo są często mieszane ze sobą.",
+      "body": [
+        "Używam gier niestandardowych do ustawień (lineups). To coś innego niż nakładka od firmy trzeciej.",
+        "Na której stronie znajduje się menu dla meczów na żywo i który poradnik dotyczy wyłącznie cheatów Riot do gier niestandardowych?"
+      ],
+      "flair": "✅ Rozwiązane",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Cheaty Riot w grach niestandardowych to przełączniki treningowe wewnątrz oficjalnego klienta. Strona produktu zawiera oddzielne menu Windows: gracz, agent, spike, skeleton, zdrowie oraz rank ESP, a także aimbot i streamproof. To nie są te same elementy sterujące.",
+          "replies": []
+        },
+        {
+          "author": "LineupLab",
+          "body": "czekaj, to jest to pomieszanie, które cały czas popełniałem 💀 przełączniki w lobby niestandardowym ≠ menu Windows. Strona produktu to lista na żywo.",
+          "replies": []
+        },
+        {
+          "author": "SageAdvice",
+          "body": "problem rozwiązany. trening ustawień pozostaje w grze niestandardowej. menu sklepu to inna strona ✨",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-cheat-codes-commands": {
+      "title": "Czy Valorant posiada kody do cheatów lub komendy konsolowe?",
+      "excerpt": "Niektóre posty nadal mówią o wpisywanych komendach. Nie mogę znaleźć takiej konsoli.",
+      "body": [
+        "Starsze gry FPS miały komendy konsolowe. Gry niestandardowe w Valorant wyglądają jak menu, a nie linia poleceń.",
+        "Czy istnieje lista kodów, czy to błędne wyszukiwanie?"
+      ],
+      "flair": "✅ Rozwiązane",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Nie ma publicznej listy kodów konsolowych do wklejenia w matchmakingu na żywo. Gry niestandardowe używają własnych przełączników menu Riot do treningu. loader tego sklepu to osobne menu Windows, a nie wpisywany kod do cheatu.",
+          "replies": []
+        },
+        {
+          "author": "OldSchoolFPS",
+          "body": "ta, szukałem konsoli, której tam nie ma 😂 menu do treningu, osobne loader dla sklepu. złe wyszukiwanie, dzięki.",
+          "replies": []
+        }
+      ]
+    },
+    "how-to-turn-on-valorant-custom-game-cheats": {
+      "title": "Jak włączyć Valorant custom game cheats?",
+      "excerpt": "Chcę przełączniki treningowe wewnątrz lobby niestandardowego, a nie pobieranie pliku od firmy trzeciej.",
+      "body": [
+        "Tworzę grę niestandardową do ćwiczenia ustawień. Nie mogę znaleźć komendy konsolowej.",
+        "Gdzie znajdują się oficjalne przełączniki cheatów i czy to to samo co loader tego sklepu?"
+      ],
+      "flair": "👀 Bez odpowiedzi",
+      "comments": []
+    },
+    "valorant-cheats-custom-game": {
+      "title": "Czy Valorant custom game cheats może być używane w meczu na żywo?",
+      "excerpt": "Przełączniki treningowe i nakładka na żywo są często opisywane jako jeden przełącznik.",
+      "body": [
+        "Nieskończone umiejętności w grze niestandardowej są przydatne do ustawień.",
+        "Czy to ustawienie przenosi się do normalnego meczu, czy menu na żywo to inny produkt?"
+      ],
+      "flair": "✅ Rozwiązane",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Cheats for Valorant w grach niestandardowych pozostają w tym lobby. Nie przenoszą się do wyszukiwania meczów. Menu na żywo w tym sklepie to osobna licencja Windows. Przeczytaj etykietę statusu przed załadowaniem. ZIELONY to tylko lista plików. To nie jest zapewnienie, że Vanguard to zignoruje.",
+          "replies": []
+        },
+        {
+          "author": "CascadeMain",
+          "body": "potrzebowałem tego. nieskończone umiejętności w grze niestandardowej są tylko do treningu 🎯 nie działają w prawdziwym meczu.",
+          "replies": []
+        },
+        {
+          "author": "RankedAndTired",
+          "body": "rozwiązane. dwa produkty, dwie płatności, a etykieta statusu to wciąż tylko lista 💚 a nie gwarancja.",
+          "replies": []
+        }
+      ]
+    },
+    "lifetime-separate-spoofer": {
+      "title": "Czy klucz $150 lifetime zawiera HWID spoofer?",
+      "excerpt": "Trzy karty przy kasie. Chcę mieć pewność, że lifetime na jednej to nie wszystkie trzy.",
+      "body": [
+        "Patrzę na kartę menu i kartę spoofer. Lifetime to $150 na każdej z nich.",
+        "Jeśli kupię lifetime dla menu, czy spoofer też się odblokuje?"
+      ],
+      "flair": "✅ Rozwiązane",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Nie. Lifetime w menu dotyczy tylko tego produktu. HWID spoofer to osobna płatność. Menu to $35 for 31 days lub $150 lifetime. spoofer to $50 for 31 days lub $150 lifetime.",
+          "replies": []
+        },
+        {
+          "author": "CheckoutChaos",
+          "body": "trzy karty mnie zdezorientowały 😭 lifetime w menu to nie pakiet. spoofer ma swój własny $150. doceniam jasne 'nie'.",
+          "replies": []
+        }
+      ]
+    },
+    "desktop-vs-laptop-hwid": {
+      "title": "Nowe konto nie działa na tym PC, ale działa na laptopie — który produkt?",
+      "excerpt": "Komputer stacjonarny blokuje nowe profile; laptop nie. Mam już miesiąc menu.",
+      "body": [
+        "Świeże konta nie działają na komputerze stacjonarnym, a działają na laptopie.",
+        "Czy mam kupić HWID spoofer, czy to ograniczenie dotyczące tylko konta?"
+      ],
+      "flair": "👀 Bez odpowiedzi",
+      "comments": []
+    }
+  }
+}

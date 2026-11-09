@@ -1,0 +1,181 @@
+{
+  "categories": {
+    "General": "综合讨论",
+    "Guides & Builds": "指南与配置",
+    "Patch Talk": "版本更新讨论",
+    "Community": "社区交流"
+  },
+  "posts": {
+    "vanguard-pre-check-november-2026": {
+      "title": "Vanguard 预检与 2026 年 11 月完整性框架",
+      "excerpt": "Riot 的 VCT 2027 说明提到了更严格的线上预选赛检查。排位玩家究竟应该重读什么？",
+      "body": [
+        "11 月的博客文章探讨了公开预选赛开始前的自动化检查。",
+        "这会改变我们在普通非排位队列之前在状态页面上看到的内容吗，还是说这仅限赛事？"
+      ],
+      "flair": "✅ 已解决",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "预检是针对竞技通道和公开预选赛制定的，并不是对休闲队列行为的承诺。但风向依然重要：在游玩前会有更多软件层面的审查。无论如何，请在查看说明后阅读状态标签。绿色代表列出了文件。这并不意味着豁免。博客上的 Vanguard 安全时间表将 5 月 DMA 执法、6 月按需基准以及这个 11 月框架总结在了一起。",
+          "replies": []
+        },
+        {
+          "author": "QueueGoblin",
+          "body": "好吧，也就是说非排位并不是魔法般地豁免 😭 我之前把博客当成只针对赛事了。先看状态页面，再排队。感谢指点 🙏",
+          "replies": []
+        },
+        {
+          "author": "NightShiftDuo",
+          "body": "这个帖子确实很有帮助。“绿色代表列出了文件”这句话是大家一直在忽略的 💀 收藏时间表帖子了。",
+          "replies": []
+        }
+      ]
+    },
+    "third-party-valorant-cheats-risks": {
+      "title": "第三方 Valorant cheats 值得冒账号风险吗？",
+      "excerpt": "卖家页面和论坛帖子的说法并不一致。我想把其中的差距明说清楚。",
+      "body": [
+        "我一直看到自信的说法却伴随着单薄的细节。我不是在索要绕过方法。",
+        "这个商店里哪些是已发布的菜单，哪些仍然只是风险？"
+      ],
+      "flair": "✅ 已解决",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "已发布的菜单有 player ESP、agent ESP、spike ESP、skeleton ESP、health ESP、rank ESP、aimbot 以及 streamproof overlay。Vanguard 依然可以对账号采取行动。状态页面上的绿色意味着说明中列出了要加载的文件。它并非经过验证的干净匹配项。",
+          "replies": []
+        },
+        {
+          "author": "FinePrintFan",
+          "body": "卖家页面的语气搞得好像问题已经解决了一样 😤 员工的回复指出了差距：列出的菜单并不是干净匹配的保证。这很合理。",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-anti-cheat-vs-cs2": {
+      "title": "Valorant anti-cheat 与 CS2：Vanguard 和 VAC",
+      "excerpt": "人们把 Vanguard 和 VAC 放在一起比较，好像它们是同一个驱动程序一样。它们并不是。",
+      "body": [
+        "这两款游戏我都玩。针对 VAC 编写的建议无法完全一一对应到 Vanguard 上。",
+        "在加载任何内容之前，买家究竟应该把什么视为不同？"
+      ],
+      "flair": "🔥 开启",
+      "comments": []
+    },
+    "valorant-cheat-menu-use-cases": {
+      "title": "Valorant 辅助菜单究竟有什么实际用处？",
+      "excerpt": "自定义游戏练习和实时对局菜单总是在同一个句子中被混为一谈。",
+      "body": [
+        "我用自定义游戏来练点位。这和第三方覆盖层完全是两码事。",
+        "哪个页面列出了实时菜单，哪篇指南只介绍 Riot 的自定义游戏作弊功能？"
+      ],
+      "flair": "✅ 已解决",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Riot 的自定义游戏作弊功能是官方客户端内部的练习切换开关。产品页面列出了独立的 Windows 菜单：玩家、特工、炸弹、skeleton、生命值和 rank ESP，外加 aimbot 以及防直播透显。它们不是同一个控制项。",
+          "replies": []
+        },
+        {
+          "author": "LineupLab",
+          "body": "等等，这就是我一直搞混的地方 💀 自定义大厅切换开关 ≠ Windows 菜单。产品页面是实时列表。",
+          "replies": []
+        },
+        {
+          "author": "SageAdvice",
+          "body": "对我来说已经解决了。点位练习留在自定义游戏里。商店菜单是另一个页面 ✨",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-cheat-codes-commands": {
+      "title": "Valorant 有作弊码或控制台命令吗？",
+      "excerpt": "有些帖子还在讨论输入的命令。我找不到那样的控制台。",
+      "body": [
+        "老一点的 FPS 游戏有控制台命令。Valorant 的自定义游戏看起来像菜单，而不是命令行。",
+        "有没有代码列表，还是说我的搜索方向错了？"
+      ],
+      "flair": "✅ 已解决",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "没有用于实时匹配的可粘贴公开控制台代码列表。自定义游戏使用 Riot 自己的菜单切换来进行练习。本商店的 loader 是一个独立的 Windows 菜单，而不是输入的作弊码。",
+          "replies": []
+        },
+        {
+          "author": "OldSchoolFPS",
+          "body": "对啊，我一直在找那个根本不存在的控制台 😂 练习用菜单，商店则用另外的 loader。搜错方向了，谢谢。",
+          "replies": []
+        }
+      ]
+    },
+    "how-to-turn-on-valorant-custom-game-cheats": {
+      "title": "如何开启 Valorant custom game cheats？",
+      "excerpt": "我想要自定义大厅里的练习切换开关，而不是第三方下载。",
+      "body": [
+        "我开了一个自定义游戏来练点位。我找不到控制台命令。",
+        "官方的作弊切换开关在哪里，这和本商店的 loader是一回事吗？"
+      ],
+      "flair": "👀 未解答",
+      "comments": []
+    },
+    "valorant-cheats-custom-game": {
+      "title": "Valorant custom game cheats 可以在排位赛中使用吗？",
+      "excerpt": "练习模式切换开关和实时覆盖经常被描述为一个开关。",
+      "body": [
+        "自定义游戏中的无限技能对练习定点投掷很有用。",
+        "该设置会带入普通比赛中吗，还是实时菜单是不同的产品？"
+      ],
+      "flair": "✅ 已解决",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Riot 的自定义游戏功能只留在该大厅中。它们不会带入匹配中。本商店的实时菜单是单独的 Windows 许可。加载前请阅读状态标签。绿色仅表示文件列表。这绝不代表 Vanguard 会忽视它。",
+          "replies": []
+        },
+        {
+          "author": "CascadeMain",
+          "body": "正需要这个。自定义中的无限技能仅用于练习 🎯 它不会带入真实比赛中。",
+          "replies": []
+        },
+        {
+          "author": "RankedAndTired",
+          "body": "已解决。两个产品，两个结账，状态标签仍然只是一个列表 💚 不是免死金牌。",
+          "replies": []
+        }
+      ]
+    },
+    "lifetime-separate-spoofer": {
+      "title": "$150 lifetime 密钥包含 HWID spoofer 吗？",
+      "excerpt": "结账时有三张卡片。我想确认其中一张的 lifetime 不包含全部三者。",
+      "body": [
+        "我在看菜单卡片和 spoofer 卡片。Lifetime 在每个上面都是 $150。",
+        "如果我购买了菜单上的 lifetime，spoofer 也会解锁吗？"
+      ],
+      "flair": "✅ 已解决",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "不会。菜单上的 Lifetime 仅适用于该产品。HWID spoofer 是单独结账的。菜单是 $35 for 31 days 或 $150 lifetime。spoofer 是 $50 for 31 days 或 $150 lifetime。",
+          "replies": []
+        },
+        {
+          "author": "CheckoutChaos",
+          "body": "三张卡片让我有点晕 😭 菜单上的 lifetime 不是捆绑包。spoofer 有其自己的 $150。感谢明确的回答。",
+          "replies": []
+        }
+      ]
+    },
+    "desktop-vs-laptop-hwid": {
+      "title": "新账号在此 PC 上失败但在笔记本上可行 — 应该买哪个产品？",
+      "excerpt": "台式机阻止新配置文件；笔记本则不会。我已经是菜单包月的用户了。",
+      "body": [
+        "全新账号在台式机上失败，但在笔记本上可以玩。",
+        "我是该购买 HWID spoofer，还是这只是账号本身的限制？"
+      ],
+      "flair": "👀 未解答",
+      "comments": []
+    }
+  }
+}

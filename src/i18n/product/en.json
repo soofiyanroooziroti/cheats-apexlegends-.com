@@ -1,0 +1,181 @@
+{
+  "steps": [
+    {
+      "title": "Check status",
+      "desc": "Read the status page after a Valorant or Vanguard update before you buy. GREEN means the note lists the file to load. RED means wait."
+    },
+    {
+      "title": "Pick a plan",
+      "desc": "$35 for 31 days or $150 lifetime. The HWID spoofer uses its own price."
+    },
+    {
+      "title": "Secure checkout",
+      "desc": "Complete checkout from the product card. Your license unlocks in the portal with instant delivery."
+    },
+    {
+      "title": "Install & verify",
+      "desc": "Follow the setup guide, load a conservative preset, and test in a lower-stakes playlist before you use your main profile."
+    }
+  ],
+  "howToGet": "How to get {name}",
+  "cheats": {
+    "groupNames": [
+      "Aimbot Options",
+      "Player Visual Options",
+      "World Visual Options",
+      "Misc Options"
+    ],
+    "descs": [
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Defuse progress and time readouts when the menu exposes them.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds.",
+      "Hides ability and trap ESP while held.",
+      "Listed on the loader menu for supported builds.",
+      "Listed on the loader menu for supported builds."
+    ],
+    "slides": [
+      {
+        "alt": "Player ESP menu screenshot",
+        "caption": "Player Visual Options",
+        "captionDesc": "Health, shield, agent, rank, box, skeleton, and distance controls."
+      },
+      {
+        "alt": "World visual menu screenshot",
+        "caption": "World Visual Options",
+        "captionDesc": "Abilities, traps, spike timers, and per-agent customization."
+      },
+      {
+        "alt": "Aimbot menu screenshot",
+        "caption": "Aimbot Options",
+        "captionDesc": "FOV, smoothness, stickiness, bone, filter, and draw overlays."
+      },
+      {
+        "alt": "Misc and config menu screenshot",
+        "caption": "Misc Options",
+        "captionDesc": "Combat mode hotkey, font size, and create or load configs."
+      }
+    ],
+    "overview": {
+      "title": "A Windows menu for VALORANT",
+      "paragraphs": [
+        "One license covers Aimbot Options, Player Visual Options, World Visual Options, and Misc Options—the same menu on every plan.",
+        "Read the status page before you load. $35 for 31 days or $150 lifetime."
+      ]
+    },
+    "body": [
+      {
+        "type": "h2",
+        "text": "Menu groups included"
+      },
+      {
+        "type": "p",
+        "text": "Four menu groups on one license: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. Open the feature list on this page for every toggle."
+      },
+      {
+        "type": "h2",
+        "text": "Plans"
+      },
+      {
+        "type": "p",
+        "text": "The 31-day plan is $35. Lifetime is $150 once. About four 31-day renewals at $35 equal lifetime."
+      }
+    ],
+    "goodToKnow": "Valorant and Vanguard update often. Read the status page before you load. GREEN means the note lists this file. RED means wait. Overlay behavior can change after a patch.",
+    "limitations": "Third-party software can violate game terms and lead to bans. You use this software at your own risk. Compatibility can change after a game, Vanguard, or Windows update. Streamproof does not remove that risk.",
+    "requirements": [
+      "HVCI ON · CORE ISOLATION ON · TPM ON · SECURE BOOT ON",
+      "Windows 10 or 11 on supported builds",
+      "Intel Core i5 or AMD Ryzen 5 or better",
+      "Stable internet · latest VALORANT PC client",
+      "Client: official VALORANT PC client"
+    ]
+  },
+  "spoofer": {
+    "slides": [
+      {
+        "alt": "HWID spoofer on Windows PC",
+        "caption": "HWID spoofer",
+        "captionDesc": "Hardware fingerprint tools before you relaunch."
+      },
+      {
+        "alt": "Phoenix Satano HWID spoofer hardware fingerprint rotation on Windows PC",
+        "caption": "Phoenix board",
+        "captionDesc": "Disk, MAC, and GPU ID rotation."
+      },
+      {
+        "alt": "Phoenix WH-Satano spoofer branding on Windows PC",
+        "caption": "Phoenix WH",
+        "captionDesc": "Spoofer workspace used on every store."
+      }
+    ],
+    "overview": {
+      "title": "HWID recovery workflow",
+      "paragraphs": [
+        "HWID Spoofer is a separate key for a hardware flag. It rotates disk, MAC, and GPU identifiers on a PC you own. It is not included with the menu.",
+        "$50 for 31 days or $150 lifetime. It does not fix an account-only restriction on the same machine."
+      ]
+    },
+    "body": [
+      {
+        "type": "h2",
+        "text": "When to use it"
+      },
+      {
+        "type": "p",
+        "text": "Use when fresh accounts fail on one PC but work elsewhere—not for account-only bans. Pair with conservative cheat presets after verification."
+      },
+      {
+        "type": "h2",
+        "text": "Plans"
+      },
+      {
+        "type": "p",
+        "text": "$50 for 31 days or $150 lifetime"
+      }
+    ],
+    "goodToKnow": "HWID tools change how your PC fingerprint appears. They do not clear an account-only penalty. Read the portal notes before you launch VALORANT again.",
+    "limitations": "Spoofing carries technical risk and may violate game terms. Results vary by ban type and driver setup. Use only on systems you own.",
+    "requirements": [
+      "Windows 10 or 11 64-bit with administrator rights.",
+      "Create a restore point before running hardware tools.",
+      "Stable internet for activation and verification steps."
+    ],
+    "features": [
+      "Hardware spoofer with cleaner",
+      "Disk serial and MAC rotation",
+      "GPU ID profile tools",
+      "Compatibility scan",
+      "Verification checklist",
+      "Portal step-by-step workflow",
+      "Discord setup support"
+    ]
+  }
+}

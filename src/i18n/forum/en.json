@@ -1,0 +1,181 @@
+{
+  "categories": {
+    "General": "General",
+    "Guides & Builds": "Guides & Builds",
+    "Patch Talk": "Patch Talk",
+    "Community": "Community"
+  },
+  "posts": {
+    "vanguard-pre-check-november-2026": {
+      "title": "Vanguard Pre-Check and the November 2026 integrity framework",
+      "excerpt": "Riot’s VCT 2027 notes mention stricter online qualifier checks. What should a ranked player actually re-read?",
+      "body": [
+        "The November blog post talks about automated checks before open qualifiers start.",
+        "Does that change what we read on the status page before a normal unrated queue, or is that tournament-only?"
+      ],
+      "flair": "✅ Solved",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Pre-Check is framed for competitive pathways and open qualifiers, not a promise about casual queue behavior. The direction still matters: more software-layer review before play. Read the status label after the note either way. GREEN lists the file. It is not clearance. The Vanguard security timeline on the blog summarizes May DMA enforcement, June on-demand baselines, and this November framework in one place.",
+          "replies": []
+        },
+        {
+          "author": "QueueGoblin",
+          "body": "ok so unrated is not magically exempt 😭 i was treating the blog like tournament-only. status page first, then queue. thanks for spelling that out 🙏",
+          "replies": []
+        },
+        {
+          "author": "NightShiftDuo",
+          "body": "this thread actually helped. “GREEN lists the file” is the line people keep skipping 💀 bookmarking the timeline post.",
+          "replies": []
+        }
+      ]
+    },
+    "third-party-valorant-cheats-risks": {
+      "title": "Are third-party Valorant cheats worth the account risk?",
+      "excerpt": "Seller pages and forum posts do not say the same thing. I want the gap stated plainly.",
+      "body": [
+        "I keep seeing confident claims next to thin details. I am not asking for a bypass.",
+        "What on this store is a published menu, and what is still just a risk?"
+      ],
+      "flair": "✅ Solved",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "The published menu is player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot, and a streamproof overlay. Vanguard can still act on an account. GREEN on the status page means the note lists the file to load. It is not a verified clean match.",
+          "replies": []
+        },
+        {
+          "author": "FinePrintFan",
+          "body": "seller pages talk like it is already solved 😤 the staff reply is the gap: a listed menu is not a clean-match promise. that tracks.",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-anti-cheat-vs-cs2": {
+      "title": "Valorant anti-cheat vs CS2: Vanguard and VAC",
+      "excerpt": "People compare Vanguard with VAC as if they were the same driver. They are not.",
+      "body": [
+        "I play both games. Advice written for VAC does not map onto Vanguard one to one.",
+        "What should a buyer actually treat as different before they load anything?"
+      ],
+      "flair": "🔥 Open",
+      "comments": []
+    },
+    "valorant-cheat-menu-use-cases": {
+      "title": "What is the Valorant cheat menu actually useful for?",
+      "excerpt": "Custom-game practice and a live match menu get mixed together in the same sentence.",
+      "body": [
+        "I use custom games for lineups. That is a different switch from a third-party overlay.",
+        "Which page lists the live menu, and which guide is only about Riot’s custom-game cheats?"
+      ],
+      "flair": "✅ Solved",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Riot’s custom-game cheats are practice toggles inside the official client. The product page lists the separate Windows menu: player, agent, spike, skeleton, health, and rank ESP, plus aimbot and streamproof. They are not the same control.",
+          "replies": []
+        },
+        {
+          "author": "LineupLab",
+          "body": "wait this is the mix-up i kept making 💀 custom lobby toggles ≠ the Windows menu. product page is the live list.",
+          "replies": []
+        },
+        {
+          "author": "SageAdvice",
+          "body": "solved for me. lineup practice stays in the custom game. the store menu is a different page ✨",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-cheat-codes-commands": {
+      "title": "Does Valorant have cheat codes or console commands?",
+      "excerpt": "Some posts still talk about typed commands. I cannot find a console like that.",
+      "body": [
+        "Older FPS games had console commands. Valorant custom games look like menus, not a command line.",
+        "Is there a code list, or is that the wrong search?"
+      ],
+      "flair": "✅ Solved",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "There is no public console-code list to paste for live matchmaking. Custom games use Riot’s own menu toggles for practice. This store’s loader is a separate Windows menu, not a typed cheat code.",
+          "replies": []
+        },
+        {
+          "author": "OldSchoolFPS",
+          "body": "yeah i was hunting a console that is not there 😂 menus for practice, separate loader for the store. wrong search, thanks.",
+          "replies": []
+        }
+      ]
+    },
+    "how-to-turn-on-valorant-custom-game-cheats": {
+      "title": "How do I turn on Valorant custom game cheats?",
+      "excerpt": "I want the practice toggles inside a custom lobby, not a third-party download.",
+      "body": [
+        "I host a custom game for lineup practice. I cannot find a console command.",
+        "Where do the official cheat toggles sit, and is that the same thing as this store’s loader?"
+      ],
+      "flair": "👀 Unanswered",
+      "comments": []
+    },
+    "valorant-cheats-custom-game": {
+      "title": "Can Valorant custom game cheats be used in a live match?",
+      "excerpt": "Practice toggles and a live overlay keep getting described as one switch.",
+      "body": [
+        "Infinite abilities in a custom game is useful for lineups.",
+        "Does that setting carry into a normal match, or is the live menu a different product?"
+      ],
+      "flair": "✅ Solved",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Riot’s custom-game cheats stay in that lobby. They do not travel into matchmaking. The live menu on this store is a separate Windows license. Read the status label before you load it. GREEN lists the file. It is not a claim that Vanguard will ignore it.",
+          "replies": []
+        },
+        {
+          "author": "CascadeMain",
+          "body": "needed this. infinite util in a custom is for practice only 🎯 it does not ride into a real match.",
+          "replies": []
+        },
+        {
+          "author": "RankedAndTired",
+          "body": "solved. two products, two checkouts, and the status label is still just a list 💚 not a free pass.",
+          "replies": []
+        }
+      ]
+    },
+    "lifetime-separate-spoofer": {
+      "title": "Does the $150 lifetime key include the HWID spoofer?",
+      "excerpt": "Three cards at checkout. I want to be sure lifetime on one is not all three.",
+      "body": [
+        "I am looking at the menu card and the spoofer card. Lifetime is $150 on each.",
+        "If I buy lifetime on the menu, does the spoofer unlock too?"
+      ],
+      "flair": "✅ Solved",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "No. Lifetime on the menu is only that product. The HWID spoofer is a separate checkout. The menu is $35 for 31 days or $150 lifetime. The spoofer is $50 for 31 days or $150 lifetime.",
+          "replies": []
+        },
+        {
+          "author": "CheckoutChaos",
+          "body": "three cards had me spiraling 😭 lifetime on the menu is not a bundle. spoofer is its own $150. appreciate the plain no.",
+          "replies": []
+        }
+      ]
+    },
+    "desktop-vs-laptop-hwid": {
+      "title": "New account fails on this PC but works on a laptop — which product?",
+      "excerpt": "Desktop blocks new profiles; laptop does not. I already have the menu month.",
+      "body": [
+        "Fresh accounts fail on the desktop and play on the laptop.",
+        "Do I buy the HWID spoofer, or is this an account-only restriction?"
+      ],
+      "flair": "👀 Unanswered",
+      "comments": []
+    }
+  }
+}

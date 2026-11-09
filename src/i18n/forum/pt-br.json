@@ -1,0 +1,181 @@
+{
+  "categories": {
+    "General": "Geral",
+    "Guides & Builds": "Guias e Builds",
+    "Patch Talk": "Discussão de Patches",
+    "Community": "Comunidade"
+  },
+  "posts": {
+    "vanguard-pre-check-november-2026": {
+      "title": "Vanguard Pré-verificação e a estrutura de integridade de novembro de 2026",
+      "excerpt": "As notas do VCT 2027 da Riot mencionam verificações mais rígidas nas qualificatórias online. O que um jogador ranqueado deve reler de fato?",
+      "body": [
+        "A postagem do blog de novembro fala sobre verificações automatizadas antes do início das qualificatórias abertas.",
+        "Isso muda o que lemos na página de status antes de uma fila sem classificação normal, ou é apenas para torneios?"
+      ],
+      "flair": "✅ Solved",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "A Pré-verificação é estruturada para caminhos competitivos e qualificatórias abertas, não sendo uma promessa sobre o comportamento da fila casual. A direção ainda importa: mais revisão em nível de software antes de jogar. Leia o rótulo de status após a nota de qualquer forma. GREEN lista o arquivo. Não é uma liberação. A linha do tempo de segurança do Vanguard no blog resume a aplicação de maio de DMA, as baselines sob demanda de junho e esta estrutura de novembro em um só lugar.",
+          "replies": []
+        },
+        {
+          "author": "QueueGoblin",
+          "body": "então sem classificação não está magicamente isento 😭 eu estava tratando o blog como se fosse exclusivo para torneios. página de status primeiro, depois a fila. obrigado por esclarecer isso 🙏",
+          "replies": []
+        },
+        {
+          "author": "NightShiftDuo",
+          "body": "este tópico realmente ajudou. “GREEN lista o arquivo” é a linha que as pessoas vivem pulando 💀 salvando a postagem da linha do tempo nos favoritos.",
+          "replies": []
+        }
+      ]
+    },
+    "third-party-valorant-cheats-risks": {
+      "title": "Valorant cheats de terceiros valem o risco para a conta?",
+      "excerpt": "Páginas de vendedores e postagens no fórum não dizem a mesma coisa. Quero a lacuna explicada claramente.",
+      "body": [
+        "Continuo vendo afirmações confiantes acompanhadas de detalhes escassos. Não estou pedindo um bypass.",
+        "O que nesta loja é um menu publicado e o que ainda é apenas um risco?"
+      ],
+      "flair": "✅ Solved",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "O menu publicado é player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot e um streamproof overlay. O Vanguard ainda pode agir sobre uma conta. GREEN na página de status significa que a nota lista o arquivo a ser carregado. Não é uma correspondência limpa verificada.",
+          "replies": []
+        },
+        {
+          "author": "FinePrintFan",
+          "body": "páginas de vendedores falam como se já estivesse resolvido 😤 a resposta da moderação é a lacuna: um menu listado não é uma promessa de correspondência limpa. faz sentido.",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-anti-cheat-vs-cs2": {
+      "title": "Valorant anti-cheat vs CS2: Vanguard e VAC",
+      "excerpt": "As pessoas comparam Vanguard com VAC como se fossem o mesmo driver. Não são.",
+      "body": [
+        "Eu jogo ambos os jogos. Conselhos escritos para VAC não se aplicam a Vanguard de forma idêntica.",
+        "O que um comprador deve considerar diferente antes de carregar qualquer coisa?"
+      ],
+      "flair": "🔥 Open",
+      "comments": []
+    },
+    "valorant-cheat-menu-use-cases": {
+      "title": "Para que serve de fato o menu de cheats do Valorant?",
+      "excerpt": "Prática em jogo personalizado e um menu de partida ao vivo são misturados na mesma frase.",
+      "body": [
+        "Eu uso jogos personalizados para lineups. Isso é um comando diferente de um overlay de terceiros.",
+        "Qual página lista o menu ao vivo, and qual guia é apenas sobre os cheats de jogo personalizado da Riot?"
+      ],
+      "flair": "✅ Resolvido",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Os cheats de jogo personalizado da Riot são alternâncias de prática dentro do cliente oficial. A página do produto lista o menu Windows separado: jogador, agente, spike, skeleton, vida e rank ESP, além de aimbot e streamproof. Eles não são o mesmo controle.",
+          "replies": []
+        },
+        {
+          "author": "LineupLab",
+          "body": "pera, essa é a confusão que eu vivia fazendo 💀 alternativas de lobby personalizado ≠ o menu Windows. a página do produto é a lista ao vivo.",
+          "replies": []
+        },
+        {
+          "author": "SageAdvice",
+          "body": "resolvido para mim. a prática de lineup fica no jogo personalizado. o menu da loja é uma página diferente ✨",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-cheat-codes-commands": {
+      "title": "O Valorant tem códigos de cheat ou comandos de console?",
+      "excerpt": "Algumas postagens ainda falam sobre comandos digitados. Eu não consigo encontrar um console assim.",
+      "body": [
+        "Jogos de FPS mais antigos tinham comandos de console. Jogos personalizados do Valorant parecem menus, não uma linha de comando.",
+        "Existe uma lista de códigos ou essa é a busca errada?"
+      ],
+      "flair": "✅ Resolvido",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Não há uma lista pública de códigos de console para colar no matchmaking ao vivo. Jogos personalizados usam as próprias alternativas de menu da Riot para prática. O loader desta loja é um menu Windows separado, não um código de cheat digitado.",
+          "replies": []
+        },
+        {
+          "author": "OldSchoolFPS",
+          "body": "é, eu estava caçando um console que não está lá 😂 menus para prática, loader separado para a loja. busca errada, obrigado.",
+          "replies": []
+        }
+      ]
+    },
+    "how-to-turn-on-valorant-custom-game-cheats": {
+      "title": "Como faço para ativar o Valorant custom game cheats?",
+      "excerpt": "Eu quero as alternativas de prática dentro de um lobby personalizado, não um download de terceiros.",
+      "body": [
+        "Eu crio um jogo personalizado para prática de lineup. Eu não consigo encontrar um comando de console.",
+        "Onde ficam as alternativas de cheat oficiais e isso é a mesma coisa que o loader desta loja?"
+      ],
+      "flair": "👀 Sem resposta",
+      "comments": []
+    },
+    "valorant-cheats-custom-game": {
+      "title": "Valorant custom game cheats pode ser usado em uma partida ao vivo?",
+      "excerpt": "Alternadores de treino e um overlay ao vivo continuam sendo descritos como uma única chave.",
+      "body": [
+        "Habilidades infinitas em um jogo personalizado são úteis para lineups.",
+        "Essa configuração é transferida para uma partida normal ou o menu ao vivo é um produto diferente?"
+      ],
+      "flair": "✅ Resolvido",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Os cheats de jogo personalizado da Riot ficam apenas nesse lobby. Eles não vão para o matchmaking. O menu ao vivo nesta loja é uma licença Windows separada. Leia o rótulo de status antes de carregá-lo. GREEN lista o arquivo. Não é uma garantia de que Vanguard o ignorará.",
+          "replies": []
+        },
+        {
+          "author": "CascadeMain",
+          "body": "precisava disso. utilidade infinita em personalizado é apenas para treino 🎯 não funciona em uma partida real.",
+          "replies": []
+        },
+        {
+          "author": "RankedAndTired",
+          "body": "resolvido. dois produtos, dois checkouts, e o rótulo de status ainda é apenas uma lista 💚 e não passe livre.",
+          "replies": []
+        }
+      ]
+    },
+    "lifetime-separate-spoofer": {
+      "title": "A chave $150 lifetime inclui o HWID spoofer?",
+      "excerpt": "Três cartões no checkout. Quero ter certeza de que lifetime em um não são os três.",
+      "body": [
+        "Estou olhando para o cartão do menu e o cartão spoofer. Lifetime é $150 em cada um.",
+        "Se eu comprar lifetime no menu, o spoofer é desbloqueado também?"
+      ],
+      "flair": "✅ Resolvido",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Não. Lifetime no menu é apenas esse produto. O HWID spoofer é um checkout separado. O menu é $35 for 31 days ou $150 lifetime. O spoofer é $50 for 31 days ou $150 lifetime.",
+          "replies": []
+        },
+        {
+          "author": "CheckoutChaos",
+          "body": "três cartões me deixaram confuso 😭 lifetime no menu não é um pacote. spoofer tem seu próprio $150. agradeço a resposta direta.",
+          "replies": []
+        }
+      ]
+    },
+    "desktop-vs-laptop-hwid": {
+      "title": "Nova conta falha neste PC mas funciona em um notebook — qual produto?",
+      "excerpt": "O desktop bloqueia novos perfis; o notebook não. Eu já tenho o mês do menu.",
+      "body": [
+        "Contas novas falham no desktop e jogam no notebook.",
+        "Eu compro o HWID spoofer ou isso é uma restrição exclusiva de conta?"
+      ],
+      "flair": "👀 Sem resposta",
+      "comments": []
+    }
+  }
+}

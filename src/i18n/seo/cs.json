@@ -1,0 +1,60 @@
+{
+  "site": {
+    "title": "Valorant Cheats | Nejlepší software pro Steam",
+    "description": "Valorant Cheats pro Steam na Windows PC s aimbotem, ESP hráčů, ukazateli vozidel a radarem. Srovnání cheatů, HWID spooferu a na cheats-valorant.org."
+  },
+  "pages": {
+    "/": {
+      "title": "Pro – nebo AMD HVCI zapnuto Core isolation zapnuto TPM aktiv",
+      "description": "Compare Valorant Cheats on Windows: ESP modules, aimbot settings, $35 and $150 plans, the live Status label, and setup notes before you load."
+    },
+    "/products/valorant-cheats/": {
+      "title": "Valorant Hacks for PC | $35 and $150",
+      "description": "Cheats for VALORANT na Steamu: tři Windows produkty sdílejí $35 for 31 days or $150 lifetime. Loader, HWID nástroj a obnova účtu se platí zvlášť."
+    },
+    "/products/valorant-cheats/loader/": {
+      "title": "Steam Loader pro Windows PC | Aimbot a radar",
+      "description": "Four menu groups: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. $35 for 31 days or $150 lifetime."
+    },
+    "/products/valorant-cheats/hwid-spoofer/": {
+      "title": "HWID Spoofer pro VALORANT Windows Hardwarové příznaky",
+      "description": "HWID spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
+    },
+    "/products/valorant-cheats/utilities/": {
+      "title": "Porovnat nástroj a utilitu pro odvolání účtu HWID",
+      "description": "Podívejte se, který Windows nástroj se hodí pro hardwarový příznak a který pro odvolání účtu. Obě jsou samostatné platby z VALORANT loader."
+    },
+    "/blog/": {
+      "title": "VALORANT PC Návody pro Míření, ESP, Kořist, Menu a Vanguard",
+      "description": "Original notes on custom-game toggles, Vanguard and VAC, x-ray overlays, Reddit claims, and the $35 and $150 plans."
+    },
+    "/forum/": {
+      "title": "VALORANT Komunitní fórum: Nastavení, Aim a Plány",
+      "description": "Fórum o VALORANT loader, možnosti aimu a ESP, plánech pro $35 for 31 days or $150 lifetime a patch days pro Vanguard. Odpovědi vývojářů jsou označeny."
+    },
+    "/faq/": {
+      "title": "FAQ – Plány, nastavení a riziko Vanguard před nákupem",
+      "description": "Answers on the $35 and $150 plans, Vanguard updates, Windows requirements, hardware flags, and how the three products differ."
+    },
+    "/support/": {
+      "title": "VALORANT Podpora: Loader, Platby a HWID PC",
+      "description": "Nápověda pro Loader, platby a portál k nástrojům VALORANT, HWID spoofer a odvoláním k účtům. Uveďte e-mail objednávky a přesný loader."
+    },
+    "/about/": {
+      "title": "O tomto VALORANT obchodě: doručení, ceny a rizika",
+      "description": "Obchod: co cheats-valorant.org prodává, jak funguje platba a doručení, a riziko banu při použití softwaru třetích stran na VALORANT pro Windows PC."
+    },
+    "/privacy/": {
+      "title": "Ochrana soukromí, cookies a kontaktní údaje",
+      "description": "Jak cheats-valorant.org zpracovává analytiku, cookies a kontaktní data. Čísla platebních karet zůstávají u poskytovatele platby, ne u nás."
+    },
+    "/terms/": {
+      "title": "Licenční podmínki, vrácení peněz a pravidla použití",
+      "description": "Licenční podmínky, pravidla použití a politika nevrácení peněz pro loader, HWID spoofer a obnovu účtu prodávané přes cheats-valorant.org."
+    },
+    "/status/": {
+      "title": "VALORANT Status & Vanguard Patch Notes",
+      "description": "Module and portal update notes for the Windows loader. Check status after each Vanguard update before you launch VALORANT on Steam."
+    }
+  }
+}

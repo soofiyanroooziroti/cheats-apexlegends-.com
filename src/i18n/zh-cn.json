@@ -1,0 +1,1442 @@
+{
+  "site": {
+    "name": "Valorant Cheats",
+    "domain": "cheats-valorant.org",
+    "title": "Valorant Cheats",
+    "description": "Aimbot 功能选项、玩家视觉选项、世界视觉选项以及 VALORANT 在 Windows PC 上的其他选项。USD 价格。",
+    "discord": "/go/valorant/"
+  },
+  "nav": [
+    {
+      "href": "/",
+      "label": "首页"
+    },
+    {
+      "href": "/products/valorant-cheats/",
+      "label": "产品"
+    },
+    {
+      "href": "/products/valorant-cheats/loader/#features",
+      "label": "功能"
+    },
+    {
+      "href": "/blog/",
+      "label": "博客"
+    },
+    {
+      "href": "/forum/",
+      "label": "论坛"
+    },
+    {
+      "href": "/faq/",
+      "label": "常见问题"
+    },
+    {
+      "href": "/support/",
+      "label": "支持"
+    }
+  ],
+  "headerNavLabels": {
+    "home": "首页",
+    "products": "商店",
+    "features": "功能",
+    "blog": "博客",
+    "forum": "论坛",
+    "faq": "常见问题",
+    "support": "帮助"
+  },
+  "navMore": "更多",
+  "navShort": {
+    "home": "首页",
+    "products": "产品",
+    "features": "功能",
+    "blog": "博客",
+    "forum": "论坛",
+    "faq": "常见问题",
+    "support": "支持"
+  },
+  "hero": {
+    "status": "Valorant — 加载前请检查状态",
+    "eyebrow": "Windows PC · 全球",
+    "titleLine1": "适用于 Windows PC 的 Valorant Cheats",
+    "titleLine2": "Cheats",
+    "subtitle": "为 Windows 上的 VALORANT 提供玩家透视、世界 ESP、aimbot 以及 config 工具。单许可证包含四个菜单组。$35 for 31 days 或 $150 lifetime。",
+    "ctaPrimary": "查看产品",
+    "ctaDiscord": "立即购买",
+    "modesLabel": "模块",
+    "modes": [
+      "玩家透视",
+      "世界 ESP",
+      "Aimbot",
+      "Configs"
+    ],
+    "marqueeAria": "功能与平台支持",
+    "metrics": [
+      {
+        "label": "反作弊系统",
+        "strong": "Vanguard"
+      },
+      {
+        "label": "平台",
+        "strong": "Windows PC"
+      },
+      {
+        "label": "方案",
+        "strong": "$35 与 $150"
+      },
+      {
+        "label": "支持",
+        "strong": "24/7"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "功能特性",
+    "title": "Aimbot、玩家视觉、世界 ESP 与 config",
+    "subtitle": "单个授权即可解锁四大菜单组。查看完整功能列表以了解所有开关。",
+    "subtitleLead": "单个授权即可解锁四大菜单组。打开 ",
+    "subtitleLinkLabel": "完整功能列表",
+    "subtitleTail": " 以查看所有开关。",
+    "seeAllLabel": "查看全部功能",
+    "items": [
+      {
+        "title": "Aimbot 选项",
+        "subtitle": "FOV、smooth度、黏滞度。",
+        "desc": "启用带有 FOV、Smooth度、速度、黏滞度、Aimbot 过滤、Aimbot 骨骼、Visible Check、Draw FOV 和 Draw Target Line 的 Aimbot。",
+        "bullets": [
+          "FOV 与 smooth度",
+          "Aimbot 骨骼",
+          "Draw FOV"
+        ],
+        "tags": [
+          "aimbot",
+          "fov",
+          "smooth度"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      },
+      {
+        "title": "玩家视觉选项",
+        "subtitle": "生命值、护甲、特工、段位。",
+        "desc": "Health bar、护甲条、特工、段位、box、对齐线、skeleton、head circle、装备名称、等级和距离——支持最大距离设置。",
+        "bullets": [
+          "生命值与护甲",
+          "特工与段位",
+          "Box 与 skeleton"
+        ],
+        "tags": [
+          "player esp",
+          "health bar",
+          "skeleton"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      },
+      {
+        "title": "世界视觉选项",
+        "subtitle": "技能、陷阱、爆能器。",
+        "desc": "技能与陷阱 ESP、拆除爆能器进度与时间、角色自定义，以及显示图标或显示距离切换。",
+        "bullets": [
+          "技能与陷阱",
+          "爆能器计时器",
+          "单特工配置"
+        ],
+        "tags": [
+          "spike esp",
+          "abilities",
+          "traps"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      },
+      {
+        "title": "杂项选项",
+        "subtitle": "热键与 config。",
+        "desc": "战斗模式热键可隐藏技能与陷阱 ESP。字体大小，以及创建、保存、加载和卸载 Config 配置。",
+        "bullets": [
+          "战斗模式热键",
+          "字体大小",
+          "保存 config"
+        ],
+        "tags": [
+          "config",
+          "hotkey",
+          "misc"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "为什么选择我们",
+    "title": "所有套餐享有相同功能菜单——以实际更新说话，而非空头支票",
+    "subtitle": "一款辅助和 HWID spoofer。菜单为 $35 for 31 days 或 $150 lifetime。HWID spoofer 为 $50 for 31 days 或 $150 lifetime。在 Vanguard 机制下封号仍然可能发生。",
+    "usLabel": "Valorant Cheats",
+    "otherLabel": "普通提供商",
+    "rows": [
+      {
+        "title": "更新日 loader 更新",
+        "desc": "在打开 loader 之前，请在 Valorant 或 Vanguard 更新后检查 cheats-valorant.org。"
+      },
+      {
+        "title": "独立自瞄滑块",
+        "desc": "FOV、smooth、骨骼和可见性检测均为独立的 aimbot 设置。每次请调整一项。"
+      },
+      {
+        "title": "Loader 与 config 帮助",
+        "desc": "安装问题涵盖 Windows loader、已保存的 config，以及区分硬件标识与账号封禁的产品。"
+      },
+      {
+        "title": "独立产品结账",
+        "desc": "辅助和 HWID spoofer 的结账流程是分开的。购买辅助的 Lifetime 不会附带 spoofer。"
+      },
+      {
+        "title": "已保存的 config",
+        "desc": "四个菜单分组共用一个授权。31 天套餐与 lifetime 解锁相同的 loader。"
+      },
+      {
+        "title": "HWID 为独立产品",
+        "desc": "新账号频繁受挫的机器属于 spoofer 情况。两个工具均未包含在辅助密钥中。"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "Vanguard",
+        "title": "补丁更新后检查",
+        "desc": "在加载前，请在 Valorant 或 Vanguard 更新后重新检查状态标签。"
+      },
+      {
+        "value": "2",
+        "title": "菜单套餐",
+        "desc": "$35 for 31 days 或 $150 lifetime。两种套餐均包含相同的菜单。"
+      },
+      {
+        "value": "2",
+        "title": "独立产品",
+        "desc": "Valorant Cheats 与 HWID spoofer。每一个产品都有其独立的密钥。"
+      }
+    ]
+  },
+  "setup": {
+    "eyebrow": "安装指南",
+    "titleLead": "从结账到进入第一局游戏仅需",
+    "titleHighlight": "三个简单步骤",
+    "intro": "开始只需完成状态检查、结账以及访问 portal loader。在 Vanguard 或游戏更新后，启动 VALORANT 前请务必查看状态页面。",
+    "ctaPrimary": "查看产品",
+    "ctaSecondary": "安装常见问题",
+    "ctaPrimaryHref": "/products/valorant-cheats/",
+    "ctaSecondaryHref": "/faq/",
+    "statusStrip": {
+      "aceStatusCta": "检查状态",
+      "aceStatusHref": "/status/",
+      "perks": [
+        {
+          "icon": "instantDelivery",
+          "label": "即时交付"
+        },
+        {
+          "icon": "support247",
+          "label": "24/7 支持"
+        },
+        {
+          "icon": "refresh",
+          "label": "Lifetime 更新"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "step": "步骤 1",
+        "title": "解锁 portal 并下载 loader",
+        "desc": "完成结账，打开您的控制面板，并获取适用于 Windows 的最新补丁 loader 构建版本。"
+      },
+      {
+        "step": "步骤 2",
+        "title": "启动并config模块",
+        "desc": "运行 loader，然后逐组设置 player ESP、agent ESP、spike ESP、skeleton、生命值、段位、aimbot 以及直播防截图（streamproof）。"
+      },
+      {
+        "step": "步骤 3",
+        "title": "检查状态后启动",
+        "desc": "确认该客户端的状态标签显示为绿色（GREEN），然后打开 VALORANT。"
+      }
+    ]
+  },
+  "compatibility": {
+    "eyebrow": "平台支持",
+    "title": "适配您的电脑配置。",
+    "subtitle": "在 Valorant 或 Vanguard 更新后，加载前请检查状态页面。",
+    "items": [
+      "Windows 10 & 11",
+      "Intel 或 AMD",
+      "HVCI 开启",
+      "Core isolation 开启",
+      "TPM 开启",
+      "Secure boot 开启",
+      "Discord 支持",
+      "Config 保存"
+    ]
+  },
+  "cheats": {
+    "eyebrow": "游戏辅助",
+    "title": "Cheats for Valorant",
+    "subtitle": "单个授权即可享受 Aimbot 选项、玩家视觉选项、世界视觉选项以及杂项选项。",
+    "viewAll": "查看详情",
+    "explore": "探索",
+    "items": [
+      {
+        "badge": "正常运行",
+        "tier": "完整套件",
+        "name": "Valorant",
+        "title": "Cheats for Valorant",
+        "desc": "包含 Aimbot 选项、玩家视觉选项、世界视觉选项和杂项选项的 Windows 菜单。",
+        "features": [
+          "Aimbot 选项",
+          "玩家视觉选项",
+          "世界视觉选项",
+          "杂项选项"
+        ],
+        "more": 0,
+        "href": "/products/valorant-cheats/loader/",
+        "variant": "popular"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "产品",
+    "title": "Valorant Hacks for PC",
+    "subtitle": "菜单：$35 for 31 days 或 $150 lifetime。HWID spoofer：$50 for 31 days 或 $150 lifetime。",
+    "viewAll": "查看详情",
+    "get": "立即购买",
+    "explore": "探索",
+    "items": [
+      {
+        "badge": "正常运行",
+        "category": "HWID spoofer",
+        "title": "HWID Spoofer",
+        "subtitle": "硬件 ID 恢复",
+        "desc": "带清理功能的 HWID spoofer ——在遭遇硬件封禁后重新启动前，轮换磁盘、MAC 和 GPU ID。",
+        "features": [
+          "硬件 spoofer + 清理工具",
+          "兼容性扫描",
+          "验证步骤",
+          "门户工作流程"
+        ],
+        "more": 4,
+        "href": "/products/valorant-cheats/hwid-spoofer/"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "博客",
+    "title": "指南与更新",
+    "subtitle": "自定义游戏说明、ESP 与 aimbot 指南、Vanguard 对比以及价格解答。",
+    "latestTitle": "最新 Valorant 指南",
+    "latestSubtitle": "按主题筛选或排序以查找设置指南、功能深度解析和版本更新说明。",
+    "filterAll": "所有文章",
+    "sortLabel": "排序方式",
+    "sortNewest": "最新优先",
+    "sortOldest": "最早优先",
+    "sortShortRead": "阅读时间最短",
+    "sortLongRead": "阅读时间最长",
+    "emptyFilter": "没有符合此筛选条件的文章。",
+    "emptyCatalog": "此视图中未列出任何指南。请打开主题筛选器或产品页面。",
+    "viewAll": "查看所有文章",
+    "read": "阅读",
+    "items": [],
+    "minRead": "分钟阅读",
+    "filterByTopicAria": "按主题筛选文章",
+    "continueReadingAria": "继续阅读",
+    "tagLabels": {
+      "Review": "评测",
+      "Install": "安装",
+      "Safety": "安全",
+      "Plans": "方案",
+      "Aim": "瞄准",
+      "ESP": "ESP",
+      "Loot": "战利品",
+      "Visuals": "视觉",
+      "Camera": "摄像头",
+      "Guide": "指南"
+    }
+  },
+  "toolkit": {
+    "eyebrow": "软件",
+    "title": "条理清晰，易于 configure",
+    "subtitle": "每个模块都经过分类，方便在对局中快速调整，无需在一堆混乱中切屏。",
+    "items": [
+      {
+        "num": "01",
+        "label": "玩家",
+        "title": "Player ESP",
+        "desc": "Box、距离、武器标签以及敌方玩家的颜色。"
+      },
+      {
+        "num": "02",
+        "label": "特工",
+        "title": "Agent ESP",
+        "desc": "特工名称，让技能释放和决斗对枪一目了然。"
+      },
+      {
+        "num": "03",
+        "label": "爆能器",
+        "title": "Spike ESP",
+        "desc": "菜单启用时可显示安放状态和位置提示。"
+      },
+      {
+        "num": "04",
+        "label": "骨骼",
+        "title": "Skeleton ESP",
+        "desc": "用于显示姿态、准星高度和身位拉出方向的骨骼线条。"
+      },
+      {
+        "num": "05",
+        "label": "生命值",
+        "title": "Health ESP",
+        "desc": "玩家的 Health bar 或具体数值。"
+      },
+      {
+        "num": "06",
+        "label": "段位",
+        "title": "Rank ESP",
+        "desc": "当覆盖层启用时，显示段位或账号等级标签。"
+      },
+      {
+        "num": "07",
+        "label": "瞄准",
+        "title": "Aimbot",
+        "desc": "FOV、smoothing、bone selection 以及可见性检测。"
+      },
+      {
+        "num": "08",
+        "label": "捕获",
+        "title": "Streamproof Overlay",
+        "desc": "在日常录屏中隐藏 ESP 和菜单，同时确保你能正常看到它们。"
+      }
+    ]
+  },
+  "workflow": {
+    "eyebrow": "工作流程",
+    "badge": "4 个简单步骤",
+    "titleBefore": "从状态检查到",
+    "titleHighlight": "保存配置文件。",
+    "subtitle": "从状态标签到结账的直达路径。",
+    "ctaLabel": "查看产品",
+    "ctaHref": "/products/valorant-cheats/",
+    "ctaSecondary": "设置常见问题",
+    "ctaSecondaryHref": "/faq/",
+    "items": [
+      {
+        "num": "01",
+        "phase": "购买前",
+        "title": "查看状态标签",
+        "desc": "绿色表示说明中列出了要加载的文件。红色表示请稍候。在 Valorant 或 Vanguard 更新后请务必阅读。"
+      },
+      {
+        "num": "02",
+        "phase": "结账",
+        "title": "选择产品",
+        "desc": "菜单：$35 与 $150。HWID Spoofer：$50 与 $150。独立激活码。"
+      },
+      {
+        "num": "03",
+        "phase": "Loader",
+        "title": "启动与 config",
+        "desc": "从门户下载。保持 HVCI、core isolation、TPM 和 secure boot 开启。"
+      },
+      {
+        "num": "04",
+        "phase": "游戏中",
+        "title": "保存你的配置文件",
+        "desc": "当准星扩散和 ESP 标签感觉合适时，保存 config。"
+      }
+    ]
+  },
+  "fieldNotes": {
+    "eyebrow": "实战笔记",
+    "title": "专为 Windows PC 上的 VALORANT 构建。",
+    "items": [
+      {
+        "num": "01",
+        "title": "补丁日检查",
+        "desc": "在 Vanguard 或客户端更新后查看状态页面。昨天的横幅并不代表当前版本。"
+      },
+      {
+        "num": "02",
+        "title": "一次调整一个滑块",
+        "desc": "单独调整 FOV、smooth 或距离，以便明确是哪个设置引起了抖动或杂乱。"
+      },
+      {
+        "num": "03",
+        "title": "独立产品",
+        "desc": "Valorant Cheats 和 HWID spoofer 是分开结账的。在一个产品上的 Lifetime 无法解锁另一个产品。"
+      }
+    ]
+  },
+  "support": {
+    "eyebrow": "客服支持",
+    "title": "Valorant 支持",
+    "subtitle": "告诉我们如何为您提供帮助。",
+    "channels": [
+      {
+        "icon": "users",
+        "title": "付款前咨询",
+        "desc": "在付款前咨询有关该辅助或 spoofer 的问题。",
+        "linkLabel": "开始结账",
+        "href": "/go/valorant/"
+      },
+      {
+        "icon": "messageCircle",
+        "title": "社区论坛",
+        "desc": "设置、自瞄、ESP 以及计划相关问题，均附有开发者的标记回复。",
+        "linkLabel": "打开论坛",
+        "href": "/forum/"
+      },
+      {
+        "icon": "navFaq",
+        "title": "阅读常见问题",
+        "desc": "在购买前了解兼容性、封号和设置信息。",
+        "linkLabel": "查看所有常见问题",
+        "href": "/faq/"
+      },
+      {
+        "icon": "clock",
+        "title": "在线客服",
+        "desc": "Discord 工程师 24/7. 轮班值守",
+        "linkLabel": "打开联系页面",
+        "href": "/support/"
+      }
+    ],
+    "ticketTitle": "工单中请包含",
+    "ticketItems": [
+      {
+        "title": "订单邮箱",
+        "desc": "在 cheats-valorant.org 结账时使用的电子邮箱地址。"
+      },
+      {
+        "title": "平台",
+        "desc": "Windows 10 或 11，以及 HVCI、core isolation、TPM 和 secure boot 是否已开启。"
+      },
+      {
+        "title": "错误详情",
+        "desc": "具体的 loader 报错信息，请勿使用概括性语言。"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "常见问题",
+    "title": "购买前了解明确的答案。",
+    "subtitle": "兼容性、封禁与访问权限——绝不含糊其辞。",
+    "items": [
+      {
+        "id": "status",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "Where do I check if the loader is current?",
+        "a": "Read cheats-valorant.org after a VALORANT or Vanguard update. A banner from yesterday is not a current build. Leave the loader closed until the page matches this client."
+      },
+      {
+        "id": "season-3",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "A big VALORANT update just dropped. When do I open the loader?",
+        "a": "Read the status page after that client build, and after every hotfix, before you launch. A saved config from an older build is not a current check. A ban is still possible.",
+        "aHtml": "Read the <a href=\"/status/\">status page</a> after that client build, and after every hotfix, before you launch. A saved config from an older build is not a current check. A ban is still possible."
+      },
+      {
+        "id": "season-2",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "Will a game patch change the loader menu overnight?",
+        "a": "Game updates can shift maps, modes, and balance. The loader group names on the cheat product page are the reference—read the status note after each client or Vanguard update before you assume your saved preset still matches.",
+        "aHtml": "Game updates can shift maps, modes, and balance. The loader group names on the cheat product page are the reference—read the <a href=\"/status/\">status page</a> after each client or Vanguard update before you assume your saved preset still matches."
+      },
+      {
+        "id": "after-buy",
+        "topic": "setup",
+        "icon": "faqAfterBuy",
+        "q": "What happens after I buy?",
+        "a": "Checkout opens the portal with the loader for the product you paid for. Save a config after you tune it. HVCI, core isolation, TPM, and secure boot stay on."
+      },
+      {
+        "id": "ban-risk",
+        "topic": "safety",
+        "icon": "faqBanRisk",
+        "q": "Can I get banned?",
+        "a": "Yes. Vanguard can act on the account. Nothing on this site is a guarantee that a session stays clean."
+      },
+      {
+        "id": "hwid-ban-risk",
+        "topic": "safety",
+        "icon": "faqBanRisk",
+        "q": "What is an HWID flag, and does the cheat key fix it?",
+        "a": "A hardware flag follows the PC. New accounts can fail on that machine and work on another. That is the <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a>, sold separately. It does not undo an account-only restriction, and lifetime on <a href=\"/products/valorant-cheats/loader/\">the menu</a> does not include it."
+      },
+      {
+        "id": "platforms",
+        "topic": "setup",
+        "icon": "faqPlatforms",
+        "q": "Which PCs are supported?",
+        "a": "Windows 10 or 11 on Intel or AMD, with HVCI, core isolation, TPM, and secure boot on. macOS and Linux are not supported."
+      },
+      {
+        "id": "license-move",
+        "topic": "products",
+        "icon": "faqLicenseMove",
+        "q": "Can I move a key to another PC?",
+        "a": "Open support with the order email. A machine that fails new accounts is an HWID Spoofer purchase, not a free move of the cheat key."
+      },
+      {
+        "id": "products-page",
+        "topic": "products",
+        "icon": "faqProductsPage",
+        "q": "What is for sale?",
+        "a": "<a href=\"/products/valorant-cheats/loader/\">the menu</a> and the <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a> are listed on the <a href=\"/products/valorant-cheats/\">products page</a>. The menu is $35 for 31 days or $150 lifetime. The HWID spoofer is $50 for 31 days or $150 lifetime. They are separate checkouts."
+      },
+      {
+        "id": "plans-same-price",
+        "topic": "plans",
+        "icon": "faqComparePlans",
+        "q": "Does $150 lifetime include the spoofer?",
+        "a": "No. Lifetime on VALORANT cheats is that product only. The HWID spoofer is a separate key with its own $50 and $150 plans. A shorter plan does not promise a credit toward lifetime.",
+        "scopes": [
+          "loader",
+          "hwid-spoofer"
+        ]
+      },
+      {
+        "id": "aim-vs-camera",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "What does Customizable FOV change?",
+        "a": "FOV under Aimbot Options sets how wide the aim cone is. Pair it with Smoothness, Speed, and Stickiness before you raise Draw FOV on stream.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "esp-clutter",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Why does player ESP cover the fight?",
+        "a": "Player Visual Options includes health bar, shield bar, agent, rank, box, snapline, skeleton, head circle, equip name, level, and distance. Turn off labels you do not read, or lower Max Distance.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "not-dma",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Is this a DMA card?",
+        "a": "No. VALORANT cheats is a Windows loader from checkout. A DMA device is a different product and is not what this key delivers. Do not run a file that arrived from a search result.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "spoofer-scope",
+        "topic": "products",
+        "icon": "faqProductsPage",
+        "q": "When is the HWID spoofer the right buy?",
+        "a": "Use <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a> when a new account fails on one PC and works on another. It does not fix an account-only restriction on the same machine.",
+        "scopes": [
+          "hwid-spoofer"
+        ]
+      },
+      {
+        "id": "stickiness-vs-smooth",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Where do I save the menu after I change it?",
+        "a": "Misc Options includes Create/Save/Load/Unload Config. Save after you tune Aimbot Options, Player Visual Options, and World Visual Options.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "visible-check",
+        "topic": "scripts",
+        "icon": "faqWhatIsEsp",
+        "q": "Can the aimbot ignore downed players?",
+        "a": "Visible Check sits in Aimbot Options with Aimbot Filter and Aimbot Bone. Each is a separate toggle in that group.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "ignore-knocked",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "What does Select Custom Hitbox do?",
+        "a": "Aimbot Bone under Aimbot Options picks which bone the assist prefers. Pair it with FOV, Smoothness, Speed, and Stickiness for your preset.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "bone-and-filter",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "What is in World Visual Options?",
+        "a": "World Visual Options covers abilities, traps, spike defuse progress and time, per-character customization, and distance caps. Each category has its own toggle.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "controller-binds",
+        "topic": "setup",
+        "icon": "faqPlatforms",
+        "q": "Does the menu include a controller bind?",
+        "a": "Combat Mode Hotkey in Misc Options hides ability and trap ESP while held. Aimbot Options is separate: Enable Aimbot, FOV, smoothness, and draw overlays.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "squad-read",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "How do I mark a player without every label?",
+        "a": "Player Visual Options includes box, snapline, skeleton, head circle, agent, rank, equip name, level, and distance. Lower Max Distance if the fight looks crowded.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "loot-price-floor",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "How do item labels work?",
+        "a": "World Visual Options lists abilities, traps, and spike cues with Show Icon and Show Distance toggles. Font Size lives under Misc Options.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "scale-and-crosshair",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Where are the crosshair and FOV draw toggles?",
+        "a": "Draw FOV and Draw Target Line are under Aimbot Options with Enable Aimbot and Visible Check.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "combat-mode",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Does item ESP turn the aimbot off?",
+        "a": "Combat Mode Hotkey in Misc Options hides ability and trap ESP. Enable Aimbot in Aimbot Options is separate.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "encryption-bypass",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "What is in Custom Key Binds?",
+        "a": "Menu open, aim holds, head switch, and toggles for players, radar, and items. Color Options and Config Options are separate groups.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "blog-default-1",
+        "topic": "blog",
+        "icon": "faqBlogDefault1",
+        "q": "Are blog guides official product documentation?",
+        "a": "Articles explain workflows and link to <a href=\"/products/valorant-cheats/loader/\">the menu</a>. The feature list on that page is the checkout source of truth."
+      },
+      {
+        "id": "blog-default-2",
+        "topic": "blog",
+        "icon": "faqBlogDefault2",
+        "q": "Need help applying this guide?",
+        "a": "Open support with your order email and the article title. Include the exact loader text if something fails."
+      },
+      {
+        "id": "blog-default-3",
+        "topic": "blog",
+        "icon": "faqBlogDefault3",
+        "q": "Will settings in this article work next patch?",
+        "a": "Re-check after every VALORANT or Vanguard update. Reload a saved config instead of copying old slider values from a post."
+      },
+      {
+        "id": "blog-plan-start",
+        "topic": "plans",
+        "icon": "faqComparePlans",
+        "q": "Which plan should I start with?",
+        "a": "Start with the 31-day key if you want to try one product before paying once. The menu is $35 for 31 days or $150 lifetime. The HWID spoofer is $50 for 31 days or $150 lifetime. A shorter plan does not include a credit toward lifetime, and a lifetime key on one product does not include the others."
+      },
+      {
+        "id": "blog-plan-upgrade",
+        "topic": "plans",
+        "icon": "faqLicenseMove",
+        "q": "Can I upgrade a 31-day key to lifetime?",
+        "a": "There is no automatic upgrade. Lifetime is a separate checkout on the same product. The $35 or $50 you already paid is not credited toward the $150 lifetime price."
+      },
+      {
+        "id": "blog-plan-expire",
+        "topic": "plans",
+        "icon": "faqAfterBuy",
+        "q": "What happens when a plan expires?",
+        "a": "A 31-day key stops when that period ends. Buy another 31-day key or a lifetime key on that same product to keep access. Lifetime does not renew. An expired key does not move to a different product."
+      },
+      {
+        "id": "blog-plan-status",
+        "topic": "plans",
+        "icon": "faqStatus",
+        "q": "Where do I check the current loader status?",
+        "a": "Read the status page before you launch. Updated means the note was refreshed. It is not a claim that a session stays clean.",
+        "aHtml": "Read the <a href=\"/status/\">status page</a> before you launch. Updated means the note was refreshed. It is not a claim that a session stays clean."
+      },
+      {
+        "id": "blog-plan-windows",
+        "topic": "plans",
+        "icon": "faqPlatforms",
+        "q": "Which Windows versions are supported?",
+        "a": "Windows 10 or 11 on Intel or AMD, with HVCI, core isolation, TPM, and secure boot on. macOS and Linux are not supported."
+      },
+      {
+        "id": "blog-plan-support",
+        "topic": "plans",
+        "icon": "faqBlogDefault2",
+        "q": "How do support and refunds work?",
+        "a": "Open support with your order email. Sales are final once checkout completes. Change-of-mind purchases, account bans, and launches while the status page is not current are not refunded. A fix or refund is only when we confirm a fault on our side. The rules are in the terms.",
+        "aHtml": "Open <a href=\"/support/\">support</a> with your order email. Sales are final once checkout completes. Change-of-mind purchases, account bans, and launches while the status page is not current are not refunded. A fix or refund is only when we confirm a fault on our side. The rules are in the <a href=\"/terms/\">terms</a>."
+      }
+    ],
+    "filterTopics": {
+      "all": "全部",
+      "plans": "套餐",
+      "esp": "地图透视 / ESP",
+      "scripts": "脚本",
+      "safety": "安全",
+      "products": "产品",
+      "blog": "博客",
+      "setup": "安装"
+    }
+  },
+  "footer": {
+    "tagline": "Valorant Cheats 和 HWID spoofer，适用于 Windows PC。cheats-valorant.org",
+    "explore": "探索",
+    "exploreLinks": [
+      {
+        "href": "/products/valorant-cheats/loader/#features",
+        "label": "功能概览",
+        "ariaLabel": "Features"
+      },
+      {
+        "href": "/products/valorant-cheats/loader/",
+        "label": "Cheats for Valorant",
+        "ariaLabel": "Cheats for Valorant"
+      },
+      {
+        "href": "/products/valorant-cheats/",
+        "label": "所有产品",
+        "ariaLabel": "Products"
+      },
+      {
+        "href": "/blog/",
+        "label": "阅读更新指南",
+        "ariaLabel": "Blog"
+      },
+      {
+        "href": "/faq/",
+        "label": "购买前常见问题",
+        "ariaLabel": "FAQ"
+      }
+    ],
+    "support": "支持",
+    "legal": "法律条款",
+    "moreSites": "更多网站",
+    "privacy": "Privacy Policy",
+    "terms": "服务条款",
+    "about": "关于我们",
+    "resourceLinks": [
+      {
+        "label": "博客归档",
+        "ariaLabel": "Blog"
+      },
+      {
+        "label": "Cheats for Valorant",
+        "ariaLabel": "Cheats for Valorant"
+      },
+      {
+        "label": "产品与实用工具",
+        "ariaLabel": "Products"
+      }
+    ]
+  },
+  "legalPages": {
+    "about": {
+      "title": "关于本商店",
+      "description": "cheats-valorant.org 出售一个 VALORANT 菜单和一个 HWID spoofer，并提供设置说明和真实的封号风险告知。",
+      "sections": [
+        {
+          "heading": "我们是谁",
+          "paragraphs": [
+            "cheats-valorant.org 为 VALORANT 出售一个 Windows 菜单以及一个 HWID spoofer。该菜单是一个包含以下功能的综合产品：player ESP、agent ESP、spike ESP、skeleton ESP、health ESP、rank ESP、aimbot 以及一个 streamproof overlay。",
+            "该菜单可以是 $35 for 31 days 或 $150 lifetime。HWID spoofer 可以是 $50 for 31 days 或 $150 lifetime。菜单上的 lifetime 激活码不包含 spoofer。",
+            "本网站上的产品名称仅用于标识我们所售商品。它们并不代表游戏发行商 end 赞助或认可本软件。交付方式为通过门户下载适用于 Windows 10 或 11 系统的版本。您需要保持 HVCI、core isolation、TPM 和 secure boot 开启，然后只有在网站仍然匹配当前客户端版本时，才打开 loader。"
+          ]
+        },
+        {
+          "heading": "我们发布的内容",
+          "paragraphs": [
+            "[菜单页面](/products/valorant-cheats/loader/) 列出了模块名称和 PC 要求：Windows 10 或 11，Intel 酷睿 i5 或 AMD 锐龙 5 及以上处理器，同时需保持 HVCI、core isolation、TPM 和 secure boot 开启。[产品页面](/products/valorant-cheats/) 可用于对比菜单与 [HWID Spoofer](/products/valorant-cheats/hwid-spoofer/).。",
+            "[博客](/blog/) 上的指南涵盖了 player ESP、aimbot、自建房游戏切换开关、Vanguard 与 VAC 的区别，以及硬件标记何时需要作为独立于菜单的产品单独购买。[论坛](/forum/) 则用于讨论相同的问题，帖子中会带有开发者的回复标记。结账前请阅读[条款](/terms/)。所有销售均为最终决定，包括封号情况在内概不退款。",
+            "Vanguard 仍然可以对账号采取行动。本站内容不作任何保证，无法确保在下一次补丁更新后游戏会话依然不会被检测。在每次客户端更新后、打开 loader 之前，请务必查看本网站。如果当前页面尚未针对该游戏版本进行更新，请保持软件关闭。",
+            "主页上的状态说明用于描述当前发布的构建版本是否仍与客户端匹配。它们并非 Vanguard 不会对此软件采取行动的承诺。如果您不确定，请保持 loader 关闭，并在再次排队前阅读博客中对应的指南。"
+          ]
+        },
+        {
+          "heading": "客服支持",
+          "paragraphs": [
+            "Loader 报错、无法移动的激活码以及结账相关问题请通过[支持页面](/support/). 咨询。请附上订单邮箱、Windows 版本以及完整的 loader 错误文本。切勿听信其他游戏聊天消息中的建议而关闭 HVCI、core isolation、TPM 或 secure boot。"
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy 政策",
+      "description": "cheats-valorant.org 如何处理分析数据、Cookie 以及联系方式数据。",
+      "sections": [
+        {
+          "heading": "我们收集的信息",
+          "paragraphs": [
+            "在启用 Google Analytics 的情况下，我们可能会通过其收集标准的网页分析数据，例如页面浏览量、设备类型、浏览器以及大致地区。结账和许可证交付发生在外部结账页面上。我们不会在 cheats-valorant.org 上存储支付卡数据。"
+          ]
+        },
+        {
+          "heading": "我们如何使用数据",
+          "paragraphs": [
+            "分析数据有助于我们了解哪些指南和产品页面对用户有用，以便我们改进内容并修复失效链接。支持工单可能会保留您提供的电子邮件地址和消息内容，直至问题解决。"
+          ]
+        },
+        {
+          "heading": "Cookie",
+          "paragraphs": [
+            "我们仅使用分析所需的最低限度 Cookie。您可以在浏览器设置中拦截 Cookie；核心网站内容在没有 Cookie 的情况下依然可以访问。"
+          ]
+        },
+        {
+          "heading": "客服支持",
+          "paragraphs": [
+            "如有关于 privacy 的问题，请使用支持页面上的选项。购买和退款规则可在我们的条款与条件中查看。"
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "条款与条件",
+      "description": "cheats-valorant.org 上所售产品的购买、授权、退款及使用条款。",
+      "sections": [
+        {
+          "heading": "协议",
+          "paragraphs": [
+            "最后更新时间：2026年10月。使用 cheats-valorant.org 或完成此处所列任何产品的结账，即表示您同意本条款与条件以及我们的隐私政策（Privacy Policy）。"
+          ]
+        },
+        {
+          "heading": "您所购买的内容",
+          "paragraphs": [
+            "我们出售 VALORANT 菜单和 HWID spoofer。该菜单为 $35 for 31 days 或 $150 lifetime。HWID spoofer 为 $50 for 31 days 或 $150 lifetime。每个产品均为独立授权。",
+            "各产品页面上的功能列表描述了购买时包含的内容。当 VALORANT 或 Vanguard 更新时，模块可能会发生变化。lifetime menu key 不包含 spoofer。"
+          ]
+        },
+        {
+          "heading": "结账与交付",
+          "paragraphs": [
+            "付款和授权交付通过外部结账页面运行。cheats-valorant.org 不处理或存储支付卡号。",
+            "购买后，请使用订单中的门户网站，在启动 VALORANT 之前下载当前的 loader。请保持 HVCI、core isolation、TPM 和 secure boot 处于开启状态。"
+          ]
+        },
+        {
+          "heading": "授权使用",
+          "paragraphs": [
+            "授权仅限您个人使用。请勿分享 loader 文件、门户登录信息或授权密钥。硬件码（hardware-ID）问题需要单独购买 HWID Spoofer。"
+          ]
+        },
+        {
+          "heading": "退款与购买",
+          "paragraphs": [
+            "结账完成后，所有销售即为最终结果。对于改变主意、账号封禁、Vanguard 惩罚，或因忽略设置说明或在网站未针对该补丁更新时启动而导致的问题，我们不予退款。",
+            "如果产品在支持的系统上未能按描述运行——即开启了 Windows 10 或 11 并带有 HVCI、core isolation、TPM 和 secure boot，且使用的是门户网站当前的 loader——请通过“支持”页面与我们联系。请提供您的订单电子邮箱、Windows 版本以及具体的 loader 文本。",
+            "如果我们确认是我们的问题，我们可能会酌情提供修复、更换访问权限或部分/full退款。我们没有义务批准每一项请求。"
+          ]
+        },
+        {
+          "heading": "可用性与风险",
+          "paragraphs": [
+            "用于 VALORANT 的第三方工具可能会与游戏更新及 Vanguard 发生冲突。您使用本软件的风险自负，包括可能面临账号处理风险。",
+            "每次游戏前请查看主页状态横幅。在补丁更新后模块离线或未对齐时，请勿登录您的主服务器。"
+          ]
+        },
+        {
+          "heading": "更改",
+          "paragraphs": [
+            "我们可能会更新这些条款。更新时，顶部的“最后更新”日期将会更改。在更改后继续使用本网站即表示您接受修改后的条款。"
+          ]
+        },
+        {
+          "heading": "支持",
+          "paragraphs": [
+            "有关条款、账单或 loader 的问题，请使用“支持”页面上的按钮。另请参阅我们的隐私政策（Privacy Policy），了解我们如何处理网站数据。"
+          ]
+        }
+      ]
+    },
+    "support": {
+      "title": "Valorant 支持",
+      "description": "针对 cheats-valorant.org 的 Loader、HWID spoofer 以及结账帮助。"
+    }
+  },
+  "productCatalog": {
+    "searchHeading": "浏览产品与方案",
+    "utilityCategory": "辅助功能",
+    "buyLoader": "购买 loader",
+    "buyHwidSpoofer": "购买 HWID spoofer"
+  },
+  "utilitiesPage": {
+    "title": "HWID 辅助工具",
+    "subtitle": "当硬件标记导致无法在某台 PC 上注册新账号时，需要单独结算 HWID spoofer。",
+    "breadcrumb": "HWID 辅助工具",
+    "tableAria": "辅助工具对比",
+    "columnUtility": "辅助工具",
+    "columnBestFor": "适用场景",
+    "columnProductPage": "产品页面",
+    "includesLabel": "包含内容：",
+    "backToProducts": "返回产品列表",
+    "viewCategory": "查看 {category}",
+    "viewDetailsFallback": "详情",
+    "schemaName": "HWID 辅助工具",
+    "useCases": {
+      "hwid-spoofer": "封号后更换新的 PC 或清除硬件标记——在创建新账号前重置机器特征。"
+    }
+  },
+  "sectionSearch": {
+    "blogHeading": "按主题筛选攻略",
+    "supportHeading": "浏览帮助主题"
+  },
+  "ui": {
+    "skipLink": "跳转至主要内容",
+    "browseCheats": "立即尝试",
+    "browseCheatsMobile": "开始结账",
+    "homeAria": "Valorant Cheats 首页",
+    "checkoutAria": "开始结账",
+    "discordAria": "购买 Valorant Cheats",
+    "menuOpen": "打开菜单",
+    "menuClose": "关闭菜单",
+    "themeLight": "切换至浅色模式",
+    "themeDark": "切换至深色模式",
+    "searchPlaceholder": "搜索产品、指南、常见问题…",
+    "searchEmpty": "输入关键词开始全站搜索。",
+    "searchNoResults": "未找到结果，请尝试其他关键词。",
+    "searchCloseAria": "关闭搜索",
+    "searchTitle": "搜索",
+    "searchOpenAria": "搜索网站",
+    "contactSupport": "联系客服",
+    "searchResultsAria": "搜索结果",
+    "searchHintNavigate": "导航",
+    "searchHintOpen": "打开",
+    "searchHintClose": "关闭",
+    "searchKeyboardEnter": "回车",
+    "searchKeyboardEsc": "Esc",
+    "primaryNavAria": "主导航",
+    "mobileNavAria": "移动端导航",
+    "shareNavAria": "分享此页面",
+    "shareOnX": "分享到 X",
+    "shareOnFacebook": "分享到 Facebook",
+    "shareOnReddit": "分享到 Reddit",
+    "prevImage": "上一张图片",
+    "nextImage": "下一张图片",
+    "heroSlidesAria": "幻灯片",
+    "slideLabel": "第 {n} 张幻灯片",
+    "prevScreenshot": "上一张截图",
+    "nextScreenshot": "下一张截图",
+    "loading": "加载中"
+  },
+  "language": {
+    "label": "语言",
+    "selectAria": "选择网站语言"
+  },
+  "exploreSection": {
+    "eyebrow": "探索",
+    "title": "站内所有内容，只需点击",
+    "titleAccent": "一下",
+    "subtitle": "快速直达产品、补丁说明、指南与帮助，无需在菜单中苦苦搜寻。",
+    "badgeProduct": "产品",
+    "badgeActive": "活跃",
+    "cards": {
+      "cheats": {
+        "title": "Cheats for Valorant",
+        "desc": "Aimbot 选项、玩家视觉选项、世界视觉选项以及杂项选项。"
+      },
+      "spoofer": {
+        "title": "HWID Spoofer",
+        "desc": "在机器被标记后轮换硬件配置文件。"
+      },
+      "plans": {
+        "title": "订阅方案",
+        "desc": "在菜单上对比 $35 与 $150；spoofer 拥有其独立的订阅方案。"
+      },
+      "features": {
+        "title": "功能特点",
+        "desc": "loader 功能列表上的四个菜单分组。"
+      },
+      "status": {
+        "title": "运行状态",
+        "desc": "加载前显示绿色或红色状态，并提供 Vanguard 更新提醒。"
+      },
+      "faq": {
+        "title": "常见问题",
+        "desc": "订阅方案、安装设置、Vanguard 风险以及相关产品。"
+      },
+      "support": {
+        "title": "技术支持",
+        "desc": "Loader、结账与门户帮助。"
+      },
+      "blog": {
+        "title": "博客",
+        "desc": "瞄准、ESP 以及补丁日指南。"
+      },
+      "forum": {
+        "title": "社区论坛",
+        "desc": "带有开发者标记回复的讨论帖。"
+      }
+    }
+  },
+  "pricing": {
+    "checkout": "结账",
+    "purchaseOption": "购买选项",
+    "selectSubscription": "选择订阅",
+    "bestValue": "最具性价比",
+    "savePrefix": "省",
+    "total": "总计",
+    "buyNow": "立即购买",
+    "oneMonth": "31 days",
+    "threeMonths": "31 days",
+    "lifetime": "Lifetime",
+    "mostPopular": "最受欢迎",
+    "plusMore": "+N 更多",
+    "monthlySuffix": "",
+    "threeMonthSuffix": " / 3个月",
+    "lifetimeSuffix": " lifetime",
+    "monthlyPlanNote": "31 days 使用权限 · 在结账时续费",
+    "threeMonthPlanNote": "31 days 使用权限",
+    "lifetimePlanNote": "一次性付费 · 不会自动续费",
+    "plansSameFeaturesNote": "所有套餐功能完全相同，仅使用时长不同。",
+    "selectPlanAria": "选择套餐时长"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "页面未找到",
+    "description": "该链接不存在或已被移动。请返回首页或浏览其他产品。",
+    "metaDescription": "您请求的页面在 cheats-valorant.org 上未找到。",
+    "metaTitleSuffix": "页面未找到",
+    "backHome": "返回首页",
+    "viewProducts": "查看产品",
+    "openForum": "打开论坛"
+  },
+  "status": {
+    "eyebrow": "版本说明",
+    "title": "加载前的状态标签",
+    "subtitle": "绿色代表当前文件可加载，红色代表请等待。",
+    "pageDesc": "Vanguard 在 2026 年的里程碑包括 5 月专注于 DMA 的更新、6 月按需基准更新以及 11 月的完整性框架。在这些更新或游戏补丁发布后，请在启动前阅读此页面。绿色代表加载，红色代表等待。已更新并不代表不会被检测到。",
+    "breadcrumb": "状态",
+    "aceReminderLabel": "Vanguard 提醒",
+    "aceReminder": "在每次 Vanguard 或客户端更新后检查此页面——包括 2026 年 5 月以 DMA 为重点的版本以及 2026 年 11 月的完整性框架。绿色代表加载，红色代表等待。",
+    "recentTitle": "近期更新",
+    "activeLinePrefix": "最后检查",
+    "activeLineActive": "运行中",
+    "activeLineUpdated": "已更新 {date}",
+    "storeLineup": "商店阵容",
+    "latestLabel": "最新",
+    "updates": [
+      {
+        "id": "vct-integrity",
+        "title": "VCT 2027 竞技完整性框架",
+        "icon": "shield",
+        "when": "2026年11月5日",
+        "summary": "Riot 概述了公开赛事预选赛的 Vanguard 预检例程。在线队伍现在在比赛前面临更严格的软件层审查和后台进程检查。本商店不描述如何通过该审查。请在注意说明之后阅读此菜单的状态标签，并将锦标赛规则与普通排位赛分开对待。"
+      },
+      {
+        "id": "vanguard-on-demand",
+        "title": "Vanguard 按需加载与 Windows 11 基线",
+        "icon": "settings",
+        "when": "2026年6月",
+        "summary": "当 VALORANT 关闭时，Vanguard 按需模式可以保持关闭状态，但将其打开会强制执行更重的 Windows 11 基线：HVCI、VBS 和 TPM 2.0。这堵住了常见的注入器漏洞。在你加载所针对的构建版本上保持这些功能启用。本页不记录绕过步骤。"
+      },
+      {
+        "id": "dma-may-2026",
+        "title": "2026年5月22日 — 以 DMA 为中心的 Vanguard 更新",
+        "icon": "alert",
+        "when": "2026年5月22日",
+        "summary": "Riot 将目标锁定在外部 SATA/NVMe 直接内存访问设置及相关固件绕过上。公众讨论集中在 Windows IOMMU 和 DMA 重新映射以阻止恶意设备 DLL。Riot 表示合法硬件不会被物理破坏；违规的辅助 config 配置可能会在该 PC 上失效。本商店出售 Windows loader，而非 DMA 卡。博客文章“Vanguard 安全时间线 (2026)”总结了相同的日期。"
+      },
+      {
+        "id": "status-label",
+        "title": "状态标签",
+        "icon": "shield",
+        "when": "2026年11月8日",
+        "summary": "绿色意味着此说明列出了当前要加载的文件。红色意味着请等待。在启动之前，请在 VALORANT 或 Vanguard 更新后阅读此页面。该标签并非关于免封禁的声明，也不意味着对局会保持干净。"
+      },
+      {
+        "id": "menu-covers",
+        "title": "菜单涵盖内容",
+        "icon": "mapHack",
+        "when": "2026年11月8日",
+        "summary": "已发布的菜单列出了 Aimbot 选项、玩家视觉选项、世界视觉选项和杂项选项。战斗模式热键隐藏能力和陷阱 ESP。它不会消除 Vanguard 风险。"
+      },
+      {
+        "id": "pc-requirements",
+        "title": "PC 要求",
+        "icon": "settings",
+        "when": "2026年11月8日",
+        "summary": "Windows 10 或 11、Intel Core i5 或 AMD Ryzen 5 或更高版本，以及最新的 VALORANT PC 客户端。保持 HVCI、Core Isolation、TPM 和 Secure Boot 开启。"
+      },
+      {
+        "id": "updated-claim",
+        "title": "“已更新”并非免封禁声明",
+        "icon": "alert",
+        "when": "2026年11月7日",
+        "summary": "已更新意味着此说明已刷新。这并不意味着 loader 是免封禁的，也不意味着在下一次 Vanguard 或游戏更新后对局会保持干净。"
+      },
+      {
+        "id": "plans",
+        "title": "计划保存在单独的卡片上",
+        "icon": "tag",
+        "when": "2026年11月7日",
+        "summary": "菜单是 $35 for 31 days 或 $150 lifetime。HWID spoofer 是 $50 for 31 days 或 $150 lifetime。一个产品的 lifetime 密钥不包含另一个产品。"
+      }
+    ]
+  },
+  "forum": {
+    "eyebrow": "社区",
+    "title": "论坛：配置、风险与方案",
+    "subtitle": "关于 Valorant cheats、Vanguard 与 VAC 的讨论、自定义游戏开关以及 HWID spoofer。开发者回复已标出。",
+    "breadcrumb": "论坛",
+    "postsAria": "社区帖子",
+    "sortAria": "帖子排序",
+    "searchPlaceholder": "搜索讨论",
+    "searchAria": "搜索讨论",
+    "voteAria": "讨论投票",
+    "fromGuide": "来自指南：",
+    "comments": "条评论",
+    "readDiscussion": "阅读讨论",
+    "readGuide": "阅读指南",
+    "basedOn": "基于：",
+    "paginationAria": "讨论分页",
+    "previousPage": "上一页",
+    "nextPage": "下一页",
+    "exploreGuides": "探索指南",
+    "sortPopular": "热门",
+    "sortLatest": "最新",
+    "sortTop": "讨论最多",
+    "filterAria": "按主题筛选讨论",
+    "allTopics": "所有主题",
+    "discussionOne": "个讨论",
+    "discussionMany": "个讨论",
+    "emptyFilter": "没有找到匹配的讨论。请尝试其他搜索词或主题。",
+    "previous": "上一页",
+    "next": "下一页",
+    "sidebarAboutTitle": "论坛",
+    "sidebarAboutCopy": "关于第三方风险、Vanguard 与 VAC、自定义游戏开关以及 HWID spoofer 的讨论。开发者回复已标出。",
+    "sidebarTopics": "主题",
+    "sidebarExploreGuides": "探索所有指南",
+    "sidebarCommunities": "社区",
+    "sidebarBrowseQa": "浏览相关帖子",
+    "sidebarBrowseAll": "浏览所有社区",
+    "sidebarGuidelines": "社区准则",
+    "guideline1": "保持友end与建设性",
+    "guideline2": "保持主题相关并补充背景信息",
+    "guideline3": "标记剧透和敏感内容",
+    "sidebarReadGuidelines": "阅读完整准则",
+    "sidebarFootAbout": "关于 · 准则 · Privacy · 条款",
+    "upvoteAria": "给这个讨论点赞",
+    "downvoteUnavailable": "无法点踩",
+    "showingRange": "显示第 {from}–{to} 条，共 {total} 条",
+    "zeroDiscussions": "0 个讨论",
+    "developerFlair": "开发者",
+    "points": "点数",
+    "previewDiscussion": "预览讨论",
+    "postingUnavailable": "此处无法发帖和投票",
+    "commentsTitle": "评论",
+    "commentsSubtitle": "开发者回复已标记",
+    "detailInTopic": "在此话题中",
+    "detailBrowse": "浏览讨论",
+    "detailMoreTitle": "更多讨论",
+    "detailViewAll": "查看所有讨论",
+    "colThread": "主题",
+    "colReplies": "回复数",
+    "replyOne": "回复",
+    "colVotes": "投票数",
+    "colLastReply": "最后回复",
+    "closedThread": "已关闭",
+    "noRepliesYet": "暂无回复 👀"
+  },
+  "readingTools": {
+    "copyLink": "复制链接",
+    "backToTop": "返回顶部",
+    "copied": "已复制"
+  },
+  "blogArticle": {
+    "viewProducts": "查看产品",
+    "moreArticles": "更多文章",
+    "imagePlaceholder": "图片占位符",
+    "breadcrumbBlog": "博客"
+  },
+  "breadcrumbs": {
+    "home": "首页",
+    "products": "产品",
+    "blog": "博客",
+    "forum": "论坛",
+    "faq": "常见问题",
+    "status": "状态"
+  },
+  "faqPage": {
+    "eyebrow": "帮助中心",
+    "title": "关于订阅方案、Vanguard和安装的常见问题",
+    "subtitle": "订阅方案、ESP和aimbot选项、HWID spoofer，以及Vanguard更新后需要检查的内容。",
+    "schemaName": "常见问题 — 订阅方案、产品与安装",
+    "schemaDescription": "关于菜单、HWID spoofer、Vanguard风险以及在cheats-valorant.org上结账的解答。"
+  },
+  "siteFaqSection": {
+    "allTopicsEyebrow": "所有主题",
+    "allTopicsTitle": "按分类浏览",
+    "allTopicsSubtitle": "订阅方案、视觉效果、loader、spoofer以及安装。",
+    "contextualEyebrow": "常见问题",
+    "contextualTitle": "关于本页面的疑问",
+    "contextualSubtitle": "与当前阅读内容相关的解答——访问常见问题页面查看所有主题。"
+  },
+  "catalog": {
+    "viewDetails": "查看详情",
+    "buyNow": "立即购买",
+    "mostPopular": "最受欢迎",
+    "popular": "热门",
+    "plusMore": "+{count} 更多",
+    "oneMonth": "31 days",
+    "threeMonths": "31 days",
+    "lifetime": "Lifetime",
+    "monthlySuffix": "",
+    "threeMonthSuffix": " / 3个月",
+    "lifetimeSuffix": " lifetime",
+    "monthlyPlanNote": "31 days 权限 · 结算时续费",
+    "threeMonthPlanNote": "31 days 权限",
+    "lifetimePlanNote": "一次性买断 · 绝无自动续费",
+    "plansSameFeaturesNote": "所有套餐功能完全相同——仅使用时长不同。",
+    "selectPlanAria": "选择套餐时长",
+    "utilityLabel": "实用工具",
+    "experienceEyebrow": "使用体验",
+    "inTheClient": "在客户端中 · 购买后立即可用",
+    "experienceSubtitle": "请参考上方 {name} 的游戏截图——下方将为您解析各层级含义以及购买后的访问流程。",
+    "utilityExperienceSubtitle": "请参考上方 {name} 的产品预览——每个预览将解释硬件工作流程及购买后的访问流程。",
+    "inGameLayers": "游戏内层级",
+    "utilityPreviewLayers": "产品预览",
+    "layerLabel": "第 {label} 层",
+    "previewLabel": "预览",
+    "accessLabel": "访问权限"
+  },
+  "productUi": {
+    "detailsAria": "产品详情",
+    "overview": "概览",
+    "systemRequirements": "系统要求",
+    "goodToKnow": "小贴士",
+    "limitations": "重要限制",
+    "completeFeatureList": "完整功能列表",
+    "includedCapabilities": "包含的功能",
+    "totalFeatures": "共 {count} 项",
+    "popularBadge": "热门",
+    "limitedBadge": "限量",
+    "gameBadge": "VALORANT",
+    "platformBadge": "Windows",
+    "systemReqPanel": {
+      "title": "系统要求",
+      "security": [
+        "HVCI 已开启",
+        "CORE ISOLATION 已开启",
+        "TPM 已开启",
+        "SECURE BOOT 已开启"
+      ],
+      "operatingSystemLabel": "操作系统",
+      "operatingSystemValue": "支持的 Windows 10 或 11 版本",
+      "specs": [
+        {
+          "label": "处理器",
+          "value": "Intel Core i5 或 AMD Ryzen 5 及以上"
+        },
+        {
+          "label": "显卡",
+          "value": "AMD & NVIDIA"
+        },
+        {
+          "label": "内存",
+          "value": "推荐 16GB"
+        },
+        {
+          "label": "存储空间",
+          "value": "2GB 可用空间"
+        },
+        {
+          "label": "网络",
+          "value": "需要稳定的网络连接"
+        },
+        {
+          "label": "客户端",
+          "value": "最新的 VALORANT PC 客户端"
+        }
+      ],
+      "cloudDmaTitle": "状态标签",
+      "cloudDmaDesc": "绿色代表提示中会列出要加载的文件。红色代表请耐心等待。每次 Vanguard 更新后请查看状态页面。",
+      "cloudDmaNote": ""
+    }
+  },
+  "comparePlans": {
+    "eyebrow": "对比",
+    "title": "对比所有套餐",
+    "subtitle": "并排查看每个档位包含的功能。",
+    "tableAria": "对比所有套餐",
+    "featureColumn": "功能",
+    "included": "包含",
+    "notIncluded": "不包含"
+  },
+  "whyCompare": {
+    "tableAria": "本商店与普通服务商的对比",
+    "featureColumn": "功能",
+    "metricsAria": "平台指标",
+    "statusDeliveryAria": "实时状态与交付"
+  },
+  "searchResultTypes": {
+    "product": "产品",
+    "blog": "博客",
+    "forum": "论坛",
+    "faq": "常见问题",
+    "status": "状态",
+    "support": "支持",
+    "page": "页面"
+  },
+  "blogSidebar": {
+    "ariaLabel": "文章侧边栏",
+    "inThisArticle": "本文目录",
+    "relatedGuides": "相关指南",
+    "ourProducts": "我们的产品",
+    "productCheats": "菜单",
+    "allProducts": "所有产品",
+    "hwidSpoofer": "HWID Spoofer",
+    "tocAria": "目录",
+    "tocFallbackLabel": "文章开头",
+    "priceEstimatorTitle": "价格预估",
+    "priceEstimatorHint": "点击项目即可累加总价。",
+    "priceEstimator31d": "31天",
+    "priceEstimatorLifetime": "永久",
+    "priceEstimatorOff": "优惠",
+    "priceEstimatorTotal": "预估总计",
+    "priceEstimatorProducts": "产品",
+    "priceEstimatorNote": "仅供参考，请在各自的卡片上购买相应产品。",
+    "utilityGuides": "HWID spoofer 指南",
+    "moreGuides": "更多指南"
+  }
+}

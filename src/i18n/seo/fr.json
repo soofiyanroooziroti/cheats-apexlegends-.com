@@ -1,0 +1,60 @@
+{
+  "site": {
+    "title": "Valorant Cheats | Aimbot, ESP & Radar pour PC",
+    "description": "Valorant Cheats pour Steam sur PC Windows avec aimbot, ESP joueurs, repères de véhicules et radar. Comparez les cheats, l'HWID Spoofer et la récupération sur cheats-valorant.org."
+  },
+  "pages": {
+    "/": {
+      "title": "Valorant Cheats pour Windows PC | ESP, Aimbot et tarification",
+      "description": "Compare Valorant Cheats on Windows: ESP modules, aimbot settings, $35 and $150 plans, the live Status label, and setup notes before you load."
+    },
+    "/products/valorant-cheats/": {
+      "title": "Valorant Hacks for PC | $35 and $150",
+      "description": "Cheats for VALORANT sur Steam : trois produits Windows partagent $35 and $150. Loader, l'outil HWID et les recours relatifs aux comptes font l'objet de paiements séparés."
+    },
+    "/products/valorant-cheats/loader/": {
+      "title": "Steam Loader pour Windows PC | Aim et Radar",
+      "description": "Four menu groups: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. $35 for 31 days or $150 lifetime."
+    },
+    "/products/valorant-cheats/hwid-spoofer/": {
+      "title": "HWID Spoofer VALORANT pour VALORANT Windows Hardware Flags",
+      "description": "HWID spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
+    },
+    "/products/valorant-cheats/utilities/": {
+      "title": "Comparez le HWID Tool et Account Appeal Utility",
+      "description": "Découvrez quel outil Windows convient à un ban matériel et lequel convient à un appel de compte. Paiements séparés sur VALORANT loader."
+    },
+    "/blog/": {
+      "title": "VALORANT PC Guides pour Aimbot, ESP, Loot, Menu et Vanguard",
+      "description": "Original notes on custom-game toggles, Vanguard and VAC, x-ray overlays, Reddit claims, and the $35 and $150 plans."
+    },
+    "/forum/": {
+      "title": "VALORANT Forum de la communauté : Configuration, Objectifs et Projets",
+      "description": "Closed threads on third-party risk, Vanguard versus VAC, custom-game toggles, the HWID spoofer, and."
+    },
+    "/faq/": {
+      "title": "FAQ – Forfaits, configuration et risque Vanguard avant le paiement",
+      "description": "Answers on the $35 and $150 plans, Vanguard updates, Windows requirements, hardware flags, and how the three products differ."
+    },
+    "/support/": {
+      "title": "VALORANT Support : Loader, Paiement et HWID PC",
+      "description": "Loader, validation et aide du portail pour les outils VALORANT, le HWID spoofer, et les recours relatifs aux comptes. Indiquez l'e-mail de votre commande et le loader exact."
+    },
+    "/about/": {
+      "title": "À propos de cette boutique VALORANT : livraison par portail, tarification et risque",
+      "description": "Boutique : ce que vend cheats-valorant.org, le fonctionnement de la caisse et de la livraison par portail, et le risque de bannissement lorsque vous utilisez des outils tiers sur VALORANT pour Windows PC."
+    },
+    "/privacy/": {
+      "title": "Notes de confidentialité pour l'analytique, les cookies et les données de contact",
+      "description": "Comment cheats-valorant.org gère les analyses, les cookies et les données de contact. Les numéros de carte de paiement restent chez le fournisseur de paiement, et non sur cette boutique."
+    },
+    "/terms/": {
+      "title": "Conditions de licence, remboursements et règles d'utilisation acceptable",
+      "description": "Conditions de licence, utilisation acceptable et règle de non-remboursement pour loader, HWID spoofer et la récupération de compte vendue par l'intermédiaire de cheats-valorant.org."
+    },
+    "/status/": {
+      "title": "Statut VALORANT & Notes de mise à jour Vanguard",
+      "description": "Notes de mise à jour du module et du portail pour le Windows loader. Vérifiez le statut après chaque mise à jour Vanguard avant de lancer VALORANT sur Steam."
+    }
+  }
+}

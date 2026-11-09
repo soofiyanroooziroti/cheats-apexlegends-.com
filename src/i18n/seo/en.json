@@ -1,0 +1,160 @@
+{
+  "site": {
+    "title": "Valorant Cheats",
+    "description": "Aimbot Options, Player Visual Options, World Visual Options, and Misc Options for VALORANT on Windows PC. USD pricing."
+  },
+  "pages": {
+    "/": {
+      "title": "Valorant Cheats for Windows PC | ESP, Aimbot & Menu",
+      "description": "valorant cheats on Windows: player ESP, aimbot, streamproof overlay, $35 and $150 plans, live Status labels, and Vanguard setup notes before you load."
+    },
+    "/products/valorant-cheats/": {
+      "title": "Valorant Hacks for PC | Menu $35 & $150",
+      "description": "Valorant hacks for PC: menu $35 or $150 lifetime. HWID spoofer $50 or $150. Separate checkouts."
+    },
+    "/products/valorant-cheats/loader/": {
+      "title": "Valorant Menu | Aimbot, Player & World Visuals",
+      "description": "Four menu groups: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. $35 for 31 days or $150 lifetime."
+    },
+    "/products/valorant-cheats/hwid-spoofer/": {
+      "title": "HWID Spoofer for Hardware Flags on PC",
+      "description": "HWID spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
+    },
+    "/products/valorant-cheats/utilities/": {
+      "title": "HWID Spoofer Utility Overview",
+      "description": "When a hardware flag blocks new accounts on one PC, the HWID spoofer is a separate checkout from the menu."
+    },
+    "/blog/": {
+      "title": "Valorant Guides Hub | ESP, Vanguard, Aimbot & Plans",
+      "description": "Guides on ESP, custom-game toggles, Vanguard versus VAC, aimbot settings, Reddit claims, HWID flags, streamproof overlays, and $35 / $150 checkout notes."
+    },
+    "/forum/": {
+      "title": "Community Threads on Setup, Risk, and Plans",
+      "description": "Closed threads on third-party risk, Vanguard versus VAC, custom-game toggles, and the HWID spoofer."
+    },
+    "/faq/": {
+      "title": "FAQ on Plans, Vanguard, and Setup Notes",
+      "description": "Answers on the $35 and $150 plans, Vanguard updates, Windows requirements, hardware flags, and how the menu and spoofer differ."
+    },
+    "/support/": {
+      "title": "Support for Loader, Checkout, and Setup",
+      "description": "Loader, checkout, and portal help for the menu and the HWID spoofer. Include your order email."
+    },
+    "/about/": {
+      "title": "About cheats-valorant.org | Delivery, Pricing, Risk",
+      "description": "Who runs this store, what the menu and HWID spoofer include, Windows portal delivery, Vanguard ban risk, and how status and support fit checkout."
+    },
+    "/privacy/": {
+      "title": "Privacy notes for analytics, cookies, and contact",
+      "description": "How this store handles analytics, cookies, and contact data. Payment card numbers stay on the checkout provider."
+    },
+    "/terms/": {
+      "title": "License terms, refunds, and acceptable use",
+      "description": "License terms, acceptable use, and the no-refund rule for the loader and HWID spoofer sold here."
+    },
+    "/status/": {
+      "title": "Status Label and Vanguard Patch Notes",
+      "description": "GREEN means load. RED means wait. May 2026 DMA, June on-demand baselines, and November 2026 integrity notes—read before you launch."
+    },
+    "/blog/valorant-vanguard-security-2026/": {
+      "title": "Valorant Anti-Cheat: Vanguard Security Updates in 2026",
+      "description": "May 2026 DMA and IOMMU, June on-demand HVCI/VBS/TPM, and November 2026 VCT Pre-Check—plain risk context for VALORANT, not a bypass guide."
+    },
+    "/blog/valorant-cheats-pricing/": {
+      "title": "Menu Plans: $35 and $150",
+      "description": "The menu is $35 for 31 days or $150 lifetime. The HWID spoofer and are separate cards."
+    },
+    "/blog/what-an-hwid-spoofer-does/": {
+      "title": "HWID Spoofer After a Hardware Flag",
+      "description": "HWID spoofer valorant notes: use it for a hardware flag, not an account-only ban. It is a separate checkout from the menu."
+    },
+    "/blog/what-is-an-hwid-spoofer/": {
+      "title": "What an HWID Spoofer Changes on a PC",
+      "description": "An HWID spoofer changes hardware identifiers on a PC you own. It does not clear an account-only penalty."
+    },
+    "/blog/valorant-streamproof/": {
+      "title": "Streamproof Overlay: Capture vs Local View",
+      "description": "The streamproof overlay tries to keep ESP and the menu off typical recordings while you still see them. It does not remove Vanguard risk."
+    },
+    "/blog/valorant-aimbot/": {
+      "title": "Aimbot FOV, Smoothing, and Bone",
+      "description": "Valorant aimbot settings here are FOV, smoothing, bone choice, a visibility check, and a max distance. Off until you enable it."
+    },
+    "/blog/valorant-rank-esp/": {
+      "title": "Rank ESP Rank and Level Labels",
+      "description": "Rank ESP shows rank or account level when the overlay exposes those labels. It is optional next to player ESP."
+    },
+    "/blog/valorant-health-esp/": {
+      "title": "Health ESP Bars and Numbers",
+      "description": "Health ESP shows a bar or a number on players so a damaged target is easy to read before you swing."
+    },
+    "/blog/valorant-skeleton-esp/": {
+      "title": "Skeleton ESP Bone Lines and Posture",
+      "description": "Skeleton ESP draws bone lines so head level and peek direction stay readable next to the player box."
+    },
+    "/blog/valorant-spike-esp/": {
+      "title": "Spike ESP Plant Status and Location",
+      "description": "Spike ESP tracks plant status and a location cue when the menu exposes them. It is separate from player boxes."
+    },
+    "/blog/valorant-agent-esp/": {
+      "title": "Agent ESP Names on the Overlay",
+      "description": "Agent ESP shows which agent each player is running so utility and duel matchups are readable before you swing."
+    },
+    "/blog/valorant-player-esp/": {
+      "title": "Player ESP Boxes, Distance, and Weapons",
+      "description": "Player ESP on this menu draws boxes, distance, weapon labels, and a color you can set, with a max-distance cap."
+    },
+    "/blog/valorant-cheats-reddit/": {
+      "title": "Valorant Cheats on Reddit vs the Menu",
+      "description": "Valorant cheats reddit threads mix custom-game tips, ban stories, and product claims. This note sticks to the menu published here."
+    },
+    "/blog/valorant-custom-game-cheats/": {
+      "title": "Turn On Cheats in Valorant Custom Games",
+      "description": "Valorant custom game cheats are Riot practice toggles. This note separates those menus from the Windows loader sold here."
+    },
+    "/blog/valorant-vanguard-vs-vac/": {
+      "title": "Valorant Anti-Cheat vs CS2: Vanguard and VAC",
+      "description": "Valorant anti-cheat (Vanguard) and CS2’s VAC stack are different systems. A note for one game is not clearance for the other."
+    },
+    "/blog/valorant-xray-tool/": {
+      "title": "Valorant X-Ray Tool and Visual Overlay",
+      "description": "Valorant xray on this store means the visual modules: player, agent, spike, skeleton, health, and rank ESP on one license."
+    },
+    "/forum/vanguard-pre-check-november-2026/": {
+      "title": "Vanguard Pre-Check and the November 2026 integrity framework",
+      "description": "A thread on the November 5, 2026 Vanguard Pre-Check announcement and what it means for background software risk."
+    },
+    "/forum/third-party-valorant-cheats-risks/": {
+      "title": "Are third-party Valorant cheats worth the account risk?",
+      "description": "A closed thread on product claims, account risk, and why a status label is not a verified result."
+    },
+    "/forum/valorant-anti-cheat-vs-cs2/": {
+      "title": "Valorant anti-cheat vs CS2: Vanguard and VAC",
+      "description": "A closed comparison of Riot Vanguard in Valorant and VAC-related protections in Counter-Strike 2."
+    },
+    "/forum/valorant-cheat-menu-use-cases/": {
+      "title": "What is the Valorant cheat menu actually useful for?",
+      "description": "A closed thread separating official custom-game tools from the Windows menu on this store."
+    },
+    "/forum/valorant-cheat-codes-commands/": {
+      "title": "Does Valorant have cheat codes or console commands?",
+      "description": "A closed thread on whether Valorant uses typed cheat codes or menu-based custom-game tools."
+    },
+    "/forum/how-to-turn-on-valorant-custom-game-cheats/": {
+      "title": "How do I turn on Valorant custom game cheats?",
+      "description": "A closed how-to for Riot practice toggles in a custom game, separate from the Windows menu sold here."
+    },
+    "/forum/valorant-cheats-custom-game/": {
+      "title": "Can Valorant custom game cheats be used in a live match?",
+      "description": "A closed thread on why custom-game practice tools stay in that lobby and do not become the live menu."
+    },
+    "/forum/lifetime-separate-spoofer/": {
+      "title": "Does the $150 lifetime key include the HWID spoofer?",
+      "description": "The menu is $35 or $150. The HWID spoofer is $50 or $150. Separate keys."
+    },
+    "/forum/desktop-vs-laptop-hwid/": {
+      "title": "New account fails on this PC but works on a laptop — which product?",
+      "description": "A hardware-flag pattern matches the HWID spoofer. The menu key does not include it."
+    }
+  }
+}

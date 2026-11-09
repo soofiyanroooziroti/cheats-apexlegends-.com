@@ -1,0 +1,60 @@
+{
+  "site": {
+    "title": "Valorant Cheats | 顶尖 Steam 辅助与作弊工具",
+    "description": "Valorant Cheats for Steam on Windows PC with aimbot, player ESP, vehicle markers, and radar. Compare the cheat, HWID spoofer, and on cheats-valorant.org."
+  },
+  "pages": {
+    "/": {
+      "title": "Valorant Cheats Windows PC | ESP, Aimbot & 价格",
+      "description": "Compare Valorant Cheats on Windows: ESP modules, aimbot settings, $35 and $150 plans, the live Status label, and setup notes before you load."
+    },
+    "/products/valorant-cheats/": {
+      "title": "Valorant Hacks for PC | $35 and $150",
+      "description": "Cheats for VALORANT on Steam: three Windows products share $35 and $150. Loader, HWID 工具，以及账号申诉为单独结算。"
+    },
+    "/products/valorant-cheats/loader/": {
+      "title": "Steam Loader for Windows PC | 自瞄与雷达",
+      "description": "Four menu groups: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. $35 for 31 days or $150 lifetime."
+    },
+    "/products/valorant-cheats/hwid-spoofer/": {
+      "title": "HWID Spoofer 用于 VALORANT Windows 硬件标志",
+      "description": "HWID spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
+    },
+    "/products/valorant-cheats/utilities/": {
+      "title": "比较 HWID 工具和账户申诉实用程序",
+      "description": "查看哪个 Windows 实用程序适合硬件标志，哪个适合账户申诉。两者都是来自 VALORANT loader 的独立结账。"
+    },
+    "/blog/": {
+      "title": "VALORANT PC 瞄准、ESP、战利品、菜单与 Vanguard 指南",
+      "description": "Original notes on custom-game toggles, Vanguard and VAC, x-ray overlays, Reddit claims, and the $35 and $150 plans."
+    },
+    "/forum/": {
+      "title": "VALORANT 社区论坛：安装、瞄准与服务方案",
+      "description": "Closed threads on third-party risk, Vanguard versus VAC, custom-game toggles, the HWID spoofer, and."
+    },
+    "/faq/": {
+      "title": "常见问题 – 方案、安装与 Vanguard 结账前风险",
+      "description": "Answers on the $35 and $150 plans, Vanguard updates, Windows requirements, hardware flags, and how the three products differ."
+    },
+    "/support/": {
+      "title": "VALORANT 支持：Loader、结账与 HWID PC",
+      "description": "Loader、结账和 VALORANT 工具、HWID spoofer 以及账户申诉的门户帮助。请附上您的订单邮箱和确切的 loader。"
+    },
+    "/about/": {
+      "title": "关于此 VALORANT 商店：交付、定价与封号风险",
+      "description": "商店说明：cheats-valorant.org 出售的内容、结账与门户交付流程，以及在 VALORANT 上游玩 Windows PC 时使用第三方工具的风险。"
+    },
+    "/privacy/": {
+      "title": "关于分析、Cookie 与联系数据的隐私说明",
+      "description": "cheats-valorant.org 如何处理分析数据、Cookie 和联系信息。支付卡号保存在结账服务提供商处，本商店不予存储。"
+    },
+    "/terms/": {
+      "title": "许可条款、退款政策与使用规则",
+      "description": "通过 cheats-valorant.org 销售的 loader、HWID spoofer 以及账号找回服务的许可条款、使用规范和不支持退款的规则。"
+    },
+    "/status/": {
+      "title": "VALORANT 状态与 Vanguard 补丁说明",
+      "description": "Windows loader 的模块和门户更新日志。在 Steam 上启动 VALORANT 之前，请在每次 Vanguard 更新后检查状态。"
+    }
+  }
+}

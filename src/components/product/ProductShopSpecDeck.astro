@@ -1,0 +1,132 @@
+---
+import { getLocaleFromAstro, getTranslations } from '../../i18n';
+import type { ProductFeatureGroup } from '../../data/products';
+import { productPath } from '../../utils/path';
+import Icon from '../icons/Icon.astro';
+import SlideRevealButton from '../SlideRevealButton.astro';
+import SectionHeader from '../SectionHeader.astro';
+
+interface Props {
+  featureGroups?: ProductFeatureGroup[];
+}
+
+const locale = getLocaleFromAstro(Astro);
+const t = getTranslations(locale);
+const productUi = (t as { productUi?: Record<string, string> }).productUi ?? {};
+const panel = (t.productUi as { systemReqPanel?: { security: string[]; specs?: { label: string; value: string }[] } })
+  .systemReqPanel;
+
+const { featureGroups = [] } = Astro.props;
+
+const aimbot = featureGroups.find((g) => g.name === 'Aimbot Options');
+const playerEsp = featureGroups.find((g) => g.name === 'Player Visual Options');
+const worldEsp = featureGroups.find((g) => g.name === 'World Visual Options');
+const misc = featureGroups.find((g) => g.name === 'Misc Options');
+
+const previewCount = 8;
+const featuresHref = `${productPath('loader', locale)}#features`;
+const deckTitle = productUi.shopDeckTitle ?? 'Quick look at the menu';
+const deckDesc =
+  productUi.shopDeckDesc ??
+  'Requirement pills and menu group names only—open the feature list for every toggle and slider.';
+---
+
+<section class="product-shop-deck border-y border-border bg-muted/20 py-8 md:py-10" aria-labelledby="product-shop-deck-title">
+  <div class="mx-auto max-w-6xl px-5">
+    <div class="product-shop-deck__header">
+      <SectionHeader
+        eyebrow={productUi.shopDeckEyebrow ?? 'Preview'}
+        title={deckTitle}
+        desc={deckDesc}
+        titleId="product-shop-deck-title"
+      />
+    </div>
+
+    <ul class="product-shop-deck__pills flex flex-wrap gap-2" role="list">
+      {(panel?.security ?? []).map((label) => (
+        <li class="product-shop-deck__pill">
+          <Icon name="circleCheck" size={16} class="shrink-0 text-primary" aria-hidden="true" />
+          <span>{label}</span>
+        </li>
+      ))}
+      <li class="product-shop-deck__pill">
+        <Icon name="monitor" size={16} class="shrink-0 text-primary" aria-hidden="true" />
+        <span>Windows 10 &amp; 11</span>
+      </li>
+      <li class="product-shop-deck__pill">
+        <Icon name="shieldCheck" size={16} class="shrink-0 text-primary" aria-hidden="true" />
+        <span>Riot Vanguard</span>
+      </li>
+    </ul>
+
+    <div class="product-shop-deck__columns mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        aimbot && (
+          <div class="product-shop-deck__col">
+            <h3 class="product-shop-deck__heading">{aimbot.name}</h3>
+            <ul class="product-shop-deck__list" role="list">
+              {aimbot.items.slice(0, previewCount).map((item) => (
+                <li>
+                  <Icon name="chevronRight" size={14} class="shrink-0 text-primary" aria-hidden="true" />
+                  <span>{item.name}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+
+      {
+        playerEsp && (
+          <div class="product-shop-deck__col">
+            <h3 class="product-shop-deck__heading">{playerEsp.name}</h3>
+            <ul class="product-shop-deck__list" role="list">
+              {playerEsp.items.slice(0, previewCount).map((item) => (
+                <li>
+                  <Icon name="chevronRight" size={14} class="shrink-0 text-primary" aria-hidden="true" />
+                  <span>{item.name}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+
+      {
+        worldEsp && (
+          <div class="product-shop-deck__col">
+            <h3 class="product-shop-deck__heading">{worldEsp.name}</h3>
+            <ul class="product-shop-deck__list" role="list">
+              {worldEsp.items.slice(0, previewCount).map((item) => (
+                <li>
+                  <Icon name="chevronRight" size={14} class="shrink-0 text-primary" aria-hidden="true" />
+                  <span>{item.name}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+
+      {
+        misc && (
+          <div class="product-shop-deck__col">
+            <h3 class="product-shop-deck__heading">{misc.name}</h3>
+            <ul class="product-shop-deck__list" role="list">
+              {misc.items.map((item) => (
+                <li>
+                  <Icon name="chevronRight" size={14} class="shrink-0 text-primary" aria-hidden="true" />
+                  <span>{item.name}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+    </div>
+
+    <div class="mt-6 flex justify-start">
+      <SlideRevealButton href={featuresHref}>{productUi.shopViewAllFeatures ?? 'See all features'}</SlideRevealButton>
+    </div>
+  </div>
+</section>

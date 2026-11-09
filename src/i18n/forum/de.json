@@ -1,0 +1,181 @@
+{
+  "categories": {
+    "General": "Allgemein",
+    "Guides & Builds": "Leitfäden & Builds",
+    "Patch Talk": "Patch-Gespräche",
+    "Community": "Community"
+  },
+  "posts": {
+    "vanguard-pre-check-november-2026": {
+      "title": "Vanguard Pre-Check und das Integritäts-Framework für November 2026",
+      "excerpt": "Riot’s VCT 2027 Notizen erwähnen strengere Online-Qualifikationsprüfungen. Was sollte ein Ranked-Spieler tatsächlich nochmal lesen?",
+      "body": [
+        "Der Blogbeitrag vom November spricht über automatisierte Prüfungen, bevor offene Qualifikationsturniere beginnen.",
+        "Ändert das etwas daran, was wir vor einer normalen Unrated-Warteschlange auf der Statusseite lesen, oder betrifft das nur Turniere?"
+      ],
+      "flair": "✅ Gelöst",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Pre-Check ist für kompetitive Wege und offene Qualifikationsturniere gedacht, nicht als Versprechen für das Verhalten in Casual-Warteschlangen. Die Richtung ist dennoch wichtig: mehr Überprüfungen auf Software-Ebene vor dem Spielen. Lies in jedem Fall das Status-Label nach dem Hinweis. GRÜN listet die Datei auf. Das ist keine Freigabe. Die Vanguard-Sicherheits-Zeitleiste im Blog fasst die Durchsetzung im Mai DMA, die On-Demand-Baselines im Juni und dieses November-Framework an einem Ort zusammen.",
+          "replies": []
+        },
+        {
+          "author": "QueueGoblin",
+          "body": "ok also Unrated ist nicht auf magische Weise ausgenommen 😭 ich habe den Blog so behandelt, als wäre er nur für Turniere. Erst die Statusseite, dann in die Warteschlange. Danke fürs Klarstellen 🙏",
+          "replies": []
+        },
+        {
+          "author": "NightShiftDuo",
+          "body": "Dieser Thread hat wirklich geholfen. „GRÜN listet die Datei auf“ ist der Satz, den die Leute immer überspringen 💀 Ich setze ein Lesezeichen für den Zeitleisten-Beitrag.",
+          "replies": []
+        }
+      ]
+    },
+    "third-party-valorant-cheats-risks": {
+      "title": "Lohnen sich Valorant cheats von Drittanbietern im Hinblick auf das Kontorisiko?",
+      "excerpt": "Verkäuferseiten und Forenbeiträge sagen nicht dasselbe. Ich möchte, dass die Lücke klar benannt wird.",
+      "body": [
+        "Ich sehe immer wieder zuversichtliche Behauptungen neben spärlichen Details. Ich frage hier nicht nach einem Bypass.",
+        "Was in diesem Shop ist ein veröffentlichtes Menü und was ist nach wie vor nur ein Risiko?"
+      ],
+      "flair": "✅ Gelöst",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Das veröffentlichte Menü ist player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot und ein streamproof overlay. Vanguard kann weiterhin gegen ein Konto vorgehen. GRÜN auf der Statusseite bedeutet, dass der Hinweis die zu ladende Datei aufführt. Es ist keine verifizierte, saubere Übereinstimmung.",
+          "replies": []
+        },
+        {
+          "author": "FinePrintFan",
+          "body": "Verkäuferseiten reden so, als wäre das Problem schon gelöst 😤 die Antwort des Teams schließt die Lücke: Ein gelistetes Menü ist kein Versprechen für eine saubere Übereinstimmung. Das ergibt Sinn.",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-anti-cheat-vs-cs2": {
+      "title": "Valorant anti-cheat vs CS2: Vanguard und VAC",
+      "excerpt": "Leute vergleichen Vanguard mit VAC, als wären sie derselbe Treiber. Das sind sie nicht.",
+      "body": [
+        "Ich spiele beide Spiele. Ratschläge, die für VAC geschrieben wurden, lassen sich nicht eins zu eins auf Vanguard übertragen.",
+        "Was sollte ein Käufer tatsächlich als unterschiedlich betrachten, bevor er irgendetwas lädt?"
+      ],
+      "flair": "🔥 Offen",
+      "comments": []
+    },
+    "valorant-cheat-menu-use-cases": {
+      "title": "Wofür ist das Valorant Cheat-Menü eigentlich nützlich?",
+      "excerpt": "Custom-Game-Training und ein Live-Match-Menü werden im selben Satz vermischt.",
+      "body": [
+        "Ich nutze Custom Games für Lineups. Das ist ein anderer Schalter als ein Overlay von Drittanbietern.",
+        "Auf welcher Seite ist das Live-Menü aufgelistet und welcher Guide handelt nur von den Custom-Game-Cheats von Riot?"
+      ],
+      "flair": "✅ Gelöst",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Die Custom-Game-Cheats von Riot sind Trainings-Umschalter im offiziellen Client. Die Produktseite listet das separate Windows Menü: Spieler, Agent, Spike, skeleton, Leben und rank ESP, plus aimbot und Streamproof. Das ist nicht dieselbe Steuerung.",
+          "replies": []
+        },
+        {
+          "author": "LineupLab",
+          "body": "warte, das ist die Verwechslung, die ich dauernd gemacht habe 💀 Custom-Lobby-Umschalter ≠ das Windows Menü. Produktseite ist die Live-Liste.",
+          "replies": []
+        },
+        {
+          "author": "SageAdvice",
+          "body": "Für mich gelöst. Lineup-Training bleibt im Custom Game. Das Store-Menü ist eine andere Seite ✨",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-cheat-codes-commands": {
+      "title": "Hat Valorant Cheat-Codes oder Konsolenbefehle?",
+      "excerpt": "Einige Beiträge sprechen immer noch von eingegebenen Befehlen. Ich kann keine solche Konsole finden.",
+      "body": [
+        "Ältere FPS-Spiele hatten Konsolenbefehle. Valorant Custom Games sehen aus wie Menüs, nicht wie eine Befehlszeile.",
+        "Gibt es eine Codeliste oder ist das die falsche Suche?"
+      ],
+      "flair": "✅ Gelöst",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Es gibt keine öffentliche Konsolen-Codeliste zum Einfügen für das Live-Matchmaking. Custom Games nutzen Riots eigene Menü-Umschalter zum Üben. Die loader dieses Stores ist ein separates Windows Menü, kein eingetippter Cheat-Code.",
+          "replies": []
+        },
+        {
+          "author": "OldSchoolFPS",
+          "body": "ja, ich habe nach einer Konsole gesucht, die nicht da ist 😂 Menüs zum Üben, separates loader für den Store. Falsche Suche, danke.",
+          "replies": []
+        }
+      ]
+    },
+    "how-to-turn-on-valorant-custom-game-cheats": {
+      "title": "Wie schalte ich Valorant custom game cheats ein?",
+      "excerpt": "Ich möchte die Training-Umschalter in einer Custom-Lobby, keinen Download von Drittanbietern.",
+      "body": [
+        "Ich hoste ein Custom Game für das Lineup-Training. Ich kann keinen Konsolenbefehl finden.",
+        "Wo befinden sich die offiziellen Cheat-Umschalter und ist das dasselbe wie die loader dieses Stores?"
+      ],
+      "flair": "👀 Unbeantwortet",
+      "comments": []
+    },
+    "valorant-cheats-custom-game": {
+      "title": "Kann Valorant custom game cheats in einem Live-Match verwendet werden?",
+      "excerpt": "Übungsschalter und ein Live-Overlay werden immer wieder als ein einziger Schalter beschrieben.",
+      "body": [
+        "Unendliche Fähigkeiten in einem Custom Game sind nützlich für Lineups.",
+        "Überträgt sich diese Einstellung in ein normales Match oder ist das Live-Menü ein anderes Produkt?"
+      ],
+      "flair": "✅ Gelöst",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Die Custom-Game-Cheats von Riot bleiben in dieser Lobby. Sie wandern nicht mit ins Matchmaking. Das Live-Menü in diesem Shop ist eine separate Windows-Lizenz. Lies das Status-Label, bevor du es lädst. GRÜN listet die Datei auf. Es ist keine Garantie dafür, dass Vanguard es ignoriert.",
+          "replies": []
+        },
+        {
+          "author": "CascadeMain",
+          "body": "Das habe ich gebraucht. Unendliche Utility im Custom ist nur zum Üben da 🎯 es zieht nicht mit in ein echtes Match.",
+          "replies": []
+        },
+        {
+          "author": "RankedAndTired",
+          "body": "Gelöst. Zwei Produkte, zwei Checkouts und das Status-Label ist nach wie vor nur eine Liste 💚 kein Freifahrtschein.",
+          "replies": []
+        }
+      ]
+    },
+    "lifetime-separate-spoofer": {
+      "title": "Enthält der $150 lifetime-Schlüssel auch den HWID spoofer?",
+      "excerpt": "Drei Karten beim Checkout. Ich möchte sichergehen, dass lifetime bei einer nicht gleich alle drei bedeutet.",
+      "body": [
+        "Ich schaue mir die Menükarte und die spoofer-Karte an. Lifetime ist bei jeder $150.",
+        "Wenn ich lifetime für das Menü kaufe, schaltet sich der spoofer dann auch frei?"
+      ],
+      "flair": "✅ Gelöst",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Nein. Lifetime für das Menü ist nur dieses Produkt. Der HWID spoofer ist ein separater Checkout. Das Menü ist $35 for 31 days oder $150 lifetime. Der spoofer ist $50 for 31 days oder $150 lifetime.",
+          "replies": []
+        },
+        {
+          "author": "CheckoutChaos",
+          "body": "Drei Karten haben mich verrückt gemacht 😭 lifetime im Menü ist kein Bundle. spoofer ist ein eigener $150. Danke für das klare Nein.",
+          "replies": []
+        }
+      ]
+    },
+    "desktop-vs-laptop-hwid": {
+      "title": "Neuer Account scheitert an diesem PC, funktioniert aber auf einem Laptop — welches Produkt?",
+      "excerpt": "Desktop blockiert neue Profile; Laptop nicht. Ich habe den Menü-Monat bereits.",
+      "body": [
+        "Frische Accounts scheitern auf dem Desktop und spielen auf dem Laptop.",
+        "Kaufe ich den HWID spoofer oder ist dies eine reine Account-Einschränkung?"
+      ],
+      "flair": "👀 Unbeantwortet",
+      "comments": []
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "categories": {
+    "General": "Général",
+    "Guides & Builds": "Guides et builds",
+    "Patch Talk": "Discussion des patchs",
+    "Community": "Communauté"
+  },
+  "posts": {
+    "vanguard-pre-check-november-2026": {
+      "title": "Pré-vérification Vanguard et le cadre d'intégrité de novembre 2026",
+      "excerpt": "Les notes du VCT 2027 de Riot mentionnent des contrôles de qualification en ligne plus stricts. Que devrait réellement relire un joueur classé ?",
+      "body": [
+        "L'article de blog de novembre parle de contrôles automatisés avant le début des qualifications ouvertes.",
+        "Est-ce que cela change ce que nous lisons sur la page de statut avant une file non classée normale, ou est-ce réservé aux tournois ?"
+      ],
+      "flair": "✅ Résolu",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "La pré-vérification est conçue pour les parcours compétitifs et les qualifications ouvertes, ce n'est pas une garantie concernant le comportement des files d'attente occasionnelles. La direction reste importante : davantage d'examen au niveau logiciel avant de jouer. Lisez l'étiquette de statut après la note dans les deux cas. VERT liste le fichier. Ce n'est pas une autorisation. Le calendrier de sécurité Vanguard sur le blog résume l'application de mai DMA, les bases à la demande de juin et ce cadre de novembre au même endroit.",
+          "replies": []
+        },
+        {
+          "author": "QueueGoblin",
+          "body": "ok donc le mode non classé n'est pas magiquement exempté 😭 je traitais le blog comme si c'était uniquement pour les tournois. page de statut d'abord, puis file d'attente. merci d'avoir clarifié ça 🙏",
+          "replies": []
+        },
+        {
+          "author": "NightShiftDuo",
+          "body": "ce fil a vraiment aidé. « VERT liste le fichier » est la ligne que les gens continuent de zapper 💀 je mets le post du calendrier en signet.",
+          "replies": []
+        }
+      ]
+    },
+    "third-party-valorant-cheats-risks": {
+      "title": "Est-ce que les Valorant cheats tiers valent le risque pour le compte ?",
+      "excerpt": "Les pages des vendeurs et les messages du forum ne disent pas la même chose. Je veux que l'écart soit clairement énoncé.",
+      "body": [
+        "Je vois sans cesse des affirmations confiantes associées à de maigres détails. Je ne demande pas de bypass.",
+        "Qu'est-ce qui, sur cette boutique, est un menu publié, et qu'est-ce qui reste simplement un risque ?"
+      ],
+      "flair": "✅ Résolu",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Le menu publié est player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot, et un streamproof overlay. Vanguard peut toujours agir sur un compte. VERT sur la page de statut signifie que la note liste le fichier à charger. Ce n'est pas une correspondance propre vérifiée.",
+          "replies": []
+        },
+        {
+          "author": "FinePrintFan",
+          "body": "les pages des vendeurs parlent comme si c'était déjà réglé 😤 la réponse du staff met le doigt sur l'écart : un menu listé n'est pas une promesse de correspondance propre. ça se tient.",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-anti-cheat-vs-cs2": {
+      "title": "Valorant anti-cheat vs CS2 : Vanguard et VAC",
+      "excerpt": "Les gens comparent Vanguard avec VAC comme s'ils s'agissaient du même pilote. Ce n'est pas le cas.",
+      "body": [
+        "Je joue aux deux jeux. Les conseils écrits pour VAC ne s'appliquent pas de manière un pour un à Vanguard.",
+        "Qu'est-ce qu'un acheteur doit réellement considérer comme différent avant de charger quoi que ce soit ?"
+      ],
+      "flair": "🔥 Ouvert",
+      "comments": []
+    },
+    "valorant-cheat-menu-use-cases": {
+      "title": "À quoi sert réellement le menu de cheat Valorant ?",
+      "excerpt": "La pratique en partie personnalisée et le menu en match en direct sont souvent confondus dans la même phrase.",
+      "body": [
+        "J'utilise les parties personnalisées pour les lineups. C'est un paramètre totalement différent d'un overlay tiers.",
+        "Quelle page liste le menu en direct, et quel guide traite uniquement des cheats de partie personnalisée de Riot ?"
+      ],
+      "flair": "✅ Résolu",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Les cheats de partie personnalisée de Riot sont des options d'entraînement intégrées au client officiel. La page produit liste le menu Windows séparé : joueur, agent, spike, skeleton, santé et rank ESP, ainsi que aimbot et streamproof. Ce ne sont pas les mêmes contrôles.",
+          "replies": []
+        },
+        {
+          "author": "LineupLab",
+          "body": "attends c'est la confusion que je faisais tout le temps 💀 les options de salon personnalisé ≠ le menu Windows. la page produit est la liste en direct.",
+          "replies": []
+        },
+        {
+          "author": "SageAdvice",
+          "body": "problème résolu pour moi. l'entraînement de lineup reste dans la partie personnalisée. le menu de la boutique est une page différente ✨",
+          "replies": []
+        }
+      ]
+    },
+    "valorant-cheat-codes-commands": {
+      "title": "Est-ce que Valorant possède des codes de triche ou des commandes de console ?",
+      "excerpt": "Certains messages parlent encore de commandes tapées. Je ne trouve pas de console de ce type.",
+      "body": [
+        "Les anciens jeux FPS avaient des commandes de console. Les parties personnalisées de Valorant ressemblent à des menus, pas à une ligne de commande.",
+        "Y a-t-il une liste de codes, ou est-ce la mauvaise recherche ?"
+      ],
+      "flair": "✅ Résolu",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Il n'y a pas de liste publique de codes de console à coller pour le matchmaking en direct. Les parties personnalisées utilisent les propres options de menu de Riot pour l'entraînement. Le loader de cette boutique est un menu Windows séparé, pas un code de triche tapé.",
+          "replies": []
+        },
+        {
+          "author": "OldSchoolFPS",
+          "body": "ouais je cherchais une console qui n'est pas là 😂 des menus pour l'entraînement, un loader séparé pour la boutique. mauvaise recherche, merci.",
+          "replies": []
+        }
+      ]
+    },
+    "how-to-turn-on-valorant-custom-game-cheats": {
+      "title": "Comment activer Valorant custom game cheats ?",
+      "excerpt": "Je veux les options d'entraînement dans un salon personnalisé, pas un téléchargement tiers.",
+      "body": [
+        "J'héberge une partie personnalisée pour m'entraîner sur les lineups. Je ne trouve aucune commande de console.",
+        "Où se trouvent les options de cheat officielles, et est-ce la même chose que le loader de cette boutique ?"
+      ],
+      "flair": "👀 Sans réponse",
+      "comments": []
+    },
+    "valorant-cheats-custom-game": {
+      "title": "Est-ce que Valorant custom game cheats peut être utilisé dans un match en direct ?",
+      "excerpt": "Les bascules d'entraînement et une superposition en direct sont constamment décrites comme un seul interrupteur.",
+      "body": [
+        "Les compétences infinies dans une partie personnalisée sont utiles pour les alignements.",
+        "Ce paramètre s'applique-t-il à un match normal, ou le menu en direct est-il un produit différent ?"
+      ],
+      "flair": "✅ Résolu",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Les cheats de partie personnalisée de Riot restent dans ce salon. Ils ne s'étendent pas au matchmaking. Le menu en direct sur cette boutique est une licence Windows séparée. Lisez l'étiquette de statut avant de le charger. VERT liste le fichier. Ce n'est pas une affirmation que Vanguard l'ignorera.",
+          "replies": []
+        },
+        {
+          "author": "CascadeMain",
+          "body": "j'avais besoin de ça. l'utilité infinie en partie personnalisée est réservée à l'entraînement 🎯 ça ne s'applique pas à un vrai match.",
+          "replies": []
+        },
+        {
+          "author": "RankedAndTired",
+          "body": "résolu. deux produits, deux paiements, et l'étiquette de statut reste juste une liste 💚 pas un laissez-passer gratuit.",
+          "replies": []
+        }
+      ]
+    },
+    "lifetime-separate-spoofer": {
+      "title": "Est-ce que la clé $150 lifetime inclut le HWID spoofer ?",
+      "excerpt": "Trois cartes au moment de payer. Je veux m'assurer que lifetime sur l'une ne fait pas les trois.",
+      "body": [
+        "Je regarde la carte du menu et la carte spoofer. Lifetime est $150 sur chacune.",
+        "Si j'achète lifetime sur le menu, est-ce que le spoofer se débloque aussi ?"
+      ],
+      "flair": "✅ Résolu",
+      "comments": [
+        {
+          "author": "ValorantStaff",
+          "body": "Non. Lifetime sur le menu concerne uniquement ce produit. Le HWID spoofer nécessite un paiement séparé. Le menu est $35 for 31 days ou $150 lifetime. Le spoofer est $50 for 31 days ou $150 lifetime.",
+          "replies": []
+        },
+        {
+          "author": "CheckoutChaos",
+          "body": "trois cartes me faisaient tourner en bourrique 😭 lifetime sur le menu n'est pas un pack. spoofer a son propre $150. j'apprécie la réponse claire.",
+          "replies": []
+        }
+      ]
+    },
+    "desktop-vs-laptop-hwid": {
+      "title": "Un nouveau compte échoue sur ce PC mais fonctionne sur un ordinateur portable — quel produit ?",
+      "excerpt": "Le bureau bloque les nouveaux profils ; l'ordinateur portable non. J'ai déjà le mois de menu.",
+      "body": [
+        "Les comptes récents échouent sur le bureau et fonctionnent sur l'ordinateur portable.",
+        "Dois-je acheter le HWID spoofer, ou s'agit-il d'une restriction liée uniquement au compte ?"
+      ],
+      "flair": "👀 Sans réponse",
+      "comments": []
+    }
+  }
+}

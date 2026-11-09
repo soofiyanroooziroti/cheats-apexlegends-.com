@@ -1,0 +1,1442 @@
+{
+  "site": {
+    "name": "Valorant Cheats",
+    "domain": "cheats-valorant.org",
+    "title": "Valorant Cheats",
+    "description": "Možnosti Aimbot, Vizuální možnosti hráčů, Vizuální možnosti světa a Různé možnosti pro VALORANT na Windows PC. Ceny USD.",
+    "discord": "/go/valorant/"
+  },
+  "nav": [
+    {
+      "href": "/",
+      "label": "Domů"
+    },
+    {
+      "href": "/products/valorant-cheats/",
+      "label": "Produkty"
+    },
+    {
+      "href": "/products/valorant-cheats/loader/#features",
+      "label": "Funkce"
+    },
+    {
+      "href": "/blog/",
+      "label": "Blog"
+    },
+    {
+      "href": "/forum/",
+      "label": "Fórum"
+    },
+    {
+      "href": "/faq/",
+      "label": "FAQ"
+    },
+    {
+      "href": "/support/",
+      "label": "Podpora"
+    }
+  ],
+  "headerNavLabels": {
+    "home": "Domů",
+    "products": "Obchod",
+    "features": "Funkce",
+    "blog": "Blog",
+    "forum": "Fórum",
+    "faq": "FAQ",
+    "support": "Nápověda"
+  },
+  "navMore": "Více",
+  "navShort": {
+    "home": "Domů",
+    "products": "Produkty",
+    "features": "Funkce",
+    "blog": "Blog",
+    "forum": "Fórum",
+    "faq": "FAQ",
+    "support": "Podpora"
+  },
+  "hero": {
+    "status": "Valorant — před spuštěním zkontrolujte stav",
+    "eyebrow": "Windows PC · Celosvětově",
+    "titleLine1": "Valorant Cheats pro Windows PC",
+    "titleLine2": "Cheats",
+    "subtitle": "Vizuály hráčů, světové ESP, aimbot a nástroje config pro VALORANT na Windows. Čtyři skupiny menu na jedné licenci. $35 for 31 days nebo $150 lifetime.",
+    "ctaPrimary": "Zobrazit produkty",
+    "ctaDiscord": "Koupit nyní",
+    "modesLabel": "Moduly",
+    "modes": [
+      "Vizuály hráčů",
+      "Světové ESP",
+      "Aimbot",
+      "Configs"
+    ],
+    "marqueeAria": "Funkce a podpora platformy",
+    "metrics": [
+      {
+        "label": "Anti-cheat",
+        "strong": "Vanguard"
+      },
+      {
+        "label": "Platforma",
+        "strong": "Windows PC"
+      },
+      {
+        "label": "Plány",
+        "strong": "$35 a $150"
+      },
+      {
+        "label": "Podpora",
+        "strong": "24/7"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Funkce",
+    "title": "Aimbot, vizuály hráčů, svět ESP a config",
+    "subtitle": "Čtyři skupiny v menu v rámci jedné licence. Otevřete si kompletní seznam funkcí pro každý přepínač.",
+    "subtitleLead": "Čtyři skupiny v menu v rámci jedné licence. Otevřete ",
+    "subtitleLinkLabel": "kompletní seznam funkcí",
+    "subtitleTail": " pro každý přepínač.",
+    "seeAllLabel": "Zobrazit všechny funkce",
+    "items": [
+      {
+        "title": "Možnosti Aimbot",
+        "subtitle": "FOV, smoothost, přilnavost.",
+        "desc": "Aktivujte Aimbot pomocí funkcí FOV, Smoothost, Rychlost, Přilnavost, Aimbot filtr, Aimbot kost, Visible Check, Draw FOV a Draw Target Line.",
+        "bullets": [
+          "FOV a smoothost",
+          "Aimbot kost",
+          "Draw FOV"
+        ],
+        "tags": [
+          "aimbot",
+          "fov",
+          "smoothost"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      },
+      {
+        "title": "Vizuální možnosti hráčů",
+        "subtitle": "Zdraví, štít, agent, hodnost.",
+        "desc": "Health bar, ukazatel štítu, agent, hodnost, box, snapline, skeleton, head circle, název vybavení, úroveň a vzdálenost – s možností nastavení max. vzdálenosti.",
+        "bullets": [
+          "Zdraví a štít",
+          "Agent a hodnost",
+          "Box a skeleton"
+        ],
+        "tags": [
+          "player esp",
+          "health bar",
+          "skeleton"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      },
+      {
+        "title": "Vizuální možnosti světa",
+        "subtitle": "Schopnosti, pasti, spike.",
+        "desc": "ESP schopností a pastí, postup a čas zneškodnění spiku, úpravy pro každou postavu a přepínače zobrazení ikon nebo vzdálenosti.",
+        "bullets": [
+          "Schopnosti a pasti",
+          "Časovače spiku",
+          "Sady pro jednotlivé agenty"
+        ],
+        "tags": [
+          "spike esp",
+          "abilities",
+          "traps"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      },
+      {
+        "title": "Různá nastavení",
+        "subtitle": "Klávesová zkratka a configs.",
+        "desc": "Klávesová zkratka pro bojový režim skrývá ESP schopností a pastí. Velikost písma a možnost vytvářet, ukládat, načítat a uvolňovat profily Config.",
+        "bullets": [
+          "Klávesová zkratka bojového režimu",
+          "Velikost písma",
+          "Uložit configs"
+        ],
+        "tags": [
+          "config",
+          "hotkey",
+          "misc"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "Proč mi",
+    "title": "Stejné menu u každého plánu — záplaty, ne sliby",
+    "subtitle": "Jeden cheat a jeden HWID spoofer. Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer je $50 for 31 days nebo $150 lifetime. Ban je stále možný pod Vanguard.",
+    "usLabel": "Valorant Cheats",
+    "otherLabel": "Běžný poskytovatel",
+    "rows": [
+      {
+        "title": "loader aktualizace v den vydání záplaty",
+        "desc": "Zkontrolujte cheats-valorant.org po aktualizaci Valorant nebo Vanguard předtím, než otevřete loader."
+      },
+      {
+        "title": "Samostatné posuvníky míření",
+        "desc": "FOV, smoothing, kost a kontrola viditelnosti jsou samostatná nastavení aimbot. Měňte je po jednom."
+      },
+      {
+        "title": "Nápověda pro Loader a config",
+        "desc": "Otázky k nastavení pokrývají Windows loader, uložené config a to, který produkt odpovídá hardwarovému příznaku oproti případu účtu."
+      },
+      {
+        "title": "Samostatné pokladny produktů",
+        "desc": "Cheat a HWID spoofer zůstávají oddělené platební procesy. Lifetime u cheatů nepřidává spoofer."
+      },
+      {
+        "title": "Uložené config",
+        "desc": "Čtyři skupiny v menu zůstávají na jedné licenci. 31denní plán a lifetime odemykají stejný loader."
+      },
+      {
+        "title": "HWID je samostatný produkt",
+        "desc": "Zařízení, které selhává u nových účtů, představuje případ spoofer. Žádný z nástrojů není součástí klíče k cheatům."
+      }
+    ],
+    "metrics": [
+      {
+        "value": "Vanguard",
+        "title": "Kontrola po záplatě",
+        "desc": "Znovu zkontrolujte stavový štítek po aktualizaci Valorant nebo Vanguard před načtením."
+      },
+      {
+        "value": "2",
+        "title": "Plány v menu",
+        "desc": "$35 for 31 days nebo $150 lifetime. Na obou plánech je stejné menu."
+      },
+      {
+        "value": "2",
+        "title": "Samostatné produkty",
+        "desc": "Valorant Cheats a HWID spoofer. Každý z nich má svůj vlastní klíč."
+      }
+    ]
+  },
+  "setup": {
+    "eyebrow": "Průvodce nastavením",
+    "titleLead": "Od platby k prvnímu serveru za pouhé",
+    "titleHighlight": "tři jednoduché kroky",
+    "intro": "Začátek obnáší kontrolu stavu, nákup a poté portál loader. Po Vanguard nebo aktualizaci hry si před spuštěním VALORANT přečtěte stránku stavu.",
+    "ctaPrimary": "Zobrazit produkty",
+    "ctaSecondary": "Časté dotazy k nastavení",
+    "ctaPrimaryHref": "/products/valorant-cheats/",
+    "ctaSecondaryHref": "/faq/",
+    "statusStrip": {
+      "aceStatusCta": "Zkontrolovat stav",
+      "aceStatusHref": "/status/",
+      "perks": [
+        {
+          "icon": "instantDelivery",
+          "label": "Okamžité doručení"
+        },
+        {
+          "icon": "support247",
+          "label": "Podpora 24/7"
+        },
+        {
+          "icon": "refresh",
+          "label": "Aktualizace Lifetime"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "step": "Krok 1",
+        "title": "Odemknout portál a stáhnout loader",
+        "desc": "Dokončete platbu, otevřete panel operátora a stáhněte nejnovější sestavení opravy loader pro Windows."
+      },
+      {
+        "step": "Krok 2",
+        "title": "Spustit a configurovat moduly",
+        "desc": "Spusťte loader a poté postupně nastavte player ESP, agent ESP, spike ESP, skeleton, zdraví, hodnost, aimbot a streamproof."
+      },
+      {
+        "step": "Krok 3",
+        "title": "Zkontrolovat stav a spustit",
+        "desc": "Ověřte, že je štítek stavu pro tohoto klienta ZELENÝ, a poté otevřete VALORANT."
+      }
+    ]
+  },
+  "compatibility": {
+    "eyebrow": "Podpora platformy",
+    "title": "Funguje na vašem železe.",
+    "subtitle": "Po aktualizaci Valorant nebo Vanguard zkontrolujte stránku stavu, než hru načtete.",
+    "items": [
+      "Windows 10 a 11",
+      "Intel nebo AMD",
+      "HVCI zapnuto",
+      "Core isolation zapnuto",
+      "TPM zapnuto",
+      "Secure boot zapnuto",
+      "Podpora Discord",
+      "Uložení Config"
+    ]
+  },
+  "cheats": {
+    "eyebrow": "Herní cheat",
+    "title": "Cheats for Valorant",
+    "subtitle": "Možnosti Aimbot, vizuální možnosti hráčů, vizuální možnosti světa a různé možnosti v jedné licenci.",
+    "viewAll": "Zobrazit podrobnosti",
+    "explore": "Prozkoumat",
+    "items": [
+      {
+        "badge": "Aktivní",
+        "tier": "Kompletní sada",
+        "name": "Valorant",
+        "title": "Cheats for Valorant",
+        "desc": "Menu Windows s možnostmi Aimbot, vizuálními možnostmi hráčů, vizuálními možnostmi světa a různými možnostmi.",
+        "features": [
+          "Možnosti Aimbot",
+          "Vizuální možnosti hráčů",
+          "Vizuální možnosti světa",
+          "Různé možnosti"
+        ],
+        "more": 0,
+        "href": "/products/valorant-cheats/loader/",
+        "variant": "popular"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Produkty",
+    "title": "Valorant Hacks for PC",
+    "subtitle": "Menu: $35 for 31 days nebo $150 lifetime. HWID spoofer: $50 for 31 days nebo $150 lifetime.",
+    "viewAll": "Zobrazit podrobnosti",
+    "get": "Koupit nyní",
+    "explore": "Prozkoumat",
+    "items": [
+      {
+        "badge": "Aktivní",
+        "category": "HWID spoofer",
+        "title": "HWID Spoofer",
+        "subtitle": "Obnovení ID hardware",
+        "desc": "HWID spoofer s čistícím nástrojem – změňte ID disku, MAC a GPU před opětovným spuštěním po hardwarovém označení.",
+        "features": [
+          "Hardware spoofer + čistič",
+          "Kontrola kompatibility",
+          "Ověřovací kroky",
+          "Pracovní postup portálu"
+        ],
+        "more": 4,
+        "href": "/products/valorant-cheats/hwid-spoofer/"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Návody a aktualizace",
+    "subtitle": "Poznámky k vlastním hrám, návody pro ESP a aimbot, srovnání Vanguard a odpovědi na otázky ohledně cen.",
+    "latestTitle": "Nejnovější návody pro Valorant",
+    "latestSubtitle": "Filtrujte podle tématu nebo řaďte a najděte návody na nastavení, podrobné rozbory funkcí a poznámky k patchům.",
+    "filterAll": "Všechny články",
+    "sortLabel": "Řadit podle",
+    "sortNewest": "Od nejnovějších",
+    "sortOldest": "Od nejstarších",
+    "sortShortRead": "Nejkratší čtení",
+    "sortLongRead": "Nejdelší čtení",
+    "emptyFilter": "Tohuto filtru neodpovídají žádné články.",
+    "emptyCatalog": "V tomto zobrazení nejsou uvedeny žádné návody. Otevřete filtr témat nebo stránku produktu.",
+    "viewAll": "Zobrazit všechny články",
+    "read": "Číst",
+    "items": [],
+    "minRead": "min čtení",
+    "filterByTopicAria": "Filtrovat články podle tématu",
+    "continueReadingAria": "Pokračovat ve čtení",
+    "tagLabels": {
+      "Review": "Recenze",
+      "Install": "Instalace",
+      "Safety": "Zabezpečení",
+      "Plans": "Plány",
+      "Aim": "Míření",
+      "ESP": "ESP",
+      "Loot": "Kořist",
+      "Visuals": "Vizuály",
+      "Camera": "Kamera",
+      "Guide": "Návod"
+    }
+  },
+  "toolkit": {
+    "eyebrow": "Software",
+    "title": "Přehledné, snadné na config",
+    "subtitle": "Všechny moduly jsou seskupené pro rychlé úpravy během zápasu bez zbytečného přepínání oken.",
+    "items": [
+      {
+        "num": "01",
+        "label": "Players",
+        "title": "Player ESP",
+        "desc": "Boxes, vzdálenost, názvy zbraní a barvy u nepřátelských hráčů."
+      },
+      {
+        "num": "02",
+        "label": "Agents",
+        "title": "Agent ESP",
+        "desc": "Jména agentů, aby byly souboje a využívání schopností přehledné."
+      },
+      {
+        "num": "03",
+        "label": "Spike",
+        "title": "Spike ESP",
+        "desc": "Stav plantu a indikace polohy, když je nabídka zobrazuje."
+      },
+      {
+        "num": "04",
+        "label": "Bones",
+        "title": "Skeleton ESP",
+        "desc": "Kostra pro kontrolu postoje, výšky hlavy a směru vykukování."
+      },
+      {
+        "num": "05",
+        "label": "Health",
+        "title": "Health ESP",
+        "desc": "Health bars nebo čísla u hráčů."
+      },
+      {
+        "num": "06",
+        "label": "Rank",
+        "title": "Rank ESP",
+        "desc": "Hodnost nebo úroveň účtu, když je overlay zobrazuje."
+      },
+      {
+        "num": "07",
+        "label": "Aim",
+        "title": "Aimbot",
+        "desc": "FOV, smoothing, bone selection a kontrola viditelnosti."
+      },
+      {
+        "num": "08",
+        "label": "Capture",
+        "title": "Streamproof Overlay",
+        "desc": "Udržuje ESP a nabídku mimo běžné nahrávání obrazovky, zatímco vy je stále vidíte."
+      }
+    ]
+  },
+  "workflow": {
+    "eyebrow": "Jak to funguje",
+    "badge": "4 jednoduché kroky",
+    "titleBefore": "Od kontroly stavu po",
+    "titleHighlight": "uložený profil.",
+    "subtitle": "Přímá cesta od štítku stavu k pokladně.",
+    "ctaLabel": "Zobrazit produkty",
+    "ctaHref": "/products/valorant-cheats/",
+    "ctaSecondary": "Často kladené dotazy k nastavení",
+    "ctaSecondaryHref": "/faq/",
+    "items": [
+      {
+        "num": "01",
+        "phase": "Před nákupem",
+        "title": "Přečtěte si štítek stavu",
+        "desc": "ZELENÁ znamená, že poznámka uvádí soubor k načtení. ČERVENÁ znamená počkat. Přečtěte si to po aktualizaci Valorant nebo Vanguard."
+      },
+      {
+        "num": "02",
+        "phase": "Pokladna",
+        "title": "Vyberte produkt",
+        "desc": "Nabídka: $35 a $150. HWID Spoofer: $50 a $150. Samostatné klíče."
+      },
+      {
+        "num": "03",
+        "phase": "Loader",
+        "title": "Spustit a configurovat",
+        "desc": "Stáhněte si z portálu. Nechte zapnuté HVCI, core isolation, TPM a secure boot."
+      },
+      {
+        "num": "04",
+        "phase": "Ve hře",
+        "title": "Uložte si profil",
+        "desc": "Když vám kužel střelby a štítky ESP připadají v pořádku, uložte config."
+      }
+    ]
+  },
+  "fieldNotes": {
+    "eyebrow": "Poznámky z terénu",
+    "title": "Vytvořeno pro VALORANT na Windows PC.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Kontrola v den patche",
+        "desc": "Přečtěte si stránku stavu po aktualizaci Vanguard nebo klienta. Včerejší banner není aktuální sestavení."
+      },
+      {
+        "num": "02",
+        "title": "Jeden posuvník po druhém",
+        "desc": "Měňte FOV, smooth nebo vzdálenost samostatně, abyste věděli, které nastavení způsobilo trhnutí nebo nepořádek."
+      },
+      {
+        "num": "03",
+        "title": "Samostatné produkty",
+        "desc": "Cheaty pro Valorant a HWID spoofer mají samostatnou pokladnu. Lifetime u jednoho neodemkne druhý."
+      }
+    ]
+  },
+  "support": {
+    "eyebrow": "Podpora",
+    "title": "Podpora pro Valorant",
+    "subtitle": "Dejte nám vědět, jak vám můžeme pomoci.",
+    "channels": [
+      {
+        "icon": "users",
+        "title": "Chat před nákupem",
+        "desc": "Zeptejte se na cheat nebo na spoofer ještě před zaplacením.",
+        "linkLabel": "Zahájit nákup",
+        "href": "/go/valorant/"
+      },
+      {
+        "icon": "messageCircle",
+        "title": "Komunitní fórum",
+        "desc": "Nastavení, aim, ESP a dotazy ohledně tarifů s označenými odpověďmi vývojářů.",
+        "linkLabel": "Otevřít fórum",
+        "href": "/forum/"
+      },
+      {
+        "icon": "navFaq",
+        "title": "Přečtěte si FAQ",
+        "desc": "Kompatibilita, bany a nastavení – ještě než nakoupíte.",
+        "linkLabel": "Zobrazit všechny FAQ",
+        "href": "/faq/"
+      },
+      {
+        "icon": "clock",
+        "title": "Živí operátoři",
+        "desc": "Discord technici ve službě 24/7.",
+        "linkLabel": "Otevřít stránku kontaktu",
+        "href": "/support/"
+      }
+    ],
+    "ticketTitle": "Zahrňte do svého ticketu",
+    "ticketItems": [
+      {
+        "title": "E-mail objednávky",
+        "desc": "Adresa použitá při platbě na cheats-valorant.org."
+      },
+      {
+        "title": "Platforma",
+        "desc": "Windows 10 nebo 11 a zda jsou HVCI, core isolation, TPM a secure boot zapnuté."
+      },
+      {
+        "title": "Podrobnosti o chybě",
+        "desc": "Přesná zpráva loader, žádná vlastní formulace."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Jasné odpovědi před nákupem.",
+    "subtitle": "Kompatibilita, bany a přístup – žádné vágní sliby.",
+    "items": [
+      {
+        "id": "status",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "Kde zjistím, zda je loader aktuální?",
+        "a": "Přečtěte si cheats-valorant.org po aktualizaci VALORANT nebo Vanguard. Banner ze včerejšího dne není aktuální sestavení. Nechávejte loader zavřený, dokud stránka neodpovídá tomuto klientovi."
+      },
+      {
+        "id": "season-3",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "Právě vyšla velká aktualizace VALORANT. Kdy mám otevřít loader?",
+        "a": "Přečtěte si stránku stavu po sestavení tohoto klienta a po každé opravě hotfix ještě před spuštěním. Uložené config ze staršího sestavení nepředstavuje aktuální kontrolu. Ban je stále možný.",
+        "aHtml": "Přečtěte si <a href=\"/status/\">stránku stavu</a> po sestavení tohoto klienta a po každé opravě hotfix ještě před spuštěním. Uložené config ze staršího sestavení nepředstavuje aktuální kontrolu. Ban je stále možný."
+      },
+      {
+        "id": "season-2",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "Změní herní patch nabídku loader přes noc?",
+        "a": "Aktualizace hry mohou změnit mapy, režimy a vyvážení. Odkazem jsou názvy skupin loader na stránce produktu cheatů – předpokládáte-li, že vaše uložená předvolba stále platí, přečtěte si po každé aktualizaci klienta nebo Vanguard poznámku o stavu.",
+        "aHtml": "Aktualizace hry mohou změnit mapy, režimy a vyvážení. Odkazem jsou názvy skupin loader na stránce produktu cheatů – předpokládáte-li, že vaše uložená předvolba stále platí, přečtěte si po každé aktualizaci klienta nebo Vanguard <a href=\"/status/\">stránku stavu</a>."
+      },
+      {
+        "id": "after-buy",
+        "topic": "setup",
+        "icon": "faqAfterBuy",
+        "q": "Co se stane po nákupu?",
+        "a": "Po dokončení platby se otevře portál s položkou loader pro zakoupený produkt. Po úpravě nastavení si uložte config. Položky HVCI, core isolation, TPM a secure boot zůstávají zapnuté."
+      },
+      {
+        "id": "ban-risk",
+        "topic": "safety",
+        "icon": "faqBanRisk",
+        "q": "Můžu dostat ban?",
+        "a": "Ano. Vanguard může vůči účtu zasáhnout. Nic na této stránce negarantuje, že relace zůstane čistá."
+      },
+      {
+        "id": "hwid-ban-risk",
+        "topic": "safety",
+        "icon": "faqBanRisk",
+        "q": "Co je to příznak HWID a vyřeší ho klíč k cheatům?",
+        "a": "Hardwarový příznak se váže k zařízení PC. Nové účty na tomto stroji mohou selhat, zatímco na jiném fungují. K tomu slouží <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a>, který se prodává samostatně. Neodstraňuje omezení vázaná pouze na účet a lifetime v <a href=\"/products/valorant-cheats/loader/\">nabídce</a> jej nezahrnuje."
+      },
+      {
+        "id": "platforms",
+        "topic": "setup",
+        "icon": "faqPlatforms",
+        "q": "Které systémy PC jsou podporovány?",
+        "a": "Windows 10 nebo 11 na Intel nebo AMD, se zapnutými položkami HVCI, core isolation, TPM a secure boot. Systémy macOS a Linux nejsou podporovány."
+      },
+      {
+        "id": "license-move",
+        "topic": "products",
+        "icon": "faqLicenseMove",
+        "q": "Mohu přenést klíč na jiné zařízení PC?",
+        "a": "Otevřete podporu a uveďte e-mail z objednávky. Stroj, na kterém selhávají nové účty, vyžaduje zakoupení položky HWID Spoofer, nejde o bezplatný přesun klíče k cheatům."
+      },
+      {
+        "id": "products-page",
+        "topic": "products",
+        "icon": "faqProductsPage",
+        "q": "Co je na prodej?",
+        "a": "<a href=\"/products/valorant-cheats/loader/\">Nabídka</a> a <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a> jsou uvedeny na <a href=\"/products/valorant-cheats/\">stránce produktů</a>. Nabídka je $35 for 31 days nebo $150 lifetime. Položka HWID spoofer je $50 for 31 days nebo $150 lifetime. Jedná se o samostatné nákupy."
+      },
+      {
+        "id": "plans-same-price",
+        "topic": "plans",
+        "icon": "faqComparePlans",
+        "q": "Obsahuje $150 lifetime položku spoofer?",
+        "a": "Ne. Lifetime na VALORANT cheats platí pouze pro daný produkt. HWID spoofer představuje samostatný klíč s vlastními plány $50 a $150. Kratší plán nezaručuje kredit na nákup lifetime.",
+        "scopes": [
+          "loader",
+          "hwid-spoofer"
+        ]
+      },
+      {
+        "id": "aim-vs-camera",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Co mění přizpůsobitelná funkce FOV?",
+        "a": "Nastavení FOV v části Možnosti Aimbot určuje šířku kuželu zaměřování. Než na streamu zvýšíte hodnotu Draw FOV, zkombinujte ji s parametry pro Smoothost, rychlost a přilnavost.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "esp-clutter",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Proč player ESP zakrývá souboj?",
+        "a": "Vizuální možnosti hráče zahrnují health bar, ukazatel štítu, agenta, hodnost, box, čáru snapline, skeleton, head circle, název vybavení, úroveň a vzdálenost. Vypněte popisky, které nečtete, nebo snižte maximální vzdálenost.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "not-dma",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Jedná se o kartu DMA?",
+        "a": "Ne. VALORANT cheats je položka Windows loader z pokladny. Zařízení DMA představuje jiný produkt a tento klíč ho neposkytuje. Nespouštějte soubor získaný z výsledků vyhledávání.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "spoofer-scope",
+        "topic": "products",
+        "icon": "faqProductsPage",
+        "q": "Kdy je správné zakoupit HWID spoofer?",
+        "a": "Použijte <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a>, když nový účet selže na jednom zařízení PC a na jiném funguje. Nevyřeší omezení vázaná pouze na účet na stejném stroji.",
+        "scopes": [
+          "hwid-spoofer"
+        ]
+      },
+      {
+        "id": "stickiness-vs-smooth",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Kam mám nabídku po úpravě uložit?",
+        "a": "Možnosti Misc Options obsahují funkci Create/Save/Load/Unload Config. Uložte změny po vyladění možností Aimbot Options, Player Visual Options a World Visual Options.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "visible-check",
+        "topic": "scripts",
+        "icon": "faqWhatIsEsp",
+        "q": "Může aimbot ignorovat hráče ležící na zemi?",
+        "a": "Položka Visible Check se nachází v Aimbot Options spolu s filtry Aimbot a kostmi Aimbot. Každá z nich představuje samostatný přepínač v této skupině.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "ignore-knocked",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Co dělá volba Select Custom Hitbox?",
+        "a": "Položka Aimbot Bone v části Aimbot Options vybírá kost, kterou má asistent preferovat. Zkombinujte ji s parametry FOV, Smoothost, rychlost a přilnavost pro vytvoření vlastní předvolby.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "bone-and-filter",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Co se nachází ve World Visual Options?",
+        "a": "World Visual Options pokrývá schopnosti, pasti, průběh a čas zneškodnění spike, přizpůsobení pro jednotlivé postavy a omezení vzdálenosti. Každá kategorie má vlastní přepínač.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "controller-binds",
+        "topic": "setup",
+        "icon": "faqPlatforms",
+        "q": "Obsahuje nabídka klávesovou zkratku pro ovladač?",
+        "a": "Combat Mode Hotkey v Misc Options skrývá schopnosti a pasti ESP, když je stisknutá. Položka Aimbot Options je samostatná: zapíná funkce Aimbot, FOV, smoothost a vykreslování překryvných vrstev.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "squad-read",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Jak označím hráče bez zobrazování všech popisků?",
+        "a": "Player Visual Options zahrnuje box, čáru snapline, skeleton, head circle, agenta, hodnost, název vybavení, úroveň a vzdálenost. Pokud se vám souboj zdá nepřehledný, snižte maximální vzdálenost.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "loot-price-floor",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Jak fungují popisky předmětů?",
+        "a": "World Visual Options uvádí schopnosti, pasti a upozornění na spike s přepínači Show Icon a Show Distance. Velikost fontu se nachází v Misc Options.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "scale-and-crosshair",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Kde jsou přepínače vykreslování pro crosshair a FOV?",
+        "a": "Položky Draw FOV a Draw Target Line jsou umístěny pod Aimbot Options spolu s funkcemi Enable Aimbot a Visible Check.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "combat-mode",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Vypíná ESP položku aimbot?",
+        "a": "Combat Mode Hotkey v Misc Options skrývá schopnosti a pasti ESP. Zapnutí položky Aimbot v Aimbot Options je oddělené.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "encryption-bypass",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "Co se nachází v Custom Key Binds?",
+        "a": "Otevírání nabídky, držení zaměřování, přepínání hlavy a přepínače pro hráče, radar a předměty. Možnosti barev a Config Options tvoří samostatné skupiny.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "blog-default-1",
+        "topic": "blog",
+        "icon": "faqBlogDefault1",
+        "q": "Jsou průvodce na blogu oficiální dokumentací produktu?",
+        "a": "Články vysvětlují pracovní postupy a odkazují na <a href=\"/products/valorant-cheats/loader/\">nabídku</a>. Seznam funkcí na této stránce je směrodatným zdrojem pro pokladnu."
+      },
+      {
+        "id": "blog-default-2",
+        "topic": "blog",
+        "icon": "faqBlogDefault2",
+        "q": "Potřebujete pomoci s použitím tohoto průvodce?",
+        "a": "Otevřete podporu s e-mailem z objednávky a názvem článku. Pokud něco selže, uveďte přesný text loader."
+      },
+      {
+        "id": "blog-default-3",
+        "topic": "blog",
+        "icon": "faqBlogDefault3",
+        "q": "Budou nastavení z tohoto článku fungovat i v příštím patchi?",
+        "a": "Zkontrolujte je znovu po každé aktualizaci VALORANT nebo Vanguard. Místo kopírování starých hodnot posuvníků z příspěvku raději načtěte uloženou položku config."
+      },
+      {
+        "id": "blog-plan-start",
+        "topic": "plans",
+        "icon": "faqComparePlans",
+        "q": "Kterým plánem mám začít?",
+        "a": "Pokud si chcete produkt nejprve vyzkoušet, začněte s 31denním klíčem. Nabídka je $35 for 31 days nebo $150 lifetime. Položka HWID spoofer je $50 for 31 days nebo $150 lifetime. Kratší plán nezahrnuje kredit na nákup lifetime a klíč lifetime pro jeden produkt nezahrnuje ostatní."
+      },
+      {
+        "id": "blog-plan-upgrade",
+        "topic": "plans",
+        "icon": "faqLicenseMove",
+        "q": "Mohu upgradovat 31denní klíč na lifetime?",
+        "a": "Automatický upgrade neexistuje. Lifetime představuje samostatný nákup u téhož produktu. Za již zaplacenou položku $35 nebo $50 nevzniká nárok na slevu z ceny $150 lifetime."
+      },
+      {
+        "id": "blog-plan-expire",
+        "topic": "plans",
+        "icon": "faqAfterBuy",
+        "q": "Co se stane, když platnost plánu vyprší?",
+        "a": "Platnost 31denního klíče skončí uplynutím tohoto období end. Pro zachování přístupu si kupte další 31denní klíč nebo klíč lifetime pro stejný produkt. Položka Lifetime se neobnovuje automaticky. Vypršený klíč se nepřenáší na jiný produkt."
+      },
+      {
+        "id": "blog-plan-status",
+        "topic": "plans",
+        "icon": "faqStatus",
+        "q": "Kde zjistím aktuální stav loader?",
+        "a": "Před spuštěním si přečtěte stránku stavu. Slovo Aktualizováno znamená, že poznámka byla obnovena. Nejde o tvrzení, že relace zůstane čistá.",
+        "aHtml": "Před spuštěním si přečtěte <a href=\"/status/\">stránku stavu</a>. Slovo Aktualizováno znamená, že poznámka byla obnovena. Nejde o tvrzení, že relace zůstane čistá."
+      },
+      {
+        "id": "blog-plan-windows",
+        "topic": "plans",
+        "icon": "faqPlatforms",
+        "q": "Které verze Windows jsou podporovány?",
+        "a": "Windows 10 nebo 11 na Intel nebo AMD, se zapnutými položkami HVCI, core isolation, TPM a secure boot. Systémy macOS a Linux nejsou podporovány."
+      },
+      {
+        "id": "blog-plan-support",
+        "topic": "plans",
+        "icon": "faqBlogDefault2",
+        "q": "Jak funguje podpora a vracení peněz?",
+        "a": "Otevřete podporu s e-mailem z objednávky. Prodeje jsou po dokončení platby konečné. Nákupy z rozmaru, bany účtů a spuštění hry v době, kdy stránka stavu není aktuální, se nevracejí. Oprava nebo vrácení peněz proběhne pouze v případě, že potvrdíme chybu na naší straně. Pravidla jsou uvedena v podmínkách.",
+        "aHtml": "Otevřete <a href=\"/support/\">podporu</a> s e-mailem z objednávky. Prodeje jsou po dokončení platby konečné. Nákupy z rozmaru, bany účtů a spuštění hry v době, kdy stránka stavu není aktuální, se nevracejí. Oprava nebo vrácení peněz proběhne pouze v případě, že potvrdíme chybu na naší straně. Pravidla jsou uvedena v <a href=\"/terms/\">podmínkách</a>."
+      }
+    ],
+    "filterTopics": {
+      "all": "Vše",
+      "plans": "Plány",
+      "esp": "Map hack / ESP",
+      "scripts": "Skripty",
+      "safety": "Ochrana",
+      "products": "Produkty",
+      "blog": "Blog",
+      "setup": "Nastavení"
+    }
+  },
+  "footer": {
+    "tagline": "Valorant Cheats and HWID spoofer for Windows PC. cheats-valorant.org",
+    "explore": "Prozkoumat",
+    "exploreLinks": [
+      {
+        "href": "/products/valorant-cheats/loader/#features",
+        "label": "Přehled funkcí",
+        "ariaLabel": "Funkce"
+      },
+      {
+        "href": "/products/valorant-cheats/loader/",
+        "label": "Cheats for Valorant",
+        "ariaLabel": "Cheats for Valorant"
+      },
+      {
+        "href": "/products/valorant-cheats/",
+        "label": "Všechny produkty",
+        "ariaLabel": "Produkty"
+      },
+      {
+        "href": "/blog/",
+        "label": "Přečíst průvodce aktualizacemi",
+        "ariaLabel": "Blog"
+      },
+      {
+        "href": "/faq/",
+        "label": "Časté dotazy před nákupem",
+        "ariaLabel": "FAQ"
+      }
+    ],
+    "support": "Podpora",
+    "legal": "Právní informace",
+    "moreSites": "Další weby",
+    "privacy": "Zásady ochravacy soukromí",
+    "terms": "Obchodní podmínky",
+    "about": "O nás",
+    "resourceLinks": [
+      {
+        "label": "Archiv blogu",
+        "ariaLabel": "Blog"
+      },
+      {
+        "label": "Cheats for Valorant",
+        "ariaLabel": "Cheats for Valorant"
+      },
+      {
+        "label": "Produkty a nástroje",
+        "ariaLabel": "Produkty"
+      }
+    ]
+  },
+  "legalPages": {
+    "about": {
+      "title": "O tomto obchodě",
+      "description": "cheats-valorant.org nabízí menu VALORANT a HWID spoofer včetně pokynů k nastavení a upřímného popisu rizika banu.",
+      "sections": [
+        {
+          "heading": "Kdo jsme",
+          "paragraphs": [
+            "cheats-valorant.org prodává menu Windows pro VALORANT a HWID spoofer. Menu obsahuje: player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot a streamproof overlay.",
+            "Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer je $50 for 31 days nebo $150 lifetime. Klíč lifetime k menu nezahrnuje spoofer.",
+            "Názvy produktů na těchto stránkách označují to, co prodáváme. Nejedná se o tvrzení, že vydavatel hry endoruje tento software. Doručení probíhá formou stažení přes portál pro Windows 10 nebo 11. Nechte zapnuté HVCI, core isolation, TPM a secure boot a loader otevírejte pouze tehdy, když stránka odpovídá aktuálnímu klientovi."
+          ]
+        },
+        {
+          "heading": "Co publikujeme",
+          "paragraphs": [
+            "Na [stránce menu](/products/valorant-cheats/loader/)) najdete názvy modulů a požadavky na PC: Windows 10 nebo 11, procesor Intel Core i5 nebo AMD Ryzen 5 a lepší, se zapnutým HVCI, core isolation, TPM a secure boot. Na [stránce produktů](/products/valorant-cheats/)) můžete porovnat menu a [HWID Spoofer](/products/valorant-cheats/hwid-spoofer/).).",
+            "Návody na [blogu](/blog/)) pokrývají player ESP, aimbot, přepínače pro vlastní hry, srovnání Vanguard a VAC a situace, kdy je hardwarový příznak nutno zakoupit zvlášť od menu. [Fórum](/forum/)) slouží k těm samým dotazům, přičemž odpovědi vývojářů jsou označeny v(/na) vlákně. Před nákupem si přečtěte [podmínky](/terms/)). Prodeje jsou konečné, včetně banů.",
+            "Vanguard může stále zasáhnout proti účtu. Nic zde nezaručuje, že relace zůstane čistá po příští záplatě. Zkontrolujte tyto stránky po aktualizaci klienta, než otevřete loader. Pokud stránka neodpovídá dané verzi, software nezapínejte.",
+            "Poznámky ke stavu na domovské stránce uvádějí, zda publikovaná verze stále odpovídá klientovi. Nejsou slibem, že Vanguard bude software ignorovat. Pokud si nejste jistí, nechte loader zavřené a před dalším spuštěním matchmakingu si přečtěte odpovídající návod na blogu."
+          ]
+        },
+        {
+          "heading": "Podpora",
+          "paragraphs": [
+            "Chyby Loader, klíč, který nereaguje, a dotazy k platbě řešte přes [stránku podpory](/support/).). Uveďte e-mail z objednávky, verzi Windows a přesný text loader. Nevypínejte HVCI, core isolation, TPM nebo secure boot jen proto, že vám to někdo poradil v chatu jiné hry."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Zásady ochravacy soukromí",
+      "description": "Jak cheats-valorant.org nakládá s analytikou, soubory cookie a kontaktními údaji.",
+      "sections": [
+        {
+          "heading": "Informace, které shromažďujeme",
+          "paragraphs": [
+            "Prostřednictvím služby Google Analytics můžeme (pokud je povolena) shromažďovat standardní webové statistiky, jako jsou zobrazení stránek, typ zařízení, prohlížeč a přibližný region. Pokladna a doručování licencí probíhají na externích stránkách. Data platebních karet na cheats-valorant.org neukládáme."
+          ]
+        },
+        {
+          "heading": "Jak data používáme",
+          "paragraphs": [
+            "Analytika nám pomáhá pochopit, které návody a produktové stránky jsou užitečné, abychom mohli zlepšovat obsah a opravovat nefunkční odkazy. V ticetech podpory můžeme uchovávat e-mailovou adresu a obsah zprávy, dokud nebude problém vyřešen."
+          ]
+        },
+        {
+          "heading": "Soubory cookie",
+          "paragraphs": [
+            "Používáme minimální množství souborů cookie nezbytných pro analytiku. Soubory cookie můžete zablokovat v nastavení prohlížeče; hlavní obsah stránek zůstane dostupný i bez nich."
+          ]
+        },
+        {
+          "heading": "Podpora",
+          "paragraphs": [
+            "Ohledně dotazů k ochraně soukromí využijte možnosti na stránce Podpory. Pravidla nákupu a vrácení peněz naleznete v našich Obchodních podmínkách."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Podmínky použití",
+      "description": "Podmínky nákupu, licencí, vrácení peněz a používání produktů prodávaných na cheats-valorant.org.",
+      "sections": [
+        {
+          "heading": "Souhlas",
+          "paragraphs": [
+            "Naposledy aktualizováno: říjen 2026. Používáním cheats-valorant.org nebo dokončením objednávky libovolného produktu zde vyjadřujete souhlas s těmito Podmínkami použití a našimi Zásadami ochrany osobnícvacch údajů."
+          ]
+        },
+        {
+          "heading": "Co kupujete",
+          "paragraphs": [
+            "Prodáváme VALORANT menu a HWID spoofer. Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer je $50 for 31 days nebo $150 lifetime. Každý produkt představuje samostatnou licenci.",
+            "Seznamy funkcí na stránce každého produktu popisují, co je součástí v době nákupu. Moduly se mohou měnit při aktualizaci VALORANT nebo Vanguard. lifetime menu key nezahrnuje spoofer."
+          ]
+        },
+        {
+          "heading": "Platba a doručení",
+          "paragraphs": [
+            "Platba a doručení licence probíhají na externích stránkách pokladny. cheats-valorant.org nezpracovává ani neukládá čísla platebních karet.",
+            "Po nákupu použijte portál ze své objednávky ke stažení aktuálního loader před spuštěním VALORANT. Nechte HVCI, core isolation, TPM a secure boot zapnuté."
+          ]
+        },
+        {
+          "heading": "Používání licence",
+          "paragraphs": [
+            "Licence jsou určeny pouze pro vaše osobní použití. Nesdílejte soubory loader, přihlašovací údaje k portálu ani licenční klíče. Problém s hardwarovým ID vyžaduje nákup samostatné HWID Spoofer."
+          ]
+        },
+        {
+          "heading": "Vrácení peněz a nákupy",
+          "paragraphs": [
+            "Všechny prodeje jsou po dokončení platby konečné. Neposkytujeme náhrady za nákupy rozmyšlené dodatečně, bany účtů, penalizace Vanguard ani za problémy způsobené ignorováním pokynů k nastavení nebo spuštěním v době, kdy stránka není pro danou aktualizaci aktuální.",
+            "Pokud produkt nefunguje podle popisu na podporované sestavě – Windows 10 nebo 11 se zapnutými HVCI, core isolation, TPM a secure boot a s aktuálním loader z portálu – kontaktujte nás prostřednictvím stránky Podpory. Uveďte e-mail z objednávky, verzi Windows a přesný text loader.",
+            "Můžeme dle vlastního uvážení nabídnout opravu, náhradní přístup nebo částečnou/full náhradu peněz, jakmile potvrdíme chybu na naší straně. Nemáme povinnost schválit každou žádost."
+          ]
+        },
+        {
+          "heading": "Dostupnost a riziko",
+          "paragraphs": [
+            "Nástroje třetích stran pro VALORANT mohou být v konfliktu s aktualizacemi her a Vanguard. Tento software používáte na vlastní nebezpečí, včetně možných postihů účtu.",
+            "Před každou relací zkontrolujte stavový banner na úvodní stránce. Nepřipojujte se na svůj hlavní server, pokud jsou moduly offline nebo po aktualizaci nesprávně nastavené."
+          ]
+        },
+        {
+          "heading": "Změny",
+          "paragraphs": [
+            "Tyto podmínky můžeme aktualizovat. Datum „Naposledy aktualizováno“ nahoře se v takovém případě změní. Další používání webu po provedení změn znamená, že souhlasíte s revidovanými podmínkami."
+          ]
+        },
+        {
+          "heading": "Podpora",
+          "paragraphs": [
+            "Pro dotazy ohledně podmínek, fakturace nebo loader použijte tlačítka na stránce Podpory. Přečtěte si také naše Zásady ochrany osobnícvach údajů, kde se dozvíte, jak nakládáme s daty na webu."
+          ]
+        }
+      ]
+    },
+    "support": {
+      "title": "Podpora pro Valorant",
+      "description": "Nápověda pro Loader, HWID spoofer a pokladnu pro cheats-valorant.org."
+    }
+  },
+  "productCatalog": {
+    "searchHeading": "Procházet produkty a předplatná",
+    "utilityCategory": "Nástroj",
+    "buyLoader": "Koupit loader",
+    "buyHwidSpoofer": "Koupit HWID spoofer"
+  },
+  "utilitiesPage": {
+    "title": "Nástroj HWID",
+    "subtitle": "HWID spoofer se kupuje zvlášť v případě, kdy hardwarový ban blokuje zakládání nových účtů na jednom PC.",
+    "breadcrumb": "Nástroj HWID",
+    "tableAria": "Porovnání nástrojů",
+    "columnUtility": "Nástroj",
+    "columnBestFor": "Nejlepší pro",
+    "columnProductPage": "Stránka produktu",
+    "includesLabel": "Obsahuje:",
+    "backToProducts": "Zpět k produktům",
+    "viewCategory": "Zobrazit {category}",
+    "viewDetailsFallback": "podrobnosti",
+    "schemaName": "Nástroj HWID",
+    "useCases": {
+      "hwid-spoofer": "Nový PC nebo hardwarový ban – obnovte identitu svého zařízení před založením nového účtu."
+    }
+  },
+  "sectionSearch": {
+    "blogHeading": "Filtrovat návody podle tématu",
+    "supportHeading": "Procházet témata nápovědy"
+  },
+  "ui": {
+    "skipLink": "Přejít na hlavní obsah",
+    "browseCheats": "Vyzkoušet ihned",
+    "browseCheatsMobile": "Zahájit objednávku",
+    "homeAria": "Valorant Cheats domů",
+    "checkoutAria": "Zahájit objednávku",
+    "discordAria": "Koupit Valorant Cheats",
+    "menuOpen": "Otevřít nabídku",
+    "menuClose": "Zavřít nabídku",
+    "themeLight": "Přepnout na světlý režim",
+    "themeDark": "Přepnout na tmavý režim",
+    "searchPlaceholder": "Hledat produkty, návody, FAQ…",
+    "searchEmpty": "Začněte psát pro vyhledávání na webu.",
+    "searchNoResults": "Žádné výsledky. Zkuste jiný výraz.",
+    "searchCloseAria": "Zavřít vyhledávání",
+    "searchTitle": "Hledat",
+    "searchOpenAria": "Hledat na webu",
+    "contactSupport": "Kontaktovat podporu",
+    "searchResultsAria": "Výsledky vyhledávání",
+    "searchHintNavigate": "navigovat",
+    "searchHintOpen": "otevřít",
+    "searchHintClose": "zavřít",
+    "searchKeyboardEnter": "Enter",
+    "searchKeyboardEsc": "Esc",
+    "primaryNavAria": "Primární",
+    "mobileNavAria": "Mobilní",
+    "shareNavAria": "Sdílet tuto stránku",
+    "shareOnX": "Sdílet na X",
+    "shareOnFacebook": "Sdílet na Facebooku",
+    "shareOnReddit": "Sdílet na Redditu",
+    "prevImage": "Předchozí obrázek",
+    "nextImage": "Následující obrázek",
+    "heroSlidesAria": "Hlavní snímky",
+    "slideLabel": "Snímek {n}",
+    "prevScreenshot": "Předchozí snímek obrazovky",
+    "nextScreenshot": "Následující snímek obrazovky",
+    "loading": "Načítání"
+  },
+  "language": {
+    "label": "Jazyk",
+    "selectAria": "Vybrat jazyk webu"
+  },
+  "exploreSection": {
+    "eyebrow": "Prozkoumat",
+    "title": "Všechno na webu vzdálené jedno",
+    "titleAccent": "kliknutí",
+    "subtitle": "Přeskočte na produkty, poznámky k aktualizacím, průvodce a nápovědu bez zdlouhavého hledání v menu.",
+    "badgeProduct": "PRODUKT",
+    "badgeActive": "Aktivní",
+    "cards": {
+      "cheats": {
+        "title": "Cheats for Valorant",
+        "desc": "Aimbot Možnosti, Vizuální možnosti hráčů, Vizuální možnosti světa a Různé možnosti."
+      },
+      "spoofer": {
+        "title": "HWID Spoofer",
+        "desc": "Rotace hardwarového profilu po označení zařízení."
+      },
+      "plans": {
+        "title": "Plány",
+        "desc": "Porovnejte $35 a $150 v menu; spoofer má vlastní plány."
+      },
+      "features": {
+        "title": "Funkce",
+        "desc": "Čtyři skupiny v menu na seznamu funkcí loader."
+      },
+      "status": {
+        "title": "Stav",
+        "desc": "ZELENÁ nebo ČERVENÁ před spuštěním plus upozornění na aktualizace Vanguard."
+      },
+      "faq": {
+        "title": "FAQ",
+        "desc": "Plány, nastavení, riziko Vanguard a produkty."
+      },
+      "support": {
+        "title": "Podpora",
+        "desc": "Loader, platba a pomoc s portálem."
+      },
+      "blog": {
+        "title": "Blog",
+        "desc": "Průvodci pro mušku, ESP a dny aktualizací."
+      },
+      "forum": {
+        "title": "Fórum",
+        "desc": "Vlákna s označenými odpověďmi vývojářů."
+      }
+    }
+  },
+  "pricing": {
+    "checkout": "Pokladna",
+    "purchaseOption": "Možnost nákupu",
+    "selectSubscription": "Vybrat předplatné",
+    "bestValue": "Nejlepší hodnota",
+    "savePrefix": "Ušetřete",
+    "total": "Celkem",
+    "buyNow": "Koupit nyní",
+    "oneMonth": "31 days",
+    "threeMonths": "31 days",
+    "lifetime": "Lifetime",
+    "mostPopular": "Nejpopulárnější",
+    "plusMore": "+N dalších",
+    "monthlySuffix": "",
+    "threeMonthSuffix": " / 3 měs.",
+    "lifetimeSuffix": " lifetime",
+    "monthlyPlanNote": "31 days přístupu · obnova při platbě",
+    "threeMonthPlanNote": "31 days přístupu",
+    "lifetimePlanNote": "Zaplatit jednou · bez obnovení",
+    "plansSameFeaturesNote": "Stejné funkce u každého plánu – mění se pouze doba přístupu.",
+    "selectPlanAria": "Vybrat délku plánu"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Stránka nenalezena",
+    "description": "Tato URL adresa neexistuje nebo možná byla přesunuta. Vraťte se na domovskou stránku nebo si projděte produkty.",
+    "metaDescription": "Požadovaná stránka nebyla na cheats-valorant.org nalezena.",
+    "metaTitleSuffix": "Stránka nenalezena",
+    "backHome": "Zpět domů",
+    "viewProducts": "Zobrazit produkty",
+    "openForum": "Otevřít fórum"
+  },
+  "status": {
+    "eyebrow": "Poznámky k patchům",
+    "title": "Stavový štítek před spuštěním",
+    "subtitle": "ZELENÁ znamená, že aktuální soubor je připraven k načtení. ČERVENÁ znamená počkat.",
+    "pageDesc": "Mezníky Vanguard v roce 2026 zahrnovaly květnovou aktualizaci zaměřenou na DMA, červnové základy na vyžádání a listopadový rámec integrity. Po každém z těchto kroků nebo herním patchi si před spuštěním přečtěte tuto stránku. ZELENÁ znamená načíst. ČERVENÁ znamená počkat. Aktualizováno neznamená záruku.",
+    "breadcrumb": "Stav",
+    "aceReminderLabel": "Vanguard připomenutí",
+    "aceReminder": "Zkontrolujte tuto stránku po každém Vanguard nebo aktualizaci klienta — včetně květnového vydání 2026 zaměřeného na DMA a listopadového rámce integrity 2026. ZELENÁ znamená načíst. ČERVENÁ znamená počkat.",
+    "recentTitle": "Nedávné aktualizace",
+    "activeLinePrefix": "Naposledy zkontrolováno",
+    "activeLineActive": "Aktivní",
+    "activeLineUpdated": "Aktualizováno {date}",
+    "storeLineup": "Nabídka obchodu",
+    "latestLabel": "Nejnovější",
+    "updates": [
+      {
+        "id": "vct-integrity",
+        "title": "Integritní rámec VCT 2027",
+        "icon": "shield",
+        "when": "5. listopadu 2026",
+        "summary": "Riot nastínil rutinu Vanguard Pre-Check pro kvalifikace v otevřených soutěžích. Online týmy nyní čelí přísnější kontrole softwarové vrstvy a kontrole procesů na pozadí před zápasem. Tento obchod nepopisuje, jak tuto kontrolu projít. Přečtěte si štítek stavu pro tuto nabídku po poznámce a považujte pravidla turnaje za oddělená od běžné fronty."
+      },
+      {
+        "id": "vanguard-on-demand",
+        "title": "Vanguard na vyžádání a standardy Windows 11",
+        "icon": "settings",
+        "when": "Červen 2026",
+        "summary": "Režim na vyžádání Vanguard může zůstat vypnutý, když je VALORANT zavřený, ale jeho zapnutí vynucuje přísnější standard Windows 11: HVCI, VBS a TPM 2.0. To uzavírá běžné mezery pro injectory. Ponechte tyto funkce zapnuté v sestavě, proti které načítáte. Tato stránka nedokumentuje postupy pro obejití."
+      },
+      {
+        "id": "dma-may-2026",
+        "title": "22. května 2026 — Aktualizace Vanguard zaměřená na DMA",
+        "icon": "alert",
+        "when": "22. května 2026",
+        "summary": "Riot se zaměřil na externí nastavení přímého přístupu do paměti (DMA) SATA/NVMe a související obcházení firmwaru. Veřejná diskuse se soustředila na IOMMU Windows a přemapování DMA blokující škodlivé DLL soubory zařízení. Riot uvedl, že legitimní hardware není fyzicky zničen; nelegitimní konfigurace config cheats mohou na této PC selhat. Tento obchod prodává Windows loader, nikoli kartu DMA. Blogový příspěvek „Časová osa zabezpečení Vanguard (2026)“ shrnuje stejná data."
+      },
+      {
+        "id": "status-label",
+        "title": "Štítek stavu",
+        "icon": "shield",
+        "when": "8. listopadu 2026",
+        "summary": "ZELENÁ znamená, že tato poznámka uvádí aktuální soubor k načtení. ČERVENÁ znamená počkat. Přečtěte si tuto stránku po aktualizaci VALORANT nebo Vanguard před spuštěním. Štítek není tvrzením o nezjistitelnosti a neznamená, že zápas zůstane čistý."
+      },
+      {
+        "id": "menu-covers",
+        "title": "Co nabídka pokrývá",
+        "icon": "mapHack",
+        "when": "8. listopadu 2026",
+        "summary": "Zveřejněná nabídka uvádí možnosti Aimbot, vizuální možnosti hráčů, vizuální možnosti světa a různé možnosti. Klávesová zkratka bojového režimu skrývá schopnosti a pasti ESP. Neodstraňuje riziko Vanguard."
+      },
+      {
+        "id": "pc-requirements",
+        "title": "Požadavky PC",
+        "icon": "settings",
+        "when": "8. listopadu 2026",
+        "summary": "Windows 10 nebo 11, Intel Core i5 nebo AMD Ryzen 5 nebo lepší a nejnovější klient VALORANT PC. Ponechte zapnuté HVCI, Core Isolation, TPM a Secure Boot."
+      },
+      {
+        "id": "updated-claim",
+        "title": "„Aktualizováno“ není tvrzení o nezjistitelnosti",
+        "icon": "alert",
+        "when": "7. listopadu 2026",
+        "summary": "Aktualizováno znamená, že tato poznámka byla obnovena. Neznamená to, že loader je nezjistitelný, a neznamená to, že zápas zůstane čistý po příští aktualizaci Vanguard nebo hry."
+      },
+      {
+        "id": "plans",
+        "title": "Plány zůstávají na samostatných kartách",
+        "icon": "tag",
+        "when": "7. listopadu 2026",
+        "summary": "Nabídka je $35 for 31 days nebo $150 lifetime. HWID spoofer je $50 for 31 days nebo $150 lifetime. Klíč lifetime na jeden produkt nezahrnuje druhý."
+      }
+    ]
+  },
+  "forum": {
+    "eyebrow": "Komunita",
+    "title": "Fórum: nastavení, rizika a plány",
+    "subtitle": "Vlákna o Valorant cheats, Vanguard versus VAC, přepínačích vlastních her a HWID spoofer. Odpovědi vývojářů jsou označeny.",
+    "breadcrumb": "Fórum",
+    "postsAria": "Příspěvky komunity",
+    "sortAria": "Řazení příspěvků",
+    "searchPlaceholder": "Hledat v diskusích",
+    "searchAria": "Hledat v diskusích",
+    "voteAria": "Hlasování v diskusi",
+    "fromGuide": "Z průvodce:",
+    "comments": "komentáře",
+    "readDiscussion": "Přečíst diskusi",
+    "readGuide": "Přečíst průvodce",
+    "basedOn": "Založeno na:",
+    "paginationAria": "Stránkování diskusí",
+    "previousPage": "Předchozí",
+    "nextPage": "Další",
+    "exploreGuides": "Prozkoumat průvodce",
+    "sortPopular": "Populární",
+    "sortLatest": "Nejnovější",
+    "sortTop": "Nejdiskutovanější",
+    "filterAria": "Filtrovat diskuze podle tématu",
+    "allTopics": "Všechna témata",
+    "discussionOne": "diskuze",
+    "discussionMany": "diskuze",
+    "emptyFilter": "Žádné diskuze neodpovídají zadaným kritériím. Zkuste jiné vyhledávání nebo téma.",
+    "previous": "Předchozí",
+    "next": "Další",
+    "sidebarAboutTitle": "Fórum",
+    "sidebarAboutCopy": "Vlákna o rizicích třetích stran, Vanguard versus VAC, přepínačích vlastních her a HWID spoofer. Odpovědi vývojářů jsou označeny.",
+    "sidebarTopics": "témata",
+    "sidebarExploreGuides": "Prozkoumat všechny průvodce",
+    "sidebarCommunities": "Komunity",
+    "sidebarBrowseQa": "Procházet související vlákna",
+    "sidebarBrowseAll": "Procházet všechny komunity",
+    "sidebarGuidelines": "Pravidla komunity",
+    "guideline1": "Chovejte se přátelsky a konstruktivně end",
+    "guideline2": "Zůstaňte u tématu a doplňte kontext",
+    "guideline3": "Označujte spoilery a citlivý obsah",
+    "sidebarReadGuidelines": "Přečíst kompletní pravidla",
+    "sidebarFootAbout": "O projektu · Pravidla · Privacy · Podmínky",
+    "upvoteAria": "Dát hlas této diskuzi",
+    "downvoteUnavailable": "Hlasování dolů není k dispozici",
+    "showingRange": "Zobrazuji {from}–{to} z {total}",
+    "zeroDiscussions": "0 diskuzí",
+    "developerFlair": "Vývojář",
+    "points": "bodů",
+    "previewDiscussion": "Náhled diskuze",
+    "postingUnavailable": "Zde není možné publikovat ani hlasovat",
+    "commentsTitle": "Komentáře",
+    "commentsSubtitle": "Odpovědi vývojářů jsou označeny",
+    "detailInTopic": "v tomto tématu",
+    "detailBrowse": "Procházet diskuze",
+    "detailMoreTitle": "Další diskuze",
+    "detailViewAll": "Zobrazit všechny diskuze",
+    "colThread": "Vlákno",
+    "colReplies": "Odpovědi",
+    "replyOne": "Odpověď",
+    "colVotes": "Hlasy",
+    "colLastReply": "Poslední odpověď",
+    "closedThread": "Uzavřeno",
+    "noRepliesYet": "Zatím žádné odpovědi 👀"
+  },
+  "readingTools": {
+    "copyLink": "Kopírovat odkaz",
+    "backToTop": "Zpět nahoru",
+    "copied": "Zkopírováno"
+  },
+  "blogArticle": {
+    "viewProducts": "Zobrazit produkty",
+    "moreArticles": "Další články",
+    "imagePlaceholder": "Zástupný symbol obrázku",
+    "breadcrumbBlog": "Blog"
+  },
+  "breadcrumbs": {
+    "home": "Domů",
+    "products": "Produkty",
+    "blog": "Blog",
+    "forum": "Fórum",
+    "faq": "FAQ",
+    "status": "Stav"
+  },
+  "faqPage": {
+    "eyebrow": "Centrum nápovědy",
+    "title": "FAQ k plánům, Vanguard a nastavení",
+    "subtitle": "Plány, ESP a aimbot možnosti, HWID spoofer a co zkontrolovat po aktualizaci Vanguard.",
+    "schemaName": "FAQ — plány, produkty a nastavení",
+    "schemaDescription": "Odpovědi ohledně menu, HWID spoofer, rizika Vanguard a platby na cheats-valorant.org."
+  },
+  "siteFaqSection": {
+    "allTopicsEyebrow": "Všechna témata",
+    "allTopicsTitle": "Procházet podle kategorie",
+    "allTopicsSubtitle": "Plány, vizuály, loader, spoofer a nastavení.",
+    "contextualEyebrow": "FAQ",
+    "contextualTitle": "Dotazy k této stránce",
+    "contextualSubtitle": "Odpovědi spojené s tím, co právě čtete — navštivte stránku FAQ pro všechna témata."
+  },
+  "catalog": {
+    "viewDetails": "Zobrazit podrobnosti",
+    "buyNow": "Koupit nyní",
+    "mostPopular": "Nejpopulárnější",
+    "popular": "Populární",
+    "plusMore": "+{count} dalších",
+    "oneMonth": "31 days",
+    "threeMonths": "31 days",
+    "lifetime": "Lifetime",
+    "monthlySuffix": "",
+    "threeMonthSuffix": " / 3 měs.",
+    "lifetimeSuffix": " lifetime",
+    "monthlyPlanNote": "31 days přístupu · obnova při platbě",
+    "threeMonthPlanNote": "31 days přístupu",
+    "lifetimePlanNote": "Zaplatit jednou · bez obnovování",
+    "plansSameFeaturesNote": "Stejné funkce u každého plánu – mění se pouze doba přístupu.",
+    "selectPlanAria": "Vybrat délku plánu",
+    "utilityLabel": "Nástroj",
+    "experienceEyebrow": "Zážitek",
+    "inTheClient": "V klientu · Po nákupu",
+    "experienceSubtitle": "Použijte snímky obrazovky výše pro {name} – níže je vysvětlen význam jednotlivých vrstev a fungování přístupu po dokončení objednávky.",
+    "utilityExperienceSubtitle": "Použijte snímky obrazovky výše pro {name} – každý náhled vysvětluje část hardwarového pracovního postupu a fungování přístupu po dokončení objednávky.",
+    "inGameLayers": "Vrstvy ve hře",
+    "utilityPreviewLayers": "Náhledy produktu",
+    "layerLabel": "Vrstva {label}",
+    "previewLabel": "Náhled",
+    "accessLabel": "Přístup"
+  },
+  "productUi": {
+    "detailsAria": "Podrobnosti o produktu",
+    "overview": "Přehled",
+    "systemRequirements": "Systémové požadavky",
+    "goodToKnow": "Dobré vědět",
+    "limitations": "Důležitá omezení",
+    "completeFeatureList": "Kompletní seznam funkcí",
+    "includedCapabilities": "Zahrnuté možnosti",
+    "totalFeatures": "Celkem {count}",
+    "popularBadge": "Oblíbené",
+    "limitedBadge": "Omezené",
+    "gameBadge": "VALORANT",
+    "platformBadge": "Windows",
+    "systemReqPanel": {
+      "title": "Systémové požadavky",
+      "security": [
+        "HVCI ZAPNUTO",
+        "CORE ISOLATION ZAPNUTO",
+        "TPM ZAPNUTO",
+        "SECURE BOOT ZAPNUTO"
+      ],
+      "operatingSystemLabel": "Operační systém",
+      "operatingSystemValue": "Windows 10 nebo 11 v podporovaných verzích",
+      "specs": [
+        {
+          "label": "Procesor",
+          "value": "Intel Core i5 nebo AMD Ryzen 5 a lepší"
+        },
+        {
+          "label": "Grafická karta",
+          "value": "AMD & NVIDIA"
+        },
+        {
+          "label": "RAM",
+          "value": "Doporučeno 16 GB"
+        },
+        {
+          "label": "Úložiště",
+          "value": "2 GB volného místa"
+        },
+        {
+          "label": "Internet",
+          "value": "Vyžadováno stabilní připojení"
+        },
+        {
+          "label": "Klient",
+          "value": "Nejnovější klient VALORANT PC"
+        }
+      ],
+      "cloudDmaTitle": "Štítek stavu",
+      "cloudDmaDesc": "ZELENÁ znamená, že poznámka uvádí soubor k načtení. ČERVENÁ znamená počkat. Po aktualizaci Vanguard si přečtěte stránku stavu.",
+      "cloudDmaNote": ""
+    }
+  },
+  "comparePlans": {
+    "eyebrow": "Porovnat",
+    "title": "Porovnat všechny plány",
+    "subtitle": "Přehledné srovnání toho, co jednotlivé úrovně obsahují.",
+    "tableAria": "Porovnat všechny plány",
+    "featureColumn": "Funkce",
+    "included": "Zahrnuto",
+    "notIncluded": "Nezahrnuto"
+  },
+  "whyCompare": {
+    "tableAria": "Tento obchod v porovnání s běžným poskytovatelem",
+    "featureColumn": "Funkce",
+    "metricsAria": "Metriky platformy",
+    "statusDeliveryAria": "Stav a doručení v reálném čase"
+  },
+  "searchResultTypes": {
+    "product": "Produkt",
+    "blog": "Blog",
+    "forum": "Fórum",
+    "faq": "Časté dotazy",
+    "status": "Stav",
+    "support": "Podpora",
+    "page": "Stránka"
+  },
+  "blogSidebar": {
+    "ariaLabel": "Postranní panel článku",
+    "inThisArticle": "V tomto článku",
+    "relatedGuides": "Související příručky",
+    "ourProducts": "Naše produkty",
+    "productCheats": "Nabídka",
+    "allProducts": "Všechny produkty",
+    "hwidSpoofer": "HWID Spoofer",
+    "tocAria": "Obsah",
+    "tocFallbackLabel": "Začátek článku",
+    "priceEstimatorTitle": "Odhad ceny",
+    "priceEstimatorHint": "Klepněte na termín. Součty se sčítají.",
+    "priceEstimator31d": "31 dní",
+    "priceEstimatorLifetime": "Doživotní",
+    "priceEstimatorOff": "Sleva",
+    "priceEstimatorTotal": "Odh. celkem",
+    "priceEstimatorProducts": "Produkty",
+    "priceEstimatorNote": "Pouze odhad. Každý produkt kupte na jeho vlastní kartě.",
+    "utilityGuides": "Příručky HWID spoofer",
+    "moreGuides": "Další příručky"
+  }
+}

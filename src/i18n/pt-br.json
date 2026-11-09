@@ -1,0 +1,1442 @@
+{
+  "site": {
+    "name": "Valorant Cheats",
+    "domain": "cheats-valorant.org",
+    "title": "Valorant Cheats",
+    "description": "Opções Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Diversas para VALORANT em Windows PC. Preços USD.",
+    "discord": "/go/valorant/"
+  },
+  "nav": [
+    {
+      "href": "/",
+      "label": "Início"
+    },
+    {
+      "href": "/products/valorant-cheats/",
+      "label": "Produtos"
+    },
+    {
+      "href": "/products/valorant-cheats/loader/#features",
+      "label": "Recursos"
+    },
+    {
+      "href": "/blog/",
+      "label": "Blog"
+    },
+    {
+      "href": "/forum/",
+      "label": "Fórum"
+    },
+    {
+      "href": "/faq/",
+      "label": "FAQ"
+    },
+    {
+      "href": "/support/",
+      "label": "Suporte"
+    }
+  ],
+  "headerNavLabels": {
+    "home": "Início",
+    "products": "Loja",
+    "features": "Recursos",
+    "blog": "Blog",
+    "forum": "Fórum",
+    "faq": "FAQ",
+    "support": "Ajuda"
+  },
+  "navMore": "Mais",
+  "navShort": {
+    "home": "Início",
+    "products": "Produtos",
+    "features": "Recursos",
+    "blog": "Blog",
+    "forum": "Fórum",
+    "faq": "FAQ",
+    "support": "Suporte"
+  },
+  "hero": {
+    "status": "Valorant — verifique o status antes de injetar",
+    "eyebrow": "Windows PC · Mundial",
+    "titleLine1": "Valorant Cheats para Windows PC",
+    "titleLine2": "Cheats",
+    "subtitle": "Visuais de jogadores, ESP de mundo, aimbot e ferramentas de config para VALORANT no Windows. Quatro grupos de menu em uma única licença. $35 for 31 days ou $150 lifetime.",
+    "ctaPrimary": "Ver produtos",
+    "ctaDiscord": "Comprar agora",
+    "modesLabel": "Módulos",
+    "modes": [
+      "Visuais de jogadores",
+      "ESP de mundo",
+      "Aimbot",
+      "Configs"
+    ],
+    "marqueeAria": "Recursos e suporte de plataforma",
+    "metrics": [
+      {
+        "label": "Anti-cheat",
+        "strong": "Vanguard"
+      },
+      {
+        "label": "Plataforma",
+        "strong": "Windows PC"
+      },
+      {
+        "label": "Planos",
+        "strong": "$35 e $150"
+      },
+      {
+        "label": "Suporte",
+        "strong": "24/7"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Recursos",
+    "title": "Aimbot, visuais de jogadores, mundo ESP e config",
+    "subtitle": "Quatro grupos de menu em uma única licença. Abra a lista completa de recursos para ver cada opção.",
+    "subtitleLead": "Quatro grupos de menu em uma única licença. Abra a ",
+    "subtitleLinkLabel": "lista completa de recursos",
+    "subtitleTail": " para ver cada opção.",
+    "seeAllLabel": "Ver todos os recursos",
+    "items": [
+      {
+        "title": "Opções de Aimbot",
+        "subtitle": "FOV, suavização (smoothness), fixação.",
+        "desc": "Ative Aimbot com FOV, suavização (Smoothness), velocidade, fixação, filtro de Aimbot, osso de Aimbot, Visible Check, Draw FOV e Draw Target Line.",
+        "bullets": [
+          "FOV e suavização (smoothness)",
+          "Osso de Aimbot",
+          "Draw FOV"
+        ],
+        "tags": [
+          "aimbot",
+          "fov",
+          "suavização (smoothness)"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      },
+      {
+        "title": "Opções Visuais de Jogadores",
+        "subtitle": "Vida, escudo, agente, patente.",
+        "desc": "Health bar, barra de escudo, agente, patente, box, linha de encaixe (snapline), skeleton, head circle, nome do equipamento, nível e distância — com distância máxima.",
+        "bullets": [
+          "Vida e escudo",
+          "Agente e patente",
+          "Box e skeleton"
+        ],
+        "tags": [
+          "player esp",
+          "health bar",
+          "skeleton"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      },
+      {
+        "title": "Opções Visuais de Mundo",
+        "subtitle": "Habilidades, armadilhas, spike.",
+        "desc": "ESP de habilidades e armadilhas, progresso e tempo de desarme da spike, personalização por personagem e alternância de exibir ícone ou distância.",
+        "bullets": [
+          "Habilidades e armadilhas",
+          "Temporizadores da spike",
+          "Configurações por agente"
+        ],
+        "tags": [
+          "spike esp",
+          "abilities",
+          "traps"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      },
+      {
+        "title": "Opções Diversas",
+        "subtitle": "Tecla de atalho e configs.",
+        "desc": "A tecla de atalho do Modo de Combate oculta ESP de habilidades e armadilhas. Tamanho da fonte e criação, salvamento, carregamento e descarregamento de perfis Config.",
+        "bullets": [
+          "Tecla de atalho do modo de combate",
+          "Tamanho da fonte",
+          "Salvar configs"
+        ],
+        "tags": [
+          "config",
+          "hotkey",
+          "misc"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6"
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "Por que nós",
+    "title": "Mesmo menu em todos os planos — atualizações, não promessas",
+    "subtitle": "Um cheat e um HWID spoofer. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Um banimento ainda é possível sob Vanguard.",
+    "usLabel": "Valorant Cheats",
+    "otherLabel": "Provedor típico",
+    "rows": [
+      {
+        "title": "Atualizações de loader no dia do patch",
+        "desc": "Verifique o cheats-valorant.org após uma atualização de Valorant ou Vanguard antes de abrir o loader."
+      },
+      {
+        "title": "Controles deslizantes de mira separados",
+        "desc": "FOV, smoothing, osso e a verificação de visibilidade são configurações de aimbot separadas. Altere uma de cada vez."
+      },
+      {
+        "title": "Ajuda com Loader e config",
+        "desc": "As dúvidas de configuração cobrem a Windows loader, configs salvos e qual produto corresponde a um sinalizador de hardware versus um caso de conta."
+      },
+      {
+        "title": "Finalizações de compra de produtos separados",
+        "desc": "O cheat e o HWID spoofer continuam com finalizações de compra separadas. O Lifetime no cheat não adiciona o spoofer."
+      },
+      {
+        "title": "configs salvos",
+        "desc": "Os quatro grupos do menu permanecem em uma única licença. O plano de 31 dias e o lifetime desbloqueiam o mesmo loader."
+      },
+      {
+        "title": "HWID é um produto próprio",
+        "desc": "Uma máquina que reprova contas novas é o caso de spoofer. Nenhuma das ferramentas está incluída na chave do cheat."
+      }
+    ],
+    "metrics": [
+      {
+        "value": "Vanguard",
+        "title": "Verifique após um patch",
+        "desc": "Reveja o rótulo de status após uma atualização de Valorant ou Vanguard antes de carregar."
+      },
+      {
+        "value": "2",
+        "title": "Planos no menu",
+        "desc": "$35 for 31 days ou $150 lifetime. O mesmo menu está presente em ambos os planos."
+      },
+      {
+        "value": "2",
+        "title": "Produtos separados",
+        "desc": "Valorant Cheats e o HWID spoofer. Cada um possui sua própria chave."
+      }
+    ]
+  },
+  "setup": {
+    "eyebrow": "Guia de instalação",
+    "titleLead": "Do pagamento à sua primeira partida em apenas",
+    "titleHighlight": "três passos simples",
+    "intro": "Para começar, verifique o status, faça o pagamento e acesse o portal loader. Leia a página de status após uma Vanguard ou atualização do jogo antes de iniciar o VALORANT.",
+    "ctaPrimary": "Ver produtos",
+    "ctaSecondary": "FAQ de instalação",
+    "ctaPrimaryHref": "/products/valorant-cheats/",
+    "ctaSecondaryHref": "/faq/",
+    "statusStrip": {
+      "aceStatusCta": "Verificar status",
+      "aceStatusHref": "/status/",
+      "perks": [
+        {
+          "icon": "instantDelivery",
+          "label": "Entrega instantânea"
+        },
+        {
+          "icon": "support247",
+          "label": "Suporte 24/7"
+        },
+        {
+          "icon": "refresh",
+          "label": "Atualizações Lifetime"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "step": "Passo 1",
+        "title": "Desbloqueie o portal e baixe loader",
+        "desc": "Conclua a compra, abra o painel do operador e baixe a build do patch loader mais recente para Windows."
+      },
+      {
+        "step": "Passo 2",
+        "title": "Inicie e configure os módulos",
+        "desc": "Execute o loader e configure player ESP, agent ESP, spike ESP, skeleton, vida, ranque, aimbot e streamproof um grupo de cada vez."
+      },
+      {
+        "step": "Passo 3",
+        "title": "Verifique o status e jogue",
+        "desc": "Confirme se o rótulo de status está VERDE para este cliente e abra o VALORANT."
+      }
+    ]
+  },
+  "compatibility": {
+    "eyebrow": "Suporte de plataforma",
+    "title": "Funciona no seu PC.",
+    "subtitle": "Confira a página de status após uma atualização do Valorant ou Vanguard antes de carregar.",
+    "items": [
+      "Windows 10 e 11",
+      "Intel ou AMD",
+      "HVCI em",
+      "Core isolation em",
+      "TPM em",
+      "Secure boot em",
+      "Suporte a Discord",
+      "Salvar Config"
+    ]
+  },
+  "cheats": {
+    "eyebrow": "Cheat de jogo",
+    "title": "Cheats for Valorant",
+    "subtitle": "Opções Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Variadas em uma única licença.",
+    "viewAll": "Ver detalhes",
+    "explore": "Explorar",
+    "items": [
+      {
+        "badge": "Ativo",
+        "tier": "Suíte completa",
+        "name": "Valorant",
+        "title": "Cheats for Valorant",
+        "desc": "Um menu Windows com Opções Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Variadas.",
+        "features": [
+          "Opções Aimbot",
+          "Opções Visuais de Jogadores",
+          "Opções Visuais de Mundo",
+          "Opções Variadas"
+        ],
+        "more": 0,
+        "href": "/products/valorant-cheats/loader/",
+        "variant": "popular"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Produtos",
+    "title": "Valorant Hacks para PC",
+    "subtitle": "Menu: $35 for 31 days ou $150 lifetime. HWID spoofer: $50 for 31 days ou $150 lifetime.",
+    "viewAll": "Ver detalhes",
+    "get": "Comprar agora",
+    "explore": "Explorar",
+    "items": [
+      {
+        "badge": "Ativo",
+        "category": "HWID spoofer",
+        "title": "HWID Spoofer",
+        "subtitle": "Recuperação de ID de hardware",
+        "desc": "HWID spoofer com cleaner — altere IDs de disco, MAC e GPU antes de reiniciar após banimentos de hardware.",
+        "features": [
+          "spoofer de hardware + cleaner",
+          "Verificação de compatibilidade",
+          "Etapas de verificação",
+          "Fluxo de trabalho no portal"
+        ],
+        "more": 4,
+        "href": "/products/valorant-cheats/hwid-spoofer/"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Guias e atualizações",
+    "subtitle": "Notas de partidas personalizadas, guias de ESP e aimbot, comparações de Vanguard e respostas sobre preços.",
+    "latestTitle": "Últimos guias de Valorant",
+    "latestSubtitle": "Filtre por tópico ou ordene para encontrar guias de configuração, análises profundas de recursos e notas de dias de atualização.",
+    "filterAll": "Todos os artigos",
+    "sortLabel": "Ordenar por",
+    "sortNewest": "Mais recentes primeiro",
+    "sortOldest": "Mais antigos primeiro",
+    "sortShortRead": "Leitura mais curta",
+    "sortLongRead": "Leitura mais longa",
+    "emptyFilter": "Nenhum artigo corresponde a este filtro.",
+    "emptyCatalog": "Nenhum guia listado nesta visualização. Abra um filtro de tópico ou a página do produto.",
+    "viewAll": "Ver todos os artigos",
+    "read": "Ler",
+    "items": [],
+    "minRead": "min de leitura",
+    "filterByTopicAria": "Filtrar artigos por tópico",
+    "continueReadingAria": "Continuar lendo",
+    "tagLabels": {
+      "Review": "Análise",
+      "Install": "Instalação",
+      "Safety": "Segurança",
+      "Plans": "Planos",
+      "Aim": "Mira",
+      "ESP": "ESP",
+      "Loot": "Espólios",
+      "Visuals": "Visuais",
+      "Camera": "Câmera",
+      "Guide": "Guia"
+    }
+  },
+  "toolkit": {
+    "eyebrow": "Software",
+    "title": "Organizado, fácil de configurar",
+    "subtitle": "Cada módulo é agrupado para ajustes rápidos no meio da partida sem precisar alternar telas.",
+    "items": [
+      {
+        "num": "01",
+        "label": "Jogadores",
+        "title": "Player ESP",
+        "desc": "Boxes, distância, rótulos de armas e cores nos jogadores inimigos."
+      },
+      {
+        "num": "02",
+        "label": "Agentes",
+        "title": "Agent ESP",
+        "desc": "Nomes dos agentes para que utilitários e confrontos de duelistas fiquem legíveis."
+      },
+      {
+        "num": "03",
+        "label": "Spike",
+        "title": "Spike ESP",
+        "desc": "Status de plant e dicas de localização quando o menu as expõe."
+      },
+      {
+        "num": "04",
+        "label": "Ossos",
+        "title": "Skeleton ESP",
+        "desc": "Linhas de esqueleto para postura, altura da cabeça e direção de peek."
+      },
+      {
+        "num": "05",
+        "label": "Vida",
+        "title": "Health ESP",
+        "desc": "Health bars ou números nos jogadores."
+      },
+      {
+        "num": "06",
+        "label": "Rank",
+        "title": "Rank ESP",
+        "desc": "Rótulos de rank ou nível de conta quando o overlay os expõe."
+      },
+      {
+        "num": "07",
+        "label": "Mira",
+        "title": "Aimbot",
+        "desc": "FOV, smoothing, bone selection e verificação de visibilidade."
+      },
+      {
+        "num": "08",
+        "label": "Captura",
+        "title": "Streamproof Overlay",
+        "desc": "Mantém ESP e o menu fora de gravações comuns enquanto você ainda consegue vê-los."
+      }
+    ]
+  },
+  "workflow": {
+    "eyebrow": "Como funciona",
+    "badge": "4 passos fáceis",
+    "titleBefore": "Da verificação de status até o",
+    "titleHighlight": "perfil salvo.",
+    "subtitle": "Um caminho direto do rótulo de status até o pagamento.",
+    "ctaLabel": "Ver produtos",
+    "ctaHref": "/products/valorant-cheats/",
+    "ctaSecondary": "FAQ de configuração",
+    "ctaSecondaryHref": "/faq/",
+    "items": [
+      {
+        "num": "01",
+        "phase": "Antes da compra",
+        "title": "Leia o rótulo de status",
+        "desc": "VERDE significa que a nota lista o arquivo para carregar. VERMELHO significa aguardar. Leia após uma atualização do Valorant ou Vanguard."
+      },
+      {
+        "num": "02",
+        "phase": "Pagamento",
+        "title": "Escolha o produto",
+        "desc": "Menu: $35 e $150. HWID Spoofer: $50 e $150. Chaves separadas."
+      },
+      {
+        "num": "03",
+        "phase": "Loader",
+        "title": "Iniciar e configurar",
+        "desc": "Baixe pelo portal. Deixe HVCI, core isolation, TPM e secure boot ativados."
+      },
+      {
+        "num": "04",
+        "phase": "No jogo",
+        "title": "Salve seu perfil",
+        "desc": "Quando o cone de mira e os rótulos ESP parecerem corretos, salve o config."
+      }
+    ]
+  },
+  "fieldNotes": {
+    "eyebrow": "Notas de campo",
+    "title": "Criado para VALORANT no Windows PC.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Verificação em dia de patch",
+        "desc": "Leia a página de status após uma atualização do Vanguard ou do cliente. Um banner de ontem não é uma build atual."
+      },
+      {
+        "num": "02",
+        "title": "Um controle deslizante por vez",
+        "desc": "Altere FOV, smooth ou a distância isoladamente para saber qual configuração causou o puxão ou a poluição visual."
+      },
+      {
+        "num": "03",
+        "title": "Produtos separados",
+        "desc": "O cheat e o HWID spoofer são finalizações de compra separadas. O Lifetime em um não desbloqueia o outro."
+      }
+    ]
+  },
+  "support": {
+    "eyebrow": "Suporte",
+    "title": "Suporte Valorant",
+    "subtitle": "Diga-nos como podemos ajudar.",
+    "channels": [
+      {
+        "icon": "users",
+        "title": "Conversar antes de pagar",
+        "desc": "Tire dúvidas sobre o cheat ou o spoofer antes de efetuar o pagamento.",
+        "linkLabel": "Iniciar checkout",
+        "href": "/go/valorant/"
+      },
+      {
+        "icon": "messageCircle",
+        "title": "Fórum da comunidade",
+        "desc": "Dúvidas de configuração, mira, ESP e planos com respostas marcadas dos desenvolvedores.",
+        "linkLabel": "Abrir o fórum",
+        "href": "/forum/"
+      },
+      {
+        "icon": "navFaq",
+        "title": "Ler o FAQ",
+        "desc": "Compatibilidade, banimentos e configuração — antes de comprar.",
+        "linkLabel": "Ver todo o FAQ",
+        "href": "/faq/"
+      },
+      {
+        "icon": "clock",
+        "title": "Operadores ao vivo",
+        "desc": "Engenheiros Discord de plantão 24/7.",
+        "linkLabel": "Abrir página de contato",
+        "href": "/support/"
+      }
+    ],
+    "ticketTitle": "Inclua no seu ticket",
+    "ticketItems": [
+      {
+        "title": "E-mail do pedido",
+        "desc": "O endereço usado no checkout em cheats-valorant.org."
+      },
+      {
+        "title": "Plataforma",
+        "desc": "Windows 10 ou 11, e se HVCI, core isolation, TPM e secure boot estão ativados."
+      },
+      {
+        "title": "Detalhe do erro",
+        "desc": "A mensagem exata loader, sem paráfrases."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Respostas diretas antes de finalizar a compra.",
+    "subtitle": "Compatibilidade, banimentos e acesso — sem promessas vagas.",
+    "items": [
+      {
+        "id": "status",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "Onde posso verificar se o loader está atualizado?",
+        "a": "Leia cheats-valorant.org após uma atualização de VALORANT ou Vanguard. Um banner de ontem não indica uma build atual. Mantenha o loader fechado até que a página corresponda a este cliente."
+      },
+      {
+        "id": "season-3",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "Uma grande atualização de VALORANT acabou de ser lançada. Quando devo abrir o loader?",
+        "a": "Leia a página de status após essa build do cliente e após cada hotfix, antes de iniciar o jogo. Um config salvo de uma build mais antiga não é uma verificação atual. Um banimento ainda é possível.",
+        "aHtml": "Leia a <a href=\"/status/\">página de status</a> após essa build do cliente e após cada hotfix, antes de iniciar o jogo. Um config salvo de uma build mais antiga não é uma verificação atual. Um banimento ainda é possível."
+      },
+      {
+        "id": "season-2",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "Um patch do jogo vai alterar o menu loader da noite para o dia?",
+        "a": "Atualizações do jogo podem alterar mapas, modos e balanceamento. Os nomes dos grupos loader na página do produto de cheats servem como referência — leia a nota de status após cada atualização de cliente ou de Vanguard antes de assumir que sua predefinição salva ainda corresponde.",
+        "aHtml": "Atualizações do jogo podem alterar mapas, modos e balanceamento. Os nomes dos grupos loader na página do produto de cheats servem como referência — leia a <a href=\"/status/\">página de status</a> após cada atualização de cliente ou de Vanguard antes de assumir que sua predefinição salva ainda corresponde."
+      },
+      {
+        "id": "after-buy",
+        "topic": "setup",
+        "icon": "faqAfterBuy",
+        "q": "O que acontece depois que eu compro?",
+        "a": "O checkout abre o portal com a loader para o produto que você adquiriu. Salve um config após fazer os ajustes. HVCI, core isolation, TPM e secure boot permanecem ativados."
+      },
+      {
+        "id": "ban-risk",
+        "topic": "safety",
+        "icon": "faqBanRisk",
+        "q": "Posso ser banido?",
+        "a": "Sim. O Vanguard pode agir sobre a conta. Nada neste site é garantia de que uma sessão permanecerá limpa."
+      },
+      {
+        "id": "hwid-ban-risk",
+        "topic": "safety",
+        "icon": "faqBanRisk",
+        "q": "O que é uma marcação HWID e a chave do cheat a corrige?",
+        "a": "Uma marcação de hardware afeta o PC. Contas novas podem falhar nessa máquina e funcionar em outra. Essa é a função do <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a>, vendido separadamente. Ele não desfaz uma restrição exclusiva de conta, e o lifetime no <a href=\"/products/valorant-cheats/loader/\">menu</a> não o inclui."
+      },
+      {
+        "id": "platforms",
+        "topic": "setup",
+        "icon": "faqPlatforms",
+        "q": "Quais PC são compatíveis?",
+        "a": "Windows 10 ou 11 em Intel ou AMD, com HVCI, core isolation, TPM e secure boot ativados. macOS e Linux não são compatíveis."
+      },
+      {
+        "id": "license-move",
+        "topic": "products",
+        "icon": "faqLicenseMove",
+        "q": "Posso transferir uma chave para outro PC?",
+        "a": "Abra um chamado no suporte informando o e-mail do pedido. Uma máquina que rejeita contas novas requer a compra de um HWID Spoofer, e não a transferência gratuita da chave do cheat."
+      },
+      {
+        "id": "products-page",
+        "topic": "products",
+        "icon": "faqProductsPage",
+        "q": "O que está à venda?",
+        "a": "<a href=\"/products/valorant-cheats/loader/\">O menu</a> e o <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a> estão listados na <a href=\"/products/valorant-cheats/\">página de produtos</a>. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Eles utilizam checkouts separados."
+      },
+      {
+        "id": "plans-same-price",
+        "topic": "plans",
+        "icon": "faqComparePlans",
+        "q": "O $150 lifetime inclui o spoofer?",
+        "a": "Não. O Lifetime em VALORANT cheats refere-se apenas a esse produto. O HWID spoofer é uma chave separada com seus próprios planos de $50 e $150. Um plano mais curto não garante créditos para a aquisição do lifetime.",
+        "scopes": [
+          "loader",
+          "hwid-spoofer"
+        ]
+      },
+      {
+        "id": "aim-vs-camera",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "O que a opção de mira personalizável altera?",
+        "a": "FOV em Opções de Aimbot define a amplitude do cone de mira. Combine isso com Smooth, Velocidade e Aderência antes de aumentar Draw FOV em transmissões ao vivo.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "esp-clutter",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Por que player ESP cobre a tela durante o combate?",
+        "a": "As Opções Visuais de Jogador incluem health bar, barra de escudo, agente, patente, box, linha de encaixe, skeleton, head circle, nome do item equipado, nível e distância. Desative os rótulos que você não lê ou reduza a Distância Máxima.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "not-dma",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Isto é um cartão DMA?",
+        "a": "Não. VALORANT cheats é um Windows loader obtido no checkout. Um dispositivo DMA é um produto diferente e não é o que esta chave fornece. Não execute arquivos obtidos através de resultados de busca.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "spoofer-scope",
+        "topic": "products",
+        "icon": "faqProductsPage",
+        "q": "Quando o HWID spoofer é a compra certa?",
+        "a": "Use o <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a> quando uma conta nova falhar em um PC e funcionar em outro. Ele não resolve restrições exclusivas de conta na mesma máquina.",
+        "scopes": [
+          "hwid-spoofer"
+        ]
+      },
+      {
+        "id": "stickiness-vs-smooth",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Onde salvo o menu após alterá-lo?",
+        "a": "As Opções Diversas incluem Criar/Save/Load/Unload Config. Salve após ajustar as Opções de Aimbot, Opções Visuais de Jogador e Opções Visuais de Mundo.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "visible-check",
+        "topic": "scripts",
+        "icon": "faqWhatIsEsp",
+        "q": "O aimbot pode ignorar jogadores abatidos?",
+        "a": "Visible Check está localizado em Opções de Aimbot, junto com o Filtro de Aimbot e o Osso de Aimbot. Cada um é uma chave seletora independente nesse grupo.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "ignore-knocked",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "O que a opção Selecionar box Personalizada faz?",
+        "a": "O Osso de Aimbot em Opções de Aimbot define qual osso a assistência prioriza. Combine-o com FOV, Smooth, Velocidade e Aderência para formar sua predefinição.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "bone-and-filter",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "O que está incluído nas Opções Visuais de Mundo?",
+        "a": "As Opções Visuais de Mundo cobrem habilidades, armadilhas, progresso e tempo de desarme da Spike, personalizações por personagem e limites de distância. Cada categoria possui sua própria chave seletora.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "controller-binds",
+        "topic": "setup",
+        "icon": "faqPlatforms",
+        "q": "O menu inclui atalhos para controle?",
+        "a": "A Tecla de Atalho do Modo de Combate nas Opções Diversas oculta habilidades e armadilhas de ESP enquanto mantida pressionada. As Opções de Aimbot são separadas: Ativar Aimbot, FOV, smooth e exibir sobreposições.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "squad-read",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Como posso marcar um jogador sem exibir todos os rótulos?",
+        "a": "As Opções Visuais de Jogador incluem box, linha de encaixe, skeleton, head circle, agente, patente, nome do item equipado, nível e distância. Reduza a Distância Máxima se o combate parecer poluído.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "loot-price-floor",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Como funcionam os rótulos de itens?",
+        "a": "As Opções Visuais de Mundo listam habilidades, armadilhas e avisos da Spike com opções para Mostrar Ícone e Mostrar Distância. O Tamanho da Fonte fica em Opções Diversas.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "scale-and-crosshair",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Onde ficam os botões de exibição de crosshair e FOV?",
+        "a": "Draw FOV e Draw Target Line estão localizados em Opções de Aimbot junto com Ativar Aimbot e Visible Check.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "combat-mode",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "O uso de itens em ESP desativa o aimbot?",
+        "a": "A Tecla de Atalho do Modo de Combate nas Opções Diversas oculta habilidades e armadilhas de ESP. A opção Ativar Aimbot nas Opções de Aimbot é separada.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "encryption-bypass",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "O que está incluído nas Teclas de Atalho Personalizadas?",
+        "a": "Abertura do menu, manutenção de mira, troca de cabeça e alternadores para jogadores, radar e itens. As Opções de Cores e Opções de Config formam grupos separados.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "blog-default-1",
+        "topic": "blog",
+        "icon": "faqBlogDefault1",
+        "q": "Os guias do blog são documentações oficiais dos produtos?",
+        "a": "Os artigos explicam fluxos de trabalho e fornecem links para <a href=\"/products/valorant-cheats/loader/\">o menu</a>. A lista de recursos nessa página é a fonte definitiva de informações para o checkout."
+      },
+      {
+        "id": "blog-default-2",
+        "topic": "blog",
+        "icon": "faqBlogDefault2",
+        "q": "Precisa de ajuda para aplicar este guia?",
+        "a": "Abra um chamado no suporte informando o e-mail do seu pedido e o título do artigo. Inclua o texto exato de loader se algo falhar."
+      },
+      {
+        "id": "blog-default-3",
+        "topic": "blog",
+        "icon": "faqBlogDefault3",
+        "q": "As configurações deste artigo funcionarão no próximo patch?",
+        "a": "Faça uma nova verificação após cada atualização de VALORANT ou Vanguard. Recarregue um config salvo em vez de copiar valores antigos de controles deslizantes de uma postagem."
+      },
+      {
+        "id": "blog-plan-start",
+        "topic": "plans",
+        "icon": "faqComparePlans",
+        "q": "Com qual plano devo começar?",
+        "a": "Comece com a chave de 31 dias se quiser testar um produto antes de efetuar uma compra definitiva. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Um plano mais curto não inclui créditos para a aquisição do lifetime, e uma chave de lifetime para um produto não inclui os demais."
+      },
+      {
+        "id": "blog-plan-upgrade",
+        "topic": "plans",
+        "icon": "faqLicenseMove",
+        "q": "Posso atualizar uma chave de 31 dias para lifetime?",
+        "a": "Não há atualização automática. Lifetime constitui um checkout separado para o mesmo produto. O valor de $35 ou $50 que você já pagou não é creditado no preço de $150 lifetime."
+      },
+      {
+        "id": "blog-plan-expire",
+        "topic": "plans",
+        "icon": "faqAfterBuy",
+        "q": "O que acontece quando um plano expira?",
+        "a": "Uma chave de 31 dias deixa de funcionar quando esse período end. Adquira outra chave de 31 dias ou uma chave de lifetime para o mesmo produto para manter o acesso. Lifetime não é renovado automaticamente. Uma chave expirada não pode ser transferida para outro produto."
+      },
+      {
+        "id": "blog-plan-status",
+        "topic": "plans",
+        "icon": "faqStatus",
+        "q": "Onde posso verificar o status atual de loader?",
+        "a": "Leia a página de status antes de iniciar o jogo. Atualizado significa que a nota foi recarregada. Isso não constitui garantia de que uma sessão permanecerá limpa.",
+        "aHtml": "Leia a <a href=\"/status/\">página de status</a> antes de iniciar o jogo. Atualizado significa que a nota foi recarregada. Isso não constitui garantia de que uma sessão permanecerá limpa."
+      },
+      {
+        "id": "blog-plan-windows",
+        "topic": "plans",
+        "icon": "faqPlatforms",
+        "q": "Quais versões de Windows são compatíveis?",
+        "a": "Windows 10 ou 11 em Intel ou AMD, com HVCI, core isolation, TPM e secure boot ativados. macOS e Linux não são compatíveis."
+      },
+      {
+        "id": "blog-plan-support",
+        "topic": "plans",
+        "icon": "faqBlogDefault2",
+        "q": "Como funcionam o suporte e os reembolsos?",
+        "a": "Abra um chamado no suporte informando o e-mail do seu pedido. As vendas são definitivas após a conclusão do checkout. Compras por arrependimento, banimentos de conta e execuções do jogo enquanto a página de status estiver desatualizada não são reembolsadas. Correções ou reembolsos são aplicados apenas quando confirmamos uma falha de nossa parte. As regras estão descritas nos termos.",
+        "aHtml": "Abra um chamado no <a href=\"/support/\">suporte</a> informando o e-mail do seu pedido. As vendas são definitivas após a conclusão do checkout. Compras por arrependimento, banimentos de conta e execuções do jogo enquanto a página de status estiver desatualizada não são reembolsadas. Correções ou reembolsos são aplicados apenas quando confirmamos uma falha de nossa parte. As regras estão descritas nos <a href=\"/terms/\">termos</a>."
+      }
+    ],
+    "filterTopics": {
+      "all": "Todos",
+      "plans": "Planos",
+      "esp": "Map hack / ESP",
+      "scripts": "Scripts",
+      "safety": "Segurança",
+      "products": "Produtos",
+      "blog": "Blog",
+      "setup": "Configuração"
+    }
+  },
+  "footer": {
+    "tagline": "Valorant Cheats e HWID spoofer para Windows PC. cheats-valorant.org",
+    "explore": "Explorar",
+    "exploreLinks": [
+      {
+        "href": "/products/valorant-cheats/loader/#features",
+        "label": "Visão geral dos recursos",
+        "ariaLabel": "Recursos"
+      },
+      {
+        "href": "/products/valorant-cheats/loader/",
+        "label": "Cheats for Valorant",
+        "ariaLabel": "Cheats for Valorant"
+      },
+      {
+        "href": "/products/valorant-cheats/",
+        "label": "Todos os produtos",
+        "ariaLabel": "Produtos"
+      },
+      {
+        "href": "/blog/",
+        "label": "Ler guias de atualizações",
+        "ariaLabel": "Blog"
+      },
+      {
+        "href": "/faq/",
+        "label": "FAQ pré-compra",
+        "ariaLabel": "FAQ"
+      }
+    ],
+    "support": "Suporte",
+    "legal": "Legal",
+    "moreSites": "Mais sites",
+    "privacy": "Política de Privacvacidade",
+    "terms": "Termos e Condições",
+    "about": "Sobre",
+    "resourceLinks": [
+      {
+        "label": "Arquivo do blog",
+        "ariaLabel": "Blog"
+      },
+      {
+        "label": "Cheats for Valorant",
+        "ariaLabel": "Cheats for Valorant"
+      },
+      {
+        "label": "Produtos e utilitários",
+        "ariaLabel": "Produtos"
+      }
+    ]
+  },
+  "legalPages": {
+    "about": {
+      "title": "Sobre esta loja",
+      "description": "cheats-valorant.org vende um menu VALORANT e um HWID spoofer, com notas de configuração e aviso honesto sobre o risco de banimento.",
+      "sections": [
+        {
+          "heading": "Quem somos",
+          "paragraphs": [
+            "cheats-valorant.org vende um menu Windows para VALORANT e um HWID spoofer. O menu é um único produto: player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot e um streamproof overlay.",
+            "O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Uma chave lifetime no menu não inclui o spoofer.",
+            "Os nomes dos produtos neste site identificam o que vendemos. Eles não constituem uma alegação de que a desenvolvedora do jogo endorça o software. A entrega é feita via download de portal para Windows 10 ou 11. Mantenha HVCI, core isolation, TPM e secure boot ativados, e abra o loader apenas quando o site ainda corresponder ao cliente atual."
+          ]
+        },
+        {
+          "heading": "O que publicamos",
+          "paragraphs": [
+            "A [página do menu](/products/valorant-cheats/loader/)) lista os nomes dos módulos e os requisitos de PC: Windows 10 ou 11, Intel Core i5 ou AMD Ryzen 5 ou superior, com HVCI, core isolation, TPM e secure boot deixados ativados. A [página de produtos](/products/valorant-cheats/)) é onde você compara o menu e o [HWID Spoofer](/products/valorant-cheats/hwid-spoofer/).).",
+            "Os guias no [blog](/blog/)) cobrem player ESP, aimbot, alternâncias em partidas personalizadas, Vanguard versus VAC, e quando um banimento de hardware é uma compra separada do menu. O [fórum](/forum/)) é para essas mesmas dúvidas, com respostas dos desenvolvedores marcadas no tópico. Leia os [termos](/terms/)) antes de finalizar a compra. As vendas são finais, incluindo banimentos.",
+            "Vanguard ainda pode agir sobre uma conta. Nada aqui é uma garantia de que uma sessão permanecerá limpa após o próximo patch. Verifique este site após uma atualização do cliente antes de abrir o loader. Se a página não estiver atualizada para essa versão, deixe o software fechado.",
+            "As notas de status na página inicial descrevem se a versão publicada ainda corresponde ao cliente. Elas não são uma promessa de que Vanguard vai ignorar o software. Se tiver certeza, deixe o loader fechado e leia o guia correspondente no blog antes de entrar na fila novamente."
+          ]
+        },
+        {
+          "heading": "Suporte",
+          "paragraphs": [
+            "Erros de Loader, uma chave que não funciona e dúvidas sobre o checkout devem ser enviados pela [página de suporte](/support/).). Inclua o e-mail do pedido, a versão do Windows e o texto exato do loader. Não desative HVCI, core isolation, TPM ou secure boot só porque uma mensagem de chat de outro jogo disse para fazer isso."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Como cheats-valorant.org lida com análises, cookies e dados de contato.",
+      "sections": [
+        {
+          "heading": "Informações que coletamos",
+          "paragraphs": [
+            "Podemos coletar análises da Web padrão, como visualizações de páginas, tipo de dispositivo, navegador e região aproximada por meio do Google Analytics quando ativado. O checkout e a entrega de licenças ocorrem em páginas de checkout externas. Não armazenamos dados de cartões de pagamento em cheats-valorant.org."
+          ]
+        },
+        {
+          "heading": "Como usamos os dados",
+          "paragraphs": [
+            "As análises nos ajudam a entender quais guias e páginas de produtos são úteis para que possamos melhorar o conteúdo e corrigir links quebrados. Os tickets de suporte podem reter o endereço de e-mail e o conteúdo da mensagem fornecidos até que o problema seja resolvido."
+          ]
+        },
+        {
+          "heading": "Cookies",
+          "paragraphs": [
+            "Usamos cookies mínimos necessários para análises. Você pode bloquear cookies nas configurações do seu navegador; o conteúdo principal do site permanece acessível sem eles."
+          ]
+        },
+        {
+          "heading": "Suporte",
+          "paragraphs": [
+            "Para dúvidas sobre privacy, use as opções na página de Suporte. As regras de compra e reembolso estão em nossos Termos e Condições."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Termos e Condições",
+      "description": "Termos de compra, licença, reembolso e uso para produtos vendidos em cheats-valorant.org.",
+      "sections": [
+        {
+          "heading": "Acordo",
+          "paragraphs": [
+            "Última atualização: outubro de 2026. Ao usar cheats-valorant.org ou concluir o pagamento de qualquer produto listado aqui, você concorda com estes Termos e Condições e com nossa Privacy Policy."
+          ]
+        },
+        {
+          "heading": "O que você compra",
+          "paragraphs": [
+            "Vendemos um VALORANT menu e um HWID spoofer. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Cada produto possui sua própria licença.",
+            "As listas de recursos em cada página de produto descrevem o que está incluído no momento da compra. Os módulos podem mudar quando VALORANT ou Vanguard atualiza. Um lifetime menu key não inclui o spoofer."
+          ]
+        },
+        {
+          "heading": "Pagamento e entrega",
+          "paragraphs": [
+            "O pagamento e a entrega da licença ocorrem em páginas de pagamento externas. cheats-valorant.org não processa nem armazena números de cartões de pagamento.",
+            "Após a compra, use o portal do seu pedido para baixar a versão atual de loader antes de iniciar VALORANT. Deixe HVCI, core isolation, TPM e secure boot ativados."
+          ]
+        },
+        {
+          "heading": "Uso da licença",
+          "paragraphs": [
+            "As licenças são estritamente para seu uso pessoal. Não compartilhe arquivos de loader, logins do portal ou chaves de licença. Um problema de ID de hardware é uma compra de HWID Spoofer separada."
+          ]
+        },
+        {
+          "heading": "Reembolsos e compras",
+          "paragraphs": [
+            "Todas as vendas são finais após a conclusão do pagamento. Não reembolsamos compras por arrependimento, banimentos de contas, penalidades de Vanguard ou problemas causados por ignorar as notas de configuração ou iniciar o software enquanto o site não estiver atualizado para aquele patch.",
+            "Se o produto não funcionar conforme descrito em uma configuração compatível — Windows 10 ou 11 com HVCI, core isolation, TPM e secure boot ativados, e a versão atual de loader obtida no portal —, entre em contato conosco pela página de Suporte. Inclua o e-mail do seu pedido, a versão de Windows e o texto exato do loader.",
+            "Podemos, a nosso critério, oferecer uma correção, acesso de substituição ou reembolso parcial/full quando confirmarmos uma falha de nossa parte. Não somos obrigados a aprovar todas as solicitações."
+          ]
+        },
+        {
+          "heading": "Disponibilidade e risco",
+          "paragraphs": [
+            "Ferramentas de terceiros para VALORANT podem entrar em conflito com atualizações de jogos e Vanguard. Você usa este software por sua conta e risco, o que inclui possíveis ações na conta.",
+            "Verifique o banner de status na página inicial antes de cada sessão. Não entre no seu servidor principal enquanto os módulos estiverem offline ou desalinhados após um patch."
+          ]
+        },
+        {
+          "heading": "Alterações",
+          "paragraphs": [
+            "Podemos atualizar estes termos. A data de \"Última atualização\" no topo será modificada quando o fizerermos. O uso continuado do site após as alterações significa que você aceita os termos revisados."
+          ]
+        },
+        {
+          "heading": "Suporte",
+          "paragraphs": [
+            "Para dúvidas sobre termos, cobrança ou loader, use os botões na página de Suporte. Consulte também nossa Privacy Policy para saber como tratamos os dados do site."
+          ]
+        }
+      ]
+    },
+    "support": {
+      "title": "Suporte para Valorant",
+      "description": "Loader, HWID spoofer e ajuda com o pagamento para cheats-valorant.org."
+    }
+  },
+  "productCatalog": {
+    "searchHeading": "Navegar por produtos e planos",
+    "utilityCategory": "Utilitário",
+    "buyLoader": "Comprar o loader",
+    "buyHwidSpoofer": "Comprar o HWID spoofer"
+  },
+  "utilitiesPage": {
+    "title": "Utilitário HWID",
+    "subtitle": "O HWID spoofer é um pagamento separado quando uma restrição de hardware bloqueia novas contas em um PC.",
+    "breadcrumb": "Utilitário HWID",
+    "tableAria": "Comparação de utilitários",
+    "columnUtility": "Utilitário",
+    "columnBestFor": "Ideal para",
+    "columnProductPage": "Página do produto",
+    "includesLabel": "Inclui:",
+    "backToProducts": "Voltar aos produtos",
+    "viewCategory": "Ver {category}",
+    "viewDetailsFallback": "detalhes",
+    "schemaName": "Utilitário HWID",
+    "useCases": {
+      "hwid-spoofer": "Nova PC ou restrição de hardware após um banimento — redefina como sua máquina aparece antes de criar uma nova conta."
+    }
+  },
+  "sectionSearch": {
+    "blogHeading": "Filtrar guias por tópico",
+    "supportHeading": "Navegar por tópicos de ajuda"
+  },
+  "ui": {
+    "skipLink": "Ir para o conteúdo principal",
+    "browseCheats": "Testar Agora",
+    "browseCheatsMobile": "Iniciar checkout",
+    "homeAria": "Início de Valorant Cheats",
+    "checkoutAria": "Iniciar checkout",
+    "discordAria": "Comprar Valorant Cheats",
+    "menuOpen": "Abrir menu",
+    "menuClose": "Fechar menu",
+    "themeLight": "Mudar para o modo claro",
+    "themeDark": "Mudar para o modo escuro",
+    "searchPlaceholder": "Pesquisar produtos, guias, FAQ…",
+    "searchEmpty": "Digite para pesquisar no site.",
+    "searchNoResults": "Nenhum resultado. Tente outro termo.",
+    "searchCloseAria": "Fechar pesquisa",
+    "searchTitle": "Pesquisar",
+    "searchOpenAria": "Pesquisar no site",
+    "contactSupport": "Contatar suporte",
+    "searchResultsAria": "Resultados da pesquisa",
+    "searchHintNavigate": "navegar",
+    "searchHintOpen": "abrir",
+    "searchHintClose": "fechar",
+    "searchKeyboardEnter": "Enter",
+    "searchKeyboardEsc": "Esc",
+    "primaryNavAria": "Principal",
+    "mobileNavAria": "Celular",
+    "shareNavAria": "Compartilhar esta página",
+    "shareOnX": "Compartilhar no X",
+    "shareOnFacebook": "Compartilhar no Facebook",
+    "shareOnReddit": "Compartilhar no Reddit",
+    "prevImage": "Imagem anterior",
+    "nextImage": "Próxima imagem",
+    "heroSlidesAria": "Slides de destaque",
+    "slideLabel": "Slide {n}",
+    "prevScreenshot": "Captura de tela anterior",
+    "nextScreenshot": "Próxima captura de tela",
+    "loading": "Carregando"
+  },
+  "language": {
+    "label": "Idioma",
+    "selectAria": "Selecionar idioma do site"
+  },
+  "exploreSection": {
+    "eyebrow": "Explorar",
+    "title": "Tudo no site a um clique",
+    "titleAccent": "de distância",
+    "subtitle": "Acesse produtos, notas de atualização, guias e ajuda sem precisar procurar no menu.",
+    "badgeProduct": "PRODUTO",
+    "badgeActive": "Ativo",
+    "cards": {
+      "cheats": {
+        "title": "Cheats for Valorant",
+        "desc": "Opções do Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Diversas."
+      },
+      "spoofer": {
+        "title": "HWID Spoofer",
+        "desc": "Rotação de perfil de hardware após um banimento de máquina."
+      },
+      "plans": {
+        "title": "Planos",
+        "desc": "Compare $35 e $150 no menu; o spoofer possui seus próprios planos."
+      },
+      "features": {
+        "title": "Recursos",
+        "desc": "Quatro grupos de menu na lista de recursos do loader."
+      },
+      "status": {
+        "title": "Status",
+        "desc": "VERDE ou VERMELHO antes de carregar, além de lembretes de atualização do Vanguard."
+      },
+      "faq": {
+        "title": "FAQ",
+        "desc": "Planos, configuração, risco de Vanguard e produtos."
+      },
+      "support": {
+        "title": "Suporte",
+        "desc": "Loader, pagamento e ajuda no portal."
+      },
+      "blog": {
+        "title": "Blog",
+        "desc": "Guias de mira, ESP e dias de atualização."
+      },
+      "forum": {
+        "title": "Fórum",
+        "desc": "Tópicos com respostas marcadas dos desenvolvedores."
+      }
+    }
+  },
+  "pricing": {
+    "checkout": "Finalizar compra",
+    "purchaseOption": "Opção de compra",
+    "selectSubscription": "Selecionar assinatura",
+    "bestValue": "Melhor custo-benefício",
+    "savePrefix": "Economize",
+    "total": "Total",
+    "buyNow": "Comprar agora",
+    "oneMonth": "31 days",
+    "threeMonths": "31 days",
+    "lifetime": "Lifetime",
+    "mostPopular": "Mais popular",
+    "plusMore": "+N mais",
+    "monthlySuffix": "",
+    "threeMonthSuffix": " / 3 meses",
+    "lifetimeSuffix": " lifetime",
+    "monthlyPlanNote": "31 days de acesso · renovar no checkout",
+    "threeMonthPlanNote": "31 days de acesso",
+    "lifetimePlanNote": "Pagamento único · sem renovação",
+    "plansSameFeaturesNote": "Mesmos recursos em todos os planos — apenas o período de acesso muda.",
+    "selectPlanAria": "Selecionar duração do plano"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Página não encontrada",
+    "description": "Essa URL não existe ou pode ter sido movida. Volte para a página inicial ou navegue pelos produtos.",
+    "metaDescription": "A página solicitada não pôde ser encontrada em cheats-valorant.org.",
+    "metaTitleSuffix": "Página não encontrada",
+    "backHome": "Voltar para o início",
+    "viewProducts": "Ver produtos",
+    "openForum": "Abrir o fórum"
+  },
+  "status": {
+    "eyebrow": "Notas do patch",
+    "title": "Rótulo de status antes de carregar",
+    "subtitle": "VERDE significa que o arquivo atual está liberado para carregar. VERMELHO significa aguarde.",
+    "pageDesc": "As metas de Vanguard em 2026 incluíram uma atualização focada em DMA em maio, linhas de base sob demanda em junho e uma estrutura de integridade em novembro. Após qualquer uma dessas ou um patch do jogo, leia esta página antes de iniciar. VERDE significa carregar. VERMELHO significa aguarde. Atualizado não é uma garantia de que não será detectado.",
+    "breadcrumb": "Status",
+    "aceReminderLabel": "Lembrete de Vanguard",
+    "aceReminder": "Consulte esta página após cada Vanguard ou atualização do cliente — incluindo o lançamento focado em DMA de maio de 2026 e a estrutura de integridade de novembro de 2026. VERDE significa carregar. VERMELHO significa aguarde.",
+    "recentTitle": "Atualizações recentes",
+    "activeLinePrefix": "Última verificação",
+    "activeLineActive": "Ativo",
+    "activeLineUpdated": "Atualizado em {date}",
+    "storeLineup": "Linha da loja",
+    "latestLabel": "Mais recente",
+    "updates": [
+      {
+        "id": "vct-integrity",
+        "title": "Diretriz de integridade do VCT 2027",
+        "icon": "shield",
+        "when": "5 de nov. de 2026",
+        "summary": "A Riot delineou uma rotina de Pré-Verificação Vanguard para qualificatórias de competições abertas. Grupos online agora enfrentam uma revisão de camada de software mais rigorosa e verificações de processos em segundo plano antes de uma partida. Esta loja não descreve como passar por essa revisão. Leia o rótulo de status para este menu após a nota e trate as regras do torneio como separadas de uma fila casual."
+      },
+      {
+        "id": "vanguard-on-demand",
+        "title": "Vanguard sob demanda e baselines do Windows 11",
+        "icon": "settings",
+        "when": "Junho de 2026",
+        "summary": "O modo sob demanda do Vanguard pode permanecer desativado quando o VALORANT estiver fechado, mas ativá-lo impõe uma baseline do Windows 11 mais pesada: HVCI, VBS e TPM 2.0. Isso fecha brechas comuns de injetores. Deixe esses recursos ativados em uma build que você carregar. Esta página não documenta etapas de bypass."
+      },
+      {
+        "id": "dma-may-2026",
+        "title": "22 de maio de 2026 — Atualização do Vanguard focada no DMA",
+        "icon": "alert",
+        "when": "22 de maio de 2026",
+        "summary": "A Riot visou configurações de acesso direto à memória (DMA) SATA/NVMe externas e bypasses de firmware relacionados. A discussão pública centrou-se no bloqueio de DLLs de dispositivos maliciosos pelo IOMMU do Windows e remapeamento do DMA. A Riot afirmou que o hardware legítimo não é fisicamente destruído; configurações de cheats ilícitos config podem falhar nesse PC. Esta loja vende um loader do Windows, não um cartão DMA. A postagem do blog “Cronograma de segurança do Vanguard (2026)” resume as mesmas datas."
+      },
+      {
+        "id": "status-label",
+        "title": "Rótulo de status",
+        "icon": "shield",
+        "when": "8 de nov. de 2026",
+        "summary": "VERDE significa que esta nota lista o arquivo atual para carregar. VERMELHO significa aguardar. Leia esta página após uma atualização do VALORANT ou Vanguard antes de iniciar. O rótulo não é uma garantia de invisibilidade contra bans, e não significa que uma partida permanecerá limpa."
+      },
+      {
+        "id": "menu-covers",
+        "title": "O que o menu cobre",
+        "icon": "mapHack",
+        "when": "8 de nov. de 2026",
+        "summary": "O menu publicado lista Opções do Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Diversas. A tecla de atalho do Modo de Combate oculta habilidades e armadilhas ESP. Ele não remove o risco de banimento Vanguard."
+      },
+      {
+        "id": "pc-requirements",
+        "title": "Requisitos do PC",
+        "icon": "settings",
+        "when": "8 de nov. de 2026",
+        "summary": "Windows 10 ou 11, Intel Core i5 ou AMD Ryzen 5 ou superior, e o cliente VALORANT PC mais recente. Deixe HVCI, Core Isolation, TPM e Secure Boot ativados."
+      },
+      {
+        "id": "updated-claim",
+        "title": "“Atualizado” não significa que está livre de detecção",
+        "icon": "alert",
+        "when": "7 de nov. de 2026",
+        "summary": "Atualizado significa que esta nota foi renovada. Isso não significa que o loader está livre de detecção, e não significa que uma partida permanecerá limpa após a próxima atualização do jogo ou do Vanguard."
+      },
+      {
+        "id": "plans",
+        "title": "Os planos ficam em cartões separados",
+        "icon": "tag",
+        "when": "7 de nov. de 2026",
+        "summary": "O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Uma chave do lifetime em um produto não inclui o outro."
+      }
+    ]
+  },
+  "forum": {
+    "eyebrow": "Comunidade",
+    "title": "Fórum: configuração, risco e planos",
+    "subtitle": "Tópicos sobre Valorant cheats, Vanguard versus VAC, alternâncias de partidas personalizadas e o HWID spoofer. Respostas dos desenvolvedores estão sinalizadas.",
+    "breadcrumb": "Fórum",
+    "postsAria": "Postagens da comunidade",
+    "sortAria": "Ordenação de postagens",
+    "searchPlaceholder": "Pesquisar discussões",
+    "searchAria": "Pesquisar discussões",
+    "voteAria": "Votação da discussão",
+    "fromGuide": "Do guia:",
+    "comments": "comentários",
+    "readDiscussion": "Ler discussão",
+    "readGuide": "Ler o guia",
+    "basedOn": "Com base em:",
+    "paginationAria": "Páginas de discussão",
+    "previousPage": "Anterior",
+    "nextPage": "Próxima",
+    "exploreGuides": "Explorar os guias",
+    "sortPopular": "Populares",
+    "sortLatest": "Mais recentes",
+    "sortTop": "Mais discutidos",
+    "filterAria": "Filtrar discussões por tópico",
+    "allTopics": "Todos os tópicos",
+    "discussionOne": "discussão",
+    "discussionMany": "discussões",
+    "emptyFilter": "Nenhuma discussão encontrada. Tente outra busca ou tópico.",
+    "previous": "Anterior",
+    "next": "Próxima",
+    "sidebarAboutTitle": "Fórum",
+    "sidebarAboutCopy": "Tópicos sobre riscos de terceiros, Vanguard versus VAC, alternâncias de partidas personalizadas e o HWID spoofer. Respostas dos desenvolvedores estão sinalizadas.",
+    "sidebarTopics": "tópicos",
+    "sidebarExploreGuides": "Explorar todos os guias",
+    "sidebarCommunities": "Comunidades",
+    "sidebarBrowseQa": "Navegar por tópicos relacionados",
+    "sidebarBrowseAll": "Navegar por todas as comunidades",
+    "sidebarGuidelines": "Diretrizes da comunidade",
+    "guideline1": "Mantenha a amizade e seja construtivo",
+    "guideline2": "Mantenha o foco no assunto e adicione contexto",
+    "guideline3": "Marque spoilers e conteúdo sensível",
+    "sidebarReadGuidelines": "Ler as diretrizes completas",
+    "sidebarFootAbout": "Sobre · Diretrizes · Privacdade · Termos",
+    "upvoteAria": "Votar positivamente nesta discussão",
+    "downvoteUnavailable": "Votação negativa indisponível",
+    "showingRange": "Mostrando {from}–{to} de {total}",
+    "zeroDiscussions": "0 discussões",
+    "developerFlair": "Desenvolvedor",
+    "points": "pontos",
+    "previewDiscussion": "Visualizar discussão",
+    "postingUnavailable": "Postagem e votação indisponíveis aqui",
+    "commentsTitle": "Comentários",
+    "commentsSubtitle": "Respostas da desenvolvedora estão destacadas",
+    "detailInTopic": "neste tópico",
+    "detailBrowse": "Explorar discussões",
+    "detailMoreTitle": "Mais discussões",
+    "detailViewAll": "Ver todas as discussões",
+    "colThread": "Tópico",
+    "colReplies": "Respostas",
+    "replyOne": "Resposta",
+    "colVotes": "Votos",
+    "colLastReply": "Última resposta",
+    "closedThread": "Fechado",
+    "noRepliesYet": "Nenhuma resposta ainda 👀"
+  },
+  "readingTools": {
+    "copyLink": "Copiar link",
+    "backToTop": "Voltar ao topo",
+    "copied": "Copiado"
+  },
+  "blogArticle": {
+    "viewProducts": "Ver produtos",
+    "moreArticles": "Mais artigos",
+    "imagePlaceholder": "Espaço reservado para imagem",
+    "breadcrumbBlog": "Blog"
+  },
+  "breadcrumbs": {
+    "home": "Início",
+    "products": "Produtos",
+    "blog": "Blog",
+    "forum": "Fórum",
+    "faq": "FAQ",
+    "status": "Status"
+  },
+  "faqPage": {
+    "eyebrow": "Central de ajuda",
+    "title": "FAQ sobre planos, Vanguard e configuração",
+    "subtitle": "Planos, opções de ESP e aimbot, o HWID spoofer e o que verificar após uma atualização de Vanguard.",
+    "schemaName": "FAQ — planos, produtos e configuração",
+    "schemaDescription": "Respostas sobre o menu, o HWID spoofer, o risco de Vanguard e o checkout no cheats-valorant.org."
+  },
+  "siteFaqSection": {
+    "allTopicsEyebrow": "Todos os tópicos",
+    "allTopicsTitle": "Navegar por categoria",
+    "allTopicsSubtitle": "Planos, visuais, o loader, o spoofer e configuração.",
+    "contextualEyebrow": "FAQ",
+    "contextualTitle": "Dúvidas sobre esta página",
+    "contextualSubtitle": "Respostas vinculadas ao que você está lendo — visite a página de FAQ para ver todos os tópicos."
+  },
+  "catalog": {
+    "viewDetails": "Ver detalhes",
+    "buyNow": "Comprar agora",
+    "mostPopular": "Mais popular",
+    "popular": "Popular",
+    "plusMore": "+{count} mais",
+    "oneMonth": "31 days",
+    "threeMonths": "31 days",
+    "lifetime": "Lifetime",
+    "monthlySuffix": "",
+    "threeMonthSuffix": " / 3 meses",
+    "lifetimeSuffix": " lifetime",
+    "monthlyPlanNote": "31 days de acesso · renovar no checkout",
+    "threeMonthPlanNote": "31 days de acesso",
+    "lifetimePlanNote": "Pague uma vez · sem renovação",
+    "plansSameFeaturesNote": "Mesmos recursos em todos os planos — apenas o período de acesso muda.",
+    "selectPlanAria": "Selecionar duração do plano",
+    "utilityLabel": "Utilitário",
+    "experienceEyebrow": "Experiência",
+    "inTheClient": "No cliente · Após a compra",
+    "experienceSubtitle": "Use as capturas de tela acima para {name} — abaixo está o significado de cada camada e como o acesso funciona após o checkout.",
+    "utilityExperienceSubtitle": "Use as capturas de tela acima para {name} — cada pré-visualização explica parte do fluxo de trabalho de hardware e como o acesso funciona após o checkout.",
+    "inGameLayers": "Camadas no jogo",
+    "utilityPreviewLayers": "Pré-visualizações do produto",
+    "layerLabel": "Camada {label}",
+    "previewLabel": "Pré-visualização",
+    "accessLabel": "Acesso"
+  },
+  "productUi": {
+    "detailsAria": "Detalhes do produto",
+    "overview": "Visão geral",
+    "systemRequirements": "Requisitos do sistema",
+    "goodToKnow": "É bom saber",
+    "limitations": "Limitações importantes",
+    "completeFeatureList": "Lista completa de recursos",
+    "includedCapabilities": "Recursos inclusos",
+    "totalFeatures": "{count} no total",
+    "popularBadge": "Popular",
+    "limitedBadge": "Limitado",
+    "gameBadge": "VALORANT",
+    "platformBadge": "Windows",
+    "systemReqPanel": {
+      "title": "Requisitos do sistema",
+      "security": [
+        "HVCI ATIVADO",
+        "CORE ISOLATION ATIVADO",
+        "TPM ATIVADO",
+        "SECURE BOOT ATIVADO"
+      ],
+      "operatingSystemLabel": "Sistema operacional",
+      "operatingSystemValue": "Windows 10 ou 11 em compilações suportadas",
+      "specs": [
+        {
+          "label": "Processador",
+          "value": "Intel Core i5 ou AMD Ryzen 5 ou superior"
+        },
+        {
+          "label": "Placa de vídeo",
+          "value": "AMD e NVIDIA"
+        },
+        {
+          "label": "RAM",
+          "value": "16GB recomendaendo"
+        },
+        {
+          "label": "Armazenamento",
+          "value": "2GB de espaço livre"
+        },
+        {
+          "label": "Internet",
+          "value": "Conexão estável necessária"
+        },
+        {
+          "label": "Cliente",
+          "value": "Cliente VALORANT PC mais recente"
+        }
+      ],
+      "cloudDmaTitle": "Rótulo de status",
+      "cloudDmaDesc": "VERDE significa que a nota lista o arquivo para carregar. VERMELHO significa aguardar. Leia a página de status após uma atualização do Vanguard.",
+      "cloudDmaNote": ""
+    }
+  },
+  "comparePlans": {
+    "eyebrow": "Comparar",
+    "title": "Comparar todos os planos",
+    "subtitle": "Veja lado a lado o que cada nível inclui.",
+    "tableAria": "Comparar todos os planos",
+    "featureColumn": "Recurso",
+    "included": "Incluído",
+    "notIncluded": "Não incluído"
+  },
+  "whyCompare": {
+    "tableAria": "Esta loja comparada com um provedor típico",
+    "featureColumn": "Recurso",
+    "metricsAria": "Métricas da plataforma",
+    "statusDeliveryAria": "Status ao vivo e entrega"
+  },
+  "searchResultTypes": {
+    "product": "Produto",
+    "blog": "Blog",
+    "forum": "Fórum",
+    "faq": "FAQ",
+    "status": "Status",
+    "support": "Suporte",
+    "page": "Página"
+  },
+  "blogSidebar": {
+    "ariaLabel": "Barra lateral do artigo",
+    "inThisArticle": "Neste artigo",
+    "relatedGuides": "Guia relacionados",
+    "ourProducts": "Nossos produtos",
+    "productCheats": "Menu",
+    "allProducts": "Todos os produtos",
+    "hwidSpoofer": "HWID Spoofer",
+    "tocAria": "Índice",
+    "tocFallbackLabel": "Início do artigo",
+    "priceEstimatorTitle": "Estimativa de preço",
+    "priceEstimatorHint": "Toque em um termo. Os totais são somados.",
+    "priceEstimator31d": "31d",
+    "priceEstimatorLifetime": "Vida útil",
+    "priceEstimatorOff": "Desconto",
+    "priceEstimatorTotal": "Total est.",
+    "priceEstimatorProducts": "Produtos",
+    "priceEstimatorNote": "Apenas uma estimativa. Compre cada produto em seu próprio card.",
+    "utilityGuides": "Guias de HWID spoofer",
+    "moreGuides": "Mais guias"
+  }
+}
