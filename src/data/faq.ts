@@ -336,7 +336,10 @@ export function getProductFaqs(slug: string, _kind: 'tier' | 'utility'): SiteFaq
   });
 }
 
-export function getBlogFaqs(_tag: string, _slug: string): SiteFaqItem[] {
+export function getBlogFaqs(_tag: string, slug: string): SiteFaqItem[] {
+  if (slug === 'valorant-cheats-pricing') {
+    return siteFaqs.filter((f) => f.id.startsWith('blog-default-'));
+  }
   return siteFaqs.filter(
     (f) => f.id.startsWith('blog-default-') || f.id.startsWith('blog-plan-'),
   );

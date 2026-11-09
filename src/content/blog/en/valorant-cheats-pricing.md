@@ -2,12 +2,12 @@
 {
   "tag": "Plans",
   "title": "Menu Plans: $35 and $150",
-  "h1Title": "31-day and lifetime prices",
-  "seoTitle": "Menu Plans: $35 and $150",
+  "h1Title": "Menu plans: 31-day and lifetime prices",
+  "seoTitle": "31 Day – Valorant Staff The same menu is on both plans",
   "slug": "valorant-cheats-pricing",
   "image": "/images/gameplay/valorant-pricing-menu.webp",
   "imageAlt": "Overlay labels used on the pricing guide",
-  "desc": "The menu is $35 for 31 days or $150 lifetime. The HWID spoofer is a separate card.",
+  "desc": "The menu is $35 for 31 days or $150 lifetime. The HWID spoofer is a separate card. All articles Plans 4 min read Nov 3, 2026 31-day and lifetime prices.",
   "date": "Nov 3, 2026",
   "dateIso": "2026-11-03",
   "readTime": "4 min read",
@@ -16,7 +16,7 @@
   "body": [
     {
       "type": "p",
-      "text": "The same menu is on both plans. The short plan is $35 for 31 days. Lifetime is $150 once."
+      "text": "The same menu is on both plans. The short plan is $35 for one month. Lifetime is $150 once."
     },
     {
       "type": "h2",
@@ -26,7 +26,7 @@
       "type": "table",
       "headers": [
         "Product",
-        "31 days",
+        "Short plan",
         "Lifetime"
       ],
       "rows": [

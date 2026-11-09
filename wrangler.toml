@@ -5,7 +5,7 @@ compatibility_date = "2026-11-08"
 
 # Runs before `wrangler deploy` (including Cloudflare's default `npx wrangler deploy`).
 [build]
-command = "npm run build:i18n-test"
+command = "PUBLIC_SITE_URL=https://cheats-valorant--org.soofiyanroooziroti.workers.dev npm run build:i18n-test"
 
 [assets]
 directory = "./dist"

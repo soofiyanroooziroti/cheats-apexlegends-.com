@@ -3,7 +3,7 @@
   "tag": "Safety",
   "title": "HWID Spoofer for Valorant: After a Hardware Flag",
   "h1Title": "HWID spoofer valorant: after a hardware flag",
-  "seoTitle": "HWID Spoofer After a Hardware Flag",
+  "seoTitle": "Hwid Spoofer – It is a separate checkout from the menu",
   "slug": "what-an-hwid-spoofer-does",
   "image": "/images/gameplay/valorant-hwid-spoofer-hud.webp",
   "imageAlt": "Overlay example beside a hardware-flag note",

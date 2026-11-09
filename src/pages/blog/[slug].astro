@@ -4,7 +4,7 @@ const locale = getLocaleFromAstro(Astro);
 const t = getTranslations(locale);
 import '../../styles/blog-pages.css';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getAllBlogSlugs, getBlogPost, getRelatedBlogPosts } from '../../data/blog';
+import { getAllBlogSlugs, getBlogPost, getRelatedBlogPosts, getBlogLocalesForSlug } from '../../data/blog';
 import { pageTitle } from '../../config/seo';
 import { articleSchema, breadcrumbSchema, faqPageSchema } from '../../utils/schema';
 import { getBlogPublicationIso } from '../../data/blog';
@@ -44,6 +44,7 @@ const breadcrumbs = [
 
 const related = getRelatedBlogPosts(post.slug, 3);
 const blogFaqs = getBlogFaqs(post.tag, post.slug);
+const blogLocales = getBlogLocalesForSlug(post.slug);
 
 function linkify(text: string): string {
   return text
@@ -66,6 +67,8 @@ const h1Text = post.h1Title ?? post.title;
 <BaseLayout
   title={pageTitle(post.seoTitle ?? post.title, null)}
   description={post.desc}
+  blogSlug={post.slug}
+  blogLocales={blogLocales}
   ogType="article"
   ogImage={socialShareImage(post.image)}
   ogImageAlt={post.title}

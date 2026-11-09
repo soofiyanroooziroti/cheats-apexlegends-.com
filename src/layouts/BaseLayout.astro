@@ -59,13 +59,14 @@ const {
   blogLocales,
 } = Astro.props;
 
-const canonical = canonicalUrl(Astro.url.pathname);
+const siteOrigin = (Astro.site?.href ? new URL(Astro.site.href).origin : SITE_ORIGIN).replace(/\/$/, '');
+const canonical = canonicalUrl(Astro.url.pathname, siteOrigin);
 const ogImageUrl = absoluteAssetUrl(ogImage);
 const robotsContent = noindex
   ? 'noindex, nofollow'
   : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 
-const alternates = getAlternateLanguages(Astro.url.pathname, SITE_ORIGIN, {
+const alternates = getAlternateLanguages(Astro.url.pathname, siteOrigin, {
   blogSlug,
   blogLocales,
 });
