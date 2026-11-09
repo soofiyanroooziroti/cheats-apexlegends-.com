@@ -7,7 +7,7 @@
   "slug": "valorant-cheats-pricing",
   "image": "/images/gameplay/valorant-pricing-menu.webp",
   "imageAlt": "価格ガイドで使用されるオーバーレイのラベル",
-  "desc": "メニューは $35 for 31 days または $150 lifetime です。HWID spoofer は個別のカードになります。",
+  "desc": "メニューは $35 for 31 days または $150 lifetime です。HWID spoofer は個別のカードです。",
   "date": "Nov 3, 2026",
   "dateIso": "2026-11-03",
   "readTime": "4 分で読めます",
@@ -36,10 +36,6 @@
           "$150"
         ],
         [
-          "$35",
-          "$150"
-        ],
-        [
           "HWID spoofer",
           "$50",
           "$150"
@@ -48,7 +44,7 @@
     },
     {
       "type": "p",
-      "text": "メニュー上の lifetime キーでは、spoofer やアピールワークスペースは解除されません。[製品ページ](/products/valorant-cheats/). のカードを比較してください"
+      "text": "メニューの lifetime キーでは HWID spoofer は解除されません。[製品ページ](/products/valorant-cheats/) のカードを比較してください。"
     }
   ]
 }

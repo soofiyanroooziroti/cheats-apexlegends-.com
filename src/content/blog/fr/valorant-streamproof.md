@@ -24,7 +24,7 @@
     },
     {
       "type": "p",
-      "text": "Il ne supprime pas le risque lié à Vanguard, le risque de signalement ou un bannissement matériel. Si vous avez besoin d'un outil matériel ou d'un espace de travail pour les appels, ce sont le HWID spoofer et, vendus séparément. Testez un enregistrement sur une machine privée avant de supposer qu'une application spécifique est masquée."
+      "text": "Il ne supprime pas le risque lié à Vanguard, le risque de signalement ou un bannissement matériel. Un bannissement matériel correspond au HWID spoofer, vendu séparément. Testez un enregistrement sur une machine privée avant de supposer qu'une application spécifique est masquée."
     }
   ]
 }

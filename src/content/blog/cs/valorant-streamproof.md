@@ -24,7 +24,7 @@
     },
     {
       "type": "p",
-      "text": "Neodstraňuje riziko Vanguard, riziko nahlášení ani hardwarový příznak. Pokud potřebujete hardwarový nástroj nebo prostor pro odvolání, jedná se o HWID spoofer a prodává se samostatně. Předpokládáte-li pokrytí konkrétní aplikace, otestujte záznam na soukromém zařízení."
+      "text": "Neodstraňuje riziko Vanguard, riziko nahlášení ani hardwarový příznak. Hardwarový příznak řeší HWID spoofer, prodávaný samostatně. Předpokládáte-li pokrytí konkrétní aplikace, otestujte záznam na soukromém zařízení."
     }
   ]
 }

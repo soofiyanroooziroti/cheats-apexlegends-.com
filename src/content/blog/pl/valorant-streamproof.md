@@ -24,7 +24,7 @@
     },
     {
       "type": "p",
-      "text": "Nie usuwa to ryzyka Vanguard, ryzyka zgłoszeń ani flagi sprzętowej. Jeśli potrzebujesz narzędzia sprzętowego lub przestrzeni do odwołań, są to HWID spoofer i są sprzedawane osobno. Przetestuj nagranie na prywatnym komputerze, zanim uznasz, że konkretna aplikacja jest chroniona."
+      "text": "Nie usuwa to ryzyka Vanguard, ryzyka zgłoszeń ani flagi sprzętowej. Flaga sprzętowa to HWID spoofer, sprzedawany osobno. Przetestuj nagranie na prywatnym komputerze, zanim uznasz, że konkretna aplikacja jest chroniona."
     }
   ]
 }

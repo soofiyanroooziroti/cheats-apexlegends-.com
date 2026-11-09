@@ -24,7 +24,7 @@
     },
     {
       "type": "p",
-      "text": "Non rimuove il rischio di Vanguard, il rischio di segnalazione o un flag hardware. Se hai bisogno di uno strumento hardware o di uno spazio di lavoro per i ricorsi, quelli sono HWID spoofer e, venduti separatamente. Testa una registrazione su una macchina privata prima di dare per scontato che un'applicazione specifica sia coperta."
+      "text": "Non rimuove il rischio di Vanguard, il rischio di segnalazione o un flag hardware. Un flag hardware è l'HWID spoofer, venduto separatamente. Testa una registrazione su una macchina privata prima di dare per scontato che un'applicazione specifica sia coperta."
     }
   ]
 }

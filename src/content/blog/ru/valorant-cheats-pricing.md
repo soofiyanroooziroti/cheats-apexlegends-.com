@@ -7,7 +7,7 @@
   "slug": "valorant-cheats-pricing",
   "image": "/images/gameplay/valorant-pricing-menu.webp",
   "imageAlt": "Метки оверлея, используемые в руководстве по ценам",
-  "desc": "Меню доступно как $35 for 31 days или $150 lifetime. HWID spoofer и являются отдельными картами.",
+  "desc": "Меню доступно как $35 for 31 days или $150 lifetime. HWID spoofer — отдельная карта.",
   "date": "Nov 3, 2026",
   "dateIso": "2026-11-03",
   "readTime": "4 мин чтения",
@@ -36,10 +36,6 @@
           "$150"
         ],
         [
-          "$35",
-          "$150"
-        ],
-        [
           "HWID spoofer",
           "$50",
           "$150"
@@ -48,7 +44,7 @@
     },
     {
       "type": "p",
-      "text": "Ключ lifetime для меню не разблокирует spoofer или рабочую область апелляций. Сравните карточки на [странице продуктов](/products/valorant-cheats/)."
+      "text": "Ключ lifetime для меню не разблокирует HWID spoofer. Сравните карточки на [странице продуктов](/products/valorant-cheats/)."
     }
   ]
 }

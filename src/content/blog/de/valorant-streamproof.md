@@ -24,7 +24,7 @@
     },
     {
       "type": "p",
-      "text": "Es beseitigt kein Vanguard-Risiko, Melderisiko oder eine Hardware-Markierung. Wenn Sie ein Hardware-Tool oder einen Entbannungsbereich benötigen, sind dies der HWID spoofer und (separat erhältlich). Testen Sie eine Aufnahme auf einem privaten Computer, bevor Sie davon ausgehen, dass eine bestimmte App abgedeckt ist."
+      "text": "Es beseitigt kein Vanguard-Risiko, Melderisiko oder eine Hardware-Markierung. Eine Hardware-Markierung ist der HWID spoofer, separat erhältlich. Testen Sie eine Aufnahme auf einem privaten Computer, bevor Sie davon ausgehen, dass eine bestimmte App abgedeckt ist."
     }
   ]
 }

@@ -7,7 +7,7 @@
   "slug": "valorant-cheats-pricing",
   "image": "/images/gameplay/valorant-pricing-menu.webp",
   "imageAlt": "Popisky overlay použité v průvodci cenami",
-  "desc": "Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer a jsou samostatné karty.",
+  "desc": "Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer je samostatná karta.",
   "date": "Nov 3, 2026",
   "dateIso": "2026-11-03",
   "readTime": "4 min čtení",
@@ -36,10 +36,6 @@
           "$150"
         ],
         [
-          "$35",
-          "$150"
-        ],
-        [
           "HWID spoofer",
           "$50",
           "$150"
@@ -48,7 +44,7 @@
     },
     {
       "type": "p",
-      "text": "Klíč lifetime v menu odemkne spoofer ani pracovní prostor pro odvolání. Porovnejte karty na [stránce produktů](/products/valorant-cheats/)."
+      "text": "Klíč lifetime v menu neodemyká HWID spoofer. Porovnejte karty na [stránce produktů](/products/valorant-cheats/)."
     }
   ]
 }

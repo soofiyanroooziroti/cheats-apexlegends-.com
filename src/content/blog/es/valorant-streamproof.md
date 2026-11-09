@@ -24,7 +24,7 @@
     },
     {
       "type": "p",
-      "text": "No elimina el riesgo de Vanguard, el riesgo de reportes ni una marca de hardware. Si necesitas una herramienta de hardware o un espacio de trabajo para apelaciones, esos son HWID spoofer y se venden por separado. Prueba una grabación en un equipo privado antes de dar por sentado que una aplicación específica está cubierta."
+      "text": "No elimina el riesgo de Vanguard, el riesgo de reportes ni una marca de hardware. Una marca de hardware es el HWID spoofer, que se vende por separado. Prueba una grabación en un equipo privado antes de dar por sentado que una aplicación específica está cubierta."
     }
   ]
 }

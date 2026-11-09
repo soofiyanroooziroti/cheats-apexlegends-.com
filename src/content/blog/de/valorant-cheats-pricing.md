@@ -7,7 +7,7 @@
   "slug": "valorant-cheats-pricing",
   "image": "/images/gameplay/valorant-pricing-menu.webp",
   "imageAlt": "Overlay-Beschriftungen im Preisleitfaden",
-  "desc": "Das Menü ist $35 for 31 days oder $150 lifetime. Die HWID spoofer und sind separate Karten.",
+  "desc": "Das Menü ist $35 for 31 days oder $150 lifetime. Der HWID spoofer ist eine separate Karte.",
   "date": "Nov 3, 2026",
   "dateIso": "2026-11-03",
   "readTime": "4 Min. Lesezeit",
@@ -36,10 +36,6 @@
           "$150"
         ],
         [
-          "$35",
-          "$150"
-        ],
-        [
           "HWID spoofer",
           "$50",
           "$150"
@@ -48,7 +44,7 @@
     },
     {
       "type": "p",
-      "text": "Ein lifetime-Schlüssel im Menü schaltet weder spoofer noch den Einspruchs-Arbeitsbereich frei. Vergleiche die Karten auf der [Produktseite](/products/valorant-cheats/)."
+      "text": "Ein lifetime-Schlüssel im Menü schaltet den HWID spoofer nicht frei. Vergleiche die Karten auf der [Produktseite](/products/valorant-cheats/)."
     }
   ]
 }

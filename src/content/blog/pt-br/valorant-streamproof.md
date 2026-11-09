@@ -24,7 +24,7 @@
     },
     {
       "type": "p",
-      "text": "Ele não remove o risco de Vanguard, risco de denúncia ou um banimento de hardware. Se você precisar de uma ferramenta de hardware ou de um espaço de trabalho para apelação, esses são o HWID spoofer e são vendidos separadamente. Teste uma gravação em uma máquina privada antes de assumir que um aplicativo específico está coberto."
+      "text": "Ele não remove o risco de Vanguard, risco de denúncia ou um banimento de hardware. Um banimento de hardware é o HWID spoofer, vendido separadamente. Teste uma gravação em uma máquina privada antes de assumir que um aplicativo específico está coberto."
     }
   ]
 }

@@ -7,7 +7,7 @@
   "slug": "valorant-cheats-pricing",
   "image": "/images/gameplay/valorant-pricing-menu.webp",
   "imageAlt": "定价指南上使用的叠加标签",
-  "desc": "该菜单为 $35 for 31 days 或 $150 lifetime。HWID spoofer 和 为单独的卡片。",
+  "desc": "该菜单为 $35 for 31 days 或 $150 lifetime。HWID spoofer 为单独的卡片。",
   "date": "Nov 3, 2026",
   "dateIso": "2026-11-03",
   "readTime": "4 分钟阅读",
@@ -36,10 +36,6 @@
           "$150"
         ],
         [
-          "$35",
-          "$150"
-        ],
-        [
           "HWID spoofer",
           "$50",
           "$150"
@@ -48,7 +44,7 @@
     },
     {
       "type": "p",
-      "text": "菜单上的 lifetime 密钥无法解锁 spoofer 或申诉工作区。请在 [产品页面](/products/valorant-cheats/).) 上对比卡片"
+      "text": "菜单上的 lifetime 密钥无法解锁 HWID spoofer。请在 [产品页面](/products/valorant-cheats/) 上对比卡片。"
     }
   ]
 }

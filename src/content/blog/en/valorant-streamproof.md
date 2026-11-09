@@ -24,7 +24,7 @@
     },
     {
       "type": "p",
-      "text": "It does not remove Vanguard risk, report risk, or a hardware flag. If you need a hardware tool or an appeal workspace, those are the HWID spoofer and, sold separately. Test a recording on a private machine before you assume a specific app is covered."
+      "text": "It does not remove Vanguard risk, report risk, or a hardware flag. A hardware flag is the HWID spoofer, sold separately. Test a recording on a private machine before you assume a specific app is covered."
     }
   ]
 }
