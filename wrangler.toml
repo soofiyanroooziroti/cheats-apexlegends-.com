@@ -5,7 +5,7 @@ compatibility_date = "2026-11-08"
 
 # Runs before `wrangler deploy` (including Cloudflare's default `npx wrangler deploy`).
 [build]
-command = "PUBLIC_SITE_URL=https://cheatsapexlegends.com npm run build:i18n-test"
+command = "PUBLIC_SITE_URL=https://cheatsapexlegends.com PUBLIC_HTML_ORIGIN=https://cheats-apexlegends--com.soofiyanroooziroti.workers.dev npm run build:i18n-test"
 
 [assets]
 directory = "./dist"

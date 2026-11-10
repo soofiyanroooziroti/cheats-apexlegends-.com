@@ -13,6 +13,7 @@ import {
 import { getLocaleFromPath, localePath, stripLocaleFromPath } from './routing';
 import type { NavLink, Translations } from './types';
 import { getBlogLocalesForSlug } from '../data/blog/loader';
+import { shipLocales } from '../../scripts/locale-ship.mjs';
 
 export { getLocaleFromPath, localePath, stripLocaleFromPath } from './routing';
 
@@ -195,9 +196,8 @@ export function getAlternateLanguages(
   siteOrigin: string,
   options?: { blogSlug?: string; blogLocales?: Locale[] },
 ): AlternateLanguage[] {
-  if (locales.length <= 1) return [];
   const basePath = stripLocaleFromPath(pathname);
-  let candidateLocales = [...locales];
+  let candidateLocales = [...shipLocales];
 
   if (options?.blogSlug && options.blogLocales) {
     const allowed = new Set(options.blogLocales);

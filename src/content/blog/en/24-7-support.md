@@ -7,7 +7,7 @@
   "slug": "24-7-support",
   "image": "/images/blog/24-7-support-loader-help-ap4.webp",
   "imageAlt": "Apex Legends in-game scene with squad HUD used as support guide cover",
-  "desc": "24/7 support needs the order email, your Windows version, and the exact text on screen. A ticket cannot undo a publisher action or replace the portal download.",
+  "desc": "24/7 support needs the order email, your Windows version, and the exact text on screen. A ticket cannot undo a publisher action or replace the portal.",
   "date": "Nov 10, 2026",
   "dateIso": "2026-11-10",
   "readTime": "5 min read",

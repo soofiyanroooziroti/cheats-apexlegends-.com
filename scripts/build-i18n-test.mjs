@@ -11,6 +11,7 @@ const env = {
   ...process.env,
   BUILD_SHIP_LOCALES: process.env.BUILD_SHIP_LOCALES ?? 'en-only',
   PUBLIC_SITE_URL: process.env.PUBLIC_SITE_URL ?? 'https://cheatsapexlegends.com',
+  PUBLIC_HTML_ORIGIN: process.env.PUBLIC_HTML_ORIGIN ?? '',
 };
 
 function run(cmd, args) {
