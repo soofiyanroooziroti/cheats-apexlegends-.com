@@ -3,7 +3,7 @@
   "tag": "Safety",
   "title": "Are Apex Legends Hacks Safe to Use This Season?",
   "h1Title": "Are Apex Legends Hacks Safe to Use This Season?",
-  "seoTitle": "Legends Hacks – Are Apex Legends Hacks Safe This Season?",
+  "seoTitle": "Legends Hacks – Are Apex Safe This Season?",
   "slug": "apex-legends-hacks-safe",
   "image": "/images/blog/apex-legends-hacks-safe-rooftop-ap2.webp",
   "imageAlt": "Apex Legends rooftop angle with team labels and zone pressure on screen",

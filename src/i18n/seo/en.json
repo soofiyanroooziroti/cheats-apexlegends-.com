@@ -30,10 +30,10 @@
     },
     "/forum/": {
       "title": "Forum – Community Threads on Setup, Risk, and Plans",
-      "description": "Forum: Closed threads on third-party risk, Javelin versus other anti-cheats, preset tuning, and the HWID spoofer."
+      "description": "Forum: Closed threads on third-party risk, Javelin versus other anti-cheats, preset tuning, and the HWID spoofer. Read before you buy."
     },
     "/faq/": {
-      "title": "Javelin – FAQ on Plans, Setup Notes & Checkout",
+      "title": "Javelin – FAQ on Plans, Setup Notes, and Checkout Help",
       "description": "Answers on the $35 and $150 plans, EA Javelin updates, Windows requirements, hardware flags, and how the menu and spoofer differ."
     },
     "/support/": {
@@ -42,7 +42,7 @@
     },
     "/about/": {
       "title": "About cheatsapexlegends.com | Delivery, Pricing, Risk",
-      "description": "Cheatsapexlegends Com: Who runs this store, what the menu and HWID spoofer include, Windows portal delivery, Javelin ban risk, and how status and support fit checkout."
+      "description": "Cheatsapexlegends Com: Who runs this store, what the menu and HWID spoofer include, Windows portal delivery, Javelin ban risk, and how status and support."
     },
     "/privacy/": {
       "title": "Privacy notes for analytics, cookies, and contact",
@@ -117,7 +117,7 @@
       "description": "Apex legends dma in search results often means a second PC and a card. This store ships a Windows menu on the PC you already play on."
     },
     "/blog/apex-legends-hacks-safe/": {
-      "title": "Legends Hacks – Are Apex Legends Hacks Safe This Season?",
+      "title": "Legends Hacks – Are Apex Safe This Season?",
       "description": "Legends hacks this season? A matching status label is not a clean-match promise. Read GREEN or RED before you load on Windows."
     },
     "/blog/ea-javelin-bypass/": {
