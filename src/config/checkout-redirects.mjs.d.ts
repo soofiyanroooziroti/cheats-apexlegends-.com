@@ -1,7 +1,5 @@
 export declare const CHECKOUT_URLS: {
-  readonly Valorant: string;
-  readonly Warzone: string;
-  readonly dayz: string;
+  readonly apexLegends: string;
   readonly hwidSpoofer: string;
 };
 

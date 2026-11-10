@@ -1,60 +1,164 @@
 {
   "site": {
-    "title": "Valorant Cheats | Aimbot, ESP & Vanguard Protection",
-    "description": "Valorant Cheats for Steam on Windows PC with Aimbot, player ESP, vehicle markers, and radar. Compare the cheat, HWID Spoofer VALORANT, and on cheats-valorant.org."
+    "title": "Apex Legends cheats",
+    "description": "Aimbot、プレイヤービジュアル、World/Loot,、およびWindows PC上のApex Legends用その他メニューグループ。USD価格設定。"
   },
   "pages": {
     "/": {
-      "title": "Valorant Cheats (Windows PC用) | ESP、Aimbot ＆ 価格設定",
-      "description": "Compare Valorant Cheats on Windows: ESP modules, aimbot settings, $35 and $150 plans, the live Status label, and setup notes before you load."
+      "title": "Apex legends cheats for Windows PC | Menu & Spoofer",
+      "description": "Apex legends cheats on Windows: player visuals, loot readouts, aim tuning, $35 and $150 plans, live status labels, and EA Javelin setup notes before you load."
     },
-    "/products/valorant-cheats/": {
-      "title": "Valorant Hacks for PC | $35 and $150",
-      "description": "Cheats for VALORANT (Steam): 3つの Windows 製品で $35 and $150 が共有されます。Loader、HWID ツール、およびアカウントの異議申し立ては、個別のチェックアウトとなります。"
+    "/products/apex-legends-cheats/": {
+      "title": "Products | Menu $35 & $150 · HWID Spoofer",
+      "description": "Windows menu and HWID spoofer with separate checkouts. Menu $35 for 31 days or $150 lifetime; spoofer $50 or $150."
     },
-    "/products/valorant-cheats/loader/": {
-      "title": "Steam Loader (Windows PC用) | エイムとレーダー",
-      "description": "Four menu groups: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. $35 for 31 days or $150 lifetime."
+    "/products/apex-legends-cheats/loader/": {
+      "title": "Apex legends cheat | Aimbot, Player & Loot Visuals",
+      "description": "Four menu groups: Aimbot, Player Visuals, World/Loot, and Misc. $35 for 31 days or $150 lifetime on Windows PC."
     },
-    "/products/valorant-cheats/hwid-spoofer/": {
-      "title": "HWID Spoofer ( VALORANT Windows ハードウェアフラグ用 )",
-      "description": "HWID spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
+    "/products/apex-legends-cheats/hwid-spoofer/": {
+      "title": "Apex legends spoofer | HWID Recovery on PC",
+      "description": "Apex legends spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
     },
-    "/products/valorant-cheats/utilities/": {
-      "title": "HWID ツールとアカウント異議申し立てユーティリティを比較する",
-      "description": "どの Windows ユーティリティがハードウェア フラグに適合し、どれがアカウントの異議申し立てに適合するかを確認します。どちらも VALORANT loader からの別々のチェックアウトです。"
+    "/products/apex-legends-cheats/utilities/": {
+      "title": "HWID Spoofer Utility Overview",
+      "description": "When a hardware flag blocks new accounts on one PC, the HWID spoofer is a separate checkout from the menu."
     },
     "/blog/": {
-      "title": "VALORANT PC エイム、ESP、ルート、メニュー、およびVanguardのガイド",
-      "description": "Original notes on custom-game toggles, Vanguard and VAC, x-ray overlays, Reddit claims, and the $35 and $150 plans."
+      "title": "Apex Legends Guides Hub | Setup, Javelin & Plans",
+      "description": "Guides on loader setup, EA Javelin patch days, overlay tuning, Reddit claims, HWID flags, streamproof overlays, and $35 / $150 checkout notes."
     },
     "/forum/": {
-      "title": "VALORANT コミュニティフォーラム: 設定、エイム、プラン",
-      "description": "Closed threads on third-party risk, Vanguard versus VAC, custom-game toggles, the HWID spoofer, and."
+      "title": "セットアップ、リスク、プランに関するコミュニティのThreads",
+      "description": "サードパーティ製リスク、他のアンチチeaトに対するJavelin、プリセット調整、およびHWID spooferに関するクローズドなthreads。"
     },
     "/faq/": {
-      "title": "よくある質問 – プラン、設定、購入前のVanguardリスク",
-      "description": "Answers on the $35 and $150 plans, Vanguard updates, Windows requirements, hardware flags, and how the three products differ."
+      "title": "プラン、Javelin、セットアップのFAQ",
+      "description": "$35および$150プラン、EA Javelinのアップデート、Windowsの要件、ハードウェアフラグ、メニューとspooferの違いについての回答。"
     },
     "/support/": {
-      "title": "VALORANT サポート: Loader、チェックアウト、HWID PC",
-      "description": "VALORANTツール、HWID spoofer、アカウントの異議申し立てに関するLoader、チェックアウト、ポータルのヘルプ。注文時のメールアドレスと正確なloaderを含めてください。"
+      "title": "Loader、チェックアウト、セットアップのサポート",
+      "description": "メニューおよびHWID spooferに関するLoader、チェックアウト、ポータルのヘルプ。注文時のメールアドレスを記載してください。"
     },
     "/about/": {
-      "title": "Valorant Cheats ストアについて：ポータル配信、価格、リスク",
-      "description": "cheats-valorant.orgの販売内容、チェックアウトとポータルの仕組み、VALORANTでWindowsPC向けサードパーティツールを使用する際のBANリスクについて説明します。"
+      "title": "cheatsapexlegends.comについて | 配信、価格、リスク",
+      "description": "当ストアの運営者、メニューとHWID spooferの内容、Windowsポータルでの配信、Javelinバンのリスク、ステータスとサポートがチェックアウトにどう影響するか。"
     },
     "/privacy/": {
-      "title": "アナリティクス、Cookie、連絡先データのプライバシーポリシー",
-      "description": "cheats-valorant.orgにおけるアナリティクス、Cookie、連絡先データの取り扱いについて。決済カード番号は当ストアではなく決済プロバイダ側で管理されます。"
+      "title": "アナリティクス、クッキー、お問い合わせに関するprivacyの注意点",
+      "description": "当ストアがアナリティクス、クッキー、お問い合わせデータをどのように処理するか。決済カード番号は決済プロバイダー側に保持されます。"
     },
     "/terms/": {
       "title": "ライセンス規約、返金ポリシー、および利用規約",
-      "description": "cheats-valorant.orgで販売されているloader、HWID spoofer、およびアカウントリカバリに関するライセンス規約、許容される利用方法、返金不可のルールについて。"
+      "description": "ここで販売されているloaderおよびHWID spooferのライセンス規約、利用規約、および返金不可のルールについて。"
     },
     "/status/": {
-      "title": "VALORANT 稼働状況 & Vanguard パッチノート",
-      "description": "Windows loaderのモジュールおよびポータル更新情報。SteamでVALORANTを起動する前に、Vanguardアップデート後のステータスをご確認ください。"
+      "title": "ステータスラベルとEA Javelinパッチノート",
+      "description": "緑はロード可能、赤は待機状態です。ストアのラインナップとJavelinのパッチ注意点を確認し、Apex Legendsを起動する前にお読みください。"
+    },
+    "/blog/24-7-support/": {
+      "title": "24時間対応のサポートチームによるトラブルシューティング",
+      "description": "24/7のサポートには注文メール、Windowsのバージョン、画面上の正確なテキストが必要です。チケットではパブリッシャーの対応やポータルダウンロードの代替はできません。"
+    },
+    "/blog/apex-legend-cheating-ranked/": {
+      "title": "Apexランクマッチにおけるendなeaの現状：知っておくべきこと",
+      "description": "ランクマッチでのApexなendなeaは、season、アカウント、PCに影響を与えます。キューに入れる前にステータスラベルをお読みください。"
+    },
+    "/blog/stream-proof/": {
+      "title": "Stream Safely Without Showing Hacks to Your Audience",
+      "description": "Stream Proof is meant to keep the menu off typical local capture while you still see it. Test your own software before you go live. A teammate's recording is a different camera."
+    },
+    "/blog/loot-esp/": {
+      "title": "Secure High-Tier Gear Instantly Using Loot ESP",
+      "description": "Loot labels are for bins, death boxes, and care packages while you path. Hide them when the fight starts so ground text is not a combat overlay."
+    },
+    "/blog/no-recoil/": {
+      "title": "Hit Every Shot by Eliminating Weapon Recoil Entirely",
+      "description": "No Recoil is a separate control for gun kick. Test it without aim smoothing, and expect long bursts to climb anyway."
+    },
+    "/blog/weapon-esp/": {
+      "title": "Custom Weapon ESPで最強の武器を素早く見つけよう",
+      "description": "プレイヤーの武器名が表示され、プッシュ前に相手の装備が判明します。戦闘中に名前が視界を遮らないよう、撃ち合い開始時にオフに切り替えましょう。"
+    },
+    "/blog/distance-esp/": {
+      "title": "Distance ESPで交戦距離を完璧に計算しよう",
+      "description": "Distance ESPはプレイヤーまでの距離を表示します。遠方の描画を制限して地平線をスッキリさせ、数値を見て戦闘の判断を下しましょう。"
+    },
+    "/blog/health-bar-overlay/": {
+      "title": "Health Bar Overlayで敵のHPを完全に追跡しよう",
+      "description": "Health bar overlayは残りHPとシールドをバー形式で表示します。文字が重なる場合は、バーのみ残して名前のテキストを非表示にしてください。"
+    },
+    "/blog/skeleton-esp/": {
+      "title": "Skeleton ESPで敵の動きを完全に予測",
+      "description": "Skeletonのラインで、全身が物陰から出る前の覗き込み、しゃがみ、身構えを確認できます。3人が密集したときはオフにしてください。"
+    },
+    "/blog/box-esp/": {
+      "title": "Box ESPでどこにいる隠れた敵も発見",
+      "description": "Box ESPはコーナーフレームを描画し、幅や姿勢を確認できるようにします。プレイヤーが重なったときは細くし、同じフレームに名前や骨格線を重ねないでください。"
+    },
+    "/blog/apex-legends-aimbot/": {
+      "title": "当社のApex Legends Aimbotで敵を瞬時にロックオン",
+      "description": "ここでのapex legends aimbotは、FOV、smoothリング、骨の選択、視認性チェックを行います。有効にするまでオフのままです。BANのリスクは残ります。"
+    },
+    "/blog/apex-legends-esp/": {
+      "title": "Gain Total Map Awareness with Apex Legends ESP",
+      "description": "Apex legends esp here is separate toggles: players, boxes, skeletons, health, distance, weapons, and loot. Turn off what you do not read."
+    },
+    "/blog/hwid-spoofer-safety/": {
+      "title": "Discover What an HWID Spoofer Does for Safety",
+      "description": "An HWID tool changes how a PC presents disk, MAC, and GPU identifiers. It does not clear an account-only penalty or make a match ."
+    },
+    "/blog/best-apex-legends-cheats/": {
+      "title": "Best Apex Legends Cheats Review & Comparison 2026: Features, Safety & Value",
+      "description": "A 2026 look at the best apex legends cheats by features, status-label safety, and price: $35 for 31 days or $150 lifetime on one Windows menu."
+    },
+    "/blog/apex-legends-dma/": {
+      "title": "Apex Legends DMA 解説：ハードウェアのセットアップ対ソフトウェアのメニュー",
+      "description": "Apex legends dma in search results often means a second PC and a card. This store ships a Windows menu on the PC you already play on."
+    },
+    "/blog/apex-legends-hacks-safe/": {
+      "title": "Apex Legends のハックを今シーズン ea 使用しても問題ありませんか？",
+      "description": "今シーズン、apex legendsのハックはea安全ですか？一致するステータスラベルは、クラン一致の約束ではありません。Windowsでロードする前に、ea ea GREENまたはREDを確認してください。"
+    },
+    "/blog/ea-javelin-bypass/": {
+      "title": "見つからないようにする方法: EA Javelin バイパスがどのように Apex Anticheat をボット（Beats）するか",
+      "description": "Javelin指向のトグルは、ステータスページに対してチェックされるメニュー項目です。GREENはノートにこのファイルがリストされていることを意味します。REDは待機を意味します。一致はまだ制限されている可能性があります。"
+    },
+    "/forum/refund-if-the-loader-wont-open/": {
+      "title": "loaderが開かない場合、返金されますか？",
+      "description": "Apex Legendsのloaderが開かない場合の返金に関する事前購入の質問です。サポート側での不具合が確認された場合を除き、売買は最終的なものです。"
+    },
+    "/forum/31-day-or-lifetime-before-buying/": {
+      "title": "31日用またはlifetimeですか？またメニューにはspooferが含まれますか？",
+      "description": "購入前のご注意：メニューは$35 for 31 daysまたは$150 lifetimeです。HWID spooferは別のキーであり、含まれていません。"
+    },
+    "/forum/loader-blank-after-client-update/": {
+      "title": "クライアントアップデート後にLoaderは開くが何も描画されない",
+      "description": "Apexのクライアントアップデート後、ステータスラベルが赤色だったためメニューが何も描画されませんでした。緑色になるのを待ち、ポータルファイルを再読み込みすることで解決しました。"
+    },
+    "/forum/box-esp-covering-the-fight/": {
+      "title": "Box ESP は 3 スタックで私の画面を ea ている",
+      "description": "Box ESP が戦闘中にうるさくなりすぎた。細いコーナー、銃撃戦中のルート表示オフ、そして 1 つの保存済みプリセットで画面のゴチャゴチャが解消された。"
+    },
+    "/forum/aim-pulls-onto-my-teammate/": {
+      "title": "同じドアのところでエイムがデュオに引っ張られ続ける",
+      "description": "視野角が広すぎたため、エイムアシストがteammateに引っ張られていた。より小さな視野角と保存済みプリセットで引っ張りが止まった。"
+    },
+    "/forum/no-recoil-still-climbs-far/": {
+      "title": "No Recoil は近距離では平坦に感じられ、遠距離ではまだ跳ね上がる",
+      "description": "No Recoil は Cronus やリコイルスクリプトではなく、メニューのトグルである。近距離の弾道は平坦に感じられた。遠距離の弾道にはまだバーストが必要だ。"
+    },
+    "/forum/new-account-fails-on-this-pc/": {
+      "title": "新しいアカウントがこの PC で失敗し、ノートPCでは動作する",
+      "description": "新しい Apex アカウントが 1 つの PC で失敗し、別の環境で動作するのはハードウェアフラグのパターンです。ID BANは確認されていません。spoofer は別のキーです。"
+    },
+    "/forum/stream-proof-showed-on-a-discord-clip/": {
+      "title": "Stream Proofで自分の録画は隠せましたが、デュオのクリップにはボックスが映りました",
+      "description": "Stream Proofは自身のキャプチャをカバーします。teammateが自分の画面を録画している場合、そのトグル範囲外になります。自身のファイルを確認した後、ローカルテストは合格しました。"
+    },
+    "/forum/loot-labels-loud-after-season-31/": {
+      "title": "Season 31の戦利品ラベルが戦闘中にうるさく表示される",
+      "description": "Season 31のStrongholdsと戦利品ラベルがうるさくなりすぎました。ティアのフィルタリングと戦闘開始時の戦利品非表示により、オーバーレイが再びreadableになりました。"
     }
   }
 }

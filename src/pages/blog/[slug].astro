@@ -22,7 +22,7 @@ import { Button } from '@/components/starwind/button';
 import { Prose } from '@/components/starwind/prose';
 import BlogPostCta from '../../components/BlogPostCta.astro';
 import { normalizeInternalPath, ROUTES } from '../../utils/path';
-import { socialShareImage } from '../../utils/responsiveImage';
+import { intrinsicImageSize, socialShareImage } from '../../utils/responsiveImage';
 
 export function getStaticPaths() {
   return getAllBlogSlugs().map((slug) => ({ params: { slug } }));
@@ -112,7 +112,7 @@ const h1Text = post.h1Title ?? post.title;
               class="w-full object-cover"
             />
           </figure>
-
+              class="w-full max-h-full object-contain"
           <div data-blog-reading-article>
           <header class="blog-article__header">
             <h1 class="blog-article__title">{h1Text}</h1>
@@ -200,7 +200,7 @@ const h1Text = post.h1Title ?? post.title;
           </div>
 
           <nav class="blog-article__actions" aria-label="Continue reading">
-            <Button as="a" href={checkoutPath('Valorant')} variant="primary" aria-label={t.ui.checkoutAria} rel="nofollow sponsored" data-astro-reload data-astro-prefetch="false">
+            <Button as="a" href={checkoutPath('apexLegends')} variant="primary" aria-label={t.ui.checkoutAria} rel="nofollow sponsored" data-astro-reload data-astro-prefetch="false">
               Buy now
               <Icon name="arrowRight" size={17} />
             </Button>

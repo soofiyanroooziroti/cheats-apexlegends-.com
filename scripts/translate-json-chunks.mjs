@@ -123,7 +123,8 @@ export function sameJsonStructure(a, b) {
   return sa === sb;
 }
 
-const PLACEHOLDER_RE = /\[\[T\d+\]\]|\{[^}]+\}|%\d*\$?[sdif]|%\w|%\./gi;
+/** [[T#]], {name}, printf tokens — not “100%.” in casual forum copy (%. alone is a false positive). */
+const PLACEHOLDER_RE = /\[\[T\d+\]\]|\{[^}]+\}|%\d*\$?[sdif]/gi;
 
 function collectPlaceholdersFromStrings(obj, out = []) {
   if (typeof obj === 'string') {

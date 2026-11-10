@@ -70,10 +70,10 @@ if (!fs.existsSync(seoPath)) {
     '/forum/',
     '/faq/',
     '/status/',
-    '/products/valorant-cheats/',
-    '/products/valorant-cheats/loader/',
-    '/products/valorant-cheats/hwid-spoofer/',
-    '/products/valorant-cheats/utilities/',
+    '/products/apex-legends-cheats/',
+    '/products/apex-legends-cheats/loader/',
+    '/products/apex-legends-cheats/hwid-spoofer/',
+    '/products/apex-legends-cheats/utilities/',
   ];
   for (const key of core) {
     if (!pages[key]?.title) errors.push(`SEO bundle missing core route ${key}`);

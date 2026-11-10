@@ -1,60 +1,60 @@
 {
   "site": {
-    "title": "Valorant Cheats",
-    "description": "Valorant Cheats dla Steam na Windows PC z aimbot, gracz ESP, znaczniki pojazdów i radar. Porównaj wspomagacz, HWID spoofer i odzyskiwanie na cheats-valorant.org."
+    "title": "Apex Legends cheats",
+    "description": "Apex Legends cheats dla Steam na Windows PC z aimbot, gracz ESP, znaczniki pojazdów i radar. Porównaj wspomagacz, HWID spoofer i odzyskiwanie na cheatsapexlegends.com."
   },
   "pages": {
     "/": {
-      "title": "Valorant Cheats dla Windows PC | ESP, Aimbot i cennik",
-      "description": "Compare Valorant Cheats on Windows: ESP modules, aimbot settings, $35 and $150 plans, the live Status label, and setup notes before you load."
+      "title": "Apex Legends cheats dla Windows PC | ESP, Aimbot i cennik",
+      "description": "Compare Apex Legends cheats on Windows: ESP modules, aimbot settings, $35 and $150 plans, the live Status label, and setup notes before you load."
     },
     "/products/valorant-cheats/": {
-      "title": "Valorant Hacks for PC | $35 and $150",
-      "description": "Cheats for VALORANT na Steam: trzy produkty Windows dzielą $35 and $150. Loader, narzędzie HWID oraz odwołania dotyczące konta to osobne płatności."
+      "title": "Apex Legends cheats for PC | $35 and $150",
+      "description": "Cheats for Apex Legends na Steam: trzy produkty Windows dzielą $35 and $150. Loader, narzędzie HWID oraz odwołania dotyczące konta to osobne płatności."
     },
     "/products/valorant-cheats/loader/": {
       "title": "Steam Loader dla Windows PC | Celownik i Radar",
       "description": "Four menu groups: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. $35 for 31 days or $150 lifetime."
     },
     "/products/valorant-cheats/hwid-spoofer/": {
-      "title": "HWID Spoofer dla VALORANT Windows - Blokady sprzętowe",
+      "title": "HWID Spoofer dla Apex Legends Windows - Blokady sprzętowe",
       "description": "HWID spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
     },
     "/products/valorant-cheats/utilities/": {
       "title": "Porównaj narzędzie HWID i aplikację do odwołań",
-      "description": "Sprawdź, które narzędzie Windows pasuje do blokady sprzętowej, a które do odwołania. Osobne zakupy ze sklepu VALORANT loader."
+      "description": "Sprawdź, które narzędzie Windows pasuje do blokady sprzętowej, a które do odwołania. Osobne zakupy ze sklepu Apex Legends loader."
     },
     "/blog/": {
-      "title": "VALORANT PC Porady dot. Celowania, ESP, Lootu, Menu i Vanguard",
-      "description": "Original notes on custom-game toggles, Vanguard and VAC, x-ray overlays, Reddit claims, and the $35 and $150 plans."
+      "title": "Apex Legends PC Porady dot. Celowania, ESP, Lootu, Menu i EA Javelin",
+      "description": "Original notes on custom-game toggles, EA Javelin and VAC, x-ray overlays, Reddit claims, and the $35 and $150 plans."
     },
     "/forum/": {
-      "title": "VALORANT Community Forum: Setup, Aim, and Plans",
-      "description": "Forum threads on the VALORANT loader, aim and ESP options, $35 and $150 plans, and Vanguard patch days. Developer replies are marked."
+      "title": "Apex Legends Community Forum: Setup, Aim, and Plans",
+      "description": "Forum threads on the Apex Legends loader, aim and ESP options, $35 and $150 plans, and EA Javelin patch days. Developer replies are marked."
     },
     "/faq/": {
-      "title": "FAQ – Plans, Setup, and Vanguard Risk Before Checkout",
-      "description": "Answers on the $35 and $150 plans, Vanguard updates, Windows requirements, hardware flags, and how the three products differ."
+      "title": "FAQ – Plans, Setup, and EA Javelin Risk Before Checkout",
+      "description": "Answers on the $35 and $150 plans, EA Javelin updates, Windows requirements, hardware flags, and how the three products differ."
     },
     "/support/": {
-      "title": "VALORANT Support: Loader, Checkout, and HWID PC",
-      "description": "Loader, checkout, and portal help for VALORANT tools, the HWID spoofer, and account appeals. Include your order email and the exact loader."
+      "title": "Apex Legends Support: Loader, Checkout, and HWID PC",
+      "description": "Loader, checkout, and portal help for Apex Legends tools, the HWID spoofer, and account appeals. Include your order email and the exact loader."
     },
     "/about/": {
-      "title": "O sklepie VALORANT: dostawa przez portal, ceny i ryzyko",
-      "description": "Sklep: co oferuje cheats-valorant.org, jak działa realizacja i dostawa, oraz ryzyko bana podczas korzystania z narzędzi na VALORANT w grze Windows PC."
+      "title": "O sklepie Apex Legends: dostawa przez portal, ceny i ryzyko",
+      "description": "Sklep: co oferuje cheatsapexlegends.com, jak działa realizacja i dostawa, oraz ryzyko bana podczas korzystania z narzędzi na Apex Legends w grze Windows PC."
     },
     "/privacy/": {
       "title": "Polityka prywatności: analityka, pliki cookie i dane",
-      "description": "Jak cheats-valorant.org przetwarza analitykę, pliki cookie i dane kontaktowe. Numery kart płatniczych pozostają u operatora płatności."
+      "description": "Jak cheatsapexlegends.com przetwarza analitykę, pliki cookie i dane kontaktowe. Numery kart płatniczych pozostają u operatora płatności."
     },
     "/terms/": {
       "title": "Warunki licencji, zwroty i zasady użytkowania",
-      "description": "Warunki licencji, zasady użytkowania i zasada braku zwrotów dla loader, HWID spoofer oraz odzyskiwania konta w cheats-valorant.org."
+      "description": "Warunki licencji, zasady użytkowania i zasada braku zwrotów dla loader, HWID spoofer oraz odzyskiwania konta w cheatsapexlegends.com."
     },
     "/status/": {
-      "title": "VALORANT Status i Vanguard Informacje o aktualizacji",
-      "description": "Uwagi do aktualizacji modułu i portalu dla Windows loader. Sprawdź status po każdej aktualizacji Vanguard, zanim uruchomisz VALORANT na Steam."
+      "title": "Apex Legends Status i EA Javelin Informacje o aktualizacji",
+      "description": "Uwagi do aktualizacji modułu i portalu dla Windows loader. Sprawdź status po każdej aktualizacji EA Javelin, zanim uruchomisz Apex Legends na Steam."
     }
   }
 }

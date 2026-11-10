@@ -1,6 +1,6 @@
-# cheats-valorant-.org
+# cheats-apexlegends-.com
 
-Static Astro site for Valorant Cheats — multi-locale i18n, blog, forum, status, and product pages.
+Static Astro site for Apex Legends cheats — multi-locale i18n (build sitemap EN-only until translations ship), blog, forum, status, and product pages.
 
 **Maintainers:** soofiyanroooziroti, Cursor Agent
 
@@ -13,9 +13,11 @@ npm run dev
 
 Copy `.env.example` to `.env` and set `GEMINI_API_KEY` only if you run `npm run translate`.
 
-## Cloudflare deploy
+## Build (English sitemap)
 
-This repo is a **static** Astro site (`dist/`). Use committed `wrangler.toml` — do **not** let Wrangler run `astro add cloudflare` (that breaks CI with a Workers compatibility-date mismatch).
+```bash
+set PUBLIC_SITE_URL=https://cheatsapexlegends.com
+npm run build:i18n-test
+```
 
-- Build command: `npm run build:i18n-test` (or full `npm run build`)
-- Deploy: `npx wrangler deploy` or Cloudflare **Workers/Pages** deploy command `npx wrangler deploy`
+To include all locale URLs in `sitemap.xml` later: `set SITEMAP_ALL_LOCALES=1` before build.

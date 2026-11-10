@@ -26,7 +26,7 @@ export {
 } from './locales';
 
 const localeModules = import.meta.glob<{ default: Record<string, unknown> }>(
-  ['./en.json', './{fr,it,de,es,cs,ru,zh-cn,ja,pl,pt-br}.json'],
+  ['./en.json', './{ja,zh-cn,es,ru,pt-br,de,fr,ko}.json'],
   { eager: true },
 );
 const seoModules = import.meta.glob<{ default: Record<string, unknown> }>('./seo/*.json', {
@@ -104,13 +104,13 @@ function localizeTranslationHrefs(merged: Translations, locale: Locale): Transla
 }
 
 function applySupportChannelUrls(merged: Translations): void {
-  /** Hero “Buy now” — must hit `/go/valorant/` (Zadeyo), not the Discord invite. */
-  merged.site.discord = checkoutPath('Valorant');
+  /** Hero “Buy now” — must hit `/go/apex-legends/` (Zadeyo), not the Discord invite. */
+  merged.site.discord = checkoutPath('apexLegends');
   for (const channel of merged.support.channels) {
     if (channel.icon === 'messageCircle') channel.href = '/forum/';
     else if (channel.icon === 'headphones' || channel.icon === 'clock') {
       channel.href = DISCORD_INVITE_URL;
-    } else if (channel.icon === 'users') channel.href = checkoutPath('Valorant');
+    } else if (channel.icon === 'users') channel.href = checkoutPath('apexLegends');
   }
   const items = merged.faq?.items;
   if (Array.isArray(items)) {
@@ -118,7 +118,7 @@ function applySupportChannelUrls(merged: Translations): void {
       if (item && typeof item === 'object' && 'aHtml' in item && typeof item.aHtml === 'string') {
         item.aHtml = item.aHtml.replace(
           /href="(?:https:\/\/levocheats\.com\/go\/SOOFIYAN\?to=%2Fdelta-force|\/go\/delta-force\/?)"/gi,
-          `href="${checkoutPath('Valorant')}"`,
+          `href="${checkoutPath('apexLegends')}"`,
         );
       }
     }

@@ -24,25 +24,8 @@ export type {
 } from './product-types';
 
 export const productRelatedBlogSlugs: Record<string, string[]> = {
-  loader: [
-    'valorant-player-esp',
-    'valorant-agent-esp',
-    'valorant-spike-esp',
-    'valorant-skeleton-esp',
-    'valorant-health-esp',
-    'valorant-rank-esp',
-    'valorant-aimbot',
-    'valorant-streamproof',
-    'valorant-xray-tool',
-    'valorant-cheats-pricing',
-    'valorant-vanguard-security-2026',
-  ],
-  'hwid-spoofer': [
-    'valorant-vanguard-security-2026',
-    'what-an-hwid-spoofer-does',
-    'what-is-an-hwid-spoofer',
-    'valorant-vanguard-vs-vac',
-  ],
+  loader: [],
+  'hwid-spoofer': [],
 };
 
 const productBase = PRODUCT_BASE;
@@ -181,7 +164,7 @@ export function getProductHub(locale: Locale = defaultLocale) {
     title: t.products.title,
     subtitle: t.products.subtitle,
     description: t.products.subtitle,
-    buyUrl: checkoutPath('Valorant'),
+    buyUrl: checkoutPath('apexLegends'),
   };
 }
 

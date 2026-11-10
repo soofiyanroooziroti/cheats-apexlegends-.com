@@ -17,6 +17,13 @@ pnpm-debug.log*
 .env
 .env.production
 
+# translate resume pointer (local only)
+.translate-progress.json
+.translate-stamps.json
+_apex22_extract/
+_apex-22-extract/
+src/data/apex-image-dimensions.json
+
 # macOS-specific files
 .DS_Store
 

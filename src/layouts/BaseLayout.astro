@@ -23,7 +23,9 @@ import {
 } from '../config/seo';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import ExploreSection from '../components/ExploreSection.astro';
 import SiteSearch from '../components/SiteSearch.astro';
+import { shouldShowSitewideExplore } from '../utils/explore-placement';
 import SharePage from '../components/SharePage.astro';
 import JsonLd from '../components/JsonLd.astro';
 
@@ -65,6 +67,8 @@ const ogImageUrl = absoluteAssetUrl(ogImage);
 const robotsContent = noindex
   ? 'noindex, nofollow'
   : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+
+const showSitewideExplore = shouldShowSitewideExplore(Astro.url.pathname);
 
 const alternates = getAlternateLanguages(Astro.url.pathname, siteOrigin, {
   blogSlug,
@@ -180,6 +184,13 @@ const xDefaultHref = alternates.find((a) => a.locale === 'en')?.href ?? canonica
 
     <link
       rel="preload"
+      href="/fonts/manrope-latin-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
       href="/fonts/rajdhani-latin-600.woff2"
       as="font"
       type="font/woff2"
@@ -196,6 +207,7 @@ const xDefaultHref = alternates.find((a) => a.locale === 'en')?.href ?? canonica
     <main id="main-content">
       <slot />
     </main>
+    {showSitewideExplore && <ExploreSection />}
     <SharePage title={title} />
     <Footer />
     <SiteSearch />

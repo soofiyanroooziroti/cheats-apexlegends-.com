@@ -50,9 +50,7 @@ const tocCount = tocFromHeadings.length > 0 ? h2Count : toc.length > 0 ? 1 : 0;
 const UTILITY_SLUG = 'what-an-hwid-spoofer-does';
 const onUtilityPost = post.slug === UTILITY_SLUG;
 const utilityPost = getBlogPost(UTILITY_SLUG, locale);
-const otherReads = ['what-an-hwid-spoofer-does', 'valorant-vanguard-security-2026']
-  .map((slug) => getBlogPost(slug, locale))
-  .filter((item): item is BlogPostFull => Boolean(item));
+const otherReads: BlogPostFull[] = [];
 const usedRelated = new Set(relatedShort.map((item) => item.slug));
 const extraReads = [...related.slice(2), ...otherReads].filter((item) => !usedRelated.has(item.slug));
 const slotPosts: BlogPostFull[] = onUtilityPost

@@ -1,0 +1,69 @@
+---
+import { localeOnlyPaths } from '../../../../i18n/paths';
+import { getAllProductSlugs, getProductPage, getProductHub } from '../../../../data/products';
+
+export function getStaticPaths() {
+  return localeOnlyPaths().flatMap(({ params }) => {
+    const locale = params.locale;
+    return getAllProductSlugs(locale).map((slug) => ({
+      params: { locale, slug },
+    }));
+  });
+}
+
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { resolvePageSeo, pageTitle } from '../../../../config/seo';
+import { PRODUCT_H1 } from '../../../../config/keywords';
+import { breadcrumbSchema, faqPageSchema, productSchema } from '../../../../utils/schema';
+import ProductDetail from '../../../../components/ProductDetail.astro';
+import { getShopHeroFaqSchemaItems } from '../../../../utils/product-shop-copy';
+import { getTranslations } from '../../../../i18n';
+import { localizedPath, productPath } from '../../../../utils/path';
+
+const locale = Astro.params.locale!;
+const { slug } = Astro.params;
+const t = getTranslations(locale);
+const productHub = getProductHub(locale);
+const product = getProductPage(slug!, locale);
+
+if (!product) {
+  return Astro.redirect(localizedPath(productHub.path, locale));
+}
+
+const pagePath = `${productHub.path}${product.slug}/`;
+const seo = resolvePageSeo(pagePath, locale);
+const pageH1 = PRODUCT_H1[product.slug] ?? product.title;
+const breadcrumbs = [
+  { name: t.breadcrumbs.home, path: localizedPath('/', locale) },
+  { name: t.breadcrumbs.products, path: localizedPath(productHub.path, locale) },
+  { name: pageH1, path: localizedPath(pagePath, locale) },
+];
+
+const jsonLd = [
+  productSchema({
+    name: product.title,
+    description: product.desc,
+    url: localizedPath(pagePath, locale),
+    offerUrl: product.buyUrl,
+    image: product.images[0]?.src,
+    sku: product.slug,
+    productSlug: product.slug,
+  }),
+  breadcrumbSchema(breadcrumbs),
+];
+
+if (product.slug === 'hwid-spoofer') {
+  const faqItems = getShopHeroFaqSchemaItems(locale, product.slug);
+  if (faqItems.length > 0) {
+    jsonLd.push(faqPageSchema(faqItems));
+  }
+}
+---
+
+<BaseLayout
+  title={seo?.title ?? pageTitle(product.title)}
+  description={seo?.description ?? product.desc}
+  jsonLd={jsonLd}
+>
+  <ProductDetail product={product} breadcrumbs={breadcrumbs} pageH1={pageH1} />
+</BaseLayout>

@@ -1,60 +1,164 @@
 {
   "site": {
-    "title": "Valorant Cheats | 顶尖 Steam 辅助与作弊工具",
-    "description": "Valorant Cheats for Steam on Windows PC with aimbot, player ESP, vehicle markers, and radar. Compare the cheat, HWID spoofer, and on cheats-valorant.org."
+    "title": "Apex Legends cheats",
+    "description": "Aimbot, Player Visuals, World/Loot, 和 Misc 菜单组，适用于 Windows 上的 Apex Legends PC。USD 价格。"
   },
   "pages": {
     "/": {
-      "title": "Valorant Cheats Windows PC | ESP, Aimbot & 价格",
-      "description": "Compare Valorant Cheats on Windows: ESP modules, aimbot settings, $35 and $150 plans, the live Status label, and setup notes before you load."
+      "title": "Apex legends cheats for Windows PC | Menu & Spoofer",
+      "description": "Apex legends cheats on Windows: player visuals, loot readouts, aim tuning, $35 and $150 plans, live status labels, and EA Javelin setup notes before you load."
     },
-    "/products/valorant-cheats/": {
-      "title": "Valorant Hacks for PC | $35 and $150",
-      "description": "Cheats for VALORANT on Steam: three Windows products share $35 and $150. Loader, HWID 工具，以及账号申诉为单独结算。"
+    "/products/apex-legends-cheats/": {
+      "title": "Products | Menu $35 & $150 · HWID Spoofer",
+      "description": "Windows menu and HWID spoofer with separate checkouts. Menu $35 for 31 days or $150 lifetime; spoofer $50 or $150."
     },
-    "/products/valorant-cheats/loader/": {
-      "title": "Steam Loader for Windows PC | 自瞄与雷达",
-      "description": "Four menu groups: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. $35 for 31 days or $150 lifetime."
+    "/products/apex-legends-cheats/loader/": {
+      "title": "Apex legends cheat | Aimbot, Player & Loot Visuals",
+      "description": "Four menu groups: Aimbot, Player Visuals, World/Loot, and Misc. $35 for 31 days or $150 lifetime on Windows PC."
     },
-    "/products/valorant-cheats/hwid-spoofer/": {
-      "title": "HWID Spoofer 用于 VALORANT Windows 硬件标志",
-      "description": "HWID spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
+    "/products/apex-legends-cheats/hwid-spoofer/": {
+      "title": "Apex legends spoofer | HWID Recovery on PC",
+      "description": "Apex legends spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
     },
-    "/products/valorant-cheats/utilities/": {
-      "title": "比较 HWID 工具和账户申诉实用程序",
-      "description": "查看哪个 Windows 实用程序适合硬件标志，哪个适合账户申诉。两者都是来自 VALORANT loader 的独立结账。"
+    "/products/apex-legends-cheats/utilities/": {
+      "title": "HWID Spoofer Utility Overview",
+      "description": "When a hardware flag blocks new accounts on one PC, the HWID spoofer is a separate checkout from the menu."
     },
     "/blog/": {
-      "title": "VALORANT PC 瞄准、ESP、战利品、菜单与 Vanguard 指南",
-      "description": "Original notes on custom-game toggles, Vanguard and VAC, x-ray overlays, Reddit claims, and the $35 and $150 plans."
+      "title": "Apex Legends Guides Hub | Setup, Javelin & Plans",
+      "description": "Guides on loader setup, EA Javelin patch days, overlay tuning, Reddit claims, HWID flags, streamproof overlays, and $35 / $150 checkout notes."
     },
     "/forum/": {
-      "title": "VALORANT 社区论坛：安装、瞄准与服务方案",
-      "description": "Closed threads on third-party risk, Vanguard versus VAC, custom-game toggles, the HWID spoofer, and."
+      "title": "关于设置、风险与计划的社区 Threads",
+      "description": "关于第三方风险、Javelin 与其他反作弊ea、预设调整以及 HWID spoofer 的已关闭 threads。"
     },
     "/faq/": {
-      "title": "常见问题 – 方案、安装与 Vanguard 结账前风险",
-      "description": "Answers on the $35 and $150 plans, Vanguard updates, Windows requirements, hardware flags, and how the three products differ."
+      "title": "关于计划、Javelin和设置说明的常见问题",
+      "description": "解答 $35 和 $150 计划、EA Javelin 更新、Windows 要求、硬件标识以及菜单与 spoofer 区别的问题。"
     },
     "/support/": {
-      "title": "VALORANT 支持：Loader、结账与 HWID PC",
-      "description": "Loader、结账和 VALORANT 工具、HWID spoofer 以及账户申诉的门户帮助。请附上您的订单邮箱和确切的 loader。"
+      "title": "Loader、结账与设置支持",
+      "description": "针对菜单和 HWID spoofer 的 Loader、结账与门户帮助。请附上您的订单电子邮件。"
     },
     "/about/": {
-      "title": "关于此 VALORANT 商店：交付、定价与封号风险",
-      "description": "商店说明：cheats-valorant.org 出售的内容、结账与门户交付流程，以及在 VALORANT 上游玩 Windows PC 时使用第三方工具的风险。"
+      "title": "关于 cheatsapexlegends.com | 交付、定价与风险",
+      "description": "了解谁在运营本商店、菜单与 HWID spoofer 的包含内容、Windows 门户交付、Javelin 封号风险，以及状态和客服如何与结账对接。"
     },
     "/privacy/": {
-      "title": "关于分析、Cookie 与联系数据的隐私说明",
-      "description": "cheats-valorant.org 如何处理分析数据、Cookie 和联系信息。支付卡号保存在结账服务提供商处，本商店不予存储。"
+      "title": "关于分析、Cookie 和联系方式的Privacy说明",
+      "description": "本商店如何处理分析、Cookie 和联系数据。支付卡号将保留在结账服务提供商处。"
     },
     "/terms/": {
-      "title": "许可条款、退款政策与使用规则",
-      "description": "通过 cheats-valorant.org 销售的 loader、HWID spoofer 以及账号找回服务的许可条款、使用规范和不支持退款的规则。"
+      "title": "许可条款、退款与可接受使用规范",
+      "description": "此处销售的 loader 和 HWID spoofer 的许可条款、可接受使用规范以及不退款规则。"
     },
     "/status/": {
-      "title": "VALORANT 状态与 Vanguard 补丁说明",
-      "description": "Windows loader 的模块和门户更新日志。在 Steam 上启动 VALORANT 之前，请在每次 Vanguard 更新后检查状态。"
+      "title": "Status Label and EA Javelin Patch Notes",
+      "description": "GREEN means load. RED means wait. Store lineup and Javelin patch reminders—read before you launch Apex Legends."
+    },
+    "/blog/24-7-support/": {
+      "title": "Get Round-the-Clock Help with Our 24/7 Support Team",
+      "description": "24/7 support needs the order email, your Windows version, and the exact text on screen. A ticket cannot undo a publisher action or replace the portal download."
+    },
+    "/blog/apex-legend-cheating-ranked/": {
+      "title": "Apex Legend Cheating in Ranked: What Players Should Know",
+      "description": "Apex legend cheating in ranked puts the season, the account, and the PC on the same decision. Read the status label before you queue."
+    },
+    "/blog/stream-proof/": {
+      "title": "Stream 避免在观众面前显示 hacks",
+      "description": "Stream Proof 旨在让菜单在常规本地捕获中隐藏，同时你仍能看到它。在开启直播前测试你的软件。队友的录屏使用的是不同的录制方式。"
+    },
+    "/blog/loot-esp/": {
+      "title": "使用 Loot ESP 立即获取高级装备",
+      "description": "物品标签适用于搜索物资箱、death boxes 和空投补给。在战斗开始时隐藏它们，避免地面文字干扰战斗视野。"
+    },
+    "/blog/no-recoil/": {
+      "title": "完全消除 weapon 后坐力，命中每一枪",
+      "description": "No Recoil 是用于控制枪械跳动的独立功能。在没有 aim smooth 的情况下测试它，长连射时仍会有一定幅度的上抬。"
+    },
+    "/blog/weapon-esp/": {
+      "title": "使用自定义 Weapon ESP 快速找到最好的武器",
+      "description": "玩家身上的 weapon 名称会在进攻前告诉你他们拿着什么。一旦开始扫射就将其关闭，以免标签遮挡战斗画面。"
+    },
+    "/blog/distance-esp/": {
+      "title": "使用距离 ESP 完美计算交战距离",
+      "description": "距离 ESP 是玩家身上的一个范围数字。限制它的绘制距离以保持视野清爽，并利用这个数字来决定接战还是leave。"
+    },
+    "/blog/health-bar-overlay/": {
+      "title": "使用 Health Bar 覆盖层完美追踪敌人生命值",
+      "description": "health bar 覆盖层以条形而非文字显示剩余的 health 和护甲。保留血条，如果文字重叠则隐藏名字。"
+    },
+    "/blog/skeleton-esp/": {
+      "title": "使用 Skeleton ESP 预测敌人的每一个动作",
+      "description": "Skeleton 线条在敌人完全暴露之前显示探头、蹲下或预瞄动作ean。当三个身影纠缠在一起时，请将它们关闭。"
+    },
+    "/blog/box-esp/": {
+      "title": "使用方框 ESP 随时发现隐藏敌人",
+      "description": "方框 ESP 绘制角落边框，助你辨别宽度与姿态。玩家堆叠时请调细边框，切勿将名字和骨骼线条堆在同一个框上。"
+    },
+    "/blog/apex-legends-aimbot/": {
+      "title": "使用我们的 Apex Legends Aimbot 瞬间锁定敌人",
+      "description": "这里的 apex legends aimbot 包含 FOV、smooth、骨骼选择以及可见性检查。在你启用之前它将保持关闭。封禁风险依然存在。"
+    },
+    "/blog/apex-legends-esp/": {
+      "title": "使用 Apex Legends ESP 获得全图视野",
+      "description": "Apex legends esp 此处为独立开关：玩家、方块、skeleton、health、距离、weapons 和战利品。关闭你不需要的功能。"
+    },
+    "/blog/hwid-spoofer-safety/": {
+      "title": "了解 HWID Spoofer 对安全的作用",
+      "description": "HWID 工具会更改 PC 显示磁盘、MAC 和 GPU 标识符的方式。它不会解除仅针对账号的处罚，也不会让对局变得安全。"
+    },
+    "/blog/best-apex-legends-cheats/": {
+      "title": "2026年最佳 Apex Legends Cheats 评测与对比：Features、安全性与价值",
+      "description": "2026年最佳 apex legends cheats 评测，涵盖 features、状态标签安全性和价格：在单个 Windows 菜单上使用 $35 for 31 days 或 $150 lifetime。"
+    },
+    "/blog/apex-legends-dma/": {
+      "title": "Apex Legends DMA 解释：硬件设置与软件菜单",
+      "description": "Apex legends dma 在 search 结果中通常意味着第二个 PC 和一张卡片。这家店会在你已经玩的 PC 上配送 Windows 菜单。"
+    },
+    "/blog/apex-legends-hacks-safe/": {
+      "title": "本赛季使用 Apex Legends 辅助工具安全吗？",
+      "description": "apex legends 的修改版在这个 season 中安全吗？匹配状态标签并非零封号保证。在 Windows 上加载之前，请 read 绿色或红色。"
+    },
+    "/blog/ea-javelin-bypass/": {
+      "title": "保持不被发现：EA Javelin 如何绕过 Apex Anticheat 的 ea",
+      "description": "面向 Javelin 的切换按钮是一个与状态页面进行勾选的菜单项。绿色表ea该笔记列出了此文件。红色表ea请等待。匹配项仍然可能受到限制。"
+    },
+    "/forum/refund-if-the-loader-wont-open/": {
+      "title": "如果 loader 无法打开，我可以退款吗？",
+      "description": "关于如果 Apex Legends loader 无法打开时的退款前置问题。除支持团队确认我方存在故障外，所有销售均为最终决定。"
+    },
+    "/forum/31-day-or-lifetime-before-buying/": {
+      "title": "31 天还是 lifetime？菜单包含 spoofer 吗？",
+      "description": "购买前须知：菜单为 $35 for 31 days 或 $150 lifetime。HWID spoofer 是独立密钥，不包含在内。"
+    },
+    "/forum/loader-blank-after-client-update/": {
+      "title": "Loader 在客户端更新后可以打开但没有任何绘制",
+      "description": "在 Apex 客户端更新后菜单无绘制，因为状态标签显示为红色。等待其变绿并重新加载 portal 文件即可解决。"
+    },
+    "/forum/box-esp-covering-the-fight/": {
+      "title": "Box ESP is eating my screen in a 3 stack",
+      "description": "Box ESP got too loud in a fight. Thin corners, loot off during the gunfight, and one saved preset fixed the clutter."
+    },
+    "/forum/aim-pulls-onto-my-teammate/": {
+      "title": "Aim keeps dragging onto my duo in the same door",
+      "description": "Aim assist was pulling onto a teammate because the cone was too wide. A smaller field of view and a saved preset stopped the drag."
+    },
+    "/forum/no-recoil-still-climbs-far/": {
+      "title": "No Recoil feels flat up close and still climbs at range",
+      "description": "No Recoil is a menu toggle, not a Cronus or recoil script. Close sprays felt flat. Long sprays still need a burst."
+    },
+    "/forum/new-account-fails-on-this-pc/": {
+      "title": "新账号在此 PC 上失败但在我的笔记本上可用",
+      "description": "一个新的 Apex 账号在一个 PC 上失败而在另一个上可用，这是硬件标记模式。ID 封禁尚未确认。spoofer 是一个独立的密钥。"
+    },
+    "/forum/stream-proof-showed-on-a-discord-clip/": {
+      "title": "Stream Proof 隐藏了我的录屏，但我队友还是截下了方框",
+      "description": "Stream Proof 仅遮挡您自己的捕获画面。队友录制他们的屏幕不在该开关的作用范围内。他们在检查自己的文件后，本地测试通过了。"
+    },
+    "/forum/loot-labels-loud-after-season-31/": {
+      "title": "Season 31 物资标签在战斗中对我大喊大叫",
+      "description": "Season 31 的据点和物资标签变得太显眼了。过滤等级并在战斗开始时隐藏物资使悬浮窗再次变得可读 readable。"
     }
   }
 }

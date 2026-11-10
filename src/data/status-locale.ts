@@ -67,7 +67,7 @@ export function getStatusPageContent(locale?: Locale | null): StatusPageCopy {
         ? (s.pageDesc as string)
         : (en?.pageDesc as string) && !isLegacyDayzStatusBlob(String(en?.pageDesc))
           ? (en.pageDesc as string)
-          : 'Vanguard milestones in 2026 included a May DMA-focused update, June on-demand baselines, and a November integrity framework. After any of those or a game patch, read this page before you launch. GREEN means load. RED means wait. Updated is not an undetected claim.',
+          : 'PC Apex Legends uses EA Javelin Anticheat, which replaced Easy Anti-Cheat on September 29, 2026. This menu is not an easy bypass. An ID ban is not confirmed. In most cases there is no ID ban. Read this page before you launch. GREEN means load. RED means wait.',
     breadcrumb: (s?.breadcrumb as string) ?? (en?.breadcrumb as string) ?? 'Status',
     storeLineup: (s?.storeLineup as string) ?? (en?.storeLineup as string) ?? 'Store lineup',
     recentTitle: (s?.recentTitle as string) ?? (en?.recentTitle as string) ?? 'Recent updates',

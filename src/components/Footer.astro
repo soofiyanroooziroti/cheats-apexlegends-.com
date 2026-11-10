@@ -1,6 +1,7 @@
 ---
 import { getLocaleFromAstro, getTranslations } from '../i18n';
-import { PRODUCT_BASE } from '../config/site';
+import { PRODUCT_BASE, SITE_DOMAIN } from '../config/site';
+import { footerSisterSites } from '../data/sister-sites';
 import { Separator } from '@/components/starwind/separator';
 import { localizedPath } from '../utils/path';
 import { logoAltForPath } from '../utils/logo-alt';
@@ -21,8 +22,8 @@ const resourceLinks = [
   },
   {
     href: localizedPath(`${PRODUCT_BASE}loader/`, locale),
-    label: resourceMeta[1]?.label ?? 'Cheats for Valorant',
-    ariaLabel: resourceMeta[1]?.ariaLabel ?? 'Cheats for Valorant',
+    label: resourceMeta[1]?.label ?? 'Apex legends cheat',
+    ariaLabel: resourceMeta[1]?.ariaLabel ?? 'Apex legends cheat',
   },
   {
     href: localizedPath(PRODUCT_BASE, locale),
@@ -42,14 +43,8 @@ const legalLinks = [
   { href: localizedPath('/terms/', locale), label: t.footer.terms },
 ];
 
-/** External sister sites — footer only; do not reuse elsewhere. */
-const moreSiteLinks = [
-  { href: 'https://hackforwardogs.com/', label: 'Wardogs cheats' },
-  { href: 'https://cheatsfordeltaforce.com/', label: 'Delta Force cheats' },
-  { href: 'https://unturnedcheats.org/', label: 'Unturned cheats' },
-  { href: 'https://aion2hack.com/', label: 'Aion 2 cheats' },
-  { href: 'https://cheatsforcs2.com/', label: 'CS2 cheats' },
-];
+/** External sister sites — footer only; excluded from sitemap and on-site search index. */
+const moreSiteLinks = footerSisterSites(SITE_DOMAIN);
 ---
 
 <footer class="site-footer-defer border-t border-border bg-muted/30 py-16">
@@ -104,7 +99,7 @@ const moreSiteLinks = [
         </ul>
       </nav>
 
-      <nav class="footer-col" aria-label={t.footer.moreSites}>
+      <nav class="footer-col" data-sitemap-exclude="true" aria-label={t.footer.moreSites}>
         <p class={footerHeadingClass}>{t.footer.moreSites}</p>
         <ul class="mt-3 space-y-2">
           {moreSiteLinks.map((link) => (

@@ -4,6 +4,7 @@ import '../styles/explore-section.css';
 import type { IconName } from './icons/types';
 import Icon from './icons/Icon.astro';
 import { ROUTES, getLocalizedPath, productPath } from '../utils/path';
+import { MAIN_GUIDE_BLOG_SLUG } from '../data/main-guide';
 
 const locale = getLocaleFromAstro(Astro);
 const t = getTranslations(locale);
@@ -23,10 +24,22 @@ const ex = t.exploreSection as {
 type ExploreCard = {
   href: string;
   icon: IconName;
-  cardKey: keyof typeof ex.cards;
+  cardKey: string;
   badge?: 'product' | 'active';
   product?: boolean;
 };
+
+function exploreCardCopy(
+  cards: Record<string, { title: string; desc: string }>,
+  cardKey: string,
+): { title: string; desc: string } {
+  return (
+    cards[cardKey] ?? {
+      title: 'Season safety guide',
+      desc: 'GREEN or RED on the status page before you load.',
+    }
+  );
+}
 
 const warzoneFeaturesHref = `${productPath('loader', locale)}#features`;
 
@@ -39,6 +52,11 @@ const cards: ExploreCard[] = [
   { href: getLocalizedPath(ROUTES.faq, locale), icon: 'faqStatus', cardKey: 'faq' },
   { href: getLocalizedPath(ROUTES.support, locale), icon: 'headphones', cardKey: 'support' },
   { href: getLocalizedPath(ROUTES.blog, locale), icon: 'navBlog', cardKey: 'blog' },
+  {
+    href: getLocalizedPath(`/blog/${MAIN_GUIDE_BLOG_SLUG}/`, locale),
+    icon: 'shield',
+    cardKey: 'mainGuide',
+  },
   { href: getLocalizedPath(ROUTES.forum, locale), icon: 'messageCircle', cardKey: 'forum' },
 ];
 ---
@@ -61,7 +79,7 @@ const cards: ExploreCard[] = [
     <div class="explore-grid">
       {
         cards.map((card) => {
-          const copy = ex.cards[card.cardKey];
+          const copy = exploreCardCopy(ex.cards, card.cardKey);
           return (
           <a
             href={card.href}

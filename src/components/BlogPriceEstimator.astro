@@ -14,9 +14,9 @@ const side = (t.blogSidebar ?? {}) as Record<string, string>;
 
 const cheatPlans = getProductPlans('loader');
 const spooferPlans = getProductPlans('hwid-spoofer');
-const mCheat = cheatPlans.find((p) => p.id === 'monthly')!;
+const mCheat = cheatPlans.find((p) => p.id === 'mon')!;
 const lCheat = cheatPlans.find((p) => p.id === 'lifetime')!;
-const mSpoofer = spooferPlans.find((p) => p.id === 'monthly')!;
+const mSpoofer = spooferPlans.find((p) => p.id === 'mon')!;
 const lSpoofer = spooferPlans.find((p) => p.id === 'lifetime')!;
 
 const productsHref = localizedPath(ROUTES.products, locale);

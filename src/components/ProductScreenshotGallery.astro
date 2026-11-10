@@ -14,8 +14,8 @@ import { Badge } from '@/components/starwind/badge';
 interface Props {
   images: ProductSlide[];
   id?: string;
-  /** Utility product pages — fill the frame with cover (default gallery unchanged). */
-  imageFill?: 'cover';
+  /** Utility gallery: stretch to fill the frame (full source visible, no object-fit crop). */
+  imageFill?: 'fill';
   variant?: 'default' | 'shop';
   ribbonLabel?: string;
 }
@@ -48,7 +48,7 @@ const gallerySlides = images.map((img) => ({
   class:list={[
     'product-gallery',
     !hasMultiple && 'product-gallery--single',
-    imageFill === 'cover' && 'product-gallery--cover',
+    imageFill === 'fill' && 'product-gallery--fill',
     isShop && 'product-gallery--shop',
   ]}
   id={id}
@@ -57,7 +57,7 @@ const gallerySlides = images.map((img) => ({
   data-gallery-autoplay={hasMultiple ? 'true' : undefined}
   data-gallery-delay="4500"
 >
-  <div class="product-gallery__frame relative min-h-0 min-w-0 overflow-hidden rounded-xl border border-border bg-muted/20">
+  <div class="product-gallery__frame relative min-h-0 min-w-0 overflow-hidden rounded-xl border border-border bg-[#0a0c10]">
     {
       isShop && ribbonLabel && (
         <Badge tone="primary" appearance="solid" size="sm" class="product-gallery__ribbon">
@@ -71,8 +71,8 @@ const gallerySlides = images.map((img) => ({
           <ResponsiveImage
             src={first.src}
             alt={first.alt}
-            width={960}
-            height={540}
+            width={first.width ?? 1330}
+            height={first.height ?? 840}
             loading="eager"
             fetchPriority="high"
             sizes="(min-width: 1024px) 640px, 100vw"
@@ -134,7 +134,15 @@ const gallerySlides = images.map((img) => ({
             aria-label={img.caption ?? img.alt}
             role="listitem"
           >
-            <img src={slideSrc(img.src)} alt="" width="72" height="48" loading="lazy" decoding="async" />
+            <img
+              src={slideSrc(img.src)}
+              alt=""
+              width={img.width ?? 1330}
+              height={img.height ?? 840}
+              loading="lazy"
+              decoding="async"
+              class="product-gallery__thumb-img"
+            />
           </button>
         ))}
       </div>

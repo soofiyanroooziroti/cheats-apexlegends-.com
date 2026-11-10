@@ -10,7 +10,7 @@ const SITE_BUILD_ID =
   new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
 
 const SITE_URL =
-  (process.env.PUBLIC_SITE_URL || process.env.SITE_URL || 'https://cheats-valorant.org').trim().replace(
+  (process.env.PUBLIC_SITE_URL || process.env.SITE_URL || 'https://cheatsapexlegends.com').trim().replace(
     /\/$/,
     '',
   );

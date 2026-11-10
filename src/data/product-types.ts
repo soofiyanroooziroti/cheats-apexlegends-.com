@@ -5,6 +5,8 @@ export interface ProductSlide {
   alt: string;
   caption: string;
   captionDesc: string;
+  width?: number;
+  height?: number;
 }
 
 export interface ProductOverview {

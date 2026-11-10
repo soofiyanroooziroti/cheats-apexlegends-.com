@@ -1,5 +1,5 @@
 /** ISO date (YYYY-MM-DD) — edit when you publish a status refresh. */
-export const STATUS_LAST_UPDATED = '2026-11-08';
+export const STATUS_LAST_UPDATED = '2026-11-10';
 
 export interface StatusUpdateEntry {
   /** Stable id for locale JSON + translate resume (optional in legacy arrays). */
@@ -12,35 +12,43 @@ export interface StatusUpdateEntry {
   icon?: 'shield' | 'mapHack' | 'zap' | 'settings' | 'alert' | 'tag';
 }
 
-/** Public Vanguard milestones — prepended on every locale (see status-locale.ts). */
-export const STATUS_VANGUARD_MILESTONES: StatusUpdateEntry[] = [
+/** EA Javelin Anticheat notes — prepended on every locale (see status-locale.ts). */
+export const STATUS_JAVELIN_NOTES: StatusUpdateEntry[] = [
   {
-    id: 'vct-integrity',
-    title: 'VCT 2027 integrity framework',
-    icon: 'shield',
-    when: 'Nov 5, 2026',
-    summary:
-      'Riot outlined a Vanguard Pre-Check routine for open-competition qualifiers. Online stacks now face stricter software-layer review and background-process checks before a match. This store does not describe how to pass that review. Read the status label for this menu after the note, and treat tournament rules as separate from a casual queue.',
-  },
-  {
-    id: 'vanguard-on-demand',
-    title: 'Vanguard on-demand and Windows 11 baselines',
-    icon: 'settings',
-    when: 'Jun 2026',
-    summary:
-      'Vanguard On-Demand Mode can stay off when VALORANT is closed, but turning it on enforces a heavier Windows 11 baseline: HVCI, VBS, and TPM 2.0. That closes common injector loopholes. Leave those features enabled on a build you load against. This page does not document bypass steps.',
-  },
-  {
-    id: 'dma-may-2026',
-    title: 'May 22, 2026 — DMA-focused Vanguard update',
+    id: 'ranked-exploit-enforcement',
+    title: 'Ranked exploit suspensions',
     icon: 'alert',
-    when: 'May 22, 2026',
+    when: 'Nov 4, 2026',
     summary:
-      'Riot targeted external SATA/NVMe Direct Memory Access setups and related firmware bypasses. Public discussion centered on Windows IOMMU and DMA remapping blocking malicious device DLLs. Riot said legitimate hardware is not physically destroyed; illicit cheat configurations can fail on that PC. This store sells a Windows loader, not a DMA card. The blog post “Vanguard security timeline (2026)” summarizes the same dates.',
+      'After the Season 31 Cipher Patch, Respawn suspended 906 accounts for up to 365 days for a matchmaking exploit that skipped Ranked entry costs. Those were account suspensions, not a confirmed ID ban. This page does not describe the exploit, and this menu is not an easy bypass of that rule. In most cases there is no ID ban. Read the label after the patch before you launch.',
+  },
+  {
+    id: 'season-31-gameplay',
+    title: 'Season 31 client changes',
+    icon: 'mapHack',
+    when: 'Nov 3, 2026',
+    summary:
+      'Season 31 added Strongholds (capturable loot bunkers), Akimbo Wingman on heavy ammo, a Crypto rework with a 360-degree drone scan, and pre-match Legend bans in Diamond and above. New modes and weapons move on-screen labels. Re-read this page after the client update, then check one overlay before you queue.',
+  },
+  {
+    id: 'javelin-transition',
+    title: 'PC anti-cheat is EA Javelin',
+    icon: 'shield',
+    when: 'Sep 29, 2026',
+    summary:
+      'Respawn replaced Easy Anti-Cheat on PC with EA Javelin Anticheat. The client targets kernel-level tools and other third-party software. This menu is not an easy bypass. An ID ban is not confirmed. In most cases there is no ID ban. An account can still be restricted. GREEN means the note lists this file. RED means wait.',
+  },
+  {
+    id: 'hardware-macro-bans',
+    title: 'Adapters and recoil scripts banned',
+    icon: 'zap',
+    when: 'Mar 4–Jul 9, 2026',
+    summary:
+      'External input adapters (Cronus, XIM, Titan, Strikepacks) and recoil-cancel scripts, including jitter-aim macros and RC filters, are banned on PC and console. Those devices are not this menu. An ID ban on this menu is not confirmed. In most cases there is no ID ban. Read the status label before you launch.',
   },
 ];
 
-/** Store lineup notes — newest first after Vanguard milestones on the status page. */
+/** Store lineup notes — newest first after Javelin notes on the status page. */
 export const STATUS_STORE_NOTES: StatusUpdateEntry[] = [
   {
     id: 'status-label',
@@ -48,7 +56,7 @@ export const STATUS_STORE_NOTES: StatusUpdateEntry[] = [
     icon: 'shield',
     when: 'Nov 8, 2026',
     summary:
-      'GREEN means this note lists the current file to load. RED means wait. Read this page after a VALORANT or Vanguard update before you launch. The label is not an undetected claim, and it does not mean a match will stay clean.',
+      'GREEN means this note lists the current file to load. RED means wait. Read this page after an Apex Legends or Javelin update before you launch. The label is not an undetected claim, and it does not mean a match will stay clean.',
   },
   {
     id: 'menu-covers',
@@ -56,7 +64,7 @@ export const STATUS_STORE_NOTES: StatusUpdateEntry[] = [
     icon: 'mapHack',
     when: 'Nov 8, 2026',
     summary:
-      'The published menu lists Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. Combat Mode Hotkey hides ability and trap ESP. It does not remove Vanguard risk.',
+      'The published menu lists Aimbot, Player Visuals, World/Loot, and Misc. Combat Mode Hotkey hides loot and world overlays. It does not remove Javelin risk.',
   },
   {
     id: 'pc-requirements',
@@ -64,7 +72,7 @@ export const STATUS_STORE_NOTES: StatusUpdateEntry[] = [
     icon: 'settings',
     when: 'Nov 8, 2026',
     summary:
-      'Windows 10 or 11, Intel Core i5 or AMD Ryzen 5 or better, and the latest VALORANT PC client. Leave HVCI, Core Isolation, TPM, and Secure Boot on.',
+      'Windows 10 or 11, Intel Core i5 or AMD Ryzen 5 or better, and the latest Apex Legends PC client. Leave HVCI, Core Isolation, TPM, and Secure Boot on.',
   },
   {
     id: 'updated-claim',
@@ -72,7 +80,7 @@ export const STATUS_STORE_NOTES: StatusUpdateEntry[] = [
     icon: 'alert',
     when: 'Nov 7, 2026',
     summary:
-      'Updated means this note was refreshed. It does not mean the loader is undetected, and it does not mean a match will stay clean after the next Vanguard or game update.',
+      'Updated means this note was refreshed. It does not mean the loader is undetected, and it does not mean a match will stay clean after the next Javelin or game update.',
   },
   {
     id: 'plans',
@@ -86,12 +94,12 @@ export const STATUS_STORE_NOTES: StatusUpdateEntry[] = [
 
 /** Newest first — neutral patch notes only (no undetected / working claims). */
 export const STATUS_RECENT_UPDATES: StatusUpdateEntry[] = [
-  ...STATUS_VANGUARD_MILESTONES,
+  ...STATUS_JAVELIN_NOTES,
   ...STATUS_STORE_NOTES,
 ];
 
 export const STATUS_ACE_REMINDER =
-  'Check this page after each Vanguard or client update — including the May 2026 DMA-focused release and the November 2026 integrity framework. GREEN means load. RED means wait.';
+  'Check this page after each Javelin or client update. GREEN means load. RED means wait.';
 
 const LOCALE_DATE: Partial<Record<string, string>> = {
   en: 'en-US',
@@ -128,7 +136,7 @@ export function formatStatusUpdated(
 
 /** Drop stale template copy from other games still present in locale JSON. */
 export function isLegacyGameStatusBlob(text: string): boolean {
-  return /Badlands|1\.31|1\.30|Nitrado|Nasdara|BattlEye|DayZ|dayz|Warzone cheats|delta-force|PS5 native|ACE update/i.test(
+  return /Badlands|1\.31|1\.30|Nitrado|Nasdara|BattlEye|DayZ|dayz|Warzone cheats|delta-force|PS5 native|ACE update|Vanguard|VALORANT|valorant/i.test(
     text,
   );
 }

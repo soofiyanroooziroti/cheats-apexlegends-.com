@@ -91,7 +91,7 @@ const defaults: ForumUi = {
   next: 'Next',
   sidebarAboutTitle: 'Forum',
   sidebarAboutCopy:
-    'Threads on third-party risk, Vanguard versus VAC, custom-game toggles, and the HWID spoofer. Developer replies are marked.',
+    'Threads on third-party risk, EA Javelin versus other anti-cheats, preset tuning, and the HWID spoofer. Developer replies are marked.',
   sidebarTopics: 'topics',
   sidebarExploreGuides: 'Explore all guides',
   sidebarCommunities: 'Communities',

@@ -1,63 +1,58 @@
 import type { ProductFeatureGroup } from './product-types';
 
-/** Loader menu groups — names match the published Valorant menu. */
-function item(name: string, desc?: string) {
-  return { name, desc: desc ?? 'Listed on the loader menu for supported builds.' };
-}
-
-export const valorantLoaderFeatureGroups: ProductFeatureGroup[] = [
+/** Loader feature list — single catalog group for the cheat product page. */
+export const apexLoaderFeatureGroups: ProductFeatureGroup[] = [
   {
-    name: 'Aimbot Options',
+    name: 'Included features',
     items: [
-      item('Enable Aimbot'),
-      item('Smoothness'),
-      item('Speed'),
-      item('FOV'),
-      item('Stickiness'),
-      item('Aimbot Filter'),
-      item('Aimbot Bone'),
-      item('Visible Check'),
-      item('Draw FOV'),
-      item('Draw Target Line'),
-    ],
-  },
-  {
-    name: 'Player Visual Options',
-    items: [
-      item('Health Bar'),
-      item('Shield Bar'),
-      item('Agent'),
-      item('Rank'),
-      item('Max Distance'),
-      item('Box'),
-      item('Snapline'),
-      item('View Direction'),
-      item('Skeleton'),
-      item('Head Circle'),
-      item('Equip Name'),
-      item('Level'),
-      item('Distance'),
-    ],
-  },
-  {
-    name: 'World Visual Options',
-    items: [
-      item('Ability'),
-      item('Trap'),
-      item('Spike', 'Defuse progress and time readouts when the menu exposes them.'),
-      item('Show Icon'),
-      item('Show Distance'),
-      item('Max. Distance'),
-      item('Customization for each Character'),
-      item('All Abilities & Traps for each Character'),
-    ],
-  },
-  {
-    name: 'Misc Options',
-    items: [
-      item('Combat Mode Hotkey', 'Hides ability and trap ESP while held.'),
-      item('Font Size'),
-      item('Create/Save/Load/Unload Config'),
+      {
+        name: 'Player ESP',
+        desc: 'Shows enemy players with overlays you can tune in the menu.',
+      },
+      {
+        name: 'Advanced Aimbot',
+        desc: 'Smoothing, FOV, and bone selection for aim assist.',
+      },
+      {
+        name: 'Weapon ESP',
+        desc: 'Displays weapon names on players when the option is on.',
+      },
+      {
+        name: 'Health Bar',
+        desc: 'Health and shield bars on targets in your view.',
+      },
+      {
+        name: 'Distance ESP',
+        desc: 'Distance readouts on players you are tracking.',
+      },
+      {
+        name: 'Box ESP',
+        desc: 'Corner boxes around players in the overlay.',
+      },
+      {
+        name: 'Skeleton ESP',
+        desc: 'Bone lines for posture, head level, and peek direction.',
+      },
+      {
+        name: 'Loot ESP',
+        desc: 'Loot tiers, death boxes, and supply bins when enabled.',
+      },
+      {
+        name: 'No Recoil',
+        desc: 'Cuts weapon kick while the option is enabled.',
+      },
+      {
+        name: 'EA Javelin Bypass',
+        desc: 'Built for EA Javelin Anticheat builds listed on the status page.',
+      },
+      {
+        name: 'Stream Proof',
+        desc: 'Keeps overlays off typical recordings while you still see them.',
+      },
+      {
+        name: '24/7 Support',
+        desc: 'Discord help for loader, checkout, and portal questions.',
+      },
     ],
   },
 ];

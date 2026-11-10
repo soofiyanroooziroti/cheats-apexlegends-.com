@@ -24,8 +24,8 @@ const productUi = (t as { productUi?: Record<string, string> }).productUi ?? {};
 const plans = getProductPlans(product.slug);
 const defaultPlan = plans[0]!;
 const isSinglePlan = plans.length === 1;
-const hasMonthlyAndLifetime = plans.some((p) => p.id === 'monthly') && plans.some((p) => p.id === 'lifetime');
-const monthlyPlan = plans.find((p) => p.id === 'monthly');
+const hasMonthlyAndLifetime = plans.some((p) => p.id === 'mon') && plans.some((p) => p.id === 'lifetime');
+const monthlyPlan = plans.find((p) => p.id === 'mon');
 const lifetimePlan = plans.find((p) => p.id === 'lifetime');
 /** Versus 12× 31-day renewals at list price (for subcopy only). */
 const lifetimeSaveUsd =
@@ -40,7 +40,7 @@ const plansSameFeaturesNote =
   'Same features on every plan—only the access period changes.';
 const pricingLabels = t.pricing as Record<string, string>;
 const planDisplayLabel = (plan: (typeof plans)[number]) => {
-  if (plan.id === 'monthly') return pricingLabels.oneMonth ?? plan.label;
+  if (plan.id === 'mon') return pricingLabels.oneMonth ?? plan.label;
   if (plan.id === 'threeMonth') return pricingLabels.threeMonths ?? plan.label;
   return pricingLabels.lifetime ?? plan.label;
 };
@@ -150,7 +150,7 @@ const planDisplayLabel = (plan: (typeof plans)[number]) => {
                           <span class="product-checkout__best-value">{t.pricing.bestValue}</span>
                         )}
                       </span>
-                      {plan.id === 'monthly' && (
+                      {plan.id === 'mon' && (
                         <span class="product-checkout__save pl-8">{monthlyPlanNote}</span>
                       )}
                       {plan.id === 'threeMonth' && (

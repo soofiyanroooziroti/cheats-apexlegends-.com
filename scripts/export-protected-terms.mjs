@@ -1,6 +1,8 @@
 /**
  * Sync scripts/protected-terms.json from src/i18n/protected.ts
  */
+import { register } from 'tsx/esm/api';
+register();
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';

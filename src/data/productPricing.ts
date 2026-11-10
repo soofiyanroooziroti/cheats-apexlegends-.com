@@ -5,7 +5,7 @@ import {
   SPOOFER_SHORT_USD,
 } from '../config/product-plans';
 
-export type ProductPlanId = 'monthly' | 'threeMonth' | 'lifetime';
+export type ProductPlanId = 'mon' | 'lifetime';
 
 export interface ProductPlan {
   id: ProductPlanId;
@@ -16,11 +16,11 @@ export interface ProductPlan {
 
 const shortLabel = `${SHORT_PLAN_DAYS} days`;
 const shortNote = `USD · ${SHORT_PLAN_DAYS}-day access`;
-const lifetimeNote = 'USD · lifetime access';
+const lifetimeNote = 'USD · lifetime (P99Y)';
 
 function twoPlans(shortUsd: number): ProductPlan[] {
   return [
-    { id: 'monthly', label: shortLabel, priceUsd: shortUsd, priceNote: shortNote },
+    { id: 'mon', label: shortLabel, priceUsd: shortUsd, priceNote: shortNote },
     { id: 'lifetime', label: 'Lifetime', priceUsd: LIFETIME_USD, priceNote: lifetimeNote },
   ];
 }
@@ -40,7 +40,7 @@ export function getProductPlans(productSlug: string): ProductPlan[] {
 
 export function getDefaultPlan(productSlug: string): ProductPlan {
   const plans = getProductPlans(productSlug);
-  return plans.find((p) => p.id === 'monthly') ?? plans[0]!;
+  return plans.find((p) => p.id === 'mon') ?? plans[0]!;
 }
 
 export function formatPlanPrice(usd: number): string {
@@ -48,8 +48,10 @@ export function formatPlanPrice(usd: number): string {
 }
 
 /** Plan is chosen on partner checkout — internal /go/ path only. */
-export function checkoutUrlWithPlan(baseUrl: string, _planId: ProductPlanId): string {
-  return baseUrl;
+export function checkoutUrlWithPlan(baseUrl: string, planId: ProductPlanId): string {
+  if (!baseUrl.startsWith('/go/')) return baseUrl;
+  const separator = baseUrl.includes('?') ? '&' : '?';
+  return `${baseUrl}${separator}plan=${planId}`;
 }
 
 export function getProductFromPrice(productSlug: string): number {

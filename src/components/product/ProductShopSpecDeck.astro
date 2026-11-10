@@ -18,17 +18,18 @@ const panel = (t.productUi as { systemReqPanel?: { security: string[]; specs?: {
 
 const { featureGroups = [] } = Astro.props;
 
-const aimbot = featureGroups.find((g) => g.name === 'Aimbot Options');
-const playerEsp = featureGroups.find((g) => g.name === 'Player Visual Options');
-const worldEsp = featureGroups.find((g) => g.name === 'World Visual Options');
-const misc = featureGroups.find((g) => g.name === 'Misc Options');
+const previewItems = featureGroups.flatMap((g) => g.items);
+const columnCount = 4;
+const columnSize = previewItems.length > 0 ? Math.ceil(previewItems.length / columnCount) : 0;
+const columns = Array.from({ length: columnCount }, (_, i) =>
+  previewItems.slice(i * columnSize, (i + 1) * columnSize),
+).filter((col) => col.length > 0);
 
-const previewCount = 8;
 const featuresHref = `${productPath('loader', locale)}#features`;
 const deckTitle = productUi.shopDeckTitle ?? 'Quick look at the menu';
 const deckDesc =
   productUi.shopDeckDesc ??
-  'Requirement pills and menu group names only—open the feature list for every toggle and slider.';
+  'Requirement pills and included features—open the feature list for full notes on each option.';
 ---
 
 <section class="product-shop-deck border-y border-border bg-muted/20 py-8 md:py-10" aria-labelledby="product-shop-deck-title">
@@ -55,17 +56,16 @@ const deckDesc =
       </li>
       <li class="product-shop-deck__pill">
         <Icon name="shieldCheck" size={16} class="shrink-0 text-primary" aria-hidden="true" />
-        <span>Riot Vanguard</span>
+        <span>Latest Apex Legends PC client</span>
       </li>
     </ul>
 
     <div class="product-shop-deck__columns mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
       {
-        aimbot && (
+        columns.map((col) => (
           <div class="product-shop-deck__col">
-            <h3 class="product-shop-deck__heading">{aimbot.name}</h3>
             <ul class="product-shop-deck__list" role="list">
-              {aimbot.items.slice(0, previewCount).map((item) => (
+              {col.map((item) => (
                 <li>
                   <Icon name="chevronRight" size={14} class="shrink-0 text-primary" aria-hidden="true" />
                   <span>{item.name}</span>
@@ -73,55 +73,7 @@ const deckDesc =
               ))}
             </ul>
           </div>
-        )
-      }
-
-      {
-        playerEsp && (
-          <div class="product-shop-deck__col">
-            <h3 class="product-shop-deck__heading">{playerEsp.name}</h3>
-            <ul class="product-shop-deck__list" role="list">
-              {playerEsp.items.slice(0, previewCount).map((item) => (
-                <li>
-                  <Icon name="chevronRight" size={14} class="shrink-0 text-primary" aria-hidden="true" />
-                  <span>{item.name}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )
-      }
-
-      {
-        worldEsp && (
-          <div class="product-shop-deck__col">
-            <h3 class="product-shop-deck__heading">{worldEsp.name}</h3>
-            <ul class="product-shop-deck__list" role="list">
-              {worldEsp.items.slice(0, previewCount).map((item) => (
-                <li>
-                  <Icon name="chevronRight" size={14} class="shrink-0 text-primary" aria-hidden="true" />
-                  <span>{item.name}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )
-      }
-
-      {
-        misc && (
-          <div class="product-shop-deck__col">
-            <h3 class="product-shop-deck__heading">{misc.name}</h3>
-            <ul class="product-shop-deck__list" role="list">
-              {misc.items.map((item) => (
-                <li>
-                  <Icon name="chevronRight" size={14} class="shrink-0 text-primary" aria-hidden="true" />
-                  <span>{item.name}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )
+        ))
       }
     </div>
 

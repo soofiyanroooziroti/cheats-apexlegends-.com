@@ -71,7 +71,7 @@ html.dark .brand-heading .brand-heading__lead {
 .section-header__title {
   margin: 0;
   font-family: var(--font-heading, ui-sans-serif, system-ui, sans-serif);
-  font-size: clamp(1.875rem, 3.2vw, 2.25rem);
+  font-size: clamp(1.625rem, 2.8vw, 2rem);
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.02em;
@@ -127,7 +127,7 @@ html.dark {
 }
 
 html {
-  font-size: 87.5%;
+  font-size: 16px;
   scroll-padding-top: var(--floating-nav-clearance);
   scroll-behavior: smooth;
   scrollbar-width: none;

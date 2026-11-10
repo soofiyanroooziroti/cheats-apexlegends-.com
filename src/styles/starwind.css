@@ -161,7 +161,7 @@
     @apply border-border outline-outline/50;
   }
   body {
-    @apply bg-background text-foreground scheme-light dark:scheme-dark font-sans antialiased;
+    @apply bg-background text-foreground scheme-light dark:scheme-dark font-sans text-sm antialiased;
   }
   h1,
   h2,

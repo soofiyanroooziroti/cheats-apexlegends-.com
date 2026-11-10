@@ -10,12 +10,12 @@ function barePath(pathname: string): string {
 export function logoAltForPath(pathname: string): string {
   const path = barePath(pathname);
 
-  if (path === '/') return 'Valorant Cheats – logo';
-  if (path === '/products/valorant-cheats/') return 'VALORANT – logo';
-  if (path === '/products/valorant-cheats/loader/') return 'Player ESP – logo';
+  if (path === '/') return 'Apex legends cheats – logo';
+  if (path === '/products/apex-legends-cheats/') return 'Apex Legends – logo';
+  if (path === '/products/apex-legends-cheats/loader/') return 'Player overlays – logo';
   if (path === '/blog/') return 'Guides – logo';
   if (path === '/forum/') return 'Forum – logo';
   if (path === '/faq/') return 'Faq – logo';
   if (path === '/support/') return 'Support – logo';
-  return 'Valorant Cheats logo';
+  return 'Apex legends cheats logo';
 }

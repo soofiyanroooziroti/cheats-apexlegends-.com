@@ -6,6 +6,6 @@ export function getSiteOrigin() {
   const raw =
     process.env.PUBLIC_SITE_URL?.trim() ||
     process.env.SITE_URL?.trim() ||
-    'https://cheats-valorant.org';
+    'https://cheatsapexlegends.com';
   return raw.replace(/\/$/, '');
 }

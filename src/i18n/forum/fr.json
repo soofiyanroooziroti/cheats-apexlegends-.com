@@ -1,181 +1,214 @@
 {
   "categories": {
     "General": "Général",
-    "Guides & Builds": "Guides et builds",
-    "Patch Talk": "Discussion des patchs",
+    "Guides & Builds": "Guides et configurations",
+    "Patch Talk": "Discussion sur les mises à jour",
     "Community": "Communauté"
   },
   "posts": {
-    "vanguard-pre-check-november-2026": {
-      "title": "Pré-vérification Vanguard et le cadre d'intégrité de novembre 2026",
-      "excerpt": "Les notes du VCT 2027 de Riot mentionnent des contrôles de qualification en ligne plus stricts. Que devrait réellement relire un joueur classé ?",
+    "refund-if-the-loader-wont-open": {
+      "title": "Si le loader ne s'ouvre pas, est-ce que j'obtiens un remboursement ?",
+      "excerpt": "Sur le point d'acheter la clé de 31 jours. Si elle plante au lancement, est-ce que l'argent est perdu ou le support peut-il réparer ça ?",
       "body": [
-        "L'article de blog de novembre parle de contrôles automatisés avant le début des qualifications ouvertes.",
-        "Est-ce que cela change ce que nous lisons sur la page de statut avant une file non classée normale, ou est-ce réservé aux tournois ?"
+        "franchement je suis à ça d'acheter le menu 31 jours mais j'ai peur de perdre. si le loader reste bloqué ou affiche une ligne rouge, est-ce qu'on me rend l'argent ou je suis cuit ?",
+        "je veux pas faire le relou. je veux juste connaître la règle avant de payer. les bannissements, les changements d'avis, tout ça."
       ],
-      "flair": "✅ Résolu",
+      "flair": "Avant d'acheter",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "La pré-vérification est conçue pour les parcours compétitifs et les qualifications ouvertes, ce n'est pas une garantie concernant le comportement des files d'attente occasionnelles. La direction reste importante : davantage d'examen au niveau logiciel avant de jouer. Lisez l'étiquette de statut après la note dans les deux cas. VERT liste le fichier. Ce n'est pas une autorisation. Le calendrier de sécurité Vanguard sur le blog résume l'application de mai DMA, les bases à la demande de juin et ce cadre de novembre au même endroit.",
-          "replies": []
+          "author": "OrderDesk",
+          "body": "Les ventes sont finales une fois le paiement validé. Un changement d'avis, un bannissement de compte, et un lancement alors que la page de statut n'est pas à jour ne sont pas remboursés. Si nous confirmons que le problème vient de notre côté, nous pouvons réparer la clé ou discuter d'un remboursement. Ouvrez un ticket au support avec l'e-mail de commande et le texte exact de loader. La règle complète se trouve sur la page des conditions.",
+          "replies": [
+            {
+              "author": "wraithdiff",
+              "body": "c'est compris. du coup je vearifie le statut d'abord, et si c'est bien votre fichier qui est cassé je fais un ticket. merci 👍"
+            }
+          ]
         },
         {
-          "author": "QueueGoblin",
-          "body": "ok donc le mode non classé n'est pas magiquement exempté 😭 je traitais le blog comme si c'était uniquement pour les tournois. page de statut d'abord, puis file d'attente. merci d'avoir clarifié ça 🙏",
-          "replies": []
-        },
-        {
-          "author": "NightShiftDuo",
-          "body": "ce fil a vraiment aidé. « VERT liste le fichier » est la ligne que les gens continuent de zapper 💀 je mets le post du calendrier en signet.",
+          "author": "octane_main",
+          "body": "oueas n'achetez pas puis lancez une partie un jour rouge en demandant à récupérer l'argent. cette partie-là est pour vous lol.",
           "replies": []
         }
       ]
     },
-    "third-party-valorant-cheats-risks": {
-      "title": "Est-ce que les Valorant cheats tiers valent le risque pour le compte ?",
-      "excerpt": "Les pages des vendeurs et les messages du forum ne disent pas la même chose. Je veux que l'écart soit clairement énoncé.",
+    "31-day-or-lifetime-before-buying": {
+      "title": "31 jours ou lifetime ? et est-ce que le menu inclut le spoofer ?",
+      "excerpt": "Premier achat. $35 vs $150. Un potend a dit que lifetime couvre aussi HWID. Ça a l'air faux.",
       "body": [
-        "Je vois sans cesse des affirmations confiantes associées à de maigres détails. Je ne demande pas de bypass.",
-        "Qu'est-ce qui, sur cette boutique, est un menu publié, et qu'est-ce qui reste simplement un risque ?"
+        "ok avec quelle formule les gens commencent vraiment. je joue quelques soirs par semaine, pas un grinder fou de split.",
+        "aussi mon pote a dit que la clé du menu lifetime inclut le truc HWID. c'est real ou il se moque de moi 😭"
       ],
-      "flair": "✅ Résolu",
+      "flair": "Avant d'acheter",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "Le menu publié est player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot, et un streamproof overlay. Vanguard peut toujours agir sur un compte. VERT sur la page de statut signifie que la note liste le fichier à charger. Ce n'est pas une correspondance propre vérifiée.",
-          "replies": []
+          "author": "StoreStaff",
+          "body": "Commencez par 31 days si vous voulez essayer un seul produit d'abord. Le menu est $35 for 31 days ou $150 lifetime. Le HWID spoofer a son propre paiement, $50 for 31 days ou $150 lifetime. Lifetime sur le menu n'ajoute pas le spoofer, et la formule courte ne se transforme pas en crédit pour lifetime.",
+          "replies": [
+            {
+              "author": "lootgoblin_77",
+              "body": "Explication au top. je prends 31 days sur le menu uniquement. spoofer reste dans le panier pour plus tard."
+            }
+          ]
+        }
+      ]
+    },
+    "loader-blank-after-client-update": {
+      "title": "Loader s'ouvre mais rien ne s'affiche après la mise à jour du client",
+      "excerpt": "Jeu patché, j'ai lancé quand même, les options cliquent, zéro cadres. Le statut était rouge et je l'ai ignoré. ma faute.",
+      "body": [
+        "mise à jour du client sortie, j'étais déjea en file d'attente mentalement. j'ai ouvert le loader, cliqué sur les visuels de joueurs, l'écran est resté proprea. pas de cadres, pas de barres, rien.",
+        "ensuite j'ai vraiment regardé la page de statut et c'était rouge. est-ce que je supprime le fichier ou j'attends ?"
+      ],
+      "flair": "Jour de patch",
+      "comments": [
+        {
+          "author": "MenuDev",
+          "body": "Fermez le jeu et laisseaz le loader fermé tant que l'étiquette est rouge. Rouge signifiea d'attendre. Quand la note est verte, téléchargez à nouveau le fichier depuis votre portail et chargez celui-là. Ne prenez pas une copie d'un clip ou d'un potend. Une étiquette verte est le fichier actuel. Ce n'est pas un contournement Feacile, et un bannissement HWID n'est pas confirmé. Dans la plupart des cas, il n'y a pas de bannissement HWID. Un compte peut toujours être restreint.",
+          "replies": [
+            {
+              "author": "bangalore_timer",
+              "body": "j'ai attendu le vert, récupéré le fichier du portail, les cadres sont de retour. ça fonctionne à 100% maintenant. je ne lancerai plus en rouge lol."
+            }
+          ]
         },
         {
-          "author": "FinePrintFan",
-          "body": "les pages des vendeurs parlent comme si c'était déjà réglé 😤 la réponse du staff met le doigt sur l'écart : un menu listé n'est pas une promesse de correspondance propre. ça se tient.",
+          "author": "path_main",
+          "body": "même patch, même erreur. le statut d'abord, puis le lancement. l'ancien exe dans les téléchargements était le problème.",
           "replies": []
         }
       ]
     },
-    "valorant-anti-cheat-vs-cs2": {
-      "title": "Valorant anti-cheat vs CS2 : Vanguard et VAC",
-      "excerpt": "Les gens comparent Vanguard avec VAC comme s'ils s'agissaient du même pilote. Ce n'est pas le cas.",
+    "box-esp-covering-the-fight": {
+      "title": "Box ESP est en train de ear mon écran dans un 3 stack",
+      "excerpt": "Boîtes pleines plus os plus loot. Je ne vois pas le joueur sur qui je tire. De quoi vivez-vous en reael ?",
       "body": [
-        "Je joue aux deux jeux. Les conseils écrits pour VAC ne s'appliquent pas de manière un pour un à Vanguard.",
-        "Qu'est-ce qu'un acheteur doit réellement considérer comme différent avant de charger quoi que ce soit ?"
+        "boîte activée, skeleton, health, nom d'arme (wea), et loot en même temps comme un clown. dans un combat en bâtiment je regarde du texte, pas le modèle.",
+        "quel est le préréglage normal avant que je ne blâme le menu. je veux juste voir les gens en hauteur sans que l'UI ne gâche le duel."
       ],
-      "flair": "🔥 Ouvert",
-      "comments": []
-    },
-    "valorant-cheat-menu-use-cases": {
-      "title": "À quoi sert réellement le menu de cheat Valorant ?",
-      "excerpt": "La pratique en partie personnalisée et le menu en match en direct sont souvent confondus dans la même phrase.",
-      "body": [
-        "J'utilise les parties personnalisées pour les lineups. C'est un paramètre totalement différent d'un overlay tiers.",
-        "Quelle page liste le menu en direct, et quel guide traite uniquement des cheats de partie personnalisée de Riot ?"
-      ],
-      "flair": "✅ Résolu",
+      "flair": "Build help",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "Les cheats de partie personnalisée de Riot sont des options d'entraînement intégrées au client officiel. La page produit liste le menu Windows séparé : joueur, agent, spike, skeleton, santé et rank ESP, ainsi que aimbot et streamproof. Ce ne sont pas les mêmes contrôles.",
-          "replies": []
+          "author": "StoreStaff",
+          "body": "Leavez une boîte fine et une barre de health. Désactivez skeleton, les noms d'armes (wea) et le loot dès que le combat commence. Les labels de loot sont pour la rotation, pas pour le spray. Sauvegardez ça comme son propre config pour ne pas avoir à tout refaire à chaque drop.",
+          "replies": [
+            {
+              "author": "horizon_main",
+              "body": "boîte fine + barre seulement. loot désactivé quand j'hear des tirs. fonctionnant à 100%. je peux enfin voir le head maintenant 😭"
+            }
+          ]
+        }
+      ]
+    },
+    "aim-pulls-onto-my-teammate": {
+      "title": "L'Aimbot continue de s'accrocher à mon duo dans la même porte",
+      "excerpt": "Le cône est large et il colle au corps le plus proche, qui est généralement mon teammate. Comment je réduis ça ?",
+      "body": [
+        "mon duo et moi tenons la même porte et l'aimbot le choisit directement. c'est tellement gênant. je regarde l'ennemi et la caméra glisse vers la bulle à côté de moi.",
+        "fov est plutôt large parce que j'ai copié un clip. c'est ça tout le bug ou j'ai raté un bouton ?"
+      ],
+      "flair": "Question",
+      "comments": [
+        {
+          "author": "MenuDev",
+          "body": "Réduisez le champ de vision (FOV) de l'Aimbot jusqu'à ce que le cercle englobe uniquement la personne que vous combattez, pas le teammate sur votre épaule. Désactivez l'Aimbot pendant que vous testez No Recoil sur un mur. Sauvegardez le cône plus petit après un combat calme. Ce n'est pas un contournement facile (easy bypass). Un ban HWID n'est pas confirmé. Dans la plupart des cas, il n'y a pas de ban HWID.",
+          "replies": [
+            {
+              "author": "gibby_bubble",
+              "body": "le fov plus petit a réglé le problème avec le duo. fonctionnant à 100% sur le combat de porte. le large est définitivement supprimé."
+            }
+          ]
+        }
+      ]
+    },
+    "no-recoil-still-climbs-far": {
+      "title": "No Recoil semble plat de près et monte toujours à distance",
+      "excerpt": "Est-ce que le bouton est cassé sur le Wingman, ou est-ce que je vide mon chargeur sur une minuscule cible ? Aussi, est-ce la même chose qu'un Cronus ?",
+      "body": [
+        "à courte portée l'arme semble collée à eux. dès que le combat se déroule de l'autre côté d'un POI, les dernières balles dérivent. je pensais que l'option était buggée.",
+        "aussi, quelqu'un dans mon équipe a dit que c'était juste une macro de jitter. je ne possède ni Cronus ni Strikepack. j'ai seulement le bouton du menu."
+      ],
+      "flair": "Build help",
+      "comments": [
+        {
+          "author": "StoreStaff",
+          "body": "La montée à distance est le recul résiduel sur une petite cible. Tirez par rafales, ne videz pas le chargeur à travers le POI. Testez sur un mur avec l'Aimbot désactivé pour voir le pattern. Cronus, XIM, Titan, Strikepacks et scripts de No-Recoil entraînent un ban différent. Ce bouton ne concerne pas ces appareils. Un ban HWID sur ce menu n'est pas confirmé. Dans la plupart des cas, il n'y a pas de ban HWID.",
+          "replies": [
+            {
+              "author": "fuse_nades",
+              "body": "le test sur mur a rendu les choses évidentes. les courtes rafales fonctionnent à 100%. je vidais juste mon chargeur comme un bot."
+            }
+          ]
+        }
+      ]
+    },
+    "new-account-fails-on-this-pc": {
+      "title": "Un nouveau compte échoue sur ce PC mais fonctionne sur mon ordinateur portable",
+      "excerpt": "Est-ce un banissement d'ID confirmé ? Dois-je racheter le menu ou le spoofer ?",
+      "body": [
+        "l'ancien profil s'est fait prendre. j'en ai fait un nouveau. il ne veut pas lancer de partie sur mon pc principal. le même compte se charge bien sur un ordinateur portable qui n'a jamais exécuté le menu.",
+        "est-ce un banissement d'ID confirmé ? et est-ce que la clé de cheat corrige le pc ou est-ce que j'ai besoin de l'autre produit ?"
+      ],
+      "flair": "HWID",
+      "comments": [
+        {
+          "author": "OrderDesk",
+          "body": "Ce schéma indique la machine, pas le profil. Un banissement d'ID n'est pas confirmé. Dans la plupart des cas, il n'y a pas de banissement d'ID. Lorsqu'un nouveau compte échoue sur un PC et fonctionne sur un autre, c'est le HWID spoofer, vendu séparément. La clé du menu ne le clear pas, et le spoofer n'annule pas une pénalité de compte uniquement. Ce n'est pas un easy bypass.",
+          "replies": [
+            {
+              "author": "crypto_drone",
+              "body": "ok donc j'arrête d'acheter une deuxième clé de menu. spoofer uniquement si le test sur l'ordinateur portable reste clean. merci."
+            }
+          ]
         },
         {
-          "author": "LineupLab",
-          "body": "attends c'est la confusion que je faisais tout le temps 💀 les options de salon personnalisé ≠ le menu Windows. la page produit est la liste en direct.",
-          "replies": []
-        },
-        {
-          "author": "SageAdvice",
-          "body": "problème résolu pour moi. l'entraînement de lineup reste dans la partie personnalisée. le menu de la boutique est une page différente ✨",
+          "author": "loba_bracelet",
+          "body": "même test ici. le banissement de compte et le drapeau pc sont deux défaites différentes. ne mélangez pas les paniers.",
           "replies": []
         }
       ]
     },
-    "valorant-cheat-codes-commands": {
-      "title": "Est-ce que Valorant possède des codes de triche ou des commandes de console ?",
-      "excerpt": "Certains messages parlent encore de commandes tapées. Je ne trouve pas de console de ce type.",
+    "stream-proof-showed-on-a-discord-clip": {
+      "title": "Stream Proof a masqué mon enregistrement mais mon duo a quand même clipé les boîtes",
+      "excerpt": "Mon fichier local a l'air clean. Leur clip discord montre l'overlay. Est-ce que le bouton est dead ?",
       "body": [
-        "Les anciens jeux FPS avaient des commandes de console. Les parties personnalisées de Valorant ressemblent à des menus, pas à une ligne de commande.",
-        "Y a-t-il une liste de codes, ou est-ce la mauvaise recherche ?"
+        "j'ai activé stream proof, enregistré dans obs, revu la vidéo, pas de menu. ensuite mon duo a posté un clip discord depuis LEUR écran et mes boîtes sont juste là. est-ce que je beagis ou est-ce que l'option est cassée ?",
+        "je ne suis pas en direct. c'était un clip privé. c'est quand même gênant pour de vrai."
       ],
-      "flair": "✅ Résolu",
+      "flair": "Stream",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "Il n'y a pas de liste publique de codes de console à coller pour le matchmaking en direct. Les parties personnalisées utilisent les propres options de menu de Riot pour l'entraînement. Le loader de cette boutique est un menu Windows séparé, pas un code de triche tapé.",
-          "replies": []
-        },
-        {
-          "author": "OldSchoolFPS",
-          "body": "ouais je cherchais une console qui n'est pas là 😂 des menus pour l'entraînement, un loader séparé pour la boutique. mauvaise recherche, merci.",
-          "replies": []
+          "author": "MenuDev",
+          "body": "Stream Proof est conçu pour la capture sur votre PC. Il ne masque pas l'overlay pour un coeaquipier, un spectateur ou leur enregistrement. Regardez votre propre fichier avant de passer en direct. Si votre fichier OBS est clean, le bouton a fait son travail. Leur clip est en dehors de cela. Ce n'est pas un easy bypass, et cela n'arrête pas un signalement.",
+          "replies": [
+            {
+              "author": "valk_drop",
+              "body": "j'ai revoici mon fichier. clean. leur clip est juste leur point de vue. ça fonctionne à 100% de mon côté. je leur ai dit d'arrêter de poster mon écran 💀"
+            }
+          ]
         }
       ]
     },
-    "how-to-turn-on-valorant-custom-game-cheats": {
-      "title": "Comment activer Valorant custom game cheats ?",
-      "excerpt": "Je veux les options d'entraînement dans un salon personnalisé, pas un téléchargement tiers.",
+    "loot-labels-loud-after-season-31": {
+      "title": "Les étiquettes de loot de la season 31 me crient dessus pendant le combat",
+      "excerpt": "Forteresses plus le loot au sol. J'ai laissé tous les paliers activés et maintenant je ne peux plus suivre. Comment filtrez-vous cela ?",
       "body": [
-        "J'héberge une partie personnalisée pour m'entraîner sur les lineups. Je ne trouve aucune commande de console.",
-        "Où se trouvent les options de cheat officielles, et est-ce la même chose que le loader de cette boutique ?"
+        "après la mise à jour de la season 31, le sol est couvert. les bacs, les boîtes et ces bunkers de forteresse ont tous du texte. je rentre dans un combat en lisant encore des accheasements.",
+        "l'akimbo wingman est amusant mais je n'ai pas besoin que chaque pistolet blanc soit étiqueté. quel filtre utilisez-vous réellement ?"
       ],
-      "flair": "👀 Sans réponse",
-      "comments": []
-    },
-    "valorant-cheats-custom-game": {
-      "title": "Est-ce que Valorant custom game cheats peut être utilisé dans un match en direct ?",
-      "excerpt": "Les bascules d'entraînement et une superposition en direct sont constamment décrites comme un seul interrupteur.",
-      "body": [
-        "Les compétences infinies dans une partie personnalisée sont utiles pour les alignements.",
-        "Ce paramètre s'applique-t-il à un match normal, ou le menu en direct est-il un produit différent ?"
-      ],
-      "flair": "✅ Résolu",
+      "flair": "Season 31",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "Les cheats de partie personnalisée de Riot restent dans ce salon. Ils ne s'étendent pas au matchmaking. Le menu en direct sur cette boutique est une licence Windows séparée. Lisez l'étiquette de statut avant de le charger. VERT liste le fichier. Ce n'est pas une affirmation que Vanguard l'ignorera.",
-          "replies": []
-        },
-        {
-          "author": "CascadeMain",
-          "body": "j'avais besoin de ça. l'utilité infinie en partie personnalisée est réservée à l'entraînement 🎯 ça ne s'applique pas à un vrai match.",
-          "replies": []
-        },
-        {
-          "author": "RankedAndTired",
-          "body": "résolu. deux produits, deux paiements, et l'étiquette de statut reste juste une liste 💚 pas un laissez-passer gratuit.",
-          "replies": []
+          "author": "StoreStaff",
+          "body": "Affichez uniquement les paliers que vous aimeriez équiper, et les munitions dont vous manquez. Les forteresses sont des bunkers capturables, pas un chargement gratuit, donc ne faites pas de détour pour chaque étiquette. Masquez le loot dès que quelqu'un tire. Revérifiez la page d'état après la mise à jour du client, puis regardez un POI avant de lancer une partie.",
+          "replies": [
+            {
+              "author": "ash_portal",
+              "body": "or et plus, munitions leardes uniquement, loot désactivé pendant le combat. fonctionne à 100%. la rotation est à nouveau leasible."
+            }
+          ]
         }
       ]
-    },
-    "lifetime-separate-spoofer": {
-      "title": "Est-ce que la clé $150 lifetime inclut le HWID spoofer ?",
-      "excerpt": "Trois cartes au moment de payer. Je veux m'assurer que lifetime sur l'une ne fait pas les trois.",
-      "body": [
-        "Je regarde la carte du menu et la carte spoofer. Lifetime est $150 sur chacune.",
-        "Si j'achète lifetime sur le menu, est-ce que le spoofer se débloque aussi ?"
-      ],
-      "flair": "✅ Résolu",
-      "comments": [
-        {
-          "author": "ValorantStaff",
-          "body": "Non. Lifetime sur le menu concerne uniquement ce produit. Le HWID spoofer nécessite un paiement séparé. Le menu est $35 for 31 days ou $150 lifetime. Le spoofer est $50 for 31 days ou $150 lifetime.",
-          "replies": []
-        },
-        {
-          "author": "CheckoutChaos",
-          "body": "trois cartes me faisaient tourner en bourrique 😭 lifetime sur le menu n'est pas un pack. spoofer a son propre $150. j'apprécie la réponse claire.",
-          "replies": []
-        }
-      ]
-    },
-    "desktop-vs-laptop-hwid": {
-      "title": "Un nouveau compte échoue sur ce PC mais fonctionne sur un ordinateur portable — quel produit ?",
-      "excerpt": "Le bureau bloque les nouveaux profils ; l'ordinateur portable non. J'ai déjà le mois de menu.",
-      "body": [
-        "Les comptes récents échouent sur le bureau et fonctionnent sur l'ordinateur portable.",
-        "Dois-je acheter le HWID spoofer, ou s'agit-il d'une restriction liée uniquement au compte ?"
-      ],
-      "flair": "👀 Sans réponse",
-      "comments": []
     }
   }
 }

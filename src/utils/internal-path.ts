@@ -10,25 +10,8 @@ export function withTrailingSlash(path: string): string {
 }
 
 export const LEGACY_PATH_MAP: Record<string, string> = {
-  /** Template / older game URLs from markdown and translations → Valorant product base */
-  '/products/dayz-cheats': PRODUCT_BASE,
-  '/products/dayz-cheats/': PRODUCT_BASE,
-  '/products/dayz-cheats/dayz-cheats': `${PRODUCT_BASE}loader/`,
-  '/products/dayz-cheats/dayz-cheats/': `${PRODUCT_BASE}loader/`,
-  '/products/dayz-cheats/hwid-spoofer': `${PRODUCT_BASE}hwid-spoofer/`,
-  '/products/dayz-cheats/hwid-spoofer/': `${PRODUCT_BASE}hwid-spoofer/`,
-  '/products/dayz-cheats/ugc': `${PRODUCT_BASE}hwid-spoofer/`,
-  '/products/dayz-cheats/ugc/': `${PRODUCT_BASE}hwid-spoofer/`,
-  '/products/dayz-cheats/utilities': `${PRODUCT_BASE}utilities/`,
-  '/products/dayz-cheats/utilities/': `${PRODUCT_BASE}utilities/`,
   '/cheats': PRODUCT_BASE,
   '/cheats/': PRODUCT_BASE,
-  '/cheats/lite': PRODUCT_BASE,
-  '/cheats/lite/': PRODUCT_BASE,
-  '/cheats/pro': PRODUCT_BASE,
-  '/cheats/pro/': PRODUCT_BASE,
-  '/cheats/elite': `${PRODUCT_BASE}loader/`,
-  '/cheats/elite/': `${PRODUCT_BASE}loader/`,
   '/cheats/compare': '/blog/',
   '/cheats/compare/': '/blog/',
   '/contact': '/support/',

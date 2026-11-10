@@ -1,3 +1,5 @@
+import imageIntrinsic from '../data/image-intrinsic.json';
+
 const RASTER_EXT = /\.(png|jpe?g|webp)$/i;
 
 /** 400w covers ~330px card slots at 1x; 640w covers 2x retina. */
@@ -43,11 +45,16 @@ export function socialShareImage(src: string): string {
   return webpSrc(src, 640);
 }
 
-const GAMEPLAY_INTRINSIC = { width: 960, height: 540 };
+const DEFAULT_INTRINSIC = { width: 1280, height: 720 };
 
 export function intrinsicImageSize(src: string): { width: number; height: number } {
-  if (src.includes('/images/gameplay/')) return GAMEPLAY_INTRINSIC;
-  return { width: 960, height: 540 };
+  const row = imageIntrinsic[src as keyof typeof imageIntrinsic];
+  if (row && typeof row.width === 'number' && typeof row.height === 'number') {
+    return { width: row.width, height: row.height };
+  }
+  if (src.includes('/images/gameplay/')) return DEFAULT_INTRINSIC;
+  if (src.includes('/images/blog/')) return { width: 1200, height: 630 };
+  return { width: 1280, height: 720 };
 }
 
 /** Preload hints for the home hero LCP image (first gameplay slide). */

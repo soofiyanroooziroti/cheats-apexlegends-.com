@@ -2,7 +2,7 @@
   "steps": [
     {
       "title": "Sprawdź status",
-      "desc": "Sprawdź stronę statusu po aktualizacji Valorant lub Vanguard przed zakupem. KOLOR ZIELONY oznacza, że notatka wskazuje plik do załadowania. KOLOR CZERWONY oznacza, że należy zaczekać."
+      "desc": "Sprawdź stronę statusu po aktualizacji Apex Legends lub EA Javelin przed zakupem. KOLOR ZIELONY oznacza, że notatka wskazuje plik do załadowania. KOLOR CZERWONY oznacza, że należy zaczekać."
     },
     {
       "title": "Wybierz plan",
@@ -84,7 +84,7 @@
       }
     ],
     "overview": {
-      "title": "Menu Windows dla VALORANT",
+      "title": "Menu Windows dla Apex Legends",
       "paragraphs": [
         "Jedna licencja obejmuje opcje Aimbot, opcje wizualne gracza, opcje wizualne świata oraz opcje różne – to samo menu w każdym planie.",
         "Sprawdź stronę statusu przed uruchomieniem. $35 for 31 days lub $150 lifetime."
@@ -108,14 +108,14 @@
         "text": "Plan 31-dniowy to $35. Lifetime kosztuje $150 jednorazowo. Około cztery odnowienia 31-dniowe po $35 dają kwotę lifetime."
       }
     ],
-    "goodToKnow": "Valorant i Vanguard aktualizują się często. Przeczytaj stronę statusu przed uruchomieniem. ZIELONY oznacza, że uwaga wymienia ten plik. CZERWONY oznacza, że należy poczekać. Zachowanie nakładki może ulec zmianie po łatce.",
-    "limitations": "Oprogramowanie firm trzecich może naruszać regulamin gry i prowadzić do blokad. Korzystasz z tego oprogramowania na własną odpowiedzialność. Zgodność może ulec zmianie po aktualizacji gry, Vanguard lub Windows. Funkcja streamproof nie usuwa tego ryzyka.",
+    "goodToKnow": "Apex Legends i EA Javelin aktualizują się często. Przeczytaj stronę statusu przed uruchomieniem. ZIELONY oznacza, że uwaga wymienia ten plik. CZERWONY oznacza, że należy poczekać. Zachowanie nakładki może ulec zmianie po łatce.",
+    "limitations": "Oprogramowanie firm trzecich może naruszać regulamin gry i prowadzić do blokad. Korzystasz z tego oprogramowania na własną odpowiedzialność. Zgodność może ulec zmianie po aktualizacji gry, EA Javelin lub Windows. Funkcja streamproof nie usuwa tego ryzyka.",
     "requirements": [
       "HVCI WŁ. · CORE ISOLATION WŁ. · TPM WŁ. · SECURE BOOT WŁ.",
       "Windows 10 lub 11 w obsługiwanych wersjach",
       "Intel Core i5 lub AMD Ryzen 5 lub lepszy",
-      "Stabilny internet · najnowszy klient VALORANT PC",
-      "Klient: oficjalny klient VALORANT PC"
+      "Stabilny internet · najnowszy klient Apex Legends PC",
+      "Klient: oficjalny klient Apex Legends PC"
     ]
   },
   "spoofer": {
@@ -161,7 +161,7 @@
         "text": "$50 for 31 days lub $150 lifetime"
       }
     ],
-    "goodToKnow": "Narzędzia HWID zmieniają sposób, w jaki wyświetla się odcisk palca Twojego PC. Nie usuwają one kary przypisanej wyłącznie do konta. Przeczytaj uwagi na portalu przed ponownym uruchomieniem VALORANT.",
+    "goodToKnow": "Narzędzia HWID zmieniają sposób, w jaki wyświetla się odcisk palca Twojego PC. Nie usuwają one kary przypisanej wyłącznie do konta. Przeczytaj uwagi na portalu przed ponownym uruchomieniem Apex Legends.",
     "limitations": "Spoofing niesie za sobą ryzyko techniczne i może naruszać warunki gry. Wyniki różnią się w zależności od typu bana i konfiguracji sterowników. Używaj tylko na systemach, których jesteś właścicielem.",
     "requirements": [
       "Windows 10 lub 11 64-bit z uprawnieniami administratora.",

@@ -3,34 +3,34 @@
  */
 export const defaultLocale = 'en';
 
-export const shipLocales = [
+const allShipLocales = [
   'en',
-  'fr',
-  'it',
-  'de',
-  'es',
-  'cs',
-  'ru',
-  'zh-cn',
   'ja',
-  'pl',
+  'zh-cn',
+  'es',
+  'ru',
   'pt-br',
+  'de',
+  'fr',
+  'ko',
 ];
+
+/** `en-only` at build time — English routes + EN sitemap until translations ship. */
+export const shipLocales =
+  process.env.BUILD_SHIP_LOCALES === 'en-only' ? ['en'] : allShipLocales;
 
 export const nonDefaultShipLocales = shipLocales.filter((l) => l !== defaultLocale);
 
 /** Human-readable names for translate.mjs prompts. */
 export const langName = {
-  fr: 'French',
-  it: 'Italian',
-  de: 'German',
-  es: 'Spanish (Spain)',
-  cs: 'Czech',
-  ru: 'Russian',
-  'zh-cn': 'Simplified Chinese',
   ja: 'Japanese',
-  pl: 'Polish',
+  'zh-cn': 'Simplified Chinese',
+  es: 'Spanish',
+  ru: 'Russian',
   'pt-br': 'Portuguese (Brazil)',
+  de: 'German',
+  fr: 'French',
+  ko: 'Korean',
 };
 
 export function localeFromPathname(pathname) {

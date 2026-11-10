@@ -1,60 +1,164 @@
 {
   "site": {
-    "title": "Valorant Cheats | Aimbot y ESP para PC",
-    "description": "Valorant Cheats para Steam en Windows PC con aimbot, ESP de jugadores, marcadores de vehículos y radar. Compara Valorant Cheats, HWID Spoofer VALORANT y VALORANT en cheats-valorant.org."
+    "title": "Apex Legends cheats",
+    "description": "Aimbot, Player Visuals, World/Loot, y grupos de menús misc para Apex Legends en Windows PC. Precios de USD."
   },
   "pages": {
     "/": {
-      "title": "Para VALORANT en PC — aimbot, ESP, menú, precios y estado",
-      "description": "Para: Compare Valorant Cheats on Windows: ESP modules, aimbot settings, $35 and $150 plans, the live Status label, and setup notes before you load."
+      "title": "Apex legends cheats para Windows PC | Menú y Spoofer",
+      "description": "Apex legends cheats en Windows: visuales de jugadores, readouts de botín, ajuste de aim, planes de $35 y $150, estados en vivo y notas de configuración de EA Javelin antes de cargar."
     },
-    "/products/valorant-cheats/": {
-      "title": "Valorant Hacks for PC | $35 and $150",
-      "description": "Cheats for VALORANT en Steam: tres productos Windows comparten $35 and $150. Loader, la herramienta HWID y las apelaciones de cuentas son procesos de pago separados."
+    "/products/apex-legends-cheats/": {
+      "title": "Productos | Menú $35 y $150 · HWID Spoofer",
+      "description": "Menú de Windows y HWID spoofer con pagos separados. Menú $35 for 31 days o $150 lifetime; spoofer $50 o $150."
     },
-    "/products/valorant-cheats/loader/": {
-      "title": "Steam Loader para Windows PC | Aim y Radar",
-      "description": "Four menu groups: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. $35 for 31 days or $150 lifetime."
+    "/products/apex-legends-cheats/loader/": {
+      "title": "Apex legends cheat | Aimbot, visuales de jugadores y botín",
+      "description": "Cuatro grupos de menú: Aimbot, visuales de jugadores, /Loot, del mundo y misc. $35 for 31 days o $150 lifetime en Windows PC."
     },
-    "/products/valorant-cheats/hwid-spoofer/": {
-      "title": "HWID Spoofer para VALORANT Windows Indicadores de hardware",
-      "description": "HWID spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
+    "/products/apex-legends-cheats/hwid-spoofer/": {
+      "title": "Apex legends spoofer | HWID Recovery on PC",
+      "description": "Apex legends spoofer para una marca de hardware. $50 for 31 days o $150 lifetime. No elimina una penalización exclusiva de cuenta."
     },
-    "/products/valorant-cheats/utilities/": {
-      "title": "Comparar la herramienta HWID y la Utilidad de apelación de cuenta",
-      "description": "Comprueba qué utilidad Windows se ajusta a un indicador de hardware y cuál a una apelación de cuenta. Ambas son compras separadas del VALORANT loader."
+    "/products/apex-legends-cheats/utilities/": {
+      "title": "Descripción de utilidad de HWID Spoofer",
+      "description": "Cuando una marca de hardware bloquea cuentas nuevas en un PC, el HWID spoofer es una compra separada del menú."
     },
     "/blog/": {
-      "title": "VALORANT PC Guías para Aim, ESP, Loot, Menú y Vanguard",
-      "description": "Original notes on custom-game toggles, Vanguard and VAC, x-ray overlays, Reddit claims, and the $35 and $150 plans."
+      "title": "Centro de guías de Apex Legends | Configuración, Javelin y planes",
+      "description": "Guías sobre configuración de loader, días de parches de EA Javelin, ajuste de superposición, reclamaciones de Reddit, marcas de HWID, streamproof overlays y notas de pago de $35 / $150."
     },
     "/forum/": {
-      "title": "VALORANT Foro de la comunidad: Configuración, objetivo y planes",
-      "description": "Hilos del foro sobre la VALORANT loader, opciones de puntería y ESP, planes de $35 and $150, y días de parches de Vanguard. Las respuestas de los desarrolladores están marcadas."
+      "title": "Hilos de la comunidad sobre configuración, riesgo y planes",
+      "description": "Hilos cerrados sobre riesgos de terceros, Javelin frente a otros anti-cheats, ajuste de preajustes y el HWID spoofer."
     },
     "/faq/": {
-      "title": "Preguntas frecuentes – Planes, configuración y riesgo Vanguard antes de finalizar la compra",
-      "description": "Answers on the $35 and $150 plans, Vanguard updates, Windows requirements, hardware flags, and how the three products differ."
+      "title": "FAQ sobre planes, Javelin y notas de configuración",
+      "description": "Respuestas sobre los planes $35 y $150, actualizaciones de EA Javelin, requisitos de Windows, marcas de hardware y cómo difieren el menú y el spoofer."
     },
     "/support/": {
-      "title": "VALORANT Soporte: Loader, Caja y HWID PC",
-      "description": "Loader, pago y ayuda del portal para las herramientas de VALORANT, el HWID spoofer y apelaciones de cuentas. Incluya su correo electrónico de pedido y el loader exacto."
+      "title": "Soporte para Loader, pago y configuración",
+      "description": "Loader, pago y ayuda del portal para el menú y el HWID spoofer. Incluye tu correo electrónico de pedido."
     },
     "/about/": {
-      "title": "Acerca de esta tienda VALORANT: entrega en portal, precios y riesgo",
-      "description": "Tienda: qué vende cheats-valorant.org, cómo funcionan el proceso de pago y la entrega en el portal, y el riesgo de baneo al utilizar herramientas de terceros en VALORANT para Windows PC."
+      "title": "Sobre cheatsapexlegends.com | Entrega, Precios, Riesgo",
+      "description": "Quién dirige esta tienda, qué incluyen el menú y HWID spoofer, entrega por el portal Windows, riesgo de baneos Javelin y cómo el estado y el soporte se adaptan al pago."
     },
     "/privacy/": {
-      "title": "Notas de privacidad para análisis, cookies y datos de contacto",
-      "description": "Cómo cheats-valorant.org gestiona los datos de análisis, las cookies y los datos de contacto. Los números de las tarjetas de pago se quedan en el proveedor de pago, no en esta tienda."
+      "title": "Notas de privacy para análisis, cookies y contacto",
+      "description": "Cómo esta tienda maneja los análisis, las cookies y los datos de contacto. Los números de tarjetas de pago se quedan en el proveedor de pago."
     },
     "/terms/": {
-      "title": "Términos de licencia, reembolsos y normas de uso aceptable",
-      "description": "Términos de licencia, uso aceptable y la regla de no reembolso para loader, HWID spoofer y la recuperación de cuenta vendida a través de cheats-valorant.org."
+      "title": "Términos de licencia, reembolsos y uso aceptable",
+      "description": "Términos de licencia, uso aceptable y la regla de no reembolso para loader y HWID spoofer vendidos aquí."
     },
     "/status/": {
-      "title": "VALORANT Estado y Vanguard Notas del parche",
-      "description": "Notas de actualización del módulo y portal para Windows loader. Comprueba el estado tras cada actualización de Vanguard antes de iniciar VALORANT en Steam."
+      "title": "Estado y notas del parche de EA Javelin",
+      "description": "VERDE means carga. ROJO means espera. Catálogo y avisos del parche de Javelin: leae antes de iniciar Apex Legends."
+    },
+    "/blog/24-7-support/": {
+      "title": "Obtén ayuda 24/7 con nuestro equipo de soporte /7",
+      "description": "El soporte 24/7 requiere el correo del pedido, tu versión de Windows y el texto exacto en pantalla. Un ticket no puede revertir una acción del editor."
+    },
+    "/blog/apex-legend-cheating-ranked/": {
+      "title": "Apex Legend Cheating en Ranked: Lo que debes saber",
+      "description": "Apex legend cheating en ranked pone la teaporada, la cuenta y el PC en la misma decisión. Reade el estado antes de jugar."
+    },
+    "/blog/stream-proof/": {
+      "title": "Stream Sin Mostrar Hacks a Tu Audiencia",
+      "description": "Stream Proof está deaseñado para ocultar el menú de la captura local mientras tú lo ves. Prueba tu propio software antes de transmitir. La grabación de un ceampañero es otra cámara."
+    },
+    "/blog/loot-esp/": {
+      "title": "Consigue Botín de Alto Nivel con Loot ESP",
+      "description": "Las etiquetas de botín son para contenedores, ceajas de muerte y paquetes de ayuda. Oculta el texto en combate para que no estorbe en la pantalla."
+    },
+    "/blog/no-recoil/": {
+      "title": "Acierta Cada Disparo Eliminando el Retroceso",
+      "description": "No Recoil es un control independiente para la culata del arma. Pruébalo sin la smooth del Aimbot y ten en cuenta que las ráfagas largas subirán de todos modos."
+    },
+    "/blog/weapon-esp/": {
+      "title": "Encuentra las mejores armas rápido con Custom Weapon ESP",
+      "description": "El nombre de un weapon en un jugador te indica qué lleva antes del ataque. Desactívalo al disparar para que la etiqueta no tape la pelea."
+    },
+    "/blog/distance-esp/": {
+      "title": "Calcula enfrentamientos perfectamente con Distance ESP",
+      "description": "Distance ESP muestra un número de rango en el jugador. Limita la distancia para mantener el horizonte limpio y decide si pelear o irte."
+    },
+    "/blog/health-bar-overlay/": {
+      "title": "Rastrea la salud enemiga perfectamente con el Health Bar Overlay",
+      "description": "Un health bar overlay muestra la health y el escudo restantes en barras, no en texto. Mantén las barras y oculta los nombres si se solapan."
+    },
+    "/blog/skeleton-esp/": {
+      "title": "Predice Cada Movimiento Enemigo con Skeleton ESP",
+      "description": "Skeleton lines show a peek, a crouch, or a lean before the full body clears cover. Turn them off when three figures knot together."
+    },
+    "/blog/box-esp/": {
+      "title": "Detecta Enemigos Ocultos Usando Box ESP",
+      "description": "Box ESP draws a corner frame so you can see width and stance. Thin it when players stack, and do not pile names and bone lines on the same frame."
+    },
+    "/blog/apex-legends-aimbot/": {
+      "title": "Apunta a los Enemigos al Instante con Nuestro Apex Legends Aimbot",
+      "description": "An apex legends aimbot here is FOV, smoothing, bone choice, and a visibility check. It stays off until you enable it. Ban risk remains."
+    },
+    "/blog/apex-legends-esp/": {
+      "title": "Obtén Conciencia Total del Mapa con Apex Legends ESP",
+      "description": "Apex legends esp aquí hay interruptores independientes: jugadores, cajas, skeletons, sealud, distancia, aeamas y botín. Desactiva lo que no neacesites."
+    },
+    "/blog/hwid-spoofer-safety/": {
+      "title": "Descubre Qué Hace un HWID Spoofer para la Seguridad",
+      "description": "Una herramienta de HWID cambia cómo un PC presenta los identificadores de disco, MAC y GPU. No bearra una penalización exclusiva de cuenta ni hace que una partida sea segura."
+    },
+    "/blog/best-apex-legends-cheats/": {
+      "title": "Mejor Resumen y Comparación de Apex Legends Cheats 2026: Cearacterísticas, Seguridad y Valor",
+      "description": "Una revisión de 2026 de los mejores apex legends cheats por cearacterísticas, seguridad basada en etiquetas de estado y precio: $35 for 31 days o $150 lifetime en un menú de Windows."
+    },
+    "/blog/apex-legends-dma/": {
+      "title": "Apex Legends DMA Explicado: Configuraciones de Hardware frente a Menús de Software",
+      "description": "Apex legends dma en los reasultados de búsqueda a menudo meanifica un segundo PC y una tarjeta. Esta tienda envía un menú Windows en el PC en el que ya estás jugando ea."
+    },
+    "/blog/apex-legends-hacks-safe/": {
+      "title": "¿Son Apex Legends los hacks seguros de usar esta teamporada?",
+      "description": "¿Son los hacks de apex legends indetectables esta teamporada? Una etiqueta de estado de coincidencia no es una promesa libre de baneos. Leae VERDE o ROJO antes de cargar en Windows."
+    },
+    "/blog/ea-javelin-bypass/": {
+      "title": "Evita la Detección: Cómo el EA Javelin Elige Beats para el Apex Anticheat",
+      "description": "El conmutador orientado a Javelin es un elemento de menú marcado en relación con la página de estado. VERDE signifiea que la nota lista este archivo. ROJO signifiea que debe esperar. Una coincidencia aún puede estar restringida."
+    },
+    "/forum/refund-if-the-loader-wont-open/": {
+      "title": "Si el loader no se abre, ¿recibo un reembolso?",
+      "description": "Pregunta previa a la compra sobre reembolsos si el Apex Legends loader no se abre. Las ventas son definitivas, excepto cuando el soporte confirma un fallo por nuestra parte."
+    },
+    "/forum/31-day-or-lifetime-before-buying/": {
+      "title": "¿31 días o lifetime? ¿y el menú incluye el spoofer?",
+      "description": "Antes de comprar: el menú es $35 for 31 days o $150 lifetime. El HWID spoofer es una clave separada y no está incluido."
+    },
+    "/forum/loader-blank-after-client-update/": {
+      "title": "Loader se abre pero no dibuja nada tras la actualización del cliente",
+      "description": "Tras una actualización del cliente de Apex, el menú no dibujaba nada porque la etiqueta de estado estaba en rojo. Esperar al verde y recargar el archivo del portal lo solucionó."
+    },
+    "/forum/box-esp-covering-the-fight/": {
+      "title": "Box ESP is eating my screen in a 3 stack",
+      "description": "Box ESP got too loud in a fight. Thin corners, loot off during the gunfight, and one saved preset fixed the clutter."
+    },
+    "/forum/aim-pulls-onto-my-teammate/": {
+      "title": "Aim keeps dragging onto my duo in the same door",
+      "description": "Aim assist was pulling onto a teammate because the cone was too wide. A smaller field of view and a saved preset stopped the drag."
+    },
+    "/forum/no-recoil-still-climbs-far/": {
+      "title": "No Recoil feels flat up close and still climbs at range",
+      "description": "No Recoil is a menu toggle, not a Cronus or recoil script. Close sprays felt flat. Long sprays still need a burst."
+    },
+    "/forum/new-account-fails-on-this-pc/": {
+      "title": "Una cuenta nueva falla en este PC pero funciona en mi portátil",
+      "description": "Una cuenta nueva de Apex que falla en un PC y funciona en otro es un patrón de marca de hardware. Un baneo de ID no está confirmado. El spoofer es una clave separada."
+    },
+    "/forum/stream-proof-showed-on-a-discord-clip/": {
+      "title": "Stream Proof ocultó mi grabación pero mi dúo igual recortó las cajas",
+      "description": "Stream Proof cubre tu propia captura. Un teammate que graba su pantalla está fuera de ese interruptor. La prueba local pasó después de revisar su propio archivo."
+    },
+    "/forum/loot-labels-loud-after-season-31/": {
+      "title": "Las etiquetas de botín de la Season 31 me gbrean en la pelea",
+      "description": "Las fortalezas y etiquetas de botín de la Season 31 se volvieron muy ruidosas. Filtrar niveles y ocultar el botín al empezar la pelea hizo que la superposición volviera a ser leable."
     }
   }
 }

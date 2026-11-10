@@ -8,7 +8,7 @@ import { articleSchema, breadcrumbSchema, faqPageSchema } from '../../../utils/s
 import { getBlogPublicationIso } from '../../../data/blog';
 import { checkoutPath, resolveCheckoutHref } from '../../../config/checkout';
 import { getLocalizedPath, localizedPath, localizedRoutes, normalizeInternalPath } from '../../../utils/path';
-import { socialShareImage } from '../../../utils/responsiveImage';
+import { intrinsicImageSize, socialShareImage } from '../../../utils/responsiveImage';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import ResponsiveImage from '../../../components/ResponsiveImage.astro';
@@ -114,7 +114,7 @@ const h1Text = post.h1Title ?? post.title;
               class="w-full object-cover"
             />
           </figure>
-
+              class="w-full max-h-full object-contain"
           <div data-blog-reading-article>
             <header class="blog-article__header">
               <h1 class="blog-article__title">{h1Text}</h1>
@@ -204,7 +204,7 @@ const h1Text = post.h1Title ?? post.title;
           <nav class="blog-article__actions" aria-label="Continue reading">
             <Button
               as="a"
-              href={checkoutPath('Valorant')}
+              href={checkoutPath('apexLegends')}
               variant="primary"
               aria-label={t.ui.checkoutAria}
               rel="nofollow sponsored"

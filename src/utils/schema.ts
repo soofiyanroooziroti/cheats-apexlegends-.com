@@ -261,8 +261,7 @@ function digitalShippingDetails(currency: string) {
 }
 
 function eligibleDuration(planId: ProductPlanId): string {
-  if (planId === 'monthly') return 'P31D';
-  if (planId === 'threeMonth') return 'P31D';
+  if (planId === 'mon') return 'P31D';
   return 'P99Y';
 }
 

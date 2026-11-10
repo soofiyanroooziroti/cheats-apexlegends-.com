@@ -2,7 +2,7 @@
   "steps": [
     {
       "title": "检查状态",
-      "desc": "在购买前，请在 Valorant 或 Vanguard 更新后查看状态页面。绿色表示说明中列出了要加载的文件。红色表示请等待。"
+      "desc": "在购买前，请在 Apex Legends 或 EA Javelin 更新后查看状态页面。绿色表示说明中列出了要加载的文件。红色表示请等待。"
     },
     {
       "title": "选择方案",
@@ -84,7 +84,7 @@
       }
     ],
     "overview": {
-      "title": "适用于 VALORANT 的 Windows 菜单",
+      "title": "适用于 Apex Legends 的 Windows 菜单",
       "paragraphs": [
         "单个许可涵盖 Aimbot 选项、玩家视觉选项、世界视觉选项和其他选项——所有套餐均使用同一菜单。",
         "加载前请阅读状态页面。$35 for 31 days 或 $150 lifetime。"
@@ -108,14 +108,14 @@
         "text": "31 天套餐为 $35。Lifetime 为一次性 $150。大约四次 $35 的 31 天续费等于 lifetime。"
       }
     ],
-    "goodToKnow": "Valorant 和 Vanguard 更新频繁。加载前请阅读状态页面。绿色表示提示列出了此文件。红色表示请等待。补丁发布后覆盖层行为可能会发生变化。",
-    "limitations": "第三方软件可能会违反游戏条款并导致封号。您使用此软件需自行承担风险。游戏、Vanguard 或 Windows 更新后，兼容性可能会发生变化。Streamproof 无法消除该风险。",
+    "goodToKnow": "Apex Legends 和 EA Javelin 更新频繁。加载前请阅读状态页面。绿色表示提示列出了此文件。红色表示请等待。补丁发布后覆盖层行为可能会发生变化。",
+    "limitations": "第三方软件可能会违反游戏条款并导致封号。您使用此软件需自行承担风险。游戏、EA Javelin 或 Windows 更新后，兼容性可能会发生变化。Streamproof 无法消除该风险。",
     "requirements": [
       "HVCI 开启 · CORE ISOLATION 开启 · TPM 开启 · SECURE BOOT 开启",
       "支持版本上的 Windows 10 或 11",
       "Intel Core i5 或 AMD Ryzen 5 或更高配置",
-      "稳定的网络 · 最新的 VALORANT PC 客户端",
-      "客户端：官方 VALORANT PC 客户端"
+      "稳定的网络 · 最新的 Apex Legends PC 客户端",
+      "客户端：官方 Apex Legends PC 客户端"
     ]
   },
   "spoofer": {
@@ -161,7 +161,7 @@
         "text": "$50 for 31 days 或 $150 lifetime"
       }
     ],
-    "goodToKnow": "HWID 工具会更改您的 PC 特征码显示方式。它们不会清除纯账号惩罚。在再次启动 VALORANT 之前，请阅读门户说明。",
+    "goodToKnow": "HWID 工具会更改您的 PC 特征码显示方式。它们不会清除纯账号惩罚。在再次启动 Apex Legends 之前，请阅读门户说明。",
     "limitations": "改机存在技术风险，可能违反游戏条款。结果因封禁类型和驱动程序设置而异。仅在您拥有的系统上使用。",
     "requirements": [
       "Windows 10 或 11 64位（需管理员权限）。",

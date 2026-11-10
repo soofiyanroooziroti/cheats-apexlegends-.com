@@ -7,7 +7,7 @@ function formatPrice(usd: number): string {
 }
 
 function formatPlanLine(plan: Plan): string {
-  const suffix = plan.id === 'monthly' ? '' : plan.id === 'threeMonth' ? ' / 3 mo' : ' lifetime';
+  const suffix = plan.id === 'mon' ? '' : plan.id === 'threeMonth' ? ' / 3 mo' : ' lifetime';
   return `${formatPrice(plan.priceUsd)}${suffix}`;
 }
 
@@ -36,7 +36,7 @@ function initCatalogCard(root: HTMLElement) {
   const threeMonthPlanNote = root.getAttribute('data-three-month-plan-note') ?? '31 days of access';
   const lifetimePlanNote = root.getAttribute('data-lifetime-plan-note') ?? 'Pay once · no renewal';
 
-  let activeId = toggleButtons.find((b) => b.getAttribute('aria-pressed') === 'true')?.dataset.catalogPlan ?? plans[0]?.id ?? 'monthly';
+  let activeId = toggleButtons.find((b) => b.getAttribute('aria-pressed') === 'true')?.dataset.catalogPlan ?? plans[0]?.id ?? 'mon';
 
   const planById = (id: string) => plans.find((p) => p.id === id) ?? plans[0];
 
@@ -75,7 +75,7 @@ function initCatalogCard(root: HTMLElement) {
     syncBuyHref(plan.id);
     if (planHelper) {
       planHelper.textContent =
-        plan.id === 'monthly' ? monthlyPlanNote : plan.id === 'threeMonth' ? threeMonthPlanNote : lifetimePlanNote;
+        plan.id === 'mon' ? monthlyPlanNote : plan.id === 'threeMonth' ? threeMonthPlanNote : lifetimePlanNote;
     }
   };
 

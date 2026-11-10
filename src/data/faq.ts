@@ -29,19 +29,20 @@ function link(text: string, href: string): string {
 const cheats = link('the menu', productPath('loader'));
 const productsHub = link('products page', ROUTES.products);
 const hwid = link('HWID Spoofer', productPath('hwid-spoofer'));
+
 export const siteFaqs: SiteFaqItem[] = [
   {
     id: 'status',
     topic: 'setup',
     icon: 'faqStatus',
     q: 'Where do I check if the loader is current?',
-    a: 'Read cheats-valorant.org after a VALORANT or Vanguard update. A banner from yesterday is not a current build. Leave the loader closed until the page matches this client.',
+    a: 'Read cheatsapexlegends.com after a Javelin update. A banner from yesterday is not a current build. Leave the loader closed until the page matches this client.',
   },
   {
     id: 'season-3',
     topic: 'setup',
     icon: 'faqStatus',
-    q: 'A big VALORANT update just dropped. When do I open the loader?',
+    q: 'A big Apex Legends update just dropped. When do I open the loader?',
     a: 'Read the status page after that client build, and after every hotfix, before you launch. A saved config from an older build is not a current check. A ban is still possible.',
     aHtml: `Read the ${link('status page', '/status/')} after that client build, and after every hotfix, before you launch. A saved config from an older build is not a current check. A ban is still possible.`,
   },
@@ -50,8 +51,8 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'setup',
     icon: 'faqStatus',
     q: 'Will a game patch change the loader menu overnight?',
-    a: 'Game updates can shift maps, modes, and balance. The loader group names on the cheat product page are the reference—read the status note after each client or Vanguard update before you assume your saved preset still matches.',
-    aHtml: `Game updates can shift maps, modes, and balance. The loader group names on the cheat product page are the reference—read the ${link('status page', '/status/')} after each client or Vanguard update before you assume your saved preset still matches.`,
+    a: 'Season updates can change maps and balance. Read the status note after each client or Javelin update before you assume a saved preset still matches.',
+    aHtml: `Season updates can change maps and balance. Read the ${link('status page', '/status/')} after each client or Javelin update before you assume a saved preset still matches.`,
   },
   {
     id: 'after-buy',
@@ -65,7 +66,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'safety',
     icon: 'faqBanRisk',
     q: 'Can I get banned?',
-    a: 'Yes. Vanguard can act on the account. Nothing on this site is a guarantee that a session stays clean.',
+    a: 'Yes. EA Javelin Anticheat can act on the account. Nothing on this site is a guarantee that a session stays clean.',
   },
   {
     id: 'hwid-ban-risk',
@@ -79,7 +80,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'setup',
     icon: 'faqPlatforms',
     q: 'Which PCs are supported?',
-    a: 'Windows 10 or 11 on Intel or AMD, with HVCI, core isolation, TPM, and secure boot on. macOS and Linux are not supported.',
+    a: 'Windows 10 and 11 with HVCI, core isolation, TPM, and secure boot on. macOS and Linux are not supported.',
   },
   {
     id: 'license-move',
@@ -100,31 +101,87 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'plans',
     icon: 'faqComparePlans',
     q: 'Does $150 lifetime include the spoofer?',
-    a: 'No. Lifetime on VALORANT cheats is that product only. The HWID spoofer is a separate key with its own $50 and $150 plans. A shorter plan does not promise a credit toward lifetime.',
+    a: 'No. Lifetime on the menu is that product only. The HWID spoofer is a separate key with its own $50 and $150 plans. A shorter plan does not promise a credit toward lifetime.',
     scopes: ['loader', 'hwid-spoofer'],
   },
   {
-    id: 'aim-vs-camera',
+    id: 'player-esp',
     topic: 'esp',
     icon: 'faqWhatIsEsp',
-    q: 'What does Customizable FOV change?',
-    a: 'FOV under Aimbot Options sets how wide the aim cone is. Pair it with Smoothness, Speed, and Stickiness before you raise Draw FOV on stream.',
+    q: 'What does Player ESP show?',
+    a: 'Player ESP draws boxes, labels, and distance readouts on enemies. Pair it with Health Bar and Weapon ESP, then lower Max Distance if the screen feels crowded.',
     scopes: ['loader'],
   },
   {
-    id: 'esp-clutter',
+    id: 'aimbot-tune',
+    topic: 'scripts',
+    icon: 'faqExternalLoader',
+    q: 'How do I tune Advanced Aimbot?',
+    a: 'Start with a small FOV, moderate smoothing, and Visible Check on. Raise stickiness only after a few unranked matches. Save the preset under configs when it feels stable.',
+    scopes: ['loader'],
+  },
+  {
+    id: 'loot-esp',
     topic: 'esp',
     icon: 'faqWhatIsEsp',
-    q: 'Why does player ESP cover the fight?',
-    a: 'Player Visual Options includes health bar, shield bar, agent, rank, box, snapline, skeleton, head circle, equip name, level, and distance. Turn off labels you do not read, or lower Max Distance.',
+    q: 'What does Loot ESP mark?',
+    a: 'Loot ESP highlights bins, death boxes, and care packages when those toggles are on. Use tier filters so only the loot you care about stays on screen.',
+    scopes: ['loader'],
+  },
+  {
+    id: 'stream-proof',
+    topic: 'scripts',
+    icon: 'faqExternalLoader',
+    q: 'What does Stream Proof do?',
+    a: 'Stream Proof keeps overlays and the menu off typical capture tools while you still see them locally. It does not remove ban risk from Javelin or from posting clips.',
+    scopes: ['loader'],
+  },
+  {
+    id: 'no-recoil',
+    topic: 'scripts',
+    icon: 'faqExternalLoader',
+    q: 'What does No Recoil change?',
+    a: 'No Recoil reduces vertical kick while the option is enabled. Heavy recoil patterns may still need short bursts at range.',
+    scopes: ['loader'],
+  },
+  {
+    id: 'javelin-bypass',
+    topic: 'setup',
+    icon: 'faqStatus',
+    q: 'What does EA Javelin Bypass mean here?',
+    a: 'It means this build is checked against EA Javelin Anticheat on the status page before release. GREEN means load. RED means wait. It is not a promise that a match stays clean.',
+    scopes: ['loader'],
+  },
+  {
+    id: 'weapon-esp',
+    topic: 'esp',
+    icon: 'faqWhatIsEsp',
+    q: 'Does Weapon ESP show what opponents are holding?',
+    a: 'Yes. Weapon ESP lists the weapon name on players when the toggle is on. Turn it off if you only care about boxes and distance.',
+    scopes: ['loader'],
+  },
+  {
+    id: 'skeleton-vs-box',
+    topic: 'esp',
+    icon: 'faqWhatIsEsp',
+    q: 'How are Box ESP and Skeleton ESP different?',
+    a: 'Box ESP draws a corner box on the player model. Skeleton ESP draws bone lines for posture and peek direction. Many players run both with Distance ESP.',
+    scopes: ['loader'],
+  },
+  {
+    id: 'save-config',
+    topic: 'setup',
+    icon: 'faqAfterBuy',
+    q: 'Where do I save settings after tuning?',
+    a: 'Use create, save, and load config in the menu after you set aim, visuals, and loot filters. Reload that file after a patch instead of copying old slider values from a guide.',
     scopes: ['loader'],
   },
   {
     id: 'not-dma',
-    topic: 'scripts',
+    topic: 'products',
     icon: 'faqExternalLoader',
     q: 'Is this a DMA card?',
-    a: 'No. VALORANT cheats is a Windows loader from checkout. A DMA device is a different product and is not what this key delivers. Do not run a file that arrived from a search result.',
+    a: 'No. The menu is a Windows loader from checkout. A DMA device is a different product and is not what this key delivers.',
     scopes: ['loader'],
   },
   {
@@ -134,86 +191,6 @@ export const siteFaqs: SiteFaqItem[] = [
     q: 'When is the HWID spoofer the right buy?',
     a: `Use ${hwid} when a new account fails on one PC and works on another. It does not fix an account-only restriction on the same machine.`,
     scopes: ['hwid-spoofer'],
-  },
-  {
-    id: 'stickiness-vs-smooth',
-    topic: 'scripts',
-    icon: 'faqExternalLoader',
-    q: 'Where do I save the menu after I change it?',
-    a: 'Misc Options includes Create/Save/Load/Unload Config. Save after you tune Aimbot Options, Player Visual Options, and World Visual Options.',
-    scopes: ['loader'],
-  },
-  {
-    id: 'visible-check',
-    topic: 'scripts',
-    icon: 'faqWhatIsEsp',
-    q: 'Can the aimbot ignore downed players?',
-    a: 'Visible Check sits in Aimbot Options with Aimbot Filter and Aimbot Bone. Each is a separate toggle in that group.',
-    scopes: ['loader'],
-  },
-  {
-    id: 'ignore-knocked',
-    topic: 'esp',
-    icon: 'faqWhatIsEsp',
-    q: 'What does Select Custom Hitbox do?',
-    a: 'Aimbot Bone under Aimbot Options picks which bone the assist prefers. Pair it with FOV, Smoothness, Speed, and Stickiness for your preset.',
-    scopes: ['loader'],
-  },
-  {
-    id: 'bone-and-filter',
-    topic: 'scripts',
-    icon: 'faqExternalLoader',
-    q: 'What is in World Visual Options?',
-    a: 'World Visual Options covers abilities, traps, spike defuse progress and time, per-character customization, and distance caps. Each category has its own toggle.',
-    scopes: ['loader'],
-  },
-  {
-    id: 'controller-binds',
-    topic: 'setup',
-    icon: 'faqPlatforms',
-    q: 'Does the menu include a controller bind?',
-    a: 'Combat Mode Hotkey in Misc Options hides ability and trap ESP while held. Aimbot Options is separate: Enable Aimbot, FOV, smoothness, and draw overlays.',
-    scopes: ['loader'],
-  },
-  {
-    id: 'squad-read',
-    topic: 'esp',
-    icon: 'faqWhatIsEsp',
-    q: 'How do I mark a player without every label?',
-    a: 'Player Visual Options includes box, snapline, skeleton, head circle, agent, rank, equip name, level, and distance. Lower Max Distance if the fight looks crowded.',
-    scopes: ['loader'],
-  },
-  {
-    id: 'loot-price-floor',
-    topic: 'esp',
-    icon: 'faqWhatIsEsp',
-    q: 'How do item labels work?',
-    a: 'World Visual Options lists abilities, traps, and spike cues with Show Icon and Show Distance toggles. Font Size lives under Misc Options.',
-    scopes: ['loader'],
-  },
-  {
-    id: 'scale-and-crosshair',
-    topic: 'scripts',
-    icon: 'faqExternalLoader',
-    q: 'Where are the crosshair and FOV draw toggles?',
-    a: 'Draw FOV and Draw Target Line are under Aimbot Options with Enable Aimbot and Visible Check.',
-    scopes: ['loader'],
-  },
-  {
-    id: 'combat-mode',
-    topic: 'scripts',
-    icon: 'faqExternalLoader',
-    q: 'Does item ESP turn the aimbot off?',
-    a: 'Combat Mode Hotkey in Misc Options hides ability and trap ESP. Enable Aimbot in Aimbot Options is separate.',
-    scopes: ['loader'],
-  },
-  {
-    id: 'encryption-bypass',
-    topic: 'setup',
-    icon: 'faqStatus',
-    q: 'What is in Custom Key Binds?',
-    a: 'Menu open, aim holds, head switch, and toggles for players, radar, and items. Color Options and Config Options are separate groups.',
-    scopes: ['loader'],
   },
   {
     id: 'blog-default-1',
@@ -234,7 +211,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'blog',
     icon: 'faqBlogDefault3',
     q: 'Will settings in this article work next patch?',
-    a: 'Re-check after every VALORANT or Vanguard update. Reload a saved config instead of copying old slider values from a post.',
+    a: 'Re-check after every Javelin update. Reload a saved config instead of copying old slider values from a post.',
   },
   {
     id: 'blog-plan-start',
@@ -256,21 +233,6 @@ export const siteFaqs: SiteFaqItem[] = [
     icon: 'faqAfterBuy',
     q: 'What happens when a plan expires?',
     a: 'A 31-day key stops when that period ends. Buy another 31-day key or a lifetime key on that same product to keep access. Lifetime does not renew. An expired key does not move to a different product.',
-  },
-  {
-    id: 'blog-plan-status',
-    topic: 'plans',
-    icon: 'faqStatus',
-    q: 'Where do I check the current loader status?',
-    a: 'Read the status page before you launch. Updated means the note was refreshed. It is not a claim that a session stays clean.',
-    aHtml: `Read the ${link('status page', '/status/')} before you launch. Updated means the note was refreshed. It is not a claim that a session stays clean.`,
-  },
-  {
-    id: 'blog-plan-windows',
-    topic: 'plans',
-    icon: 'faqPlatforms',
-    q: 'Which Windows versions are supported?',
-    a: 'Windows 10 or 11 on Intel or AMD, with HVCI, core isolation, TPM, and secure boot on. macOS and Linux are not supported.',
   },
   {
     id: 'blog-plan-support',
@@ -325,7 +287,7 @@ export function faqFilterTopicsForItems(items: SiteFaqItem[]): FaqTopic[] {
 }
 
 export function getProductFaqs(slug: string, _kind: 'tier' | 'utility'): SiteFaqItem[] {
-  const general = siteFaqs.filter((f) => !f.scopes);
+  const general = siteFaqs.filter((f) => !f.scopes && f.topic !== 'blog');
   const scoped = siteFaqs.filter((f) => f.scopes?.includes(slug));
   const combined = [...scoped, ...general];
   const seen = new Set<string>();
@@ -336,18 +298,15 @@ export function getProductFaqs(slug: string, _kind: 'tier' | 'utility'): SiteFaq
   });
 }
 
-export function getBlogFaqs(_tag: string, slug: string): SiteFaqItem[] {
-  if (slug === 'valorant-cheats-pricing') {
-    return siteFaqs.filter((f) => f.id.startsWith('blog-default-'));
-  }
+export function getBlogFaqs(_tag: string, _slug: string): SiteFaqItem[] {
   return siteFaqs.filter(
     (f) => f.id.startsWith('blog-default-') || f.id.startsWith('blog-plan-'),
   );
 }
 
 export const compareRows = [
-  { feature: 'Aimbot Options', icon: 'comparePlayerEsp' as const, lite: true, pro: true, elite: true },
-  { feature: 'Player Visual Options', icon: 'compareWardLocator' as const, lite: true, pro: true, elite: true },
-  { feature: 'World Visual Options', icon: 'compareZoomHack' as const, lite: true, pro: true, elite: true },
-  { feature: 'Misc Options', icon: 'compareCloudBackup' as const, lite: true, pro: true, elite: true },
+  { feature: 'Player ESP', icon: 'comparePlayerEsp' as const, lite: true, pro: true, elite: true },
+  { feature: 'Advanced Aimbot', icon: 'compareWardLocator' as const, lite: true, pro: true, elite: true },
+  { feature: 'Loot ESP', icon: 'compareZoomHack' as const, lite: true, pro: true, elite: true },
+  { feature: 'Stream Proof', icon: 'compareCloudBackup' as const, lite: true, pro: true, elite: true },
 ];

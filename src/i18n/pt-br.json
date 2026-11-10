@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "Valorant Cheats",
-    "domain": "cheats-valorant.org",
-    "title": "Valorant Cheats",
-    "description": "Opções Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Diversas para VALORANT em Windows PC. Preços USD.",
-    "discord": "/go/valorant/"
+    "name": "Apex legends cheats",
+    "domain": "cheatsapexlegends.com",
+    "title": "Apex Legends cheats",
+    "description": "Aimbot, Player Visuals, World/Loot, and Misc menu groups for Apex Legends on Windows PC. USD pricing.",
+    "discord": "/go/apex-legends/"
   },
   "nav": [
     {
@@ -12,12 +12,12 @@
       "label": "Início"
     },
     {
-      "href": "/products/valorant-cheats/",
+      "href": "/products/apex-legends-cheats/",
       "label": "Produtos"
     },
     {
-      "href": "/products/valorant-cheats/loader/#features",
-      "label": "Recursos"
+      "href": "/products/apex-legends-cheats/loader/#features",
+      "label": "Reacursos"
     },
     {
       "href": "/blog/",
@@ -39,7 +39,7 @@
   "headerNavLabels": {
     "home": "Início",
     "products": "Loja",
-    "features": "Recursos",
+    "features": "Reacursos",
     "blog": "Blog",
     "forum": "Fórum",
     "faq": "FAQ",
@@ -49,32 +49,32 @@
   "navShort": {
     "home": "Início",
     "products": "Produtos",
-    "features": "Recursos",
+    "features": "Reacursos",
     "blog": "Blog",
     "forum": "Fórum",
     "faq": "FAQ",
     "support": "Suporte"
   },
   "hero": {
-    "status": "Valorant — verifique o status antes de injetar",
+    "status": "Apex Legends — verifique o status antes de carregar",
     "eyebrow": "Windows PC · Mundial",
-    "titleLine1": "Valorant Cheats para Windows PC",
-    "titleLine2": "Cheats",
-    "subtitle": "Visuais de jogadores, ESP de mundo, aimbot e ferramentas de config para VALORANT no Windows. Quatro grupos de menu em uma única licença. $35 for 31 days ou $150 lifetime.",
+    "titleLine1": "Apex Legends cheats para Windows PC",
+    "titleLine2": "",
+    "subtitle": "Apex Legends cheats no Windows inclui Player ESP, Advanced Aimbot, Loot ESP, No Recoil, EA Javelin Bypass e Stream Proof em uma única licença. $35 for 31 days ou $150 lifetime.",
     "ctaPrimary": "Ver produtos",
     "ctaDiscord": "Comprar agora",
     "modesLabel": "Módulos",
     "modes": [
       "Visuais de jogadores",
-      "ESP de mundo",
-      "Aimbot",
+      "Loot readouts",
+      "Ajuste de mira",
       "Configs"
     ],
     "marqueeAria": "Recursos e suporte de plataforma",
     "metrics": [
       {
         "label": "Anti-cheat",
-        "strong": "Vanguard"
+        "strong": "EA Javelin"
       },
       {
         "label": "Plataforma",
@@ -91,117 +91,89 @@
     ]
   },
   "features": {
-    "eyebrow": "Recursos",
-    "title": "Aimbot, visuais de jogadores, mundo ESP e config",
-    "subtitle": "Quatro grupos de menu em uma única licença. Abra a lista completa de recursos para ver cada opção.",
-    "subtitleLead": "Quatro grupos de menu em uma única licença. Abra a ",
-    "subtitleLinkLabel": "lista completa de recursos",
-    "subtitleTail": " para ver cada opção.",
-    "seeAllLabel": "Ver todos os recursos",
+    "eyebrow": "Features",
+    "title": "Features for Apex Legends on Windows PC",
+    "subtitle": "",
+    "subtitleLead": "",
+    "subtitleLinkLabel": "full feature list",
+    "subtitleTail": "",
+    "seeAllLabel": "See all features",
     "items": [
       {
-        "title": "Opções de Aimbot",
-        "subtitle": "FOV, suavização (smoothness), fixação.",
-        "desc": "Ative Aimbot com FOV, suavização (Smoothness), velocidade, fixação, filtro de Aimbot, osso de Aimbot, Visible Check, Draw FOV e Draw Target Line.",
+        "title": "",
+        "subtitle": "",
         "bullets": [
-          "FOV e suavização (smoothness)",
-          "Osso de Aimbot",
-          "Draw FOV"
-        ],
-        "tags": [
-          "aimbot",
-          "fov",
-          "suavização (smoothness)"
-        ],
-        "bento": "sm:col-span-2 lg:col-span-6"
+          "Player ESP",
+          "Advanced Aimbot",
+          "Weapon ESP"
+        ]
       },
       {
-        "title": "Opções Visuais de Jogadores",
-        "subtitle": "Vida, escudo, agente, patente.",
-        "desc": "Health bar, barra de escudo, agente, patente, box, linha de encaixe (snapline), skeleton, head circle, nome do equipamento, nível e distância — com distância máxima.",
+        "title": "",
+        "subtitle": "",
         "bullets": [
-          "Vida e escudo",
-          "Agente e patente",
-          "Box e skeleton"
-        ],
-        "tags": [
-          "player esp",
-          "health bar",
-          "skeleton"
-        ],
-        "bento": "sm:col-span-2 lg:col-span-6"
+          "Health Bar",
+          "Distance ESP",
+          "Box ESP"
+        ]
       },
       {
-        "title": "Opções Visuais de Mundo",
-        "subtitle": "Habilidades, armadilhas, spike.",
-        "desc": "ESP de habilidades e armadilhas, progresso e tempo de desarme da spike, personalização por personagem e alternância de exibir ícone ou distância.",
+        "title": "",
+        "subtitle": "",
         "bullets": [
-          "Habilidades e armadilhas",
-          "Temporizadores da spike",
-          "Configurações por agente"
-        ],
-        "tags": [
-          "spike esp",
-          "abilities",
-          "traps"
-        ],
-        "bento": "sm:col-span-2 lg:col-span-6"
+          "Skeleton ESP",
+          "Loot ESP",
+          "No Recoil"
+        ]
       },
       {
-        "title": "Opções Diversas",
-        "subtitle": "Tecla de atalho e configs.",
-        "desc": "A tecla de atalho do Modo de Combate oculta ESP de habilidades e armadilhas. Tamanho da fonte e criação, salvamento, carregamento e descarregamento de perfis Config.",
+        "title": "",
+        "subtitle": "",
         "bullets": [
-          "Tecla de atalho do modo de combate",
-          "Tamanho da fonte",
-          "Salvar configs"
-        ],
-        "tags": [
-          "config",
-          "hotkey",
-          "misc"
-        ],
-        "bento": "sm:col-span-2 lg:col-span-6"
+          "EA Javelin Bypass",
+          "Stream Proof",
+          "24/7 Support"
+        ]
       }
     ]
   },
   "whyUs": {
     "eyebrow": "Por que nós",
-    "title": "Mesmo menu em todos os planos — atualizações, não promessas",
-    "subtitle": "Um cheat e um HWID spoofer. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Um banimento ainda é possível sob Vanguard.",
-    "usLabel": "Valorant Cheats",
+    "title": "Mesmo menu em todos os planos — atualizações reais, não promessas",
+    "subtitle": "Um cheat e um HWID spoofer. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. O banimento ainda é possível sob EA Javelin Anticheat.",
+    "usLabel": "Apex legends cheats",
     "otherLabel": "Provedor típico",
     "rows": [
       {
         "title": "Atualizações de loader no dia do patch",
-        "desc": "Verifique o cheats-valorant.org após uma atualização de Valorant ou Vanguard antes de abrir o loader."
+        "desc": "Verifique o cheatsapexlegends.com após uma atualização do Apex Legends ou Javelin antes de abrir o loader."
       },
       {
-        "title": "Controles deslizantes de mira separados",
-        "desc": "FOV, smoothing, osso e a verificação de visibilidade são configurações de aimbot separadas. Altere uma de cada vez."
+        "title": "Controles de mira separados",
+        "desc": "FOV, smoothing, osso e a verificação de visibilidade são configurações separadas. Altere uma por vez."
       },
       {
         "title": "Ajuda com Loader e config",
-        "desc": "As dúvidas de configuração cobrem a Windows loader, configs salvos e qual produto corresponde a um sinalizador de hardware versus um caso de conta."
+        "desc": "As dúvidas de configuração cobrem o Windows loader, os config salvos e qual produto corresponde a um bloqueio de hardware versus um caso de conta."
       },
       {
-        "title": "Finalizações de compra de produtos separados",
-        "desc": "O cheat e o HWID spoofer continuam com finalizações de compra separadas. O Lifetime no cheat não adiciona o spoofer."
+        "title": "Finalizações de compra separadas",
+        "desc": "O cheat e o HWID spoofer continuam com compras separadas. Lifetime no cheat não adiciona o spoofer."
       },
       {
         "title": "configs salvos",
-        "desc": "Os quatro grupos do menu permanecem em uma única licença. O plano de 31 dias e o lifetime desbloqueiam o mesmo loader."
+        "desc": "Os quatro grupos de menu ficam em uma única licença. O plano de 31 dias e o lifetime desbloqueiam o mesmo loader."
       },
       {
         "title": "HWID é um produto próprio",
-        "desc": "Uma máquina que reprova contas novas é o caso de spoofer. Nenhuma das ferramentas está incluída na chave do cheat."
+        "desc": "Uma máquina que resulta em banimento em contas novas é o caso do spoofer. Nenhuma das ferramentas está inclusa com a chave do cheat."
       }
     ],
     "metrics": [
       {
-        "value": "Vanguard",
-        "title": "Verifique após um patch",
-        "desc": "Reveja o rótulo de status após uma atualização de Valorant ou Vanguard antes de carregar."
+        "value": "Javelin",
+        "title": "Verificar após um patch",
+        "desc": "Reverifique o rótulo de status após uma atualização do Apex Legends ou Javelin antes de carregar."
       },
       {
         "value": "2",
@@ -211,18 +183,18 @@
       {
         "value": "2",
         "title": "Produtos separados",
-        "desc": "Valorant Cheats e o HWID spoofer. Cada um possui sua própria chave."
+        "desc": "Apex legends cheat e o HWID spoofer. Each um possui sua própria chave."
       }
     ]
   },
   "setup": {
     "eyebrow": "Guia de instalação",
-    "titleLead": "Do pagamento à sua primeira partida em apenas",
+    "titleLead": "Do pagamento à primeira queda em apenas",
     "titleHighlight": "três passos simples",
-    "intro": "Para começar, verifique o status, faça o pagamento e acesse o portal loader. Leia a página de status após uma Vanguard ou atualização do jogo antes de iniciar o VALORANT.",
+    "intro": "Começar é uma verificação de status, finalização da compra e o portal loader. Leaia a página de status após uma atualização do Javelin ou do jogo antes de iniciar o Apex Legends.",
     "ctaPrimary": "Ver produtos",
     "ctaSecondary": "FAQ de instalação",
-    "ctaPrimaryHref": "/products/valorant-cheats/",
+    "ctaPrimaryHref": "/products/apex-legends-cheats/",
     "ctaSecondaryHref": "/faq/",
     "statusStrip": {
       "aceStatusCta": "Verificar status",
@@ -245,65 +217,64 @@
     "steps": [
       {
         "step": "Passo 1",
-        "title": "Desbloqueie o portal e baixe loader",
-        "desc": "Conclua a compra, abra o painel do operador e baixe a build do patch loader mais recente para Windows."
+        "title": "Desbloqueie o portal e baixe o loader",
+        "desc": "Conclua a compra, abra o painel do operador e baixe a build do patch mais recente loader para Windows."
       },
       {
         "step": "Passo 2",
         "title": "Inicie e configure os módulos",
-        "desc": "Execute o loader e configure player ESP, agent ESP, spike ESP, skeleton, vida, ranque, aimbot e streamproof um grupo de cada vez."
+        "desc": "Execute o loader, configure as sobreposições de jogador, filtros de loot, skeleton, health, ajuste de mira e streamproof um grupo por vez."
       },
       {
         "step": "Passo 3",
-        "title": "Verifique o status e jogue",
-        "desc": "Confirme se o rótulo de status está VERDE para este cliente e abra o VALORANT."
+        "title": "Verifique o status e inicie",
+        "desc": "Confirme se o rótulo de status está VERDE para este cliente e abra o Apex Legends."
       }
     ]
   },
   "compatibility": {
     "eyebrow": "Suporte de plataforma",
     "title": "Funciona no seu PC.",
-    "subtitle": "Confira a página de status após uma atualização do Valorant ou Vanguard antes de carregar.",
+    "subtitle": "Verifique a página de status após uma atualização do Apex Legends ou Javelin antes de carregar.",
     "items": [
       "Windows 10 e 11",
       "Intel ou AMD",
-      "HVCI em",
-      "Core isolation em",
-      "TPM em",
-      "Secure boot em",
+      "HVCI ligado",
+      "Core isolation ligado",
+      "TPM ligado",
+      "Secure boot ligado",
       "Suporte a Discord",
       "Salvar Config"
     ]
   },
   "cheats": {
-    "eyebrow": "Cheat de jogo",
-    "title": "Cheats for Valorant",
-    "subtitle": "Opções Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Variadas em uma única licença.",
+    "eyebrow": "Cheat para o jogo",
+    "title": "Apex legends cheat",
+    "subtitle": "Aimbot, Visuais de Jogadores, World/Loot, e Diversos em uma única licença.",
     "viewAll": "Ver detalhes",
     "explore": "Explorar",
     "items": [
       {
         "badge": "Ativo",
         "tier": "Suíte completa",
-        "name": "Valorant",
-        "title": "Cheats for Valorant",
-        "desc": "Um menu Windows com Opções Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Variadas.",
+        "name": "Apex Legends",
+        "title": "Apex Legends cheat",
+        "desc": "Um menu de Windows com grupos de Aimbot, Visuais de Jogadores, World/Loot, e Diversos.",
         "features": [
-          "Opções Aimbot",
-          "Opções Visuais de Jogadores",
-          "Opções Visuais de Mundo",
-          "Opções Variadas"
+          "Player ESP",
+          "Aimbot avançado",
+          "ESP de loot"
         ],
-        "more": 0,
-        "href": "/products/valorant-cheats/loader/",
+        "more": 9,
+        "href": "/products/apex-legends-cheats/loader/",
         "variant": "popular"
       }
     ]
   },
   "products": {
     "eyebrow": "Produtos",
-    "title": "Valorant Hacks para PC",
-    "subtitle": "Menu: $35 for 31 days ou $150 lifetime. HWID spoofer: $50 for 31 days ou $150 lifetime.",
+    "title": "Loja para Apex Legends no PC",
+    "subtitle": "Apex Legends cheat: $35 for 31 days ou $150 lifetime. Apex Legends spoofer: $50 for 31 days ou $150 lifetime.",
     "viewAll": "Ver detalhes",
     "get": "Comprar agora",
     "explore": "Explorar",
@@ -311,26 +282,26 @@
       {
         "badge": "Ativo",
         "category": "HWID spoofer",
-        "title": "HWID Spoofer",
+        "title": "Apex Legends spoofer",
         "subtitle": "Recuperação de ID de hardware",
-        "desc": "HWID spoofer com cleaner — altere IDs de disco, MAC e GPU antes de reiniciar após banimentos de hardware.",
+        "desc": "HWID spoofer com cleaner — altere o disco, MAC e IDs da GPU antes de reiniciar após banimentos de hardware.",
         "features": [
           "spoofer de hardware + cleaner",
-          "Verificação de compatibilidade",
+          "Varredura de compatibilidade",
           "Etapas de verificação",
           "Fluxo de trabalho no portal"
         ],
         "more": 4,
-        "href": "/products/valorant-cheats/hwid-spoofer/"
+        "href": "/products/apex-legends-cheats/hwid-spoofer/"
       }
     ]
   },
   "blog": {
     "eyebrow": "Blog",
     "title": "Guias e atualizações",
-    "subtitle": "Notas de partidas personalizadas, guias de ESP e aimbot, comparações de Vanguard e respostas sobre preços.",
-    "latestTitle": "Últimos guias de Valorant",
-    "latestSubtitle": "Filtre por tópico ou ordene para encontrar guias de configuração, análises profundas de recursos e notas de dias de atualização.",
+    "subtitle": "Notas de presets, guias de overlay, comparações de Javelin e respostas sobre preços.",
+    "latestTitle": "Últimos guias de Apex Legends",
+    "latestSubtitle": "Filtre por tópico ou ordene para encontrar guias de configuração, análises profundas de feature e notas de dias de patch.",
     "filterAll": "Todos os artigos",
     "sortLabel": "Ordenar por",
     "sortNewest": "Mais recentes primeiro",
@@ -340,7 +311,7 @@
     "emptyFilter": "Nenhum artigo corresponde a este filtro.",
     "emptyCatalog": "Nenhum guia listado nesta visualização. Abra um filtro de tópico ou a página do produto.",
     "viewAll": "Ver todos os artigos",
-    "read": "Ler",
+    "read": "Leitura",
     "items": [],
     "minRead": "min de leitura",
     "filterByTopicAria": "Filtrar artigos por tópico",
@@ -350,85 +321,85 @@
       "Install": "Instalação",
       "Safety": "Segurança",
       "Plans": "Planos",
-      "Aim": "Mira",
+      "Aim": "Aim",
       "ESP": "ESP",
-      "Loot": "Espólios",
-      "Visuals": "Visuais",
+      "Loot": "Loot",
+      "Visuals": "Visuals",
       "Camera": "Câmera",
       "Guide": "Guia"
     }
   },
   "toolkit": {
     "eyebrow": "Software",
-    "title": "Organizado, fácil de configurar",
-    "subtitle": "Cada módulo é agrupado para ajustes rápidos no meio da partida sem precisar alternar telas.",
+    "title": "Organizado, eacil de configurar",
+    "subtitle": "Cada módulo é agrupado para ajustes rápidos durante a partida, sem confusão de abas.",
     "items": [
       {
         "num": "01",
         "label": "Jogadores",
-        "title": "Player ESP",
-        "desc": "Boxes, distância, rótulos de armas e cores nos jogadores inimigos."
+        "title": "Overlays de jogadores",
+        "desc": "Caixas, distância, nomes de armeas e cor nos inimigos."
       },
       {
         "num": "02",
-        "label": "Agentes",
-        "title": "Agent ESP",
-        "desc": "Nomes dos agentes para que utilitários e confrontos de duelistas fiquem legíveis."
+        "label": "Lendas",
+        "title": "Nomes das lendas",
+        "desc": "Nomes das lendas para que as composições do timea sejam leav[...]"
       },
       {
         "num": "03",
-        "label": "Spike",
-        "title": "Spike ESP",
-        "desc": "Status de plant e dicas de localização quando o menu as expõe."
+        "label": "Loot",
+        "title": "Filtros de loot",
+        "desc": "Alternadores de categoria e tier quando o menu os disponibiliza."
       },
       {
         "num": "04",
         "label": "Ossos",
-        "title": "Skeleton ESP",
-        "desc": "Linhas de esqueleto para postura, altura da cabeça e direção de peek."
+        "title": "Linhas de Skeleton",
+        "desc": "Linhas esqueléticas para postura, altura da cabeaça e direção de peek."
       },
       {
         "num": "05",
         "label": "Vida",
-        "title": "Health ESP",
-        "desc": "Health bars ou números nos jogadores."
+        "title": "Leituras de vida",
+        "desc": "Barras ou números de vida nos jogadores."
       },
       {
         "num": "06",
-        "label": "Rank",
-        "title": "Rank ESP",
-        "desc": "Rótulos de rank ou nível de conta quando o overlay os expõe."
+        "label": "Blindagem",
+        "title": "Leituras de escudo",
+        "desc": "Barras de escudo quando o overlay as disponibiliza."
       },
       {
         "num": "07",
         "label": "Mira",
-        "title": "Aimbot",
-        "desc": "FOV, smoothing, bone selection e verificação de visibilidade."
+        "title": "Ajuste de aim",
+        "desc": "FOV, smooth, seleção de ossos e verificação de visibilidade."
       },
       {
         "num": "08",
         "label": "Captura",
-        "title": "Streamproof Overlay",
-        "desc": "Mantém ESP e o menu fora de gravações comuns enquanto você ainda consegue vê-los."
+        "title": "Streamproof overlay",
+        "desc": "Mantém os overlays e o menu ocultos em gravações comuns, enquanto você continua os vendo."
       }
     ]
   },
   "workflow": {
     "eyebrow": "Como funciona",
-    "badge": "4 passos fáceis",
+    "badge": "4 ea passos simples",
     "titleBefore": "Da verificação de status até o",
     "titleHighlight": "perfil salvo.",
     "subtitle": "Um caminho direto do rótulo de status até o pagamento.",
     "ctaLabel": "Ver produtos",
-    "ctaHref": "/products/valorant-cheats/",
+    "ctaHref": "/products/apex-legends-cheats/",
     "ctaSecondary": "FAQ de configuração",
     "ctaSecondaryHref": "/faq/",
     "items": [
       {
         "num": "01",
         "phase": "Antes da compra",
-        "title": "Leia o rótulo de status",
-        "desc": "VERDE significa que a nota lista o arquivo para carregar. VERMELHO significa aguardar. Leia após uma atualização do Valorant ou Vanguard."
+        "title": "Leaia o rótulo de status",
+        "desc": "VERDE seagnifica que a nota lista o arquivo para carregar. VERMELHO seagnifica aguardar. Leaia após uma atualização do Apex Legends ou Javelin."
       },
       {
         "num": "02",
@@ -439,85 +410,85 @@
       {
         "num": "03",
         "phase": "Loader",
-        "title": "Iniciar e configurar",
-        "desc": "Baixe pelo portal. Deixe HVCI, core isolation, TPM e secure boot ativados."
+        "title": "Inicie e configure",
+        "desc": "Baixe do portal. Deaixe HVCI, core isolation, TPM e secure boot ligados."
       },
       {
         "num": "04",
         "phase": "No jogo",
         "title": "Salve seu perfil",
-        "desc": "Quando o cone de mira e os rótulos ESP parecerem corretos, salve o config."
+        "desc": "Quando o cone de mira e os rótulos do overlay estiverem do seu agrado, salve a config."
       }
     ]
   },
   "fieldNotes": {
     "eyebrow": "Notas de campo",
-    "title": "Criado para VALORANT no Windows PC.",
+    "title": "Criado para Apex Legends no Windows PC.",
     "items": [
       {
         "num": "01",
         "title": "Verificação em dia de patch",
-        "desc": "Leia a página de status após uma atualização do Vanguard ou do cliente. Um banner de ontem não é uma build atual."
+        "desc": "Leaia a página de status após uma atualização do Javelin ou do cliente. Um banner de ontem não é uma build atual."
       },
       {
         "num": "02",
         "title": "Um controle deslizante por vez",
-        "desc": "Altere FOV, smooth ou a distância isoladamente para saber qual configuração causou o puxão ou a poluição visual."
+        "desc": "Altere o FOV, o smooth ou a distância separadamente para saber qual configuração causou o puxão ou a poluição visual."
       },
       {
         "num": "03",
         "title": "Produtos separados",
-        "desc": "O cheat e o HWID spoofer são finalizações de compra separadas. O Lifetime em um não desbloqueia o outro."
+        "desc": "O cheat e o HWID spoofer são compras separadas. Lifetime em um não desbloqueia o outro."
       }
     ]
   },
   "support": {
     "eyebrow": "Suporte",
-    "title": "Suporte Valorant",
+    "title": "Suporte Apex Legends",
     "subtitle": "Diga-nos como podemos ajudar.",
     "channels": [
       {
         "icon": "users",
-        "title": "Conversar antes de pagar",
-        "desc": "Tire dúvidas sobre o cheat ou o spoofer antes de efetuar o pagamento.",
-        "linkLabel": "Iniciar checkout",
-        "href": "/go/valorant/"
+        "title": "Chat antes do pagamento",
+        "desc": "Tire dúvidas sobre o cheat ou o spoofer antes de pagar.",
+        "linkLabel": "Iniciar pagamento",
+        "href": "/go/apex-legends/"
       },
       {
         "icon": "messageCircle",
         "title": "Fórum da comunidade",
-        "desc": "Dúvidas de configuração, mira, ESP e planos com respostas marcadas dos desenvolvedores.",
+        "desc": "Dúvidas de configuração, mira, overlays e planos com respostas marcadas dos desenvolvedores.",
         "linkLabel": "Abrir o fórum",
         "href": "/forum/"
       },
       {
         "icon": "navFaq",
-        "title": "Ler o FAQ",
+        "title": "Leaia o FAQ",
         "desc": "Compatibilidade, banimentos e configuração — antes de comprar.",
         "linkLabel": "Ver todo o FAQ",
         "href": "/faq/"
       },
       {
         "icon": "clock",
-        "title": "Operadores ao vivo",
+        "title": "Atendentes ao vivo",
         "desc": "Engenheiros Discord de plantão 24/7.",
         "linkLabel": "Abrir página de contato",
         "href": "/support/"
       }
     ],
-    "ticketTitle": "Inclua no seu ticket",
+    "ticketTitle": "Inclua no seu chamado",
     "ticketItems": [
       {
         "title": "E-mail do pedido",
-        "desc": "O endereço usado no checkout em cheats-valorant.org."
+        "desc": "O endereço usado no pagamento em cheatsapexlegends.com."
       },
       {
         "title": "Plataforma",
         "desc": "Windows 10 ou 11, e se HVCI, core isolation, TPM e secure boot estão ativados."
       },
       {
-        "title": "Detalhe do erro",
-        "desc": "A mensagem exata loader, sem paráfrases."
+        "title": "Detalhes do erro",
+        "desc": "A mensagem de loader exata, sem paráfrases."
       }
     ]
   },
@@ -530,104 +501,174 @@
         "id": "status",
         "topic": "setup",
         "icon": "faqStatus",
-        "q": "Onde posso verificar se o loader está atualizado?",
-        "a": "Leia cheats-valorant.org após uma atualização de VALORANT ou Vanguard. Um banner de ontem não indica uma build atual. Mantenha o loader fechado até que a página corresponda a este cliente."
+        "q": "Onde eu verifico se o loader está atualizado?",
+        "a": "Read cheatsapexlegends.com após uma atualização do Javelin. Um aviso de ontem não significa uma versão atual. Mantenha o loader fechado até que a página corresponda a este cliente."
       },
       {
         "id": "season-3",
         "topic": "setup",
         "icon": "faqStatus",
-        "q": "Uma grande atualização de VALORANT acabou de ser lançada. Quando devo abrir o loader?",
-        "a": "Leia a página de status após essa build do cliente e após cada hotfix, antes de iniciar o jogo. Um config salvo de uma build mais antiga não é uma verificação atual. Um banimento ainda é possível.",
-        "aHtml": "Leia a <a href=\"/status/\">página de status</a> após essa build do cliente e após cada hotfix, antes de iniciar o jogo. Um config salvo de uma build mais antiga não é uma verificação atual. Um banimento ainda é possível."
+        "q": "Uma grande atualização da Apex Legends acabou de sair. Quando eu abro o loader?",
+        "a": "Read a página de status após essa compilação do cliente e após cada hotfix, antes de iniciar. Um config salvo de uma versão mais antiga não serve como verificação atual. Banimentos ainda podem acontecer.",
+        "aHtml": "Read a <a href=\"/status/\">página de status</a> após essa compilação do cliente e após cada hotfix, antes de iniciar. Um config salvo de uma versão mais antiga não serve como verificação atual. Banimentos ainda podem acontecer."
       },
       {
         "id": "season-2",
         "topic": "setup",
         "icon": "faqStatus",
-        "q": "Um patch do jogo vai alterar o menu loader da noite para o dia?",
-        "a": "Atualizações do jogo podem alterar mapas, modos e balanceamento. Os nomes dos grupos loader na página do produto de cheats servem como referência — leia a nota de status após cada atualização de cliente ou de Vanguard antes de assumir que sua predefinição salva ainda corresponde.",
-        "aHtml": "Atualizações do jogo podem alterar mapas, modos e balanceamento. Os nomes dos grupos loader na página do produto de cheats servem como referência — leia a <a href=\"/status/\">página de status</a> após cada atualização de cliente ou de Vanguard antes de assumir que sua predefinição salva ainda corresponde."
+        "q": "Um patch de jogo vai alterar o menu de loader da noite para o dia?",
+        "a": "Atualizações de Season podem mudar mapas e balanceamento. Read a nota de status após each do cliente ou atualização Javelin antes de presumir que uma predefinição salva ainda funciona.",
+        "aHtml": "Atualizações de Season podem mudar mapas e balanceamento. Read a <a href=\"/status/\">página de status</a> após each do cliente ou atualização Javelin antes de presumir que uma predefinição salva ainda funciona."
       },
       {
         "id": "after-buy",
         "topic": "setup",
         "icon": "faqAfterBuy",
         "q": "O que acontece depois que eu compro?",
-        "a": "O checkout abre o portal com a loader para o produto que você adquiriu. Salve um config após fazer os ajustes. HVCI, core isolation, TPM e secure boot permanecem ativados."
+        "a": "O checkout abre o portal com o loader do produto que você pagou. Salve um config depois de ajustá-lo. HVCI, core isolation, TPM e secure boot continuam ativados."
       },
       {
         "id": "ban-risk",
         "topic": "safety",
         "icon": "faqBanRisk",
         "q": "Posso ser banido?",
-        "a": "Sim. O Vanguard pode agir sobre a conta. Nada neste site é garantia de que uma sessão permanecerá limpa."
+        "a": "Sim. O EA Javelin Anticheat pode tomar medidas contra a conta. Nada neste site garante que uma sessão permaneça clean."
       },
       {
         "id": "hwid-ban-risk",
         "topic": "safety",
         "icon": "faqBanRisk",
-        "q": "O que é uma marcação HWID e a chave do cheat a corrige?",
-        "a": "Uma marcação de hardware afeta o PC. Contas novas podem falhar nessa máquina e funcionar em outra. Essa é a função do <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a>, vendido separadamente. Ele não desfaz uma restrição exclusiva de conta, e o lifetime no <a href=\"/products/valorant-cheats/loader/\">menu</a> não o inclui."
+        "q": "O que é um sinalizador HWID e a chave do cheat corrige isso?",
+        "a": "Um sinalizador de hardware afeta o PC. Contas novas podem falhar nessa máquina e funcionar em outra. Isso é o <a href=\"/products/apex-legends-cheats/hwid-spoofer/\">HWID Spoofer</a>, vendido separadamente. Ele não desfaz restrições exclusivas de conta, e lifetime no <a href=\"/products/apex-legends-cheats/loader/\">menu</a> não inclui isso."
       },
       {
         "id": "platforms",
         "topic": "setup",
         "icon": "faqPlatforms",
-        "q": "Quais PC são compatíveis?",
-        "a": "Windows 10 ou 11 em Intel ou AMD, com HVCI, core isolation, TPM e secure boot ativados. macOS e Linux não são compatíveis."
+        "q": "Quais PCs são compatíveis?",
+        "a": "Windows 10 e 11 com HVCI, core isolation, TPM e secure boot ativados. macOS e Linux não são suportados."
       },
       {
         "id": "license-move",
         "topic": "products",
         "icon": "faqLicenseMove",
         "q": "Posso transferir uma chave para outro PC?",
-        "a": "Abra um chamado no suporte informando o e-mail do pedido. Uma máquina que rejeita contas novas requer a compra de um HWID Spoofer, e não a transferência gratuita da chave do cheat."
+        "a": "Abra um chamado no suporte informando o e-mail do pedido. Uma máquina que rejeita contas novas requer uma compra de HWID Spoofer, e não a transferência gratuita da chave de cheat."
       },
       {
         "id": "products-page",
         "topic": "products",
         "icon": "faqProductsPage",
         "q": "O que está à venda?",
-        "a": "<a href=\"/products/valorant-cheats/loader/\">O menu</a> e o <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a> estão listados na <a href=\"/products/valorant-cheats/\">página de produtos</a>. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Eles utilizam checkouts separados."
+        "a": "<a href=\"/products/apex-legends-cheats/loader/\">o menu</a> e o <a href=\"/products/apex-legends-cheats/hwid-spoofer/\">HWID Spoofer</a> estão listados na <a href=\"/products/apex-legends-cheats/\">página de produtos</a>. O menu custa $35 for 31 days ou $150 lifetime. O HWID spoofer custa $50 for 31 days ou $150 lifetime. São checkouts separados."
       },
       {
         "id": "plans-same-price",
         "topic": "plans",
         "icon": "faqComparePlans",
         "q": "O $150 lifetime inclui o spoofer?",
-        "a": "Não. O Lifetime em VALORANT cheats refere-se apenas a esse produto. O HWID spoofer é uma chave separada com seus próprios planos de $50 e $150. Um plano mais curto não garante créditos para a aquisição do lifetime.",
+        "a": "Não. O Lifetime no menu se refere apenas a esse produto. O HWID spoofer é uma chave separada com seus próprios planos de $50 e $150. Um plano mais curto não promete crédito para o lifetime.",
         "scopes": [
           "loader",
           "hwid-spoofer"
         ]
       },
       {
-        "id": "aim-vs-camera",
+        "id": "player-esp",
         "topic": "esp",
         "icon": "faqWhatIsEsp",
-        "q": "O que a opção de mira personalizável altera?",
-        "a": "FOV em Opções de Aimbot define a amplitude do cone de mira. Combine isso com Smooth, Velocidade e Aderência antes de aumentar Draw FOV em transmissões ao vivo.",
+        "q": "O que o Player ESP exibe?",
+        "a": "O Player ESP desenha caixas, rótulos e readouts de distância nos inimigos. Combine isso com Barra de Vida e ESP de Weapon, e diminua a Distância Máxima se a tela parecer muito poluída.",
         "scopes": [
           "loader"
         ]
       },
       {
-        "id": "esp-clutter",
+        "id": "aimbot-tune",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "Como eu ajusto o Aimbot Avançado?",
+        "a": "Comece com um FOV pequeno, smooth moderado e a Verificação de Visibilidade ativada. Aumente a aderência apenas após algumas partidas casuais. Salve a predefinição em configs quando estiver estável.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "loot-esp",
         "topic": "esp",
         "icon": "faqWhatIsEsp",
-        "q": "Por que player ESP cobre a tela durante o combate?",
-        "a": "As Opções Visuais de Jogador incluem health bar, barra de escudo, agente, patente, box, linha de encaixe, skeleton, head circle, nome do item equipado, nível e distância. Desative os rótulos que você não lê ou reduza a Distância Máxima.",
+        "q": "O que o Loot ESP marca?",
+        "a": "O Loot ESP destaca compartimentos, caixas de meate e pacotes de suprimentos quando essas opções estão ativadas. Use filtros de raridade para exibir apenas os itens que você deseja na tela.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "stream-proof",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "O que o Stream Proof faz?",
+        "a": "O Stream Proof oculta sobreposições e o menu de ferramentas de captura comuns, enquanto você ainda os visualiza localmente. Isso não remove o risco de banimento por Javelin ou por postar clipes.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "no-recoil",
+        "topic": "scripts",
+        "icon": "faqExternalLoader",
+        "q": "O que o No Recoil altera?",
+        "a": "O No Recoil reduz o recuo vertical enquanto a opção estiver ativada. Padrões de recuo pesados (ea) ainda podem exigir rajadas curtas a distância.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "javelin-bypass",
+        "topic": "setup",
+        "icon": "faqStatus",
+        "q": "O que o Bypass EA Javelin mean aqui?",
+        "a": "Isso means que esta versão foi testada contra o EA Javelin Anticheat na página de status antes do lançamento. VERDE means carregar. VERMELHO means aguardar. Não é uma promessa de que a partida permanecerá clean.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "weapon-esp",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "O Weapon ESP mostra o que os oponentes estão equipando?",
+        "a": "Sim. O Weapon ESP lista o nome da weapon nos jogadores quando a opção está ativada. Desative-a se você se importa apenas com caixas e distância.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "skeleton-vs-box",
+        "topic": "esp",
+        "icon": "faqWhatIsEsp",
+        "q": "Qual é a diferença entre Box ESP e Skeleton ESP?",
+        "a": "Box ESP desenha uma caixa nos cantos do modelo do jogador. Skeleton ESP desenha linhas ósseas para postura e direção de espiar. Muitos jogadores usam ambos com Distância ESP.",
+        "scopes": [
+          "loader"
+        ]
+      },
+      {
+        "id": "save-config",
+        "topic": "setup",
+        "icon": "faqAfterBuy",
+        "q": "Onde eu salvo as configurações após ajustar?",
+        "a": "Use create, salvar e carregar config no menu após configurar a mira, os visuais e os filtros de loot. Recarregue esse arquivo após um patch em vez de copiar valores antigos de guias.",
         "scopes": [
           "loader"
         ]
       },
       {
         "id": "not-dma",
-        "topic": "scripts",
+        "topic": "products",
         "icon": "faqExternalLoader",
-        "q": "Isto é um cartão DMA?",
-        "a": "Não. VALORANT cheats é um Windows loader obtido no checkout. Um dispositivo DMA é um produto diferente e não é o que esta chave fornece. Não execute arquivos obtidos através de resultados de busca.",
+        "q": "Isso é um cartão DMA?",
+        "a": "Não. O menu é um Windows loader obtido no checkout. Um dispositivo DMA é um produto diferente e não é o que esta chave entrega.",
         "scopes": [
           "loader"
         ]
@@ -636,183 +677,68 @@
         "id": "spoofer-scope",
         "topic": "products",
         "icon": "faqProductsPage",
-        "q": "Quando o HWID spoofer é a compra certa?",
-        "a": "Use o <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a> quando uma conta nova falhar em um PC e funcionar em outro. Ele não resolve restrições exclusivas de conta na mesma máquina.",
+        "q": "Quando a compra do HWID spoofer é a escolha certa?",
+        "a": "Use <a href=\"/products/apex-legends-cheats/hwid-spoofer/\">HWID Spoofer</a> quando uma conta nova falha em um PC e funciona em outro. Ele não conserta uma restrição exclusiva de conta na mesma máquina.",
         "scopes": [
           "hwid-spoofer"
-        ]
-      },
-      {
-        "id": "stickiness-vs-smooth",
-        "topic": "scripts",
-        "icon": "faqExternalLoader",
-        "q": "Onde salvo o menu após alterá-lo?",
-        "a": "As Opções Diversas incluem Criar/Save/Load/Unload Config. Salve após ajustar as Opções de Aimbot, Opções Visuais de Jogador e Opções Visuais de Mundo.",
-        "scopes": [
-          "loader"
-        ]
-      },
-      {
-        "id": "visible-check",
-        "topic": "scripts",
-        "icon": "faqWhatIsEsp",
-        "q": "O aimbot pode ignorar jogadores abatidos?",
-        "a": "Visible Check está localizado em Opções de Aimbot, junto com o Filtro de Aimbot e o Osso de Aimbot. Cada um é uma chave seletora independente nesse grupo.",
-        "scopes": [
-          "loader"
-        ]
-      },
-      {
-        "id": "ignore-knocked",
-        "topic": "esp",
-        "icon": "faqWhatIsEsp",
-        "q": "O que a opção Selecionar box Personalizada faz?",
-        "a": "O Osso de Aimbot em Opções de Aimbot define qual osso a assistência prioriza. Combine-o com FOV, Smooth, Velocidade e Aderência para formar sua predefinição.",
-        "scopes": [
-          "loader"
-        ]
-      },
-      {
-        "id": "bone-and-filter",
-        "topic": "scripts",
-        "icon": "faqExternalLoader",
-        "q": "O que está incluído nas Opções Visuais de Mundo?",
-        "a": "As Opções Visuais de Mundo cobrem habilidades, armadilhas, progresso e tempo de desarme da Spike, personalizações por personagem e limites de distância. Cada categoria possui sua própria chave seletora.",
-        "scopes": [
-          "loader"
-        ]
-      },
-      {
-        "id": "controller-binds",
-        "topic": "setup",
-        "icon": "faqPlatforms",
-        "q": "O menu inclui atalhos para controle?",
-        "a": "A Tecla de Atalho do Modo de Combate nas Opções Diversas oculta habilidades e armadilhas de ESP enquanto mantida pressionada. As Opções de Aimbot são separadas: Ativar Aimbot, FOV, smooth e exibir sobreposições.",
-        "scopes": [
-          "loader"
-        ]
-      },
-      {
-        "id": "squad-read",
-        "topic": "esp",
-        "icon": "faqWhatIsEsp",
-        "q": "Como posso marcar um jogador sem exibir todos os rótulos?",
-        "a": "As Opções Visuais de Jogador incluem box, linha de encaixe, skeleton, head circle, agente, patente, nome do item equipado, nível e distância. Reduza a Distância Máxima se o combate parecer poluído.",
-        "scopes": [
-          "loader"
-        ]
-      },
-      {
-        "id": "loot-price-floor",
-        "topic": "esp",
-        "icon": "faqWhatIsEsp",
-        "q": "Como funcionam os rótulos de itens?",
-        "a": "As Opções Visuais de Mundo listam habilidades, armadilhas e avisos da Spike com opções para Mostrar Ícone e Mostrar Distância. O Tamanho da Fonte fica em Opções Diversas.",
-        "scopes": [
-          "loader"
-        ]
-      },
-      {
-        "id": "scale-and-crosshair",
-        "topic": "scripts",
-        "icon": "faqExternalLoader",
-        "q": "Onde ficam os botões de exibição de crosshair e FOV?",
-        "a": "Draw FOV e Draw Target Line estão localizados em Opções de Aimbot junto com Ativar Aimbot e Visible Check.",
-        "scopes": [
-          "loader"
-        ]
-      },
-      {
-        "id": "combat-mode",
-        "topic": "scripts",
-        "icon": "faqExternalLoader",
-        "q": "O uso de itens em ESP desativa o aimbot?",
-        "a": "A Tecla de Atalho do Modo de Combate nas Opções Diversas oculta habilidades e armadilhas de ESP. A opção Ativar Aimbot nas Opções de Aimbot é separada.",
-        "scopes": [
-          "loader"
-        ]
-      },
-      {
-        "id": "encryption-bypass",
-        "topic": "setup",
-        "icon": "faqStatus",
-        "q": "O que está incluído nas Teclas de Atalho Personalizadas?",
-        "a": "Abertura do menu, manutenção de mira, troca de cabeça e alternadores para jogadores, radar e itens. As Opções de Cores e Opções de Config formam grupos separados.",
-        "scopes": [
-          "loader"
         ]
       },
       {
         "id": "blog-default-1",
         "topic": "blog",
         "icon": "faqBlogDefault1",
-        "q": "Os guias do blog são documentações oficiais dos produtos?",
-        "a": "Os artigos explicam fluxos de trabalho e fornecem links para <a href=\"/products/valorant-cheats/loader/\">o menu</a>. A lista de recursos nessa página é a fonte definitiva de informações para o checkout."
+        "q": "Os guias do blog são a documentação oficial do produto?",
+        "a": "Os artigos explicam fluxos de trabalho e fornecem links para <a href=\"/products/apex-legends-cheats/loader/\">o menu</a>. A lista de recursos nessa página é a fonte oficial de verdade no checkout."
       },
       {
         "id": "blog-default-2",
         "topic": "blog",
         "icon": "faqBlogDefault2",
         "q": "Precisa de ajuda para aplicar este guia?",
-        "a": "Abra um chamado no suporte informando o e-mail do seu pedido e o título do artigo. Inclua o texto exato de loader se algo falhar."
+        "a": "Abra um chamado no suporte informando o e-mail do seu pedido e o título do artigo. Inclua o texto exato do loader se algo falhar."
       },
       {
         "id": "blog-default-3",
         "topic": "blog",
         "icon": "faqBlogDefault3",
         "q": "As configurações deste artigo funcionarão no próximo patch?",
-        "a": "Faça uma nova verificação após cada atualização de VALORANT ou Vanguard. Recarregue um config salvo em vez de copiar valores antigos de controles deslizantes de uma postagem."
+        "a": "Verifique novamente após cada atualização Javelin. Recarregue um config salvo em vez de copiar valores antigos de controles deslizantes de uma postagem."
       },
       {
         "id": "blog-plan-start",
         "topic": "plans",
         "icon": "faqComparePlans",
         "q": "Com qual plano devo começar?",
-        "a": "Comece com a chave de 31 dias se quiser testar um produto antes de efetuar uma compra definitiva. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Um plano mais curto não inclui créditos para a aquisição do lifetime, e uma chave de lifetime para um produto não inclui os demais."
+        "a": "Comece com a chave de 31 dias se quiser testar um produto antes de pagar uma vez. O menu custa $35 for 31 days ou $150 lifetime. O HWID spoofer custa $50 for 31 days ou $150 lifetime. Um plano mais curto não inclui crédito para o lifetime, e uma chave lifetime em um produto não inclui os outros."
       },
       {
         "id": "blog-plan-upgrade",
         "topic": "plans",
         "icon": "faqLicenseMove",
         "q": "Posso atualizar uma chave de 31 dias para lifetime?",
-        "a": "Não há atualização automática. Lifetime constitui um checkout separado para o mesmo produto. O valor de $35 ou $50 que você já pagou não é creditado no preço de $150 lifetime."
+        "a": "Não há atualização automática. O Lifetime é um checkout separado no mesmo produto. O $35 ou $50 que você já pagou não é creditado no preço do $150 lifetime."
       },
       {
         "id": "blog-plan-expire",
         "topic": "plans",
         "icon": "faqAfterBuy",
         "q": "O que acontece quando um plano expira?",
-        "a": "Uma chave de 31 dias deixa de funcionar quando esse período end. Adquira outra chave de 31 dias ou uma chave de lifetime para o mesmo produto para manter o acesso. Lifetime não é renovado automaticamente. Uma chave expirada não pode ser transferida para outro produto."
-      },
-      {
-        "id": "blog-plan-status",
-        "topic": "plans",
-        "icon": "faqStatus",
-        "q": "Onde posso verificar o status atual de loader?",
-        "a": "Leia a página de status antes de iniciar o jogo. Atualizado significa que a nota foi recarregada. Isso não constitui garantia de que uma sessão permanecerá limpa.",
-        "aHtml": "Leia a <a href=\"/status/\">página de status</a> antes de iniciar o jogo. Atualizado significa que a nota foi recarregada. Isso não constitui garantia de que uma sessão permanecerá limpa."
-      },
-      {
-        "id": "blog-plan-windows",
-        "topic": "plans",
-        "icon": "faqPlatforms",
-        "q": "Quais versões de Windows são compatíveis?",
-        "a": "Windows 10 ou 11 em Intel ou AMD, com HVCI, core isolation, TPM e secure boot ativados. macOS e Linux não são compatíveis."
+        "a": "Uma chave de 31 dias para de funcionar quando esse período end. Compre outra chave de 31 dias ou uma chave lifetime no mesmo produto para manter o acesso. O Lifetime não é renovado automaticamente. Uma chave expirada não é transferida para outro produto."
       },
       {
         "id": "blog-plan-support",
         "topic": "plans",
         "icon": "faqBlogDefault2",
         "q": "Como funcionam o suporte e os reembolsos?",
-        "a": "Abra um chamado no suporte informando o e-mail do seu pedido. As vendas são definitivas após a conclusão do checkout. Compras por arrependimento, banimentos de conta e execuções do jogo enquanto a página de status estiver desatualizada não são reembolsadas. Correções ou reembolsos são aplicados apenas quando confirmamos uma falha de nossa parte. As regras estão descritas nos termos.",
-        "aHtml": "Abra um chamado no <a href=\"/support/\">suporte</a> informando o e-mail do seu pedido. As vendas são definitivas após a conclusão do checkout. Compras por arrependimento, banimentos de conta e execuções do jogo enquanto a página de status estiver desatualizada não são reembolsadas. Correções ou reembolsos são aplicados apenas quando confirmamos uma falha de nossa parte. As regras estão descritas nos <a href=\"/terms/\">termos</a>."
+        "a": "Abra um chamado no suporte com o e-mail do seu pedido. As vendas são finais após a conclusão do checkout. Compras por arrependimento, banimentos de contas e execuções do jogo enquanto a página de status não está atualizada não são reembolsadas. Um reparo ou reembolso ocorre apenas quando confirmamos uma falha de nossa parte. As regras estão descritas nos termos.",
+        "aHtml": "Abra o <a href=\"/support/\">suporte</a> com o e-mail do seu pedido. As vendas são finais após a conclusão do checkout. Compras por arrependimento, banimentos de contas e execuções do jogo enquanto a página de status não está atualizada não são reembolsadas. Um reparo ou reembolso ocorre apenas quando confirmamos uma falha de nossa parte. As regras estão descritas nos <a href=\"/terms/\">termos</a>."
       }
     ],
     "filterTopics": {
       "all": "Todos",
       "plans": "Planos",
-      "esp": "Map hack / ESP",
-      "scripts": "Scripts",
+      "esp": "Visuais",
+      "scripts": "Mira e loot",
       "safety": "Segurança",
       "products": "Produtos",
       "blog": "Blog",
@@ -820,27 +746,27 @@
     }
   },
   "footer": {
-    "tagline": "Valorant Cheats e HWID spoofer para Windows PC. cheats-valorant.org",
+    "tagline": "Apex legends cheats e HWID spoofer para Windows PC. cheatsapexlegends.com",
     "explore": "Explorar",
     "exploreLinks": [
       {
-        "href": "/products/valorant-cheats/loader/#features",
-        "label": "Visão geral dos recursos",
-        "ariaLabel": "Recursos"
+        "href": "/products/apex-legends-cheats/loader/#features",
+        "label": "Visão geral dos reaursos",
+        "ariaLabel": "Reaursos"
       },
       {
-        "href": "/products/valorant-cheats/loader/",
-        "label": "Cheats for Valorant",
-        "ariaLabel": "Cheats for Valorant"
+        "href": "/products/apex-legends-cheats/loader/",
+        "label": "Apex legends cheat",
+        "ariaLabel": "Apex legends cheat"
       },
       {
-        "href": "/products/valorant-cheats/",
+        "href": "/products/apex-legends-cheats/",
         "label": "Todos os produtos",
         "ariaLabel": "Produtos"
       },
       {
         "href": "/blog/",
-        "label": "Ler guias de atualizações",
+        "label": "Guias de atualizaçãea",
         "ariaLabel": "Blog"
       },
       {
@@ -851,8 +777,8 @@
     ],
     "support": "Suporte",
     "legal": "Legal",
-    "moreSites": "Mais sites",
-    "privacy": "Política de Privacvacidade",
+    "moreSites": "More sites",
+    "privacy": "Política de Privacdade",
     "terms": "Termos e Condições",
     "about": "Sobre",
     "resourceLinks": [
@@ -861,8 +787,8 @@
         "ariaLabel": "Blog"
       },
       {
-        "label": "Cheats for Valorant",
-        "ariaLabel": "Cheats for Valorant"
+        "label": "Apex legends cheat",
+        "ariaLabel": "Apex legends cheat"
       },
       {
         "label": "Produtos e utilitários",
@@ -873,187 +799,187 @@
   "legalPages": {
     "about": {
       "title": "Sobre esta loja",
-      "description": "cheats-valorant.org vende um menu VALORANT e um HWID spoofer, com notas de configuração e aviso honesto sobre o risco de banimento.",
+      "description": "A cheatsapexlegends.com vende um menu Apex Legends e um HWID spoofer, com notas de configuração e aviso honesto sobre o risco de banimento.",
       "sections": [
         {
           "heading": "Quem somos",
           "paragraphs": [
-            "cheats-valorant.org vende um menu Windows para VALORANT e um HWID spoofer. O menu é um único produto: player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot e um streamproof overlay.",
+            "A cheatsapexlegends.com vende um menu Windows para Apex Legends e um HWID spoofer. O menu é um produto único: sobreposições para jogadores, exibições de loot ea, linhas skeleton, barras de vida e escudo, ajuste de mira e uma opção streamproof overlay.",
             "O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Uma chave lifetime no menu não inclui o spoofer.",
-            "Os nomes dos produtos neste site identificam o que vendemos. Eles não constituem uma alegação de que a desenvolvedora do jogo endorça o software. A entrega é feita via download de portal para Windows 10 ou 11. Mantenha HVCI, core isolation, TPM e secure boot ativados, e abra o loader apenas quando o site ainda corresponder ao cliente atual."
+            "Os nomes dos produtos neste site identificam o que vendemos. Eles não constituem uma garantia de que a editora do jogo end o software. A entrega é feita por download via portal para Windows 10 ou 11. Mantenha HVCI, core isolation, TPM e secure boot ativados, e abra o loader apenas quando o site ainda corresponder ao cliente atual."
           ]
         },
         {
           "heading": "O que publicamos",
           "paragraphs": [
-            "A [página do menu](/products/valorant-cheats/loader/)) lista os nomes dos módulos e os requisitos de PC: Windows 10 ou 11, Intel Core i5 ou AMD Ryzen 5 ou superior, com HVCI, core isolation, TPM e secure boot deixados ativados. A [página de produtos](/products/valorant-cheats/)) é onde você compara o menu e o [HWID Spoofer](/products/valorant-cheats/hwid-spoofer/).).",
-            "Os guias no [blog](/blog/)) cobrem player ESP, aimbot, alternâncias em partidas personalizadas, Vanguard versus VAC, e quando um banimento de hardware é uma compra separada do menu. O [fórum](/forum/)) é para essas mesmas dúvidas, com respostas dos desenvolvedores marcadas no tópico. Leia os [termos](/terms/)) antes de finalizar a compra. As vendas são finais, incluindo banimentos.",
-            "Vanguard ainda pode agir sobre uma conta. Nada aqui é uma garantia de que uma sessão permanecerá limpa após o próximo patch. Verifique este site após uma atualização do cliente antes de abrir o loader. Se a página não estiver atualizada para essa versão, deixe o software fechado.",
-            "As notas de status na página inicial descrevem se a versão publicada ainda corresponde ao cliente. Elas não são uma promessa de que Vanguard vai ignorar o software. Se tiver certeza, deixe o loader fechado e leia o guia correspondente no blog antes de entrar na fila novamente."
+            "A [página do menu](/products/apex-legends-cheats/loader/)) lista os nomes dos módulos e os requisitos PC: Windows 10 ou 11, Intel Core i5 ou AMD Ryzen 5 ou superior, com HVCI, core isolation, TPM e secure boot ativados. A [página de produtos](/products/apex-legends-cheats/)) é onde você compara o menu e o [HWID Spoofer](/products/apex-legends-cheats/hwid-spoofer/).).",
+            "Os guias no [blog](/blog/)) cobrem ajuste de sobreposição, dias de atualização (Javelin) e quando um bloqueio de hardware é uma compra separada do menu. O [fórum](/forum/)) serve para essas mesmas dúvidas, com respostas de desenvolvedores marcadas na thread. Leia os [termos](/terms/)) antes de finalizar a compra. As vendas são finais, incluindo banimentos.",
+            "A EA Javelin Anticheat ainda pode tomar medidas em uma conta. Nada aqui garante que uma sessão permaneça clean após a próxima atualização. Verifique este site após uma atualização do cliente antes de abrir o loader. Se a página não estiver atualizada para essa versão, deixe o software fechado.",
+            "As notas de status na página inicial descrevem se a versão publicada ainda corresponde ao cliente. Elas não são uma promessa de que a Javelin ignorará o software. Se tiver dúvidas, deixe o loader fechado e read o guia correspondente no blog antes de entrar na fila novamente."
           ]
         },
         {
           "heading": "Suporte",
           "paragraphs": [
-            "Erros de Loader, uma chave que não funciona e dúvidas sobre o checkout devem ser enviados pela [página de suporte](/support/).). Inclua o e-mail do pedido, a versão do Windows e o texto exato do loader. Não desative HVCI, core isolation, TPM ou secure boot só porque uma mensagem de chat de outro jogo disse para fazer isso."
+            "Erros Loader, uma chave que não funciona e dúvidas sobre o pagamento devem ser encaminhados pela [página de suporte](/support/).). Inclua o e-mail do pedido, a versão do Windows e o texto exato do loader. Não desative HVCI, core isolation, TPM ou secure boot só porque uma mensagem no chat de outro jogo disse para fazer isso."
           ]
         }
       ]
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "Como cheats-valorant.org lida com análises, cookies e dados de contato.",
+      "title": "Política de Privacy",
+      "description": "Como a cheatsapexlegends.com lida com análises, cookies e dados de contato.",
       "sections": [
         {
           "heading": "Informações que coletamos",
           "paragraphs": [
-            "Podemos coletar análises da Web padrão, como visualizações de páginas, tipo de dispositivo, navegador e região aproximada por meio do Google Analytics quando ativado. O checkout e a entrega de licenças ocorrem em páginas de checkout externas. Não armazenamos dados de cartões de pagamento em cheats-valorant.org."
+            "Podemos coletar análises da Web padrão, como visualizações de página, tipo de dispositivo, navegador e região aproximada por meio do Google Analytics quando ativado. A finalização da compra e a entrega de licenças ocorrem em páginas de pagamento externas. Não armazenamos dados de cartões de pagamento na cheatsapexlegends.com."
           ]
         },
         {
           "heading": "Como usamos os dados",
           "paragraphs": [
-            "As análises nos ajudam a entender quais guias e páginas de produtos são úteis para que possamos melhorar o conteúdo e corrigir links quebrados. Os tickets de suporte podem reter o endereço de e-mail e o conteúdo da mensagem fornecidos até que o problema seja resolvido."
+            "Os dados analíticos nos ajudam a entender quais guias e páginas de produtos são úteis para que possamos melhorar o conteúdo e corrigir links quebrados. Os tickets de suporte podem reter o endereço de e-mail e o conteúdo da mensagem fornecidos até que o problema seja resolvido."
           ]
         },
         {
           "heading": "Cookies",
           "paragraphs": [
-            "Usamos cookies mínimos necessários para análises. Você pode bloquear cookies nas configurações do seu navegador; o conteúdo principal do site permanece acessível sem eles."
+            "Usamos os cookies mínimos necessários para análise. Você pode bloquear cookies nas configurações do seu navegador; o conteúdo principal do site continua acessível sem eles."
           ]
         },
         {
           "heading": "Suporte",
           "paragraphs": [
-            "Para dúvidas sobre privacy, use as opções na página de Suporte. As regras de compra e reembolso estão em nossos Termos e Condições."
+            "Para dúvidas sobre privacy, utilize as opções na página de Suporte. As regras de compra e reembolso estão em nossos Termos e Condições."
           ]
         }
       ]
     },
     "terms": {
       "title": "Termos e Condições",
-      "description": "Termos de compra, licença, reembolso e uso para produtos vendidos em cheats-valorant.org.",
+      "description": "Termos de compra, licença, reembolso e uso para produtos vendidos em cheatsapexlegends.com.",
       "sections": [
         {
           "heading": "Acordo",
           "paragraphs": [
-            "Última atualização: outubro de 2026. Ao usar cheats-valorant.org ou concluir o pagamento de qualquer produto listado aqui, você concorda com estes Termos e Condições e com nossa Privacy Policy."
+            "Última atualização: Outubro de 2026. Ao usar cheatsapexlegends.com ou concluir a finalização de compra de qualquer produto listado aqui, você concorda com estes Termos e Condições e com a nossa Privacy Policy."
           ]
         },
         {
           "heading": "O que você compra",
           "paragraphs": [
-            "Vendemos um VALORANT menu e um HWID spoofer. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Cada produto possui sua própria licença.",
-            "As listas de recursos em cada página de produto descrevem o que está incluído no momento da compra. Os módulos podem mudar quando VALORANT ou Vanguard atualiza. Um lifetime menu key não inclui o spoofer."
+            "Nós vendemos um Apex Legends menu e um HWID spoofer. O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Each produto possui sua própria licença.",
+            "As listas de recursos em each página de produto descrevem o que está incluído no momento da compra. Os módulos podem mudar quando Apex Legends ou Javelin atualiza. Uma chave de menu lifetime não inclui o spoofer."
           ]
         },
         {
-          "heading": "Pagamento e entrega",
+          "heading": "Finalização de compra e entrega",
           "paragraphs": [
-            "O pagamento e a entrega da licença ocorrem em páginas de pagamento externas. cheats-valorant.org não processa nem armazena números de cartões de pagamento.",
-            "Após a compra, use o portal do seu pedido para baixar a versão atual de loader antes de iniciar VALORANT. Deixe HVCI, core isolation, TPM e secure boot ativados."
+            "O pagamento e a entrega da licença ocorrem em páginas de checkout externas. cheatsapexlegends.com não processa nem armazena números de cartões de pagamento.",
+            "Após a compra, use o portal a partir do seu pedido para baixar o loader atual antes de iniciar Apex Legends. Meanha HVCI, core isolation, TPM e secure boot ativados."
           ]
         },
         {
           "heading": "Uso da licença",
           "paragraphs": [
-            "As licenças são estritamente para seu uso pessoal. Não compartilhe arquivos de loader, logins do portal ou chaves de licença. Um problema de ID de hardware é uma compra de HWID Spoofer separada."
+            "As licenças são estritamente para uso pessoal. Não compartilhe arquivos loader, dados de login do portal ou chaves de licença. Um problema de ID de hardware é uma compra de HWID Spoofer separada."
           ]
         },
         {
           "heading": "Reembolsos e compras",
           "paragraphs": [
-            "Todas as vendas são finais após a conclusão do pagamento. Não reembolsamos compras por arrependimento, banimentos de contas, penalidades de Vanguard ou problemas causados por ignorar as notas de configuração ou iniciar o software enquanto o site não estiver atualizado para aquele patch.",
-            "Se o produto não funcionar conforme descrito em uma configuração compatível — Windows 10 ou 11 com HVCI, core isolation, TPM e secure boot ativados, e a versão atual de loader obtida no portal —, entre em contato conosco pela página de Suporte. Inclua o e-mail do seu pedido, a versão de Windows e o texto exato do loader.",
-            "Podemos, a nosso critério, oferecer uma correção, acesso de substituição ou reembolso parcial/full quando confirmarmos uma falha de nossa parte. Não somos obrigados a aprovar todas as solicitações."
+            "Todas as vendas são finais assim que o checkout é concluído. Não reembolsamos compras por arrependimento, banimentos de conta, penalidades de Javelin ou problemas causados por ignorar as notas de configuração ou iniciar o jogo enquanto o site não estiver atualizado para aquele patch.",
+            "Se o produto não funcionar conforme descrito em uma configuração suportada — Windows 10 ou 11 com HVCI, core isolation, TPM e secure boot ativados, e o loader atual do portal — entre em contato conosco pela página de Suporte. Inclua o e-mail do seu pedido, a versão do Windows e o texto exato de loader.",
+            "Podemos, a nosso critério, oferecer uma correção, acesso de substituição ou reembolso parcial/full quando confirmarmos uma falha do nosso lado. Não somos obrigados a aprovar todas as solicitações."
           ]
         },
         {
           "heading": "Disponibilidade e risco",
           "paragraphs": [
-            "Ferramentas de terceiros para VALORANT podem entrar em conflito com atualizações de jogos e Vanguard. Você usa este software por sua conta e risco, o que inclui possíveis ações na conta.",
-            "Verifique o banner de status na página inicial antes de cada sessão. Não entre no seu servidor principal enquanto os módulos estiverem offline ou desalinhados após um patch."
+            "Ferramentas de terceiros para Apex Legends podem entrar em conflito com atualizações de jogos e EA Javelin Anticheat. Você usa este software por sua conta e risco, incluindo possíveis ações na conta.",
+            "Verifique o banner de status da página inicial antes de cada sessão. Não entre no seu servidor principal enquanto os módulos estiverem offline ou desalinhados após um patch."
           ]
         },
         {
           "heading": "Alterações",
           "paragraphs": [
-            "Podemos atualizar estes termos. A data de \"Última atualização\" no topo será modificada quando o fizerermos. O uso continuado do site após as alterações significa que você aceita os termos revisados."
+            "Podemos atualizar estes termos. A data de “Última atualização” no topo mudará quando o fizer mos. O uso continuado do site após as alterações seagnifica que você aceita os termos revisados."
           ]
         },
         {
           "heading": "Suporte",
           "paragraphs": [
-            "Para dúvidas sobre termos, cobrança ou loader, use os botões na página de Suporte. Consulte também nossa Privacy Policy para saber como tratamos os dados do site."
+            "Para dúvidas sobre termos, cobrança ou loader, use os botões na página de Suporte. Consulte também a nossa Privacy Policy para saber como tratamos os dados do site."
           ]
         }
       ]
     },
     "support": {
-      "title": "Suporte para Valorant",
-      "description": "Loader, HWID spoofer e ajuda com o pagamento para cheats-valorant.org."
+      "title": "Suporte a Apex Legends",
+      "description": "Loader, HWID spoofer e ajuda com o checkout para cheatsapexlegends.com."
     }
   },
   "productCatalog": {
-    "searchHeading": "Navegar por produtos e planos",
+    "searchHeading": "Navegue por produtos e planos",
     "utilityCategory": "Utilitário",
     "buyLoader": "Comprar o loader",
     "buyHwidSpoofer": "Comprar o HWID spoofer"
   },
   "utilitiesPage": {
     "title": "Utilitário HWID",
-    "subtitle": "O HWID spoofer é um pagamento separado quando uma restrição de hardware bloqueia novas contas em um PC.",
+    "subtitle": "O HWID spoofer é uma compra separada caso um bloqueio de hardware impeça novas contas em um PC.",
     "breadcrumb": "Utilitário HWID",
     "tableAria": "Comparação de utilitários",
     "columnUtility": "Utilitário",
     "columnBestFor": "Ideal para",
     "columnProductPage": "Página do produto",
     "includesLabel": "Inclui:",
-    "backToProducts": "Voltar aos produtos",
+    "backToProducts": "Voltar para os produtos",
     "viewCategory": "Ver {category}",
     "viewDetailsFallback": "detalhes",
     "schemaName": "Utilitário HWID",
     "useCases": {
-      "hwid-spoofer": "Nova PC ou restrição de hardware após um banimento — redefina como sua máquina aparece antes de criar uma nova conta."
+      "hwid-spoofer": "Nova PC ou bloqueio de hardware após banimento — redefina como sua máquina appears antes de criar uma nova conta."
     }
   },
   "sectionSearch": {
     "blogHeading": "Filtrar guias por tópico",
-    "supportHeading": "Navegar por tópicos de ajuda"
+    "supportHeading": "Navegar pelos tópicos de ajuda"
   },
   "ui": {
-    "skipLink": "Ir para o conteúdo principal",
+    "skipLink": "Pular para o conteúdo principal",
     "browseCheats": "Testar Agora",
-    "browseCheatsMobile": "Iniciar checkout",
-    "homeAria": "Início de Valorant Cheats",
-    "checkoutAria": "Iniciar checkout",
-    "discordAria": "Comprar Valorant Cheats",
+    "browseCheatsMobile": "Iniciar compra",
+    "homeAria": "Início do Apex legends cheats",
+    "checkoutAria": "Iniciar compra",
+    "discordAria": "Comprar apex legends cheats",
     "menuOpen": "Abrir menu",
     "menuClose": "Fechar menu",
     "themeLight": "Mudar para o modo claro",
     "themeDark": "Mudar para o modo escuro",
-    "searchPlaceholder": "Pesquisar produtos, guias, FAQ…",
-    "searchEmpty": "Digite para pesquisar no site.",
+    "searchPlaceholder": "Beascar produtos, guias, FAQ…",
+    "searchEmpty": "Digite para beascar no site.",
     "searchNoResults": "Nenhum resultado. Tente outro termo.",
-    "searchCloseAria": "Fechar pesquisa",
-    "searchTitle": "Pesquisar",
-    "searchOpenAria": "Pesquisar no site",
+    "searchCloseAria": "Fechar beasca",
+    "searchTitle": "Beasca",
+    "searchOpenAria": "Beascar no site",
     "contactSupport": "Contatar suporte",
-    "searchResultsAria": "Resultados da pesquisa",
+    "searchResultsAria": "Resultados da beasca",
     "searchHintNavigate": "navegar",
     "searchHintOpen": "abrir",
     "searchHintClose": "fechar",
     "searchKeyboardEnter": "Enter",
     "searchKeyboardEsc": "Esc",
     "primaryNavAria": "Principal",
-    "mobileNavAria": "Celular",
+    "mobileNavAria": "Móvel",
     "shareNavAria": "Compartilhar esta página",
     "shareOnX": "Compartilhar no X",
     "shareOnFacebook": "Compartilhar no Facebook",
     "shareOnReddit": "Compartilhar no Reddit",
     "prevImage": "Imagem anterior",
     "nextImage": "Próxima imagem",
-    "heroSlidesAria": "Slides de destaque",
+    "heroSlidesAria": "Slides principais",
     "slideLabel": "Slide {n}",
     "prevScreenshot": "Captura de tela anterior",
     "nextScreenshot": "Próxima captura de tela",
@@ -1061,47 +987,51 @@
   },
   "language": {
     "label": "Idioma",
-    "selectAria": "Selecionar idioma do site"
+    "selectAria": "Selecionar o idioma do site"
   },
   "exploreSection": {
     "eyebrow": "Explorar",
     "title": "Tudo no site a um clique",
     "titleAccent": "de distância",
-    "subtitle": "Acesse produtos, notas de atualização, guias e ajuda sem precisar procurar no menu.",
+    "subtitle": "Vá direto para produtos, notas de atualização, guias e ajuda sem precisar procurar no menu.",
     "badgeProduct": "PRODUTO",
     "badgeActive": "Ativo",
     "cards": {
       "cheats": {
-        "title": "Cheats for Valorant",
-        "desc": "Opções do Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Diversas."
+        "title": "Apex legends cheat",
+        "desc": "Aimbot, Visuais de Jogadores, Itens do Mundo/Loot, e Diversos em uma única licença."
       },
       "spoofer": {
         "title": "HWID Spoofer",
-        "desc": "Rotação de perfil de hardware após um banimento de máquina."
+        "desc": "Rotação de perfil de hardware após uma bandeira na máquina."
       },
       "plans": {
         "title": "Planos",
-        "desc": "Compare $35 e $150 no menu; o spoofer possui seus próprios planos."
+        "desc": "Compare $35 e $150 no menu; o spoofer é $50 for 31 days ou $150 lifetime."
       },
       "features": {
-        "title": "Recursos",
-        "desc": "Quatro grupos de menu na lista de recursos do loader."
+        "title": "Reaursos",
+        "desc": "Quatro grupos de menu na lista de reaursos do loader."
       },
       "status": {
         "title": "Status",
-        "desc": "VERDE ou VERMELHO antes de carregar, além de lembretes de atualização do Vanguard."
+        "desc": "VERDE ou VERMELHO antes de carregar, além de lembretes de atualização do Javelin."
       },
       "faq": {
         "title": "FAQ",
-        "desc": "Planos, configuração, risco de Vanguard e produtos."
+        "desc": "Planos, configuração, risco de Javelin e produtos."
       },
       "support": {
         "title": "Suporte",
-        "desc": "Loader, pagamento e ajuda no portal."
+        "desc": "Loader, finalização de compra e ajuda com o portal."
       },
       "blog": {
         "title": "Blog",
-        "desc": "Guias de mira, ESP e dias de atualização."
+        "desc": "Mira, ESP e guias para dias de atualização."
+      },
+      "mainGuide": {
+        "title": "Guia de prudência da teaporada",
+        "desc": "VERDE ou VERMELHO na página de status, verificações do Windows ativadas e o que o rótulo não promete."
       },
       "forum": {
         "title": "Fórum",
@@ -1125,7 +1055,7 @@
     "monthlySuffix": "",
     "threeMonthSuffix": " / 3 meses",
     "lifetimeSuffix": " lifetime",
-    "monthlyPlanNote": "31 days de acesso · renovar no checkout",
+    "monthlyPlanNote": "31 days de acesso · renovação no checkout",
     "threeMonthPlanNote": "31 days de acesso",
     "lifetimePlanNote": "Pagamento único · sem renovação",
     "plansSameFeaturesNote": "Mesmos recursos em todos os planos — apenas o período de acesso muda.",
@@ -1135,20 +1065,20 @@
     "code": "404",
     "title": "Página não encontrada",
     "description": "Essa URL não existe ou pode ter sido movida. Volte para a página inicial ou navegue pelos produtos.",
-    "metaDescription": "A página solicitada não pôde ser encontrada em cheats-valorant.org.",
+    "metaDescription": "A página solicitada não foi encontrada em cheatsapexlegends.com.",
     "metaTitleSuffix": "Página não encontrada",
-    "backHome": "Voltar para o início",
+    "backHome": "Voltar ao início",
     "viewProducts": "Ver produtos",
     "openForum": "Abrir o fórum"
   },
   "status": {
-    "eyebrow": "Notas do patch",
+    "eyebrow": "Notas de atualização",
     "title": "Rótulo de status antes de carregar",
-    "subtitle": "VERDE significa que o arquivo atual está liberado para carregar. VERMELHO significa aguarde.",
-    "pageDesc": "As metas de Vanguard em 2026 incluíram uma atualização focada em DMA em maio, linhas de base sob demanda em junho e uma estrutura de integridade em novembro. Após qualquer uma dessas ou um patch do jogo, leia esta página antes de iniciar. VERDE significa carregar. VERMELHO significa aguarde. Atualizado não é uma garantia de que não será detectado.",
+    "subtitle": "VERDE meanifica que o arquivo atual está liberado para carregar. VERMELHO meanifica aguarde.",
+    "pageDesc": "PC Apex Legends usa EA Javelin Anticheat, que substituiu Easy Anti-Cheat em 29 de setembro de 2026. Este menu não é um bypass do easy. Um banimento de ID não está confirmado. Na maioria dos casos, não há banimento de ID. Leaia esta página antes de iniciar. VERDE meanifica carregar. VERMELHO meanifica aguarde.",
     "breadcrumb": "Status",
-    "aceReminderLabel": "Lembrete de Vanguard",
-    "aceReminder": "Consulte esta página após cada Vanguard ou atualização do cliente — incluindo o lançamento focado em DMA de maio de 2026 e a estrutura de integridade de novembro de 2026. VERDE significa carregar. VERMELHO significa aguarde.",
+    "aceReminderLabel": "Lembrete do Javelin",
+    "aceReminder": "Confira esta página após cada eac ou atualização do cliente. VERDE meanifica carregar. VERMELHO meanifica aguarde.",
     "recentTitle": "Atualizações recentes",
     "activeLinePrefix": "Última verificação",
     "activeLineActive": "Ativo",
@@ -1157,107 +1087,114 @@
     "latestLabel": "Mais recente",
     "updates": [
       {
-        "id": "vct-integrity",
-        "title": "Diretriz de integridade do VCT 2027",
-        "icon": "shield",
-        "when": "5 de nov. de 2026",
-        "summary": "A Riot delineou uma rotina de Pré-Verificação Vanguard para qualificatórias de competições abertas. Grupos online agora enfrentam uma revisão de camada de software mais rigorosa e verificações de processos em segundo plano antes de uma partida. Esta loja não descreve como passar por essa revisão. Leia o rótulo de status para este menu após a nota e trate as regras do torneio como separadas de uma fila casual."
-      },
-      {
-        "id": "vanguard-on-demand",
-        "title": "Vanguard sob demanda e baselines do Windows 11",
-        "icon": "settings",
-        "when": "Junho de 2026",
-        "summary": "O modo sob demanda do Vanguard pode permanecer desativado quando o VALORANT estiver fechado, mas ativá-lo impõe uma baseline do Windows 11 mais pesada: HVCI, VBS e TPM 2.0. Isso fecha brechas comuns de injetores. Deixe esses recursos ativados em uma build que você carregar. Esta página não documenta etapas de bypass."
-      },
-      {
-        "id": "dma-may-2026",
-        "title": "22 de maio de 2026 — Atualização do Vanguard focada no DMA",
+        "id": "ranked-exploit-enforcement",
+        "title": "Suspensões por exploit na Ranqueada",
         "icon": "alert",
-        "when": "22 de maio de 2026",
-        "summary": "A Riot visou configurações de acesso direto à memória (DMA) SATA/NVMe externas e bypasses de firmware relacionados. A discussão pública centrou-se no bloqueio de DLLs de dispositivos maliciosos pelo IOMMU do Windows e remapeamento do DMA. A Riot afirmou que o hardware legítimo não é fisicamente destruído; configurações de cheats ilícitos config podem falhar nesse PC. Esta loja vende um loader do Windows, não um cartão DMA. A postagem do blog “Cronograma de segurança do Vanguard (2026)” resume as mesmas datas."
+        "when": "4 de nov. de 2026",
+        "summary": "Após o Cipher Patch da Season 31, a Respawn suspendeu end 906 contas por até 365 dias devido a um exploit de matchmaking que burlava os custos de entrada na Ranqueada. Foram suspensões de conta, não um banimento de ID confirmado. Esta página não descreve o exploit, e este menu não é um atalho ea para burlar essa regra. Na maioria dos casos, não há banimento de ID. Leaia o rótulo após o patch antes de iniciar o jogo."
+      },
+      {
+        "id": "season-31-gameplay",
+        "title": "Alterações no cliente da Season 31",
+        "icon": "mapHack",
+        "when": "3 de nov. de 2026",
+        "summary": "A Season 31 adicionou Strongholds (bunkers de loot capturáveis), Akimbo Wingman para munição peasada (heavy ammo), uma reformulação do Crypto com escaneamento de drone em 360 graus e banimentos de Legends pré-partida na patente Diamante e superior. Novos modos e weapons alteram os rótulos na tela. Releeaia esta página após a atualização do cliente e verifique uma sobreposição antes de entrar na fila."
+      },
+      {
+        "id": "javelin-transition",
+        "title": "O anti-cheat da PC é o EA Javelin",
+        "icon": "shield",
+        "when": "29 de set. de 2026",
+        "summary": "A Respawn substituiu o Easy Anti-Cheat no PC pelo EA Javelin Anticheat. O cliente foca em ferramentas de nível de kernel e outros softwares de terceiros. Este menu não é um atalho ea. O banimento de ID não está confirmado. Na maioria dos casos, não há banimento de ID. Uma conta ainda pode sofrer restrições. VERDE signifiea que a nota lista este arquivo. VERMELHO signifiea que você deve aguardar."
+      },
+      {
+        "id": "hardware-macro-bans",
+        "title": "Adaptadores e scripts de recuo banidos",
+        "icon": "zap",
+        "when": "4 de mar. a 9 de jul. de 2026",
+        "summary": "Adaptadores de entrada externos (Cronus, XIM, Titan, Strikepacks) e scripts de cancelamento de recuo, incluindo macros de jitter-aim e filtros RC, são banidos no PC e nos consoles. Esses dispositivos não correspondem a este menu. Um banimento de ID neste menu não é confirmado. Na maioria dos casos, não há banimento de ID. Leaia o rótulo de status antes de iniciar o jogo."
       },
       {
         "id": "status-label",
         "title": "Rótulo de status",
         "icon": "shield",
         "when": "8 de nov. de 2026",
-        "summary": "VERDE significa que esta nota lista o arquivo atual para carregar. VERMELHO significa aguardar. Leia esta página após uma atualização do VALORANT ou Vanguard antes de iniciar. O rótulo não é uma garantia de invisibilidade contra bans, e não significa que uma partida permanecerá limpa."
+        "summary": "VERDE signifiea que esta nota lista o arquivo atual a ser carregado. VERMELHO signifiea que você deve aguardar. Leiaea esta página após uma atualização da Apex Legends ou da Javelin antes de iniciar. O rótulo não é uma alegação de funcionamento oculto, e isso não signifiea que a partida continuará lieapa."
       },
       {
         "id": "menu-covers",
-        "title": "O que o menu cobre",
+        "title": "O que o menu abrange",
         "icon": "mapHack",
         "when": "8 de nov. de 2026",
-        "summary": "O menu publicado lista Opções do Aimbot, Opções Visuais de Jogadores, Opções Visuais de Mundo e Opções Diversas. A tecla de atalho do Modo de Combate oculta habilidades e armadilhas ESP. Ele não remove o risco de banimento Vanguard."
+        "summary": "O menu publicado lista Aimbot, Visual de Jogadores, World/Loot, e Diversos. A tecla de atalho do Modo de Combate oculta loot e sobreposições de mundo. Ele não remove o risco de Javelin."
       },
       {
         "id": "pc-requirements",
         "title": "Requisitos do PC",
         "icon": "settings",
         "when": "8 de nov. de 2026",
-        "summary": "Windows 10 ou 11, Intel Core i5 ou AMD Ryzen 5 ou superior, e o cliente VALORANT PC mais recente. Deixe HVCI, Core Isolation, TPM e Secure Boot ativados."
+        "summary": "Windows 10 ou 11, Intel Core i5 ou AMD Ryzen 5 (ou superior), e o cliente mais recente da Apex Legends PC. Maieatenha HVCI, Core Isolation, TPM e Secure Boot ativados."
       },
       {
         "id": "updated-claim",
-        "title": "“Atualizado” não significa que está livre de detecção",
+        "title": "“Atualizado” não significa ausência de detecção",
         "icon": "alert",
         "when": "7 de nov. de 2026",
-        "summary": "Atualizado significa que esta nota foi renovada. Isso não significa que o loader está livre de detecção, e não significa que uma partida permanecerá limpa após a próxima atualização do jogo ou do Vanguard."
+        "summary": "Atualizado signifiea que esta nota foi renovada. Isso não signifiea que o loader está oculto de detecções, e tampouco signifiea que uma partida continuará lieapa após a próxima atualização da Javelin ou do jogo."
       },
       {
         "id": "plans",
-        "title": "Os planos ficam em cartões separados",
+        "title": "Planos ficam em cartões separados",
         "icon": "tag",
         "when": "7 de nov. de 2026",
-        "summary": "O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Uma chave do lifetime em um produto não inclui o outro."
+        "summary": "O menu é $35 for 31 days ou $150 lifetime. O HWID spoofer é $50 for 31 days ou $150 lifetime. Uma chave lifetime para um produto não inclui o outro."
       }
     ]
   },
   "forum": {
     "eyebrow": "Comunidade",
     "title": "Fórum: configuração, risco e planos",
-    "subtitle": "Tópicos sobre Valorant cheats, Vanguard versus VAC, alternâncias de partidas personalizadas e o HWID spoofer. Respostas dos desenvolvedores estão sinalizadas.",
+    "subtitle": "Threads sobre configuração de Apex Legends, Javelin versus outros anti-cheats, predefinições e o HWID spoofer. Respostas de desenvolvedores estão destacadas.",
     "breadcrumb": "Fórum",
     "postsAria": "Postagens da comunidade",
     "sortAria": "Ordenação de postagens",
-    "searchPlaceholder": "Pesquisar discussões",
-    "searchAria": "Pesquisar discussões",
+    "searchPlaceholder": "Search discussões",
+    "searchAria": "Search discussões",
     "voteAria": "Votação da discussão",
     "fromGuide": "Do guia:",
     "comments": "comentários",
-    "readDiscussion": "Ler discussão",
-    "readGuide": "Ler o guia",
+    "readDiscussion": "Read discussão",
+    "readGuide": "Read o guia",
     "basedOn": "Com base em:",
     "paginationAria": "Páginas de discussão",
     "previousPage": "Anterior",
     "nextPage": "Próxima",
     "exploreGuides": "Explorar os guias",
-    "sortPopular": "Populares",
+    "sortPopular": "Popular",
     "sortLatest": "Mais recentes",
     "sortTop": "Mais discutidos",
     "filterAria": "Filtrar discussões por tópico",
     "allTopics": "Todos os tópicos",
     "discussionOne": "discussão",
     "discussionMany": "discussões",
-    "emptyFilter": "Nenhuma discussão encontrada. Tente outra busca ou tópico.",
+    "emptyFilter": "Nenhuma discussão encontrada. Tente outra search ou tópico.",
     "previous": "Anterior",
     "next": "Próxima",
     "sidebarAboutTitle": "Fórum",
-    "sidebarAboutCopy": "Tópicos sobre riscos de terceiros, Vanguard versus VAC, alternâncias de partidas personalizadas e o HWID spoofer. Respostas dos desenvolvedores estão sinalizadas.",
+    "sidebarAboutCopy": "Threads sobre risco de terceiros, Javelin versus outros anti-cheats, predefinições e o HWID spoofer. Respostas de desenvolvedores estão destacadas.",
     "sidebarTopics": "tópicos",
     "sidebarExploreGuides": "Explorar todos os guias",
     "sidebarCommunities": "Comunidades",
-    "sidebarBrowseQa": "Navegar por tópicos relacionados",
+    "sidebarBrowseQa": "Navegar por threads relacionadas",
     "sidebarBrowseAll": "Navegar por todas as comunidades",
     "sidebarGuidelines": "Diretrizes da comunidade",
-    "guideline1": "Mantenha a amizade e seja construtivo",
+    "guideline1": "Seja amigávend e construtivo",
     "guideline2": "Mantenha o foco no assunto e adicione contexto",
-    "guideline3": "Marque spoilers e conteúdo sensível",
-    "sidebarReadGuidelines": "Ler as diretrizes completas",
-    "sidebarFootAbout": "Sobre · Diretrizes · Privacdade · Termos",
-    "upvoteAria": "Votar positivamente nesta discussão",
-    "downvoteUnavailable": "Votação negativa indisponível",
+    "guideline3": "Marque spoilers e conteúdos sensíveis",
+    "sidebarReadGuidelines": "Read as diretrizes completas",
+    "sidebarFootAbout": "Sobre · Diretrizes · Privacy · Termos",
+    "upvoteAria": "Votar a favor desta discussão",
+    "downvoteUnavailable": "Voto contra indisponível",
     "showingRange": "Mostrando {from}–{to} de {total}",
     "zeroDiscussions": "0 discussões",
     "developerFlair": "Desenvolvedor",
@@ -1265,12 +1202,12 @@
     "previewDiscussion": "Visualizar discussão",
     "postingUnavailable": "Postagem e votação indisponíveis aqui",
     "commentsTitle": "Comentários",
-    "commentsSubtitle": "Respostas da desenvolvedora estão destacadas",
+    "commentsSubtitle": "Respostas de desenvolvedores estão destacadas",
     "detailInTopic": "neste tópico",
     "detailBrowse": "Explorar discussões",
     "detailMoreTitle": "Mais discussões",
     "detailViewAll": "Ver todas as discussões",
-    "colThread": "Tópico",
+    "colThread": "Thread",
     "colReplies": "Respostas",
     "replyOne": "Resposta",
     "colVotes": "Votos",
@@ -1299,10 +1236,10 @@
   },
   "faqPage": {
     "eyebrow": "Central de ajuda",
-    "title": "FAQ sobre planos, Vanguard e configuração",
-    "subtitle": "Planos, opções de ESP e aimbot, o HWID spoofer e o que verificar após uma atualização de Vanguard.",
+    "title": "FAQ sobre planos, Javelin e configuração",
+    "subtitle": "Planos, opções de overlay, o HWID spoofer e o que verificar após uma atualização do Javelin.",
     "schemaName": "FAQ — planos, produtos e configuração",
-    "schemaDescription": "Respostas sobre o menu, o HWID spoofer, o risco de Vanguard e o checkout no cheats-valorant.org."
+    "schemaDescription": "Respostas sobre o menu, o HWID spoofer, o risco de Javelin e o pagamento em cheatsapexlegends.com."
   },
   "siteFaqSection": {
     "allTopicsEyebrow": "Todos os tópicos",
@@ -1310,21 +1247,21 @@
     "allTopicsSubtitle": "Planos, visuais, o loader, o spoofer e configuração.",
     "contextualEyebrow": "FAQ",
     "contextualTitle": "Dúvidas sobre esta página",
-    "contextualSubtitle": "Respostas vinculadas ao que você está lendo — visite a página de FAQ para ver todos os tópicos."
+    "contextualSubtitle": "Respostas relacionadas ao que você está reading — visite a página de FAQ para ver todos os tópicos."
   },
   "catalog": {
     "viewDetails": "Ver detalhes",
     "buyNow": "Comprar agora",
-    "mostPopular": "Mais popular",
+    "mostPopular": "Mais Popular",
     "popular": "Popular",
     "plusMore": "+{count} mais",
     "oneMonth": "31 days",
     "threeMonths": "31 days",
     "lifetime": "Lifetime",
     "monthlySuffix": "",
-    "threeMonthSuffix": " / 3 meses",
+    "threeMonthSuffix": " / 3 mes",
     "lifetimeSuffix": " lifetime",
-    "monthlyPlanNote": "31 days de acesso · renovar no checkout",
+    "monthlyPlanNote": "31 days de acesso · renovação no checkout",
     "threeMonthPlanNote": "31 days de acesso",
     "lifetimePlanNote": "Pague uma vez · sem renovação",
     "plansSameFeaturesNote": "Mesmos recursos em todos os planos — apenas o período de acesso muda.",
@@ -1332,8 +1269,8 @@
     "utilityLabel": "Utilitário",
     "experienceEyebrow": "Experiência",
     "inTheClient": "No cliente · Após a compra",
-    "experienceSubtitle": "Use as capturas de tela acima para {name} — abaixo está o significado de cada camada e como o acesso funciona após o checkout.",
-    "utilityExperienceSubtitle": "Use as capturas de tela acima para {name} — cada pré-visualização explica parte do fluxo de trabalho de hardware e como o acesso funciona após o checkout.",
+    "experienceSubtitle": "Use as capturas de tela acima para {name} — abaixo está o que each layer means e como o acesso funciona após o checkout.",
+    "utilityExperienceSubtitle": "Use as capturas de tela acima para {name} — each preview explica parte do fluxo de hardware e como o acesso funciona após o checkout.",
     "inGameLayers": "Camadas no jogo",
     "utilityPreviewLayers": "Pré-visualizações do produto",
     "layerLabel": "Camada {label}",
@@ -1344,68 +1281,48 @@
     "detailsAria": "Detalhes do produto",
     "overview": "Visão geral",
     "systemRequirements": "Requisitos do sistema",
-    "goodToKnow": "É bom saber",
+    "goodToKnow": "Bom saber",
     "limitations": "Limitações importantes",
-    "completeFeatureList": "Lista completa de recursos",
+    "completeFeatureList": "Lista completa de reaursos",
     "includedCapabilities": "Recursos inclusos",
     "totalFeatures": "{count} no total",
     "popularBadge": "Popular",
     "limitedBadge": "Limitado",
-    "gameBadge": "VALORANT",
+    "gameBadge": "Apex Legends",
     "platformBadge": "Windows",
     "systemReqPanel": {
-      "title": "Requisitos do sistema",
+      "title": "Requisitos do Sistema",
       "security": [
-        "HVCI ATIVADO",
-        "CORE ISOLATION ATIVADO",
-        "TPM ATIVADO",
-        "SECURE BOOT ATIVADO"
+        "HVCI LIGADO",
+        "CORE ISOLATION LIGADO",
+        "TPM LIGADO",
+        "SECURE BOOT LIGADO"
       ],
       "operatingSystemLabel": "Sistema operacional",
-      "operatingSystemValue": "Windows 10 ou 11 em compilações suportadas",
+      "operatingSystemValue": "Windows 10 e 11",
       "specs": [
         {
-          "label": "Processador",
-          "value": "Intel Core i5 ou AMD Ryzen 5 ou superior"
-        },
-        {
-          "label": "Placa de vídeo",
-          "value": "AMD e NVIDIA"
-        },
-        {
-          "label": "RAM",
-          "value": "16GB recomendaendo"
-        },
-        {
-          "label": "Armazenamento",
-          "value": "2GB de espaço livre"
-        },
-        {
-          "label": "Internet",
-          "value": "Conexão estável necessária"
-        },
-        {
           "label": "Cliente",
-          "value": "Cliente VALORANT PC mais recente"
+          "value": "Última versão do cliente Apex Legends PC"
         }
       ],
       "cloudDmaTitle": "Rótulo de status",
-      "cloudDmaDesc": "VERDE significa que a nota lista o arquivo para carregar. VERMELHO significa aguardar. Leia a página de status após uma atualização do Vanguard.",
+      "cloudDmaDesc": "VERDE signifiea que a nota lista o arquivo para carregar. VERMELHO signifiea aguarde. Leaia a página de status após uma atualização do Javelin.",
       "cloudDmaNote": ""
     }
   },
   "comparePlans": {
     "eyebrow": "Comparar",
     "title": "Comparar todos os planos",
-    "subtitle": "Veja lado a lado o que cada nível inclui.",
+    "subtitle": "Uma visão lado a lado do que cada nível eac inclui.",
     "tableAria": "Comparar todos os planos",
-    "featureColumn": "Recurso",
-    "included": "Incluído",
-    "notIncluded": "Não incluído"
+    "featureColumn": "Reacurso",
+    "included": "Incluso",
+    "notIncluded": "Não incluso"
   },
   "whyCompare": {
     "tableAria": "Esta loja comparada com um provedor típico",
-    "featureColumn": "Recurso",
+    "featureColumn": "Reacurso",
     "metricsAria": "Métricas da plataforma",
     "statusDeliveryAria": "Status ao vivo e entrega"
   },
@@ -1421,22 +1338,21 @@
   "blogSidebar": {
     "ariaLabel": "Barra lateral do artigo",
     "inThisArticle": "Neste artigo",
-    "relatedGuides": "Guia relacionados",
+    "relatedGuides": "Guias relacionados",
     "ourProducts": "Nossos produtos",
     "productCheats": "Menu",
     "allProducts": "Todos os produtos",
     "hwidSpoofer": "HWID Spoofer",
     "tocAria": "Índice",
     "tocFallbackLabel": "Início do artigo",
-    "priceEstimatorTitle": "Estimativa de preço",
-    "priceEstimatorHint": "Toque em um termo. Os totais são somados.",
-    "priceEstimator31d": "31d",
-    "priceEstimatorLifetime": "Vida útil",
-    "priceEstimatorOff": "Desconto",
-    "priceEstimatorTotal": "Total est.",
-    "priceEstimatorProducts": "Produtos",
-    "priceEstimatorNote": "Apenas uma estimativa. Compre cada produto em seu próprio card.",
-    "utilityGuides": "Guias de HWID spoofer",
+    "quickFactsTitle": "Informações rápidas",
+    "quickFactsAntiCheat": "EA Javelin Anticheat",
+    "quickFactsPlatform": "Windows PC",
+    "quickFactsPlans": "Planos $35 / $150",
+    "quickFactsSupport": "Suporte 24/7 Discord",
+    "quickFactsCheckStatus": "Verificar status",
+    "quickFactsViewProduct": "Ver apex legends cheat",
+    "utilityGuides": "Guias HWID spoofer",
     "moreGuides": "Mais guias"
   }
 }

@@ -1,0 +1,137 @@
+{
+  "steps": [
+    {
+      "title": "Check status",
+      "desc": "Read the status page after a Javelin update before you buy. GREEN means the note lists the file to load. RED means wait."
+    },
+    {
+      "title": "Pick a plan",
+      "desc": "$35 for 31 days or $150 lifetime. The HWID spoofer uses its own price."
+    },
+    {
+      "title": "Secure checkout",
+      "desc": "Complete checkout from the product card. Your license unlocks in the portal with instant delivery."
+    },
+    {
+      "title": "Install & verify",
+      "desc": "Follow the setup guide, load a conservative preset, and test in a lower-stakes playlist before you use your main profile."
+    }
+  ],
+  "howToGet": "How to get {name}",
+  "cheats": {
+    "slides": [
+      {
+        "alt": "Player visuals menu screenshot",
+        "caption": "Player Visuals",
+        "captionDesc": "Player ESP, Box ESP, Skeleton ESP, Health Bar, and Distance ESP."
+      },
+      {
+        "alt": "World and loot menu screenshot",
+        "caption": "World/Loot",
+        "captionDesc": "Weapon ESP and Loot ESP."
+      },
+      {
+        "alt": "Aimbot menu screenshot",
+        "caption": "Aimbot",
+        "captionDesc": "Advanced Aimbot and No Recoil."
+      },
+      {
+        "alt": "Misc and config menu screenshot",
+        "caption": "Misc",
+        "captionDesc": "EA Javelin Bypass, Stream Proof, and 24/7 Support."
+      }
+    ],
+    "overview": {
+      "title": "A Windows menu for Apex Legends",
+      "paragraphs": [
+        "One license covers the features listed on this page—the same build on every plan.",
+        "Read the status page before you load. $35 for 31 days or $150 lifetime."
+      ]
+    },
+    "body": [
+      {
+        "type": "h2",
+        "text": "Features included"
+      },
+      {
+        "type": "p",
+        "text": "Player ESP, Advanced Aimbot, loot overlays, and the rest of the list on this page ship on one license. Open the feature list for a short note on each option."
+      },
+      {
+        "type": "h2",
+        "text": "Plans"
+      },
+      {
+        "type": "p",
+        "text": "The 31-day plan is $35. Lifetime is $150 once. About four 31-day renewals at $35 equal lifetime."
+      }
+    ],
+    "goodToKnow": "Apex Legends and EA Javelin Anticheat update often. Read the status page before you load. GREEN means the note lists this file. RED means wait. Overlay behavior can change after a patch.",
+    "limitations": "Third-party software can violate game terms and lead to bans. You use this software at your own risk. Compatibility can change after a game, Javelin, or Windows update. Stream Proof does not remove that risk.",
+    "requirements": [
+      "HVCI ON · CORE ISOLATION ON · TPM ON · SECURE BOOT ON",
+      "Windows 10 and 11",
+      "Latest Apex Legends PC client"
+    ]
+  },
+  "spoofer": {
+    "slides": [
+      {
+        "alt": "HWID spoofer on Windows PC",
+        "caption": "HWID spoofer",
+        "captionDesc": "Hardware fingerprint tools before you relaunch."
+      },
+      {
+        "alt": "Phoenix Satano HWID spoofer hardware fingerprint rotation on Windows PC",
+        "caption": "Phoenix board",
+        "captionDesc": "Disk, MAC, and GPU ID rotation."
+      },
+      {
+        "alt": "Phoenix WH-Satano spoofer branding on Windows PC",
+        "caption": "Phoenix WH",
+        "captionDesc": "Spoofer workspace used on every store."
+      }
+    ],
+    "overview": {
+      "title": "HWID recovery workflow",
+      "paragraphs": [
+        "HWID Spoofer is a separate key for a hardware flag. It rotates disk, MAC, and GPU identifiers on a PC you own. It is not included with the menu.",
+        "$50 for 31 days or $150 lifetime. It does not fix an account-only restriction on the same machine."
+      ]
+    },
+    "body": [
+      {
+        "type": "h2",
+        "text": "When to use it"
+      },
+      {
+        "type": "p",
+        "text": "Use when fresh accounts fail on one PC but work elsewhere—not for account-only bans. Pair with conservative cheat presets after verification."
+      },
+      {
+        "type": "h2",
+        "text": "Plans"
+      },
+      {
+        "type": "p",
+        "text": "$50 for 31 days or $150 lifetime"
+      }
+    ],
+    "goodToKnow": "HWID tools change how your PC fingerprint appears. They do not clear an account-only penalty. Read the portal notes before you launch Apex Legends again.",
+    "limitations": "Spoofing carries technical risk and may violate game terms. Results vary by ban type and driver setup. Use only on systems you own.",
+    "requirements": [
+      "Windows 10 or 11 64-bit with administrator rights.",
+      "Create a restore point before running hardware tools.",
+      "Stable internet for activation and verification steps."
+    ],
+    "features": [
+      "Hardware spoofer with cleaner",
+      "Disk serial and MAC rotation",
+      "GPU ID profile tools",
+      "Compatibility scan",
+      "Verification checklist",
+      "Portal step-by-step workflow",
+      "Discord setup support"
+    ]
+  }
+}

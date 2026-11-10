@@ -2,11 +2,11 @@
   "steps": [
     {
       "title": "Verificar estado",
-      "desc": "Lee la página de estado después de una actualización de Valorant o Vanguard antes de comprar. VERDE significa que la nota indica el archivo a cargar. ROJO significa esperar."
+      "desc": "Read la página de estado después de una actualización de Apex Legends o Javelin antes de comprar. VERDE means que la nota lista el archivo para cargar. ROJO means esperar."
     },
     {
       "title": "Elegir un plan",
-      "desc": "$35 for 31 days o $150 lifetime. El HWID spoofer utiliza su propio precio."
+      "desc": "$35 for 31 days o $150 lifetime. El HWID spoofer usa su propio precio."
     },
     {
       "title": "Pago seguro",
@@ -14,90 +14,65 @@
     },
     {
       "title": "Instalar y verificar",
-      "desc": "Sigue la guía de configuración, carga un ajuste preestablecido conservador y prueba en una lista de partidas de menor riesgo antes de usar tu perfil principal."
+      "desc": "Sigue la guía de configuración, carga un ajuste preestablecido conservador y prueba en un modo de menor riesgo antes de usar tu perfil principal."
     }
   ],
-  "howToGet": "Cómo conseguir {name}",
+  "howToGet": "Cómo obtener {name}",
   "cheats": {
     "groupNames": [
-      "Opciones de Aimbot",
-      "Opciones visuales de jugadores",
-      "Opciones visuales del mundo",
-      "Opciones varias"
+      "Funciones incluidas"
     ],
     "descs": [
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Progreso de desactivación y lecturas de tiempo cuando el menú los expone.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Oculta la habilidad y la trampa ESP mientras se mantiene presionada.",
-      "Se muestra en el menú de loader para las versiones compatibles.",
-      "Se muestra en el menú de loader para las versiones compatibles."
+      "Muestra a los jugadores enemigos con overlays que puedes ajustar en el menú.",
+      "Smoothing, FOV, y selección de huesos para la asistencia de puntería.",
+      "Muestra nombres de weapon en los jugadores cuando la opción está activada.",
+      "Barras de salud y escudo en los objetivos dentro de tu vista.",
+      "Lecturas de distancia en los jugadores que estás siguiendo.",
+      "Cajas en las esquinas alrededor de los jugadores en el overlay.",
+      "Líneas de huesos para la postura, nivel de cabeza y dirección de asomarse.",
+      "Niveles de botín, cajas de muerte y contenedores de suministros cuando está habilitado.",
+      "Reduce el retroceso del arma mientras la opción está habilitada.",
+      "Creado para las versiones de EA Javelin Anticheat listadas en la página de estado.",
+      "Mantiene los overlays fuera de las grabaciones típicas mientras tú aún los ves.",
+      "Ayuda Discord para loader, pago y preguntas sobre el portal."
     ],
     "slides": [
       {
-        "alt": "Captura de pantalla del menú Player ESP",
-        "caption": "Opciones visuales de jugadores",
-        "captionDesc": "Controles de vida, escudo, agente, rango, box, skeleton y distancia."
-      },
-      {
-        "alt": "Captura de pantalla del menú visual del mundo",
-        "caption": "Opciones visuales del mundo",
-        "captionDesc": "Habilidades, trampas, temporizadores de la Spike y personalización por agente."
-      },
-      {
         "alt": "Captura de pantalla del menú Aimbot",
-        "caption": "Opciones de Aimbot",
-        "captionDesc": "FOV, nivel de smooth, adherencia, hueso, filtro y superposiciones de dibujo."
+        "caption": "Aimbot",
+        "captionDesc": "Aimbot avanzado y No Recoil."
       },
       {
-        "alt": "Captura de pantalla del menú Varios y config",
-        "caption": "Opciones varias",
-        "captionDesc": "Tecla de acceso rápido para el modo de combate, tamaño de fuente y creación o carga de config."
+        "alt": "Captura de pantalla del menú de mundo y botín",
+        "caption": "Mundo/Loot",
+        "captionDesc": "Weapon ESP y Botín ESP."
+      },
+      {
+        "alt": "Captura de pantalla del menú de visuales de jugadores",
+        "caption": "Player Visuals",
+        "captionDesc": "Player ESP, Box ESP, Skeleton ESP, barra de salud y distancia ESP."
+      },
+      {
+        "alt": "Captura de pantalla del menú de varios y config",
+        "caption": "Misc",
+        "captionDesc": "Bypass EA Javelin, Stream Proof y soporte 24/7."
       }
     ],
     "overview": {
-      "title": "Un menú de Windows para VALORANT",
+      "title": "Un menú Windows para Apex Legends",
       "paragraphs": [
-        "Una sola licencia incluye Opciones de Aimbot, Opciones visuales de jugadores, Opciones visuales del mundo y Opciones varias; el mismo menú en todos los planes.",
-        "Consulta la página de estado antes de cargar. $35 for 31 days o $150 lifetime."
+        "Una licencia cubre Aimbot, Player Visuals, World/Loot, y Misc—el mismo menú en cada plan.",
+        "Lee la página de estado antes de cargar. $35 for 31 days o $150 lifetime."
       ]
     },
     "body": [
       {
         "type": "h2",
-        "text": "Grupos de menús incluidos"
+        "text": "Grupos de menú incluidos"
       },
       {
         "type": "p",
-        "text": "Cuatro grupos de menús en una sola licencia: Opciones de Aimbot, Opciones visuales de jugadores, Opciones visuales del mundo y Opciones varias. Abre la lista de características en esta página para ver cada opción."
+        "text": "Cuatro grupos de menú en una licencia: Aimbot, Player Visuals, World/Loot, y Misc. Abre la lista de funciones en esta página para ver cada interruptor."
       },
       {
         "type": "h2",
@@ -105,17 +80,15 @@
       },
       {
         "type": "p",
-        "text": "El plan de 31 días es $35. Lifetime cuesta $150 una vez. Alrededor de cuatro renovaciones de 31 días a $35 equivalen a lifetime."
+        "text": "El plan de 31 días es $35. Lifetime es $150 una vez. Cerca de cuatro renovaciones de 31 días a $35 equivalen a lifetime."
       }
     ],
-    "goodToKnow": "Valorant y Vanguard se actualizan con frecuencia. Consulta la página de estado antes de cargar. VERDE significa que la nota incluye este archivo. ROJO significa esperar. El comportamiento de las superposiciones puede cambiar después de un parche.",
-    "limitations": "El software de terceros puede infringir los términos del juego y provocar suspensiones. Utilizas este software bajo tu propio riesgo. La compatibilidad puede cambiar tras una actualización del juego, de Vanguard o de Windows. La función Streamproof no elimina ese riesgo.",
+    "goodToKnow": "Apex Legends y EA Javelin Anticheat se actualizan seguido. Lee la página de estado antes de cargar. VERDE significa que la nota lista este archivo. ROJO significa esperar. El comportamiento del overlay puede cambiar tras un parche.",
+    "limitations": "El software de terceros puede violar los términos del juego y llevar a suspensiones. Utiliza este software bajo tu propio riesgo. La compatibilidad puede cambiar después de una actualización del juego, Javelin o Windows. Streamproof no elimina ese riesgo.",
     "requirements": [
-      "HVCI ACTIVADO · CORE ISOLATION ACTIVADO · TPM ACTIVADO · SECURE BOOT ACTIVADO",
-      "Windows 10 o 11 en versiones compatibles",
-      "Intel Core i5 o AMD Ryzen 5 o superior",
-      "Internet estable · cliente de VALORANT PC más reciente",
-      "Cliente: cliente oficial de VALORANT PC"
+      "HVCI ACTIVO · CORE ISOLATION ACTIVO · TPM ACTIVO · SECURE BOOT ACTIVO",
+      "Windows 10 y 11",
+      "Cliente Apex Legends PC más reciente"
     ]
   },
   "spoofer": {
@@ -139,7 +112,7 @@
     "overview": {
       "title": "Flujo de recuperación de HWID",
       "paragraphs": [
-        "HWID Spoofer es una clave separada para un marcador de hardware. Rota los identificadores de disco, MAC y GPU en un PC de tu propiedad. No está incluido con el menú.",
+        "HWID Spoofer es una clave independiente para una marca de hardware. Rota los identificadores de disco, MAC y GPU en un PC de tu propiedad. No está incluido con el menú.",
         "$50 for 31 days o $150 lifetime. No soluciona una restricción exclusiva de cuenta en la misma máquina."
       ]
     },
@@ -150,7 +123,7 @@
       },
       {
         "type": "p",
-        "text": "Úsalo cuando las cuentas nuevas fallen en un PC pero funcionen en otra parte, no para baneos exclusivos de cuenta. Combínalo con configuraciones conservadoras de cheats tras la verificación."
+        "text": "Úsalo cuando las cuentas nuevas fallen en un PC pero funcionen en otra parte, no para baneos exclusivos de cuenta. Combínalo con ajustes conservadores de cheats después de la verificación."
       },
       {
         "type": "h2",
@@ -158,24 +131,24 @@
       },
       {
         "type": "p",
-        "text": "$50 for 31 days o $150 lifetime"
+        "text": "El plan de 31 días es $50. Lifetime es $150 una vez. $50 for 31 days o $150 lifetime"
       }
     ],
-    "goodToKnow": "Las herramientas de HWID cambian cómo aparece la huella digital de tu PC. No eliminan una sanción exclusiva de cuenta. Lee las notas del portal antes de volver a iniciar VALORANT.",
-    "limitations": "El uso de HWID Spoofer conlleva riesgos técnicos y puede violar los términos del juego. Los resultados varían según el tipo de baneo y la configuración del controlador. Úsalo solo en sistemas de tu propiedad.",
+    "goodToKnow": "Las herramientas HWID cambian la forma en que apeace tu huella digital de PC. No limpean una penalización exclusiva de cuenta. Lea las notas del portal antes de volver a iniciar Apex Legends.",
+    "limitations": "El uso de Spoofer conlleva riesgos técnicos y puede violar los términos del juego. Los resultados varían según el tipo de baneo y la configuración del controlador. Úsalo solo en sistemas de tu propiedad.",
     "requirements": [
-      "Windows 10 u 11 de 64 bits con permisos de administrador.",
-      "Crea un punto de restauración antes de ejecutar herramientas de hardware.",
-      "Internet estable para la activación y los pasos de verificación."
+      "Windows 10 o 11 de 64 bits con permisos de administrador.",
+      "Creaa un punto de restauración antes de ejecutar las herramientas de hardware.",
+      "Internet estable para los pasos de activación y verificación."
     ],
     "features": [
       "spoofer de hardware con limpiador",
       "Rotación de número de serie de disco y MAC",
       "Herramientas de perfil de ID de GPU",
-      "Análisis de compatibilidad",
-      "Lista de verificación",
-      "Flujo paso a paso del portal",
-      "Soporte de configuración de Discord"
+      "Escaneo de compatibilidad",
+      "Lista de verificación de verificación",
+      "Flujo de trabajo paso a paso del portal",
+      "Soporte de configuración Discord"
     ]
   }
 }

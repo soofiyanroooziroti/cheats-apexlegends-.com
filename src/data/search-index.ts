@@ -99,7 +99,8 @@ export function buildSearchIndex(locale: Locale = defaultLocale): SearchIndexEnt
       productsHubSeo.title,
       productsHubSeo.description,
       t.products.subtitle,
-      'valorant hacks',
+      'apex legends cheat',
+      'apex legends spoofer',
       '$35 for 31 days',
       '$50 for 31 days',
       '$150 lifetime',
@@ -145,7 +146,7 @@ export function buildSearchIndex(locale: Locale = defaultLocale): SearchIndexEnt
       }
       entries.push({
         title: 'Menu features',
-        description: 'Aimbot Options, Player Visual Options, World Visual Options, and Misc Options on the menu page.',
+        description: 'Aimbot, Player Visuals, World/Loot, and Misc on the menu page.',
         url: featuresUrl,
         type: 'Features',
         text: product.fullFeatures.join(' '),
@@ -153,8 +154,8 @@ export function buildSearchIndex(locale: Locale = defaultLocale): SearchIndexEnt
     }
   }
 
-  const plansUrl = localePath('/products/valorant-cheats/', locale);
-  const plansSeo = resolvePageSeo('/products/valorant-cheats/', locale);
+  const plansUrl = localePath('/products/apex-legends-cheats/', locale);
+  const plansSeo = resolvePageSeo('/products/apex-legends-cheats/', locale);
   entries.push({
     title: 'Plans — $35 and $150',
     description: 'Compare 31-day and lifetime checkout for the menu and HWID spoofer.',

@@ -2,7 +2,7 @@
   "steps": [
     {
       "title": "Check status",
-      "desc": "Read the status page after a Valorant or Vanguard update before you buy. GREEN means the note lists the file to load. RED means wait."
+      "desc": "Read the status page after an Apex Legends or Javelin update before you buy. GREEN means the note lists the file to load. RED means wait."
     },
     {
       "title": "Pick a plan",
@@ -14,79 +14,54 @@
     },
     {
       "title": "Install & verify",
-      "desc": "Follow the setup guide, load a conservative preset, and test in a lower-stakes playlist before you use your main profile."
+      "desc": "Follow the setup guide, load a conservative preset, and test in a lower-stakes mode before you use your main profile."
     }
   ],
   "howToGet": "How to get {name}",
   "cheats": {
     "groupNames": [
-      "Aimbot Options",
-      "Player Visual Options",
-      "World Visual Options",
-      "Misc Options"
+      "Included features"
     ],
     "descs": [
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Defuse progress and time readouts when the menu exposes them.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds.",
-      "Hides ability and trap ESP while held.",
-      "Listed on the loader menu for supported builds.",
-      "Listed on the loader menu for supported builds."
+      "Shows enemy players with overlays you can tune in the menu.",
+      "Smoothing, FOV, and bone selection for aim assist.",
+      "Displays weapon names on players when the option is on.",
+      "Health and shield bars on targets in your view.",
+      "Distance readouts on players you are tracking.",
+      "Corner boxes around players in the overlay.",
+      "Bone lines for posture, head level, and peek direction.",
+      "Loot tiers, death boxes, and supply bins when enabled.",
+      "Cuts weapon kick while the option is enabled.",
+      "Built for EA Javelin Anticheat builds listed on the status page.",
+      "Keeps overlays off typical recordings while you still see them.",
+      "Discord help for loader, checkout, and portal questions."
     ],
     "slides": [
       {
-        "alt": "Player ESP menu screenshot",
-        "caption": "Player Visual Options",
-        "captionDesc": "Health, shield, agent, rank, box, skeleton, and distance controls."
-      },
-      {
-        "alt": "World visual menu screenshot",
-        "caption": "World Visual Options",
-        "captionDesc": "Abilities, traps, spike timers, and per-agent customization."
-      },
-      {
         "alt": "Aimbot menu screenshot",
-        "caption": "Aimbot Options",
-        "captionDesc": "FOV, smoothness, stickiness, bone, filter, and draw overlays."
+        "caption": "Aimbot",
+        "captionDesc": "Advanced Aimbot and No Recoil."
+      },
+      {
+        "alt": "World and loot menu screenshot",
+        "caption": "World/Loot",
+        "captionDesc": "Weapon ESP and Loot ESP."
+      },
+      {
+        "alt": "Player visuals menu screenshot",
+        "caption": "Player Visuals",
+        "captionDesc": "Player ESP, Box ESP, Skeleton ESP, Health Bar, and Distance ESP."
       },
       {
         "alt": "Misc and config menu screenshot",
-        "caption": "Misc Options",
-        "captionDesc": "Combat mode hotkey, font size, and create or load configs."
+        "caption": "Misc",
+        "captionDesc": "EA Javelin Bypass, Stream Proof, and 24/7 Support."
       }
     ],
     "overview": {
-      "title": "A Windows menu for VALORANT",
+      "title": "A Windows menu for Apex Legends",
       "paragraphs": [
-        "One license covers Aimbot Options, Player Visual Options, World Visual Options, and Misc Options—the same menu on every plan.",
+        "One license covers Aimbot, Player Visuals, World/Loot, and Misc—the same menu on every plan.",
         "Read the status page before you load. $35 for 31 days or $150 lifetime."
       ]
     },
@@ -97,7 +72,7 @@
       },
       {
         "type": "p",
-        "text": "Four menu groups on one license: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. Open the feature list on this page for every toggle."
+        "text": "Four menu groups on one license: Aimbot, Player Visuals, World/Loot, and Misc. Open the feature list on this page for every toggle."
       },
       {
         "type": "h2",
@@ -108,32 +83,30 @@
         "text": "The 31-day plan is $35. Lifetime is $150 once. About four 31-day renewals at $35 equal lifetime."
       }
     ],
-    "goodToKnow": "Valorant and Vanguard update often. Read the status page before you load. GREEN means the note lists this file. RED means wait. Overlay behavior can change after a patch.",
-    "limitations": "Third-party software can violate game terms and lead to bans. You use this software at your own risk. Compatibility can change after a game, Vanguard, or Windows update. Streamproof does not remove that risk.",
+    "goodToKnow": "Apex Legends and EA Javelin Anticheat update often. Read the status page before you load. GREEN means the note lists this file. RED means wait. Overlay behavior can change after a patch.",
+    "limitations": "Third-party software can violate game terms and lead to bans. You use this software at your own risk. Compatibility can change after a game, Javelin, or Windows update. Streamproof does not remove that risk.",
     "requirements": [
       "HVCI ON · CORE ISOLATION ON · TPM ON · SECURE BOOT ON",
-      "Windows 10 or 11 on supported builds",
-      "Intel Core i5 or AMD Ryzen 5 or better",
-      "Stable internet · latest VALORANT PC client",
-      "Client: official VALORANT PC client"
+      "Windows 10 and 11",
+      "Latest Apex Legends PC client"
     ]
   },
   "spoofer": {
     "slides": [
       {
-        "alt": "HWID spoofer on Windows PC",
+        "alt": "HWID spoofer for Apex Legends on Windows PC",
         "caption": "HWID spoofer",
-        "captionDesc": "Hardware fingerprint tools before you relaunch."
+        "captionDesc": "Hardware profile rotation before you relaunch Apex Legends."
       },
       {
         "alt": "Phoenix Satano HWID spoofer hardware fingerprint rotation on Windows PC",
-        "caption": "Phoenix board",
-        "captionDesc": "Disk, MAC, and GPU ID rotation."
+        "caption": "HWID rotation",
+        "captionDesc": "Disk serials, MAC addresses, and GPU ID rotation workflow."
       },
       {
-        "alt": "Phoenix WH-Satano spoofer branding on Windows PC",
-        "caption": "Phoenix WH",
-        "captionDesc": "Spoofer workspace used on every store."
+        "alt": "Phoenix WH-Satano spoofer branding for Apex Legends on Windows PC",
+        "caption": "Phoenix WH-Satano",
+        "captionDesc": "Spoofer build with portal cleaner and compatibility checks."
       }
     ],
     "overview": {
@@ -158,10 +131,10 @@
       },
       {
         "type": "p",
-        "text": "$50 for 31 days or $150 lifetime"
+        "text": "The 31-day plan is $50. Lifetime is $150 once. $50 for 31 days or $150 lifetime"
       }
     ],
-    "goodToKnow": "HWID tools change how your PC fingerprint appears. They do not clear an account-only penalty. Read the portal notes before you launch VALORANT again.",
+    "goodToKnow": "HWID tools change how your PC fingerprint appears. They do not clear an account-only penalty. Read the portal notes before you launch Apex Legends again.",
     "limitations": "Spoofing carries technical risk and may violate game terms. Results vary by ban type and driver setup. Use only on systems you own.",
     "requirements": [
       "Windows 10 or 11 64-bit with administrator rights.",

@@ -159,25 +159,20 @@ function checkSitemaps() {
 }
 
 const CHECKOUT_BY_PATH = {
-  '/go/valorant': CHECKOUT_URLS.Valorant,
-  '/go/valorant/': CHECKOUT_URLS.Valorant,
-  '/go/Warzone': CHECKOUT_URLS.Valorant,
-  '/go/Warzone/': CHECKOUT_URLS.Valorant,
-  '/go/delta-force': CHECKOUT_URLS.Valorant,
-  '/go/delta-force/': CHECKOUT_URLS.Valorant,
+  '/go/apex': CHECKOUT_URLS.apexLegends,
+  '/go/apex/': CHECKOUT_URLS.apexLegends,
+  '/go/apex-legends': CHECKOUT_URLS.apexLegends,
+  '/go/apex-legends/': CHECKOUT_URLS.apexLegends,
   '/go/hwid-spoofer': CHECKOUT_URLS.hwidSpoofer,
   '/go/hwid-spoofer/': CHECKOUT_URLS.hwidSpoofer,
 };
 
 const SPEC_KEY_TO_PATH = {
-  Valorant: '/go/valorant',
+  apexLegends: '/go/apex-legends',
   hwidSpoofer: '/go/hwid-spoofer',
 };
 
-const RETIRED_GO_301 = [
-  ['/go/ugc', '/products/valorant-cheats/hwid-spoofer/'],
-  ['/go/ugc/', '/products/valorant-cheats/hwid-spoofer/'],
-];
+const RETIRED_GO_301 = [];
 
 function checkCheckoutConfig() {
   for (const [p, expected] of Object.entries(CHECKOUT_BY_PATH)) {
@@ -433,7 +428,7 @@ function checkKeywords() {
       }
     }
 
-    const productMatch = pathname.match(/\/products\/valorant-cheats\/([^/]+)\/$/);
+    const productMatch = pathname.match(/\/products\/apex-legends-cheats\/([^/]+)\/$/);
     if (productMatch) {
       const slug = productMatch[1];
       const expected = PRODUCT_PAGE_KEYWORDS[slug];
@@ -695,7 +690,7 @@ function checkForumStructuredData() {
 }
 
 function checkHwidSpooferExperienceLayers() {
-  const file = path.join(dist, 'products', 'valorant-cheats', 'hwid-spoofer', 'index.html');
+  const file = path.join(dist, 'products', 'apex-legends-cheats', 'hwid-spoofer', 'index.html');
   if (!fs.existsSync(file)) {
     fail('hwid-spoofer/index.html missing from dist');
     return;

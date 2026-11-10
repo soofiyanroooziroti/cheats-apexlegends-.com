@@ -67,7 +67,7 @@ const showDescToggle = false;
                 images={product.images}
                 id={`gallery-${product.slug}`}
                 variant="shop"
-                imageFill={product.kind === 'utility' ? 'cover' : undefined}
+                imageFill={product.kind === 'utility' ? 'fill' : undefined}
                 ribbonLabel={productUi.shopFeaturedRibbon ?? productUi.popularBadge ?? 'Featured build'}
               />
             </div>
@@ -94,7 +94,7 @@ const showDescToggle = false;
             <ProductScreenshotGallery
               images={product.images}
               id={`gallery-${product.slug}`}
-              imageFill={product.kind === 'utility' ? 'cover' : undefined}
+              imageFill={product.kind === 'utility' ? 'fill' : undefined}
             />
             <ProductCheckoutPanel product={product} />
           </div>

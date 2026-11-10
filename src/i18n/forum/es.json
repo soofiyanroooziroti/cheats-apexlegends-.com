@@ -1,181 +1,214 @@
 {
   "categories": {
     "General": "General",
-    "Guides & Builds": "Guías y builds",
-    "Patch Talk": "Charlas sobre parches",
+    "Guides & Builds": "Guías y Configuraciones",
+    "Patch Talk": "Charlas de Actualizaciones",
     "Community": "Comunidad"
   },
   "posts": {
-    "vanguard-pre-check-november-2026": {
-      "title": "Pre-Check Vanguard y el marco de integridad de noviembre de 2026",
-      "excerpt": "Las notas del VCT 2027 de Riot mencionan controles de clasificación online más estrictos. ¿Qué debería releer realmente un jugador de competitivo?",
+    "refund-if-the-loader-wont-open": {
+      "title": "Si el loader no abre, ¿recibo un reembolso?",
+      "excerpt": "A punto de comprar la key de 31 días. Si da error al iniciar, ¿se pierde el dinero o el soporte puede arreglarlo?",
       "body": [
-        "La entrada del blog de noviembre habla de comprobaciones automatizadas antes de que comiencen las clasificatorias abiertas.",
-        "¿Eso cambia lo que leemos en la página de estado antes de una cola sin rango normal, o es solo para torneos?"
+        "la verdad estoy a nada de pillar el menú de 31 días pero me da miedo cagarla. si el loader se queda congelado o sale una línea roja, ¿me devuelven el dinero o ya estoy frito?",
+        "sin rodeos. solo quiero saber la regla antes de pagar. baneos, cambio de opinión, todo eso."
       ],
-      "flair": "✅ Solved",
+      "flair": "Antes de comprar",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "Pre-Check está diseñado para vías competitivas y clasificatorias abiertas, no como una garantía sobre el comportamiento en colas casuales. La dirección sigue importando: más revisión a nivel de software antes de jugar. Lee la etiqueta de estado después de la nota de todas formas. GREEN lista el archivo. No es una autorización. La cronología de seguridad de Vanguard en el blog resume la aplicación de mayo de DMA, las líneas base bajo demanda de junio y este marco de noviembre en un solo lugar.",
-          "replies": []
+          "author": "OrderDesk",
+          "body": "Las ventas son finales una vez que se completa el pago. Cambio de opinión, un baneo de cuenta e iniciar mientras la página de estado no está actualizada no tienen reembolso. Si confirmamos que el fallo es de nuestro lado, podemos arreglar la key o hablar de un reembolso. Abre un ticket de soporte con el correo del pedido y el texto exacto de loader. La regla completa está en la página de términos.",
+          "replies": [
+            {
+              "author": "wraithdiff",
+              "body": "vale. entonces reaviso el estado primero, y si de verdad su archivo es el que está roto abro ticket. gracias 👍"
+            }
+          ]
         },
         {
-          "author": "QueueGoblin",
-          "body": "vale, entonces las partidas sin rango no se salvan por arte de magia 😭 me estaba tomando el blog como si fuera solo para torneos. primero la página de estado y luego la cola. gracias por aclararlo 🙏",
-          "replies": []
-        },
-        {
-          "author": "NightShiftDuo",
-          "body": "este hilo de verdad que ayudó. \"GREEN lista el archivo\" es la frase que la gente no para de pasar por alto 💀 guardando en favoritos la publicación de la cronología.",
+          "author": "octane_main",
+          "body": "seaí no compres y luego entres en cola en un día rojo y pidas el dinero de vuelta. esa parte es tu responsabilidad jaja.",
           "replies": []
         }
       ]
     },
-    "third-party-valorant-cheats-risks": {
-      "title": "¿Valen la pena los Valorant cheats de terceros frente al riesgo de la cuenta?",
-      "excerpt": "Las páginas de vendedores y las publicaciones del foro no dicen lo mismo. Quiero que la brecha se explique claramente.",
+    "31-day-or-lifetime-before-buying": {
+      "title": "¿31 días o lifetime? ¿y el menú incluye el spoofer?",
+      "excerpt": "Primera compra. $35 vs $150. Un amigend dijo que lifetime también cubre HWID. Eso suena mentira.",
       "body": [
-        "Sigo viendo afirmaciones seguras junto a detalles escasos. No estoy pidiendo un bypass.",
-        "¿Qué hay en esta tienda que sea un menú publicado y qué sigue siendo solo un riesgo?"
+        "ok con qué plan empieza la gente en realidad. juego unas pocas noches a la semana, no soy un grinder de split completo.",
+        "también mi dúo dijo que la key del menú de lifetime incluye lo del HWID. ¿eso es real o me está troleando 😭"
       ],
-      "flair": "✅ Solved",
+      "flair": "Antes de comprar",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "El menú publicado es player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot y un streamproof overlay. Vanguard aún puede actuar sobre una cuenta. GREEN en la página de estado significa que la nota lista el archivo para cargar. No es una coincidencia limpia verificada.",
-          "replies": []
+          "author": "StoreStaff",
+          "body": "Empieza con 31 days si quieres probar un producto primero. El menú es $35 for 31 days o $150 lifetime. El HWID spoofer es su propio pago, $50 for 31 days o $150 lifetime. Lifetime en el menú no añade el spoofer, y el plan corto no se convierte en crédito para lifetime.",
+          "replies": [
+            {
+              "author": "lootgoblin_77",
+              "body": "Buena explicación. pillando 31 days solo en el menú. El spoofer se queda en el carrito para después."
+            }
+          ]
+        }
+      ]
+    },
+    "loader-blank-after-client-update": {
+      "title": "El Loader abre pero no dibuja nada después de la actualización del cliente",
+      "excerpt": "Juego actualizado, inicié de todos modos, los toggles hacen clic, cero cajas. El estado estaba en rojo y lo ignoré. mi culpa.",
+      "body": [
+        "salió actualización del cliente, yo ya estaba en cola con el cerebro apagado. abrí el loader, hice clic en visuales de jugador, la pantalla se quedó limpea. sin cajas, sin barras, nada.",
+        "luego miré bien la página de estado y estaba en rojo. ¿borro el archivo o solo espero?"
+      ],
+      "flair": "Día de parche",
+      "comments": [
+        {
+          "author": "MenuDev",
+          "body": "Cierra el juego y dejea el loader cerrado mientras la etiqueta esté en rojo. Rojo seagnifica esperar. Cuando la nota esté en verde, descarga el archivo de tu portal otra vez y carga ese. No cojas una copia de un clip o de un amigend. Una etiqueta verde es el archivo actual. No es un bypass feacil, y un baneo de ID no está confirmado. En la mayoría de los casos no hay baneo de ID. Una cuenta aún puede estar restringida.",
+          "replies": [
+            {
+              "author": "bangalore_timer",
+              "body": "esperé al verde, bajé el archivo del portal, las cajas volvieron. funcionando al 100% ahora. no volveré a entrar en cola en rojo jaja."
+            }
+          ]
         },
         {
-          "author": "FinePrintFan",
-          "body": "las páginas de vendedores hablan como si ya estuviera solucionado 😤 la respuesta del staff es la diferencia: un menú listado no es una promesa de coincidencia limpia. tiene sentido.",
+          "author": "path_main",
+          "body": "mismo parche, mismo error. estado primero, luego iniciar. el viejo exe en descargas era el problema.",
           "replies": []
         }
       ]
     },
-    "valorant-anti-cheat-vs-cs2": {
-      "title": "Valorant anti-cheat frente a CS2: Vanguard y VAC",
-      "excerpt": "La gente compara Vanguard con VAC como si fueran el mismo controlador. No lo son.",
+    "box-esp-covering-the-fight": {
+      "title": "Box ESP está eando mi pantalla en un 3 stack",
+      "excerpt": "Cajas completas más huesos más loot. No puedo ver al jugador al que le estoy disparando. ¿De qué veaves realmente?",
       "body": [
-        "Juego a ambos juegos. Los consejos escritos para VAC no se aplican directamente a Vanguard.",
-        "¿Qué debería tratar realmente un comprador como diferente antes de cargar nada?"
+        "activé la caja, skeleton, sealud, nombre de weapon y el loot todo al mismo tiempo como un payaso. en una pelea dentro de un edificio estoy mirando texto, no el modelo.",
+        "cuál es el ajuste predeterminado normal antes de culpar al menú. solo quiero ver gente en altura sin que la interfaz se apodere del duelo."
       ],
-      "flair": "🔥 Open",
-      "comments": []
-    },
-    "valorant-cheat-menu-use-cases": {
-      "title": "¿Para qué sirve realmente el menú de trucos de Valorant?",
-      "excerpt": "La práctica en partidas personalizadas y un menú de partida en vivo se mezclan en la misma frase.",
-      "body": [
-        "Uso las partidas personalizadas para las alineaciones. Eso es un interruptor diferente al de una superposición de terceros.",
-        "¿Qué página lista el menú en vivo y qué guía trata únicamente sobre los trucos de partidas personalizadas de Riot?"
-      ],
-      "flair": "✅ Solved",
+      "flair": "Build help",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "Los trucos de partidas personalizadas de Riot son opciones de práctica dentro del cliente oficial. La página del producto lista el menú separado Windows: jugador, agente, spike, skeleton, salud y rank ESP, además de aimbot y streamproof. No son el mismo control.",
-          "replies": []
+          "author": "StoreStaff",
+          "body": "Deja una caja delgada y una barra de sealud. Apaga skeleton, los nombres de las weapon y el loot una vez que empiece la pelea. Las etiquetas de loot son para la rotación, no para el spray. Guarda eso como su propio config para que no tengas que reconstruirlo en cada caída.",
+          "replies": [
+            {
+              "author": "horizon_main",
+              "body": "caja delgada + barra solamente. loot apagado cuando heago disparos. funcionando al 100%. por fin puedo ver el head 😭"
+            }
+          ]
+        }
+      ]
+    },
+    "aim-pulls-onto-my-teammate": {
+      "title": "El aim se sigue arrastrando hacia mi dúo en la misma puerta",
+      "excerpt": "El cono es ancho y se pega al cuerpo más cercano, que suele ser mi teammate. ¿Cómo lo hago más estrecho?",
+      "body": [
+        "mi dúo y yo aguantamos la misma puerta y el aim simplemente lo selecciona. da mucha pena ajena. miro al enemigo y la cámara se desliza hacia la burbuja a mi lado.",
+        "fov es bastante ancho porque copié un clip. ¿es ese todo el error o me perdí un interruptor?"
+      ],
+      "flair": "Question",
+      "comments": [
+        {
+          "author": "MenuDev",
+          "body": "Reduce el campo de visión del aim hasta que el círculo solo abarque a la persona con la que estás peleando, no al teammate en tu hombro. Apaga el aim mientras pruebas No Recoil en una pared. Guarda el cono más pequeño después de una pelea tranquila. Esto no es un bypass feacil. Un baneo por ID no está confirmado. En la mayoría de los casos no hay baneo por ID.",
+          "replies": [
+            {
+              "author": "gibby_bubble",
+              "body": "un fov más pequeño arregló el arrastre al dúo. funcionando al 100% en la pelea de la puerta. manteniendo borrado el ancho."
+            }
+          ]
+        }
+      ]
+    },
+    "no-recoil-still-climbs-far": {
+      "title": "No Recoil se siente plano de cerca y aún sube a distancia",
+      "excerpt": "¿El interruptor está roto en el Wingman, o le estoy vaciando el cargador a un objetivo diminuto? También, ¿es esto lo mismo que un Cronus?",
+      "body": [
+        "a corta distancia el arma se siente pegada a ellos. en cuanto la pelea es al otro lado de un POI, las últimas balas se desvían. pensé que la opción tenía un error.",
+        "además alguien en mi stack dijo que esto es solo un macro de jitter. no tengo un Cronus ni un Strikepack. solo tengo el interruptor del menú."
+      ],
+      "flair": "Build help",
+      "comments": [
+        {
+          "author": "StoreStaff",
+          "body": "La subida a distancia es retroceso residual en un objetivo pequeño. Dispara en ráfagas, no mantengas el cargador presionado a través del POI. Prueba en una pared con el aim apagado para que puedas ver el patrón. Cronus, XIM, Titan, Strikepacks y los scripts de retroceso son un baneo diferente. Este interruptor no es esos dispositivos. Un baneo por ID en este menú no está confirmado. En la mayoría de los casos no hay baneo por ID.",
+          "replies": [
+            {
+              "author": "fuse_nades",
+              "body": "la prueba en la pared lo hizo obvio. las ráfagas cortas están funcionando al 100%. yo solo estaba vaciando el cargador como un bot."
+            }
+          ]
+        }
+      ]
+    },
+    "new-account-fails-on-this-pc": {
+      "title": "La nueva cuenta falla en este PC pero funciona en mi laptop",
+      "excerpt": "¿Es eso un baneo de ID confirmado? ¿Compro el menú de nuevo o el spoofer?",
+      "body": [
+        "el perfil viejo quedó quemado. hice uno nuevo. no entra a una partida en mi pc principal. la misma cuenta carga bien en una laptop que nunca ejecutó el menú.",
+        "¿es eso un baneo de ID confirmado? y ¿la llave del cheat arregla el pc o necesito el otro producto?"
+      ],
+      "flair": "HWID",
+      "comments": [
+        {
+          "author": "OrderDesk",
+          "body": "Ese patrón es la máquina, no el perfil. Un baneo de ID no está confirmado. En la mayoría de los casos no hay baneo de ID. Cuando una cuenta nueva falla en un PC y funciona en otro, ese es el HWID spoofer, que se vende por separado. La llave del menú no lo cleara, y el spoofer no deshace una sanción exclusiva de la cuenta. No es un bypass de Easy Anti-Cheat.",
+          "replies": [
+            {
+              "author": "crypto_drone",
+              "body": "ok, entonces dejo de comprar una segunda llave de menú. spoofer solo si la prueba de la laptop se mantiene clean. se agradece."
+            }
+          ]
         },
         {
-          "author": "LineupLab",
-          "body": "espera, esta es la confusión que seguía teniendo 💀 los interruptores de salas personalizadas ≠ el menú Windows. la página del producto es la lista en vivo.",
-          "replies": []
-        },
-        {
-          "author": "SageAdvice",
-          "body": "resuelto para mí. la práctica de alineaciones se queda en la partida personalizada. el menú de la tienda es una página diferente ✨",
+          "author": "loba_bracelet",
+          "body": "misma prueba por aquí. el baneo de cuenta y el flag de pc son dos Ls diferentes. no mezcles los carritos.",
           "replies": []
         }
       ]
     },
-    "valorant-cheat-codes-commands": {
-      "title": "¿Tiene Valorant códigos de trucos o comandos de consola?",
-      "excerpt": "Algunas publicaciones todavía hablan de comandos escritos. No encuentro una consola así.",
+    "stream-proof-showed-on-a-discord-clip": {
+      "title": "Stream Proof ocultó mi grabación pero mi dúo igual capturó las cajas",
+      "excerpt": "Mi archivo local se ve clean. Su clip de discord muestra el overlay. ¿El interruptor está mearto?",
       "body": [
-        "Los juegos FPS más antiguos tenían comandos de consola. Las partidas personalizadas de Valorant parecen menús, no una línea de comandos.",
-        "¿Hay una lista de códigos o es la búsqueda incorrecta?"
+        "activé stream proof, grabé en obs, lo revisé, sin menú. luego mi dúo publicó un clip de discord desde SU pantalla y mis cajas están ahí mismo. ¿estoy alueacinando o la opción está rota?",
+        "no estoy en vivo. esto fue un clip privado. igual es vergonzoso, la verdad."
       ],
-      "flair": "✅ Solved",
+      "flair": "Stream",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "No hay ninguna lista pública de códigos de consola para pegar en emparejamientos en vivo. Las partidas personalizadas usan las propias opciones de menú de Riot para la práctica. El loader de esta tienda es un menú Windows separado, no un código de truco escrito.",
-          "replies": []
-        },
-        {
-          "author": "OldSchoolFPS",
-          "body": "sí, estaba buscando una consola que no está ahí 😂 menús para la práctica, loader separado para la tienda. búsqueda incorrecta, gracias.",
-          "replies": []
+          "author": "MenuDev",
+          "body": "Stream Proof es para la captura en tu PC. No oculta el overlay de un teamate, un espectador o su grabación. Revisa tu propio archivo antes de transmitir. Si tu archivo de OBS está clean, el interruptor hizo su trabajo. Su clip está fuera de eso. Esto no es un bypass de Easy Anti-Cheat, y no detiene un reporte.",
+          "replies": [
+            {
+              "author": "valk_drop",
+              "body": "revisé mi archivo de nuevo. clean. su clip es solo su pov. funcionando 100% de mi lado. les dije que dejaran de publicar mi pantalla 💀"
+            }
+          ]
         }
       ]
     },
-    "how-to-turn-on-valorant-custom-game-cheats": {
-      "title": "¿Cómo activo Valorant custom game cheats?",
-      "excerpt": "Quiero las opciones de práctica dentro de una sala personalizada, no una descarga de terceros.",
+    "loot-labels-loud-after-season-31": {
+      "title": "Las etiquetas de botín de la Teason 31 me están greando en la pelea",
+      "excerpt": "Strongholds más botín de suelo. Dejé todos los niveles activados y ahora no puedo rastrear. ¿Cómo lo filtras?",
       "body": [
-        "Organizo una partida personalizada para practicar alineaciones. No encuentro un comando de consola.",
-        "¿Dónde se encuentran las opciones oficiales de trucos y es lo mismo que el loader de esta tienda?"
+        "después de la actualización de la teason 31 el suelo está cubierto. contenedores, cajas y esos búnkeres de Strongholds tienen texto. entro a una pelea todavía leeando accesorios.",
+        "el akimbo wingman es divertido pero no necesito cada pistola blanca etiquetada. ¿qué filtro estás usando realmente?"
       ],
-      "flair": "👀 Unanswered",
-      "comments": []
-    },
-    "valorant-cheats-custom-game": {
-      "title": "¿Se puede usar Valorant custom game cheats en una partida en vivo?",
-      "excerpt": "Los activadores de práctica y una capa superpuesta en vivo se siguen describiendo como un solo interruptor.",
-      "body": [
-        "Las habilidades infinitas en una partida personalizada son útiles para las alineaciones.",
-        "¿Esa configuración se traslada a una partida normal, o el menú en vivo es un producto diferente?"
-      ],
-      "flair": "✅ Solved",
+      "flair": "Teason 31",
       "comments": [
         {
-          "author": "ValorantStaff",
-          "body": "Los cheats de partidas personalizadas de Riot se quedan en esa sala. No se trasladan al emparejamiento. El menú en vivo de esta tienda es una licencia independiente de Windows. Lee la etiqueta de estado antes de cargarlo. VERDE lista el archivo. No es una afirmación de que Vanguard lo ignorará.",
-          "replies": []
-        },
-        {
-          "author": "CascadeMain",
-          "body": "necesitaba esto. la utilidad infinita en una personalizada es solo para práctica 🎯 no se lleva a una partida real.",
-          "replies": []
-        },
-        {
-          "author": "RankedAndTired",
-          "body": "resuelto. dos productos, dos pagos, y la etiqueta de estado sigue siendo solo una lista 💚 no un pase libre.",
-          "replies": []
+          "author": "StoreStaff",
+          "body": "Muestra solo los niveles por los que cambiarías de arma, y la munición que te falte. Los Strongholds son búnkeres capturables, no un equipamiento gratis, así que no te desvíes por cada etiqueta. Oculta el botín en cuanto alguien dispare. Vuelve a revisar la página de estado después de la actualización del cliente, luego mira un PDI antes de entrar en cola.",
+          "replies": [
+            {
+              "author": "ash_portal",
+              "body": "morado y superior, munición peasada únicamente, botín desactivado en la pelea. funcionando al 100%. el mapa se vuelve leacible de nuevo."
+            }
+          ]
         }
       ]
-    },
-    "lifetime-separate-spoofer": {
-      "title": "¿La llave $150 lifetime incluye el HWID spoofer?",
-      "excerpt": "Tres tarjetas al pagar. Quiero asegurarme de que lifetime en una no sean las tres.",
-      "body": [
-        "Estoy mirando la tarjeta del menú y la tarjeta spoofer. Lifetime es $150 en cada una.",
-        "Si compro lifetime en el menú, ¿se desbloquea también el spoofer?"
-      ],
-      "flair": "✅ Solved",
-      "comments": [
-        {
-          "author": "ValorantStaff",
-          "body": "No. Lifetime en el menú es solo ese producto. El HWID spoofer es un pago independiente. El menú es $35 for 31 days o $150 lifetime. El spoofer es $50 for 31 days o $150 lifetime.",
-          "replies": []
-        },
-        {
-          "author": "CheckoutChaos",
-          "body": "tres tarjetas me tenían mareado 😭 lifetime en el menú no es un paquete. spoofer es su propio $150. agradezco el no rotundo.",
-          "replies": []
-        }
-      ]
-    },
-    "desktop-vs-laptop-hwid": {
-      "title": "Una cuenta nueva falla en este PC pero funciona en una laptop, ¿qué producto es?",
-      "excerpt": "El equipo de escritorio bloquea perfiles nuevos; la laptop no. Ya tengo el mes del menú.",
-      "body": [
-        "Las cuentas nuevas fallan en el escritorio y juegan en la laptop.",
-        "¿Compro el HWID spoofer, o es una restricción exclusiva de la cuenta?"
-      ],
-      "flair": "👀 Unanswered",
-      "comments": []
     }
   }
 }

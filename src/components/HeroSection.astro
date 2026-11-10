@@ -4,7 +4,7 @@ const locale = getLocaleFromAstro(Astro);
 const t = getTranslations(locale);
 import { localizedPath, ROUTES } from '../utils/path';
 import { heroSlides } from '../data/products';
-import { compatibilityIcons, heroStatIcons, heroStatusPills } from '../data/sectionIcons';
+import { heroStatIcons, heroStatusPills } from '../data/sectionIcons';
 import ImageSlider from './ImageSlider.astro';
 import BrandHeading from './BrandHeading.astro';
 import Icon from './icons/Icon.astro';
@@ -13,13 +13,7 @@ import { Badge } from '@/components/starwind/badge';
 
 const h = t.hero;
 
-const heroMarqueePills = [
-  ...heroStatusPills,
-  ...t.compatibility.items.map((label, i) => ({
-    label,
-    icon: compatibilityIcons[i] ?? 'check',
-  })),
-];
+const heroMarqueePills = heroStatusPills;
 ---
 
 <section
@@ -37,10 +31,10 @@ const heroMarqueePills = [
         <BrandHeading
           id="hero-title"
           text={h.titleLine1}
-          class="text-4xl font-bold leading-tight md:text-5xl"
+          class="text-3xl font-bold leading-tight md:text-4xl lg:text-[2.25rem]"
         />
 
-        <p class="max-w-xl text-sm leading-relaxed text-neutral-500 dark:text-neutral-400 md:text-base">
+        <p class="max-w-xl text-sm leading-relaxed text-neutral-500 dark:text-neutral-400">
           {h.subtitle}
         </p>
 

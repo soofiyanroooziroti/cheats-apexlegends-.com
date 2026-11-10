@@ -2,8 +2,16 @@ import type { SitemapItem } from '@astrojs/sitemap';
 import { getBlogPostsForLocale } from '../data/blog/loader';
 import { forumPosts } from '../data/forum';
 import { blogDateToIso } from '../data/blog/dates';
-import { defaultLocale } from '../i18n/locales';
+import { defaultLocale, localeConfig } from '../i18n/config';
 import { SITE_URL } from './site';
+
+const nonEnLocalePrefixes = new Set(
+  localeConfig.filter((l) => l.code !== defaultLocale).map((l) => l.urlPrefix),
+);
+
+/** English-only sitemap by default; set `SITEMAP_ALL_LOCALES=1` when every locale should ship in sitemap. */
+const sitemapEnglishOnly =
+  process.env.SITEMAP_ALL_LOCALES !== '1' && import.meta.env.SITEMAP_ALL_LOCALES !== '1';
 
 const blogPosts = getBlogPostsForLocale(defaultLocale);
 
@@ -29,6 +37,11 @@ function contentLastmod(path: string): string | undefined {
 export function sitemapSerialize(item: SitemapItem): SitemapItem | undefined {
   const path = pathnameFromUrl(item.url);
   item.url = `${SITE_URL}${path}`;
+
+  if (sitemapEnglishOnly) {
+    const first = path.split('/').filter(Boolean)[0];
+    if (first && nonEnLocalePrefixes.has(first)) return undefined;
+  }
 
   if (
     path.includes('/404') ||

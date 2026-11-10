@@ -5,9 +5,7 @@ export const CHECKOUT = CHECKOUT_URLS;
 export type CheckoutProduct = keyof typeof CHECKOUT;
 
 export const CHECKOUT_SLUGS: Record<CheckoutProduct, string> = {
-  Valorant: 'valorant',
-  Warzone: 'valorant',
-  dayz: 'valorant',
+  apexLegends: 'apex-legends',
   hwidSpoofer: 'hwid-spoofer',
 };
 
@@ -15,22 +13,19 @@ export const CHECKOUT_SLUG_TO_PRODUCT = Object.fromEntries(
   Object.entries(CHECKOUT_SLUGS).map(([product, slug]) => [slug, product as CheckoutProduct]),
 ) as Record<string, CheckoutProduct>;
 
-export function checkoutPath(product: CheckoutProduct = 'Valorant'): string {
+export function checkoutPath(product: CheckoutProduct = 'apexLegends'): string {
   return `/go/${CHECKOUT_SLUGS[product]}/`;
 }
 
-export const PRIMARY_CHECKOUT_PATH = checkoutPath('Valorant');
+export const PRIMARY_CHECKOUT_PATH = checkoutPath('apexLegends');
 
 export function checkoutForSlug(slug: string): string {
   switch (slug) {
     case 'hwid-spoofer':
       return checkoutPath('hwidSpoofer');
     case 'loader':
-    case 'valorant-cheats':
-    case 'warzone-cheats':
-    case 'dayz-cheats':
     default:
-      return checkoutPath('Valorant');
+      return checkoutPath('apexLegends');
   }
 }
 
@@ -46,14 +41,10 @@ export function resolveCheckoutHref(href: string): string {
   }
 
   if (
-    href.includes('%2Fproducts%2Fvalorant') ||
-    href.includes('/products/valorant') ||
-    href.includes('%2Fproducts%2Fwarzone') ||
-    href.includes('/products/warzone') ||
-    href.includes('%2Fproducts%2Fdayz') ||
-    href.includes('/products/dayz')
+    href.includes('%2Fproducts%2Fapex-legends') ||
+    href.includes('/products/apex-legends')
   ) {
-    return checkoutPath('Valorant');
+    return checkoutPath('apexLegends');
   }
   if (href.includes('%2Fproducts%2Fhwid-spoofer') || href.includes('/products/hwid-spoofer')) {
     return checkoutPath('hwidSpoofer');

@@ -4,6 +4,7 @@ export const SHORT_PLAN_DAYS = 31;
 export const LIFETIME_USD = 150;
 
 export const MENU_SHORT_USD = 35;
+/** HWID spoofer 31-day (monthly) plan — stays $50, separate from the $35 menu. */
 export const SPOOFER_SHORT_USD = 50;
 
 export const MENU_PLANS_LINE = `$${MENU_SHORT_USD} for ${SHORT_PLAN_DAYS} days or $${LIFETIME_USD} lifetime`;

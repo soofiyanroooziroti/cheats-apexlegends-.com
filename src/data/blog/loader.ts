@@ -75,6 +75,7 @@ for (const [modulePath, raw] of Object.entries(rawModules)) {
   const locale = localeFromModulePath(pathForParsing);
   const slug = slugFromModulePath(pathForParsing);
   if (!locale || !slug) continue;
+  if (process.env.BUILD_SHIP_LOCALES === 'en-only' && locale !== defaultLocale) continue;
   const post = parseFrontmatter(raw);
   post.slug = post.slug || slug;
   if (!post.dateIso && post.date) {

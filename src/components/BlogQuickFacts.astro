@@ -17,7 +17,7 @@ const heroMetrics = (
 
 const antiCheat =
   side.quickFactsAntiCheat ??
-  (heroMetrics?.[0] ? `${heroMetrics[0].label ?? 'Anti-cheat'}: ${heroMetrics[0].strong ?? 'Vanguard'}` : 'Vanguard anti-cheat');
+  (heroMetrics?.[0] ? `${heroMetrics[0].label ?? 'Anti-cheat'}: ${heroMetrics[0].strong ?? 'EA Javelin'}` : 'EA Javelin Anticheat');
 const platform =
   side.quickFactsPlatform ??
   (heroMetrics?.[1] ? `${heroMetrics[1].strong ?? 'Windows PC'}` : 'Windows PC');
@@ -62,6 +62,6 @@ const loaderHref = localizedPath(ROUTES.productsElite, locale);
   </a>
 
   <Button as="a" href={loaderHref} variant="primary" size="sm" class="blog-quick-facts__cta w-full justify-center">
-    {side.quickFactsViewProduct ?? 'View Valorant Cheats'}
+    {side.quickFactsViewProduct ?? 'View Apex Legends cheats'}
   </Button>
 </div>

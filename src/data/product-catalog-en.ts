@@ -2,75 +2,86 @@ import { LOADER_PLANS_LINE } from '../config/loader-pricing';
 import { SPOOFER_PLANS_LINE } from '../config/product-plans';
 import type { AcquisitionStep, ProductSlide, SystemRequirement } from './product-types';
 import type { Block } from './product-locale-types';
-import { valorantLoaderFeatureGroups } from './warzone-feature-groups';
+import { apexLoaderFeatureGroups } from './warzone-feature-groups';
+
 const gameplay = '/images/gameplay';
 const products = '/images/products';
 
-/** Cheats product page — four portal menu screenshots (Visuals, World, Aimbot, Misc). */
-export const warzoneMenuSlides: ProductSlide[] = [
+/** Cheats product page — full menu screenshots (uncropped). */
+export const apexMenuSlides: ProductSlide[] = [
   {
-    src: `${products}/valorant-menu-visuals.webp`,
-    alt: 'Player ESP menu screenshot',
-    caption: 'Player Visual Options',
-    captionDesc: 'Health, shield, agent, rank, box, skeleton, and distance controls.',
+    src: `${products}/apex-legends-menu-aimbot-full.webp`,
+    alt: 'Apex Legends cheat menu Aimbot tab with smoothing, FOV, and target options',
+    caption: 'Aimbot',
+    captionDesc: 'Advanced Aimbot and No Recoil.',
+    width: 1330,
+    height: 840,
   },
   {
-    src: `${products}/valorant-menu-world.webp`,
-    alt: 'World visual menu screenshot',
-    caption: 'World Visual Options',
-    captionDesc: 'Abilities, traps, spike timers, and per-agent customization.',
+    src: `${products}/apex-legends-menu-world-full.webp`,
+    alt: 'Apex Legends cheat menu World and Loot tab with ESP toggles',
+    caption: 'World/Loot',
+    captionDesc: 'Weapon ESP and Loot ESP.',
+    width: 1330,
+    height: 840,
   },
   {
-    src: `${products}/valorant-menu-aimbot.webp`,
-    alt: 'Aimbot menu screenshot',
-    caption: 'Aimbot Options',
-    captionDesc: 'FOV, smoothness, stickiness, bone, filter, and draw overlays.',
+    src: `${products}/apex-legends-menu-visuals-full.webp`,
+    alt: 'Apex Legends cheat menu Player Visuals tab with ESP overlay toggles',
+    caption: 'Player Visuals',
+    captionDesc: 'Player ESP, Box ESP, Skeleton ESP, Health Bar, and Distance ESP.',
+    width: 1330,
+    height: 840,
   },
   {
-    src: `${products}/valorant-menu-misc.webp`,
-    alt: 'Misc and config menu screenshot',
-    caption: 'Misc Options',
-    captionDesc: 'Combat mode hotkey, font size, and create or load configs.',
+    src: `${products}/apex-legends-menu-misc-full.webp`,
+    alt: 'Apex Legends cheat menu Misc tab with general, stream-proof, and config options',
+    caption: 'Misc / General',
+    captionDesc: 'Stream-proof mode, menu keys, and config save/load.',
+    width: 1330,
+    height: 840,
   },
 ];
 
 /** Home hero only — gameplay captures (not the product gallery). */
 const homeHeroGallery = {
-  loot: {
-    src: `${gameplay}/valorant-pricing-menu.webp`,
-    alt: 'Overlay labels and a player box in an urban area',
-    caption: 'Player ESP',
-    captionDesc: 'Boxes and labels in the same view.',
+  slide1: {
+    src: `${gameplay}/apex-hero-floating-base-esp.webp`,
+    alt: 'Apex Legends overlay on floating structures with a green enemy silhouette against the sky',
+    caption: 'Long-range tags',
+    captionDesc: 'Squad silhouettes on canyon structures.',
   },
-  playerDistance: {
-    src: `${gameplay}/valorant-player-esp-multiple.webp`,
-    alt: 'Player ESP showing several figures with distance readouts',
-    caption: 'Distance labels',
-    captionDesc: 'Several players with distance labels.',
+  slide2: {
+    src: `${gameplay}/apex-hero-bunk-room-wallhack.webp`,
+    alt: 'Indoor Apex Legends room with wallhack outlines on players through walls',
+    caption: 'Indoor wallhack',
+    captionDesc: 'Enemy outlines through interior walls.',
   },
-  playerBoxes: {
-    src: `${gameplay}/valorant-player-esp-boxes.webp`,
-    alt: 'ESP boxes and distance labels on players near a building',
-    caption: 'Boxes and distance',
-    captionDesc: 'Corner boxes and range readouts.',
+  slide3: {
+    src: `${gameplay}/apex-hero-ring-countdown-esp.webp`,
+    alt: 'Apex Legends ring countdown with squad distance labels on an industrial map',
+    caption: 'Ring pressure',
+    captionDesc: 'Squadmates and range readouts before zone damage.',
   },
-  skeletonClose: {
-    src: `${gameplay}/valorant-skeleton-esp-close.webp`,
-    alt: 'Skeleton ESP with boxes at close range',
-    caption: 'Skeleton ESP',
-    captionDesc: 'Bone lines and boxes at close range.',
+  slide4: {
+    src: `${gameplay}/apex-hero-ap4-squad.webp`,
+    alt: 'Apex Legends squad fight with player ESP overlays and zone timer on screen',
+    caption: 'Squad rotation',
+    captionDesc: 'In-match overlays during a team push.',
+    width: 1670,
+    height: 942,
   },
-  skeletonIndoor: {
-    src: `${gameplay}/valorant-skeleton-esp-indoor.webp`,
-    alt: 'Skeleton ESP showing figures indoors',
-    caption: 'Indoor skeleton',
-    captionDesc: 'Bone lines on indoor targets.',
+  slide5: {
+    src: `${gameplay}/apex-hero-ads-target-box-esp.webp`,
+    alt: 'First-person Apex Legends aim-down-sights view with boxed enemy and damage numbers',
+    caption: 'ADS targeting',
+    captionDesc: 'Hitbox box and range on a live target.',
   },
-  healthDoor: {
-    src: `${gameplay}/valorant-health-esp-hud.webp`,
-    alt: 'Health ESP bars and skeleton boxes near a doorway',
-    caption: 'Health ESP',
-    captionDesc: 'Health bars and boxes in the same view.',
+  slide6: {
+    src: `${gameplay}/apex-hero-rooftop-squad-esp.webp`,
+    alt: 'Apex Legends rooftop fight with multiple player ESP boxes and skeleton lines',
+    caption: 'Rooftop squad fight',
+    captionDesc: 'Several enemies tagged on a raised platform.',
   },
 } as const satisfies Record<string, ProductSlide>;
 
@@ -80,19 +91,19 @@ function homeSlide(...keys: (keyof typeof homeHeroGallery)[]): ProductSlide[] {
 
 /** Home hero slider only — not the cheats product gallery. */
 export const cheatHomeHeroSlides: ProductSlide[] = homeSlide(
-  'loot',
-  'playerDistance',
-  'playerBoxes',
-  'skeletonClose',
-  'skeletonIndoor',
-  'healthDoor',
+  'slide1',
+  'slide2',
+  'slide3',
+  'slide4',
+  'slide5',
+  'slide6',
 );
 
 export const acquisitionSteps: AcquisitionStep[] = [
   {
     num: '01',
     title: 'Check status',
-    desc: 'Read the status page after a Valorant or Vanguard update before you buy. GREEN means the note lists the file to load. RED means wait.',
+    desc: 'Read the status page after an Apex Legends or Javelin update before you buy. GREEN means the note lists the file to load. RED means wait.',
   },
   {
     num: '02',
@@ -114,32 +125,38 @@ export const acquisitionSteps: AcquisitionStep[] = [
 export const utilitySlides = {
   spoofer: [
     {
-      src: '/images/products/valorant-spoofer-hero.webp',
-      alt: 'HWID spoofer on Windows PC',
+      src: `${products}/apex-spoofer-hero.webp`,
+      alt: 'HWID spoofer for Apex Legends on Windows PC',
       caption: 'HWID spoofer',
-      captionDesc: 'Hardware fingerprint tools before you relaunch.',
+      captionDesc: 'Hardware profile rotation before you relaunch Apex Legends.',
+      width: 1200,
+      height: 1200,
     },
     {
-      src: '/images/products/valorant-spoofer-board.webp',
+      src: `${products}/apex-spoofer-phoenix-board.webp`,
       alt: 'Phoenix Satano HWID spoofer hardware fingerprint rotation on Windows PC',
-      caption: 'Phoenix board',
-      captionDesc: 'Disk, MAC, and GPU ID rotation.',
+      caption: 'HWID rotation',
+      captionDesc: 'Disk serials, MAC addresses, and GPU ID rotation workflow.',
+      width: 800,
+      height: 600,
     },
     {
-      src: '/images/products/valorant-spoofer-brand.webp',
-      alt: 'Phoenix WH-Satano spoofer branding on Windows PC',
-      caption: 'Phoenix WH',
-      captionDesc: 'Spoofer workspace used on every store.',
+      src: `${products}/apex-spoofer-phoenix-wh.webp`,
+      alt: 'Phoenix WH-Satano spoofer branding for Apex Legends on Windows PC',
+      caption: 'Phoenix WH-Satano',
+      captionDesc: 'Spoofer build with portal cleaner and compatibility checks.',
+      width: 500,
+      height: 500,
     },
   ],
 } as const;
 
 export const cheatsContent = {
-  images: [...warzoneMenuSlides],
+  images: [...apexMenuSlides],
   goodToKnow:
-    'Valorant and Vanguard update often. Read the status page before you load. GREEN means the note lists this file. RED means wait. Overlay behavior can change after a patch.',
+    'Apex Legends and EA Javelin Anticheat update often. Read the status page before you load. GREEN means the note lists this file. RED means wait. Overlay behavior can change after a patch.',
   limitations:
-    'Third-party software can violate game terms and lead to bans. You use this software at your own risk. Compatibility can change after a game, Vanguard, or Windows update. Streamproof does not remove that risk.',
+    'Third-party software can violate game terms and lead to bans. You use this software at your own risk. Compatibility can change after a game, anti-cheat, or Windows update. Streamproof does not remove that risk.',
   systemRequirements: [
     {
       icon: 'reqWindows',
@@ -147,31 +164,26 @@ export const cheatsContent = {
     },
     {
       icon: 'reqWindows',
-      text: 'Windows 10 or 11 on supported builds',
-    },
-    { icon: 'reqCpu', text: 'Intel Core i5 or AMD Ryzen 5 or better' },
-    {
-      icon: 'reqWifi',
-      text: 'Stable internet · latest VALORANT PC client',
+      text: 'Windows 10 and 11',
     },
     {
       icon: 'reqShieldGuide',
-      text: 'Client: official VALORANT PC client',
+      text: 'Latest Apex Legends PC client',
     },
   ] as SystemRequirement[],
-  featureGroups: valorantLoaderFeatureGroups,
+  featureGroups: apexLoaderFeatureGroups,
   overview: {
-    title: 'A Windows menu for VALORANT',
+    title: 'A Windows menu for Apex Legends',
     paragraphs: [
-      'One license covers Aimbot Options, Player Visual Options, World Visual Options, and Misc Options—the same menu on every plan.',
+      'One license covers Player ESP, Advanced Aimbot, Weapon ESP, Health Bar, Distance ESP, Box ESP, Skeleton ESP, Loot ESP, No Recoil, EA Javelin Bypass, Stream Proof, and 24/7 Support on every plan.',
       `Read the status page before you load. ${LOADER_PLANS_LINE}.`,
     ],
   },
   body: [
-    { type: 'h2', text: 'Menu groups included' },
+    { type: 'h2', text: 'Modules included' },
     {
       type: 'p',
-      text: 'Four menu groups on one license: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. Open the feature list on this page for every toggle.',
+      text: 'Twelve modules on one license. Open the feature list on this page for every name and short note.',
     },
     { type: 'h2', text: 'Plans' },
     {
@@ -184,7 +196,7 @@ export const cheatsContent = {
 export const spooferContent = {
   images: [...utilitySlides.spoofer],
   goodToKnow:
-    'HWID tools change how your PC fingerprint appears. They do not clear an account-only penalty. Read the portal notes before you launch VALORANT again.',
+    'HWID tools change how your PC fingerprint appears. They do not clear an account-only penalty. Read the portal notes before you launch Apex Legends again.',
   limitations:
     'Spoofing carries technical risk and may violate game terms. Results vary by ban type and driver setup. Use only on systems you own.',
   systemRequirements: [
@@ -221,4 +233,3 @@ export const spooferContent = {
     },
   ] as Block[],
 };
-

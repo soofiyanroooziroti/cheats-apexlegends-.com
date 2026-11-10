@@ -1,5 +1,5 @@
 /**
- * Drop stale DayZ / Warzone FAQ & status blocks from locale JSON so English Valorant copy wins via deepMerge.
+ * Drop stale DayZ / Warzone FAQ & status blocks from locale JSON so English Apex copy wins via deepMerge.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -32,10 +32,10 @@ function stripKey(obj, key) {
 function replaceInTree(value) {
   if (typeof value === 'string') {
     return value
-      .replaceAll('dayz-cheats', 'valorant-cheats')
-      .replaceAll('/products/dayz-cheats/', '/products/valorant-cheats/')
-      .replaceAll('DayZ Cheats', 'Valorant Cheats')
-      .replaceAll('DayZ', 'VALORANT');
+      .replaceAll('dayz-cheats', 'apex-legends-cheats')
+      .replaceAll('/products/dayz-cheats/', '/products/apex-legends-cheats/')
+      .replaceAll('DayZ Cheats', 'Apex Legends Cheats')
+      .replaceAll('DayZ', 'Apex Legends');
   }
   if (Array.isArray(value)) return value.map(replaceInTree);
   if (value && typeof value === 'object') {

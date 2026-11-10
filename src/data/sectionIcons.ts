@@ -3,11 +3,15 @@ import type { IconName } from '../components/icons/types';
 export const featureIcons: Record<string, IconName> = {
   Aimbot: 'featureAimbot',
   'Aimbot Options': 'featureAimbot',
+  Aimbot: 'featureAimbot',
   'Player ESP': 'featureEsp',
   'Player ESP Features': 'featureEsp',
   'Player Visual Options': 'featureEsp',
+  'Player Visuals': 'featureEsp',
   'World Visual Options': 'lootEsp',
+  'World/Loot': 'lootEsp',
   'Misc Options': 'settings',
+  Misc: 'settings',
   'Bots ESP': 'skeletonEsp',
   'Bots ESP Features': 'skeletonEsp',
   'Items ESP': 'lootEsp',
@@ -65,16 +69,20 @@ export const blogTagIcons: Record<string, IconName> = {
 };
 
 export const heroStatusPills: { icon: IconName; label: string }[] = [
-  { icon: 'softAim', label: 'Aimbot' },
   { icon: 'espActive', label: 'Player ESP' },
-  { icon: 'lootEsp', label: 'Loot filter' },
-  { icon: 'skeletonEsp', label: 'Chams' },
-  { icon: 'seasonBuild', label: 'Camera FOV' },
-  { icon: 'instantDelivery', label: 'Config save' },
-  { icon: 'support247', label: 'HWID spoofer' },
-  { icon: 'shieldCheck', label: 'Vanguard status' },
-  { icon: 'boneSelect', label: 'Bone select' },
-  { icon: 'liveStatus', label: 'Check after a patch' },
+  { icon: 'softAim', label: 'Advanced Aimbot' },
+  { icon: 'toolkitWeapons', label: 'Weapon ESP' },
+  { icon: 'shieldCheck', label: 'Health Bar' },
+  { icon: 'compareZoomHack', label: 'Distance ESP' },
+  { icon: 'featureEsp', label: 'Box ESP' },
+  { icon: 'skeletonEsp', label: 'Skeleton ESP' },
+  { icon: 'lootEsp', label: 'Loot ESP' },
+  { icon: 'crosshair', label: 'No Recoil' },
+  { icon: 'shieldCheck', label: 'EA Javelin Bypass' },
+  { icon: 'heroStatStream', label: 'Stream Proof' },
+  { icon: 'support247', label: '24/7 Support' },
+  { icon: 'instantDelivery', label: 'HWID spoofer' },
+  { icon: 'compatWindows', label: 'Windows 10 & 11' },
 ];
 
 export const heroStatIcons: IconName[] = [

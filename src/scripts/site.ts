@@ -25,18 +25,7 @@ function isLocaleHomePath(path: string): boolean {
   if (path === '/') return true;
   const segment = path.split('/').filter(Boolean)[0]?.toLowerCase();
   if (!segment) return false;
-  const localePrefixes = [
-    'fr',
-    'it',
-    'de',
-    'es',
-    'cs',
-    'ru',
-    'zh-cn',
-    'ja',
-    'pl',
-    'pt-br',
-  ];
+  const localePrefixes = ['ja', 'zh-cn', 'es', 'ru', 'pt-br', 'de', 'fr', 'ko'];
   return path.split('/').filter(Boolean).length === 1 && localePrefixes.includes(segment);
 }
 

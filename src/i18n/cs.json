@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "Valorant Cheats",
-    "domain": "cheats-valorant.org",
-    "title": "Valorant Cheats",
-    "description": "Možnosti Aimbot, Vizuální možnosti hráčů, Vizuální možnosti světa a Různé možnosti pro VALORANT na Windows PC. Ceny USD.",
-    "discord": "/go/valorant/"
+    "name": "Apex legends cheats",
+    "domain": "cheatsapexlegends.com",
+    "title": "Apex Legends cheats",
+    "description": "Aimbot, Player Visuals, World/Loot, and Misc menu groups for Apex Legends on Windows PC. USD pricing.",
+    "discord": "/go/apex-legends/"
   },
   "nav": [
     {
@@ -12,11 +12,11 @@
       "label": "Domů"
     },
     {
-      "href": "/products/valorant-cheats/",
+      "href": "/products/apex-legends-cheats/",
       "label": "Produkty"
     },
     {
-      "href": "/products/valorant-cheats/loader/#features",
+      "href": "/products/apex-legends-cheats/loader/#features",
       "label": "Funkce"
     },
     {
@@ -56,11 +56,11 @@
     "support": "Podpora"
   },
   "hero": {
-    "status": "Valorant — před spuštěním zkontrolujte stav",
+    "status": "Apex Legends — před spuštěním zkontrolujte stav",
     "eyebrow": "Windows PC · Celosvětově",
-    "titleLine1": "Valorant Cheats pro Windows PC",
+    "titleLine1": "Apex Legends cheats pro Windows PC",
     "titleLine2": "Cheats",
-    "subtitle": "Vizuály hráčů, světové ESP, aimbot a nástroje config pro VALORANT na Windows. Čtyři skupiny menu na jedné licenci. $35 for 31 days nebo $150 lifetime.",
+    "subtitle": "Vizuály hráčů, světové ESP, aimbot a nástroje config pro Apex Legends na Windows. Čtyři skupiny menu na jedné licenci. $35 for 31 days nebo $150 lifetime.",
     "ctaPrimary": "Zobrazit produkty",
     "ctaDiscord": "Koupit nyní",
     "modesLabel": "Moduly",
@@ -74,7 +74,7 @@
     "metrics": [
       {
         "label": "Anti-cheat",
-        "strong": "Vanguard"
+        "strong": "EA Javelin"
       },
       {
         "label": "Platforma",
@@ -168,13 +168,13 @@
   "whyUs": {
     "eyebrow": "Proč mi",
     "title": "Stejné menu u každého plánu — záplaty, ne sliby",
-    "subtitle": "Jeden cheat a jeden HWID spoofer. Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer je $50 for 31 days nebo $150 lifetime. Ban je stále možný pod Vanguard.",
-    "usLabel": "Valorant Cheats",
+    "subtitle": "Jeden cheat a jeden HWID spoofer. Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer je $50 for 31 days nebo $150 lifetime. Ban je stále možný pod EA Javelin.",
+    "usLabel": "Apex Legends cheats",
     "otherLabel": "Běžný poskytovatel",
     "rows": [
       {
         "title": "loader aktualizace v den vydání záplaty",
-        "desc": "Zkontrolujte cheats-valorant.org po aktualizaci Valorant nebo Vanguard předtím, než otevřete loader."
+        "desc": "Zkontrolujte cheatsapexlegends.com po aktualizaci Apex Legends nebo EA Javelin předtím, než otevřete loader."
       },
       {
         "title": "Samostatné posuvníky míření",
@@ -199,9 +199,9 @@
     ],
     "metrics": [
       {
-        "value": "Vanguard",
+        "value": "EA Javelin",
         "title": "Kontrola po záplatě",
-        "desc": "Znovu zkontrolujte stavový štítek po aktualizaci Valorant nebo Vanguard před načtením."
+        "desc": "Znovu zkontrolujte stavový štítek po aktualizaci Apex Legends nebo EA Javelin před načtením."
       },
       {
         "value": "2",
@@ -211,7 +211,7 @@
       {
         "value": "2",
         "title": "Samostatné produkty",
-        "desc": "Valorant Cheats a HWID spoofer. Každý z nich má svůj vlastní klíč."
+        "desc": "Apex Legends cheats a HWID spoofer. Každý z nich má svůj vlastní klíč."
       }
     ]
   },
@@ -219,10 +219,10 @@
     "eyebrow": "Průvodce nastavením",
     "titleLead": "Od platby k prvnímu serveru za pouhé",
     "titleHighlight": "tři jednoduché kroky",
-    "intro": "Začátek obnáší kontrolu stavu, nákup a poté portál loader. Po Vanguard nebo aktualizaci hry si před spuštěním VALORANT přečtěte stránku stavu.",
+    "intro": "Začátek obnáší kontrolu stavu, nákup a poté portál loader. Po EA Javelin nebo aktualizaci hry si před spuštěním Apex Legends přečtěte stránku stavu.",
     "ctaPrimary": "Zobrazit produkty",
     "ctaSecondary": "Časté dotazy k nastavení",
-    "ctaPrimaryHref": "/products/valorant-cheats/",
+    "ctaPrimaryHref": "/products/apex-legends-cheats/",
     "ctaSecondaryHref": "/faq/",
     "statusStrip": {
       "aceStatusCta": "Zkontrolovat stav",
@@ -256,14 +256,14 @@
       {
         "step": "Krok 3",
         "title": "Zkontrolovat stav a spustit",
-        "desc": "Ověřte, že je štítek stavu pro tohoto klienta ZELENÝ, a poté otevřete VALORANT."
+        "desc": "Ověřte, že je štítek stavu pro tohoto klienta ZELENÝ, a poté otevřete Apex Legends."
       }
     ]
   },
   "compatibility": {
     "eyebrow": "Podpora platformy",
     "title": "Funguje na vašem železe.",
-    "subtitle": "Po aktualizaci Valorant nebo Vanguard zkontrolujte stránku stavu, než hru načtete.",
+    "subtitle": "Po aktualizaci Apex Legends nebo EA Javelin zkontrolujte stránku stavu, než hru načtete.",
     "items": [
       "Windows 10 a 11",
       "Intel nebo AMD",
@@ -277,7 +277,7 @@
   },
   "cheats": {
     "eyebrow": "Herní cheat",
-    "title": "Cheats for Valorant",
+    "title": "Apex legends cheat",
     "subtitle": "Možnosti Aimbot, vizuální možnosti hráčů, vizuální možnosti světa a různé možnosti v jedné licenci.",
     "viewAll": "Zobrazit podrobnosti",
     "explore": "Prozkoumat",
@@ -285,8 +285,8 @@
       {
         "badge": "Aktivní",
         "tier": "Kompletní sada",
-        "name": "Valorant",
-        "title": "Cheats for Valorant",
+        "name": "Apex Legends",
+        "title": "Apex legends cheat",
         "desc": "Menu Windows s možnostmi Aimbot, vizuálními možnostmi hráčů, vizuálními možnostmi světa a různými možnostmi.",
         "features": [
           "Možnosti Aimbot",
@@ -295,14 +295,14 @@
           "Různé možnosti"
         ],
         "more": 0,
-        "href": "/products/valorant-cheats/loader/",
+        "href": "/products/apex-legends-cheats/loader/",
         "variant": "popular"
       }
     ]
   },
   "products": {
     "eyebrow": "Produkty",
-    "title": "Valorant Hacks for PC",
+    "title": "Apex Legends cheats for PC",
     "subtitle": "Menu: $35 for 31 days nebo $150 lifetime. HWID spoofer: $50 for 31 days nebo $150 lifetime.",
     "viewAll": "Zobrazit podrobnosti",
     "get": "Koupit nyní",
@@ -321,15 +321,15 @@
           "Pracovní postup portálu"
         ],
         "more": 4,
-        "href": "/products/valorant-cheats/hwid-spoofer/"
+        "href": "/products/apex-legends-cheats/hwid-spoofer/"
       }
     ]
   },
   "blog": {
     "eyebrow": "Blog",
     "title": "Návody a aktualizace",
-    "subtitle": "Poznámky k vlastním hrám, návody pro ESP a aimbot, srovnání Vanguard a odpovědi na otázky ohledně cen.",
-    "latestTitle": "Nejnovější návody pro Valorant",
+    "subtitle": "Poznámky k vlastním hrám, návody pro ESP a aimbot, srovnání EA Javelin a odpovědi na otázky ohledně cen.",
+    "latestTitle": "Nejnovější návody pro Apex Legends",
     "latestSubtitle": "Filtrujte podle tématu nebo řaďte a najděte návody na nastavení, podrobné rozbory funkcí a poznámky k patchům.",
     "filterAll": "Všechny články",
     "sortLabel": "Řadit podle",
@@ -420,7 +420,7 @@
     "titleHighlight": "uložený profil.",
     "subtitle": "Přímá cesta od štítku stavu k pokladně.",
     "ctaLabel": "Zobrazit produkty",
-    "ctaHref": "/products/valorant-cheats/",
+    "ctaHref": "/products/apex-legends-cheats/",
     "ctaSecondary": "Často kladené dotazy k nastavení",
     "ctaSecondaryHref": "/faq/",
     "items": [
@@ -428,7 +428,7 @@
         "num": "01",
         "phase": "Před nákupem",
         "title": "Přečtěte si štítek stavu",
-        "desc": "ZELENÁ znamená, že poznámka uvádí soubor k načtení. ČERVENÁ znamená počkat. Přečtěte si to po aktualizaci Valorant nebo Vanguard."
+        "desc": "ZELENÁ znamená, že poznámka uvádí soubor k načtení. ČERVENÁ znamená počkat. Přečtěte si to po aktualizaci Apex Legends nebo EA Javelin."
       },
       {
         "num": "02",
@@ -452,12 +452,12 @@
   },
   "fieldNotes": {
     "eyebrow": "Poznámky z terénu",
-    "title": "Vytvořeno pro VALORANT na Windows PC.",
+    "title": "Vytvořeno pro Apex Legends na Windows PC.",
     "items": [
       {
         "num": "01",
         "title": "Kontrola v den patche",
-        "desc": "Přečtěte si stránku stavu po aktualizaci Vanguard nebo klienta. Včerejší banner není aktuální sestavení."
+        "desc": "Přečtěte si stránku stavu po aktualizaci EA Javelin nebo klienta. Včerejší banner není aktuální sestavení."
       },
       {
         "num": "02",
@@ -467,13 +467,13 @@
       {
         "num": "03",
         "title": "Samostatné produkty",
-        "desc": "Cheaty pro Valorant a HWID spoofer mají samostatnou pokladnu. Lifetime u jednoho neodemkne druhý."
+        "desc": "Cheaty pro Apex Legends a HWID spoofer mají samostatnou pokladnu. Lifetime u jednoho neodemkne druhý."
       }
     ]
   },
   "support": {
     "eyebrow": "Podpora",
-    "title": "Podpora pro Valorant",
+    "title": "Podpora pro Apex Legends",
     "subtitle": "Dejte nám vědět, jak vám můžeme pomoci.",
     "channels": [
       {
@@ -509,7 +509,7 @@
     "ticketItems": [
       {
         "title": "E-mail objednávky",
-        "desc": "Adresa použitá při platbě na cheats-valorant.org."
+        "desc": "Adresa použitá při platbě na cheatsapexlegends.com."
       },
       {
         "title": "Platforma",
@@ -531,13 +531,13 @@
         "topic": "setup",
         "icon": "faqStatus",
         "q": "Kde zjistím, zda je loader aktuální?",
-        "a": "Přečtěte si cheats-valorant.org po aktualizaci VALORANT nebo Vanguard. Banner ze včerejšího dne není aktuální sestavení. Nechávejte loader zavřený, dokud stránka neodpovídá tomuto klientovi."
+        "a": "Přečtěte si cheatsapexlegends.com po aktualizaci Apex Legends nebo EA Javelin. Banner ze včerejšího dne není aktuální sestavení. Nechávejte loader zavřený, dokud stránka neodpovídá tomuto klientovi."
       },
       {
         "id": "season-3",
         "topic": "setup",
         "icon": "faqStatus",
-        "q": "Právě vyšla velká aktualizace VALORANT. Kdy mám otevřít loader?",
+        "q": "Právě vyšla velká aktualizace Apex Legends. Kdy mám otevřít loader?",
         "a": "Přečtěte si stránku stavu po sestavení tohoto klienta a po každé opravě hotfix ještě před spuštěním. Uložené config ze staršího sestavení nepředstavuje aktuální kontrolu. Ban je stále možný.",
         "aHtml": "Přečtěte si <a href=\"/status/\">stránku stavu</a> po sestavení tohoto klienta a po každé opravě hotfix ještě před spuštěním. Uložené config ze staršího sestavení nepředstavuje aktuální kontrolu. Ban je stále možný."
       },
@@ -546,8 +546,8 @@
         "topic": "setup",
         "icon": "faqStatus",
         "q": "Změní herní patch nabídku loader přes noc?",
-        "a": "Aktualizace hry mohou změnit mapy, režimy a vyvážení. Odkazem jsou názvy skupin loader na stránce produktu cheatů – předpokládáte-li, že vaše uložená předvolba stále platí, přečtěte si po každé aktualizaci klienta nebo Vanguard poznámku o stavu.",
-        "aHtml": "Aktualizace hry mohou změnit mapy, režimy a vyvážení. Odkazem jsou názvy skupin loader na stránce produktu cheatů – předpokládáte-li, že vaše uložená předvolba stále platí, přečtěte si po každé aktualizaci klienta nebo Vanguard <a href=\"/status/\">stránku stavu</a>."
+        "a": "Aktualizace hry mohou změnit mapy, režimy a vyvážení. Odkazem jsou názvy skupin loader na stránce produktu cheatů – předpokládáte-li, že vaše uložená předvolba stále platí, přečtěte si po každé aktualizaci klienta nebo EA Javelin poznámku o stavu.",
+        "aHtml": "Aktualizace hry mohou změnit mapy, režimy a vyvážení. Odkazem jsou názvy skupin loader na stránce produktu cheatů – předpokládáte-li, že vaše uložená předvolba stále platí, přečtěte si po každé aktualizaci klienta nebo EA Javelin <a href=\"/status/\">stránku stavu</a>."
       },
       {
         "id": "after-buy",
@@ -561,14 +561,14 @@
         "topic": "safety",
         "icon": "faqBanRisk",
         "q": "Můžu dostat ban?",
-        "a": "Ano. Vanguard může vůči účtu zasáhnout. Nic na této stránce negarantuje, že relace zůstane čistá."
+        "a": "Ano. EA Javelin může vůči účtu zasáhnout. Nic na této stránce negarantuje, že relace zůstane čistá."
       },
       {
         "id": "hwid-ban-risk",
         "topic": "safety",
         "icon": "faqBanRisk",
         "q": "Co je to příznak HWID a vyřeší ho klíč k cheatům?",
-        "a": "Hardwarový příznak se váže k zařízení PC. Nové účty na tomto stroji mohou selhat, zatímco na jiném fungují. K tomu slouží <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a>, který se prodává samostatně. Neodstraňuje omezení vázaná pouze na účet a lifetime v <a href=\"/products/valorant-cheats/loader/\">nabídce</a> jej nezahrnuje."
+        "a": "Hardwarový příznak se váže k zařízení PC. Nové účty na tomto stroji mohou selhat, zatímco na jiném fungují. K tomu slouží <a href=\"/products/apex-legends-cheats/hwid-spoofer/\">HWID Spoofer</a>, který se prodává samostatně. Neodstraňuje omezení vázaná pouze na účet a lifetime v <a href=\"/products/apex-legends-cheats/loader/\">nabídce</a> jej nezahrnuje."
       },
       {
         "id": "platforms",
@@ -589,14 +589,14 @@
         "topic": "products",
         "icon": "faqProductsPage",
         "q": "Co je na prodej?",
-        "a": "<a href=\"/products/valorant-cheats/loader/\">Nabídka</a> a <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a> jsou uvedeny na <a href=\"/products/valorant-cheats/\">stránce produktů</a>. Nabídka je $35 for 31 days nebo $150 lifetime. Položka HWID spoofer je $50 for 31 days nebo $150 lifetime. Jedná se o samostatné nákupy."
+        "a": "<a href=\"/products/apex-legends-cheats/loader/\">Nabídka</a> a <a href=\"/products/apex-legends-cheats/hwid-spoofer/\">HWID Spoofer</a> jsou uvedeny na <a href=\"/products/apex-legends-cheats/\">stránce produktů</a>. Nabídka je $35 for 31 days nebo $150 lifetime. Položka HWID spoofer je $50 for 31 days nebo $150 lifetime. Jedná se o samostatné nákupy."
       },
       {
         "id": "plans-same-price",
         "topic": "plans",
         "icon": "faqComparePlans",
         "q": "Obsahuje $150 lifetime položku spoofer?",
-        "a": "Ne. Lifetime na VALORANT cheats platí pouze pro daný produkt. HWID spoofer představuje samostatný klíč s vlastními plány $50 a $150. Kratší plán nezaručuje kredit na nákup lifetime.",
+        "a": "Ne. Lifetime na Apex Legends cheats platí pouze pro daný produkt. HWID spoofer představuje samostatný klíč s vlastními plány $50 a $150. Kratší plán nezaručuje kredit na nákup lifetime.",
         "scopes": [
           "loader",
           "hwid-spoofer"
@@ -627,7 +627,7 @@
         "topic": "scripts",
         "icon": "faqExternalLoader",
         "q": "Jedná se o kartu DMA?",
-        "a": "Ne. VALORANT cheats je položka Windows loader z pokladny. Zařízení DMA představuje jiný produkt a tento klíč ho neposkytuje. Nespouštějte soubor získaný z výsledků vyhledávání.",
+        "a": "Ne. Apex Legends cheats je položka Windows loader z pokladny. Zařízení DMA představuje jiný produkt a tento klíč ho neposkytuje. Nespouštějte soubor získaný z výsledků vyhledávání.",
         "scopes": [
           "loader"
         ]
@@ -637,7 +637,7 @@
         "topic": "products",
         "icon": "faqProductsPage",
         "q": "Kdy je správné zakoupit HWID spoofer?",
-        "a": "Použijte <a href=\"/products/valorant-cheats/hwid-spoofer/\">HWID Spoofer</a>, když nový účet selže na jednom zařízení PC a na jiném funguje. Nevyřeší omezení vázaná pouze na účet na stejném stroji.",
+        "a": "Použijte <a href=\"/products/apex-legends-cheats/hwid-spoofer/\">HWID Spoofer</a>, když nový účet selže na jednom zařízení PC a na jiném funguje. Nevyřeší omezení vázaná pouze na účet na stejném stroji.",
         "scopes": [
           "hwid-spoofer"
         ]
@@ -747,7 +747,7 @@
         "topic": "blog",
         "icon": "faqBlogDefault1",
         "q": "Jsou průvodce na blogu oficiální dokumentací produktu?",
-        "a": "Články vysvětlují pracovní postupy a odkazují na <a href=\"/products/valorant-cheats/loader/\">nabídku</a>. Seznam funkcí na této stránce je směrodatným zdrojem pro pokladnu."
+        "a": "Články vysvětlují pracovní postupy a odkazují na <a href=\"/products/apex-legends-cheats/loader/\">nabídku</a>. Seznam funkcí na této stránce je směrodatným zdrojem pro pokladnu."
       },
       {
         "id": "blog-default-2",
@@ -761,7 +761,7 @@
         "topic": "blog",
         "icon": "faqBlogDefault3",
         "q": "Budou nastavení z tohoto článku fungovat i v příštím patchi?",
-        "a": "Zkontrolujte je znovu po každé aktualizaci VALORANT nebo Vanguard. Místo kopírování starých hodnot posuvníků z příspěvku raději načtěte uloženou položku config."
+        "a": "Zkontrolujte je znovu po každé aktualizaci Apex Legends nebo EA Javelin. Místo kopírování starých hodnot posuvníků z příspěvku raději načtěte uloženou položku config."
       },
       {
         "id": "blog-plan-start",
@@ -820,21 +820,21 @@
     }
   },
   "footer": {
-    "tagline": "Valorant Cheats and HWID spoofer for Windows PC. cheats-valorant.org",
+    "tagline": "Apex Legends cheats and HWID spoofer for Windows PC. cheatsapexlegends.com",
     "explore": "Prozkoumat",
     "exploreLinks": [
       {
-        "href": "/products/valorant-cheats/loader/#features",
+        "href": "/products/apex-legends-cheats/loader/#features",
         "label": "Přehled funkcí",
         "ariaLabel": "Funkce"
       },
       {
-        "href": "/products/valorant-cheats/loader/",
-        "label": "Cheats for Valorant",
-        "ariaLabel": "Cheats for Valorant"
+        "href": "/products/apex-legends-cheats/loader/",
+        "label": "Apex legends cheat",
+        "ariaLabel": "Apex legends cheat"
       },
       {
-        "href": "/products/valorant-cheats/",
+        "href": "/products/apex-legends-cheats/",
         "label": "Všechny produkty",
         "ariaLabel": "Produkty"
       },
@@ -861,8 +861,8 @@
         "ariaLabel": "Blog"
       },
       {
-        "label": "Cheats for Valorant",
-        "ariaLabel": "Cheats for Valorant"
+        "label": "Apex legends cheat",
+        "ariaLabel": "Apex legends cheat"
       },
       {
         "label": "Produkty a nástroje",
@@ -873,12 +873,12 @@
   "legalPages": {
     "about": {
       "title": "O tomto obchodě",
-      "description": "cheats-valorant.org nabízí menu VALORANT a HWID spoofer včetně pokynů k nastavení a upřímného popisu rizika banu.",
+      "description": "cheatsapexlegends.com nabízí menu Apex Legends a HWID spoofer včetně pokynů k nastavení a upřímného popisu rizika banu.",
       "sections": [
         {
           "heading": "Kdo jsme",
           "paragraphs": [
-            "cheats-valorant.org prodává menu Windows pro VALORANT a HWID spoofer. Menu obsahuje: player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot a streamproof overlay.",
+            "cheatsapexlegends.com prodává menu Windows pro Apex Legends a HWID spoofer. Menu obsahuje: player ESP, agent ESP, spike ESP, skeleton ESP, health ESP, rank ESP, aimbot a streamproof overlay.",
             "Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer je $50 for 31 days nebo $150 lifetime. Klíč lifetime k menu nezahrnuje spoofer.",
             "Názvy produktů na těchto stránkách označují to, co prodáváme. Nejedná se o tvrzení, že vydavatel hry endoruje tento software. Doručení probíhá formou stažení přes portál pro Windows 10 nebo 11. Nechte zapnuté HVCI, core isolation, TPM a secure boot a loader otevírejte pouze tehdy, když stránka odpovídá aktuálnímu klientovi."
           ]
@@ -886,10 +886,10 @@
         {
           "heading": "Co publikujeme",
           "paragraphs": [
-            "Na [stránce menu](/products/valorant-cheats/loader/)) najdete názvy modulů a požadavky na PC: Windows 10 nebo 11, procesor Intel Core i5 nebo AMD Ryzen 5 a lepší, se zapnutým HVCI, core isolation, TPM a secure boot. Na [stránce produktů](/products/valorant-cheats/)) můžete porovnat menu a [HWID Spoofer](/products/valorant-cheats/hwid-spoofer/).).",
-            "Návody na [blogu](/blog/)) pokrývají player ESP, aimbot, přepínače pro vlastní hry, srovnání Vanguard a VAC a situace, kdy je hardwarový příznak nutno zakoupit zvlášť od menu. [Fórum](/forum/)) slouží k těm samým dotazům, přičemž odpovědi vývojářů jsou označeny v(/na) vlákně. Před nákupem si přečtěte [podmínky](/terms/)). Prodeje jsou konečné, včetně banů.",
-            "Vanguard může stále zasáhnout proti účtu. Nic zde nezaručuje, že relace zůstane čistá po příští záplatě. Zkontrolujte tyto stránky po aktualizaci klienta, než otevřete loader. Pokud stránka neodpovídá dané verzi, software nezapínejte.",
-            "Poznámky ke stavu na domovské stránce uvádějí, zda publikovaná verze stále odpovídá klientovi. Nejsou slibem, že Vanguard bude software ignorovat. Pokud si nejste jistí, nechte loader zavřené a před dalším spuštěním matchmakingu si přečtěte odpovídající návod na blogu."
+            "Na [stránce menu](/products/apex-legends-cheats/loader/)) najdete názvy modulů a požadavky na PC: Windows 10 nebo 11, procesor Intel Core i5 nebo AMD Ryzen 5 a lepší, se zapnutým HVCI, core isolation, TPM a secure boot. Na [stránce produktů](/products/apex-legends-cheats/)) můžete porovnat menu a [HWID Spoofer](/products/apex-legends-cheats/hwid-spoofer/).).",
+            "Návody na [blogu](/blog/)) pokrývají player ESP, aimbot, přepínače pro vlastní hry, srovnání EA Javelin a VAC a situace, kdy je hardwarový příznak nutno zakoupit zvlášť od menu. [Fórum](/forum/)) slouží k těm samým dotazům, přičemž odpovědi vývojářů jsou označeny v(/na) vlákně. Před nákupem si přečtěte [podmínky](/terms/)). Prodeje jsou konečné, včetně banů.",
+            "EA Javelin může stále zasáhnout proti účtu. Nic zde nezaručuje, že relace zůstane čistá po příští záplatě. Zkontrolujte tyto stránky po aktualizaci klienta, než otevřete loader. Pokud stránka neodpovídá dané verzi, software nezapínejte.",
+            "Poznámky ke stavu na domovské stránce uvádějí, zda publikovaná verze stále odpovídá klientovi. Nejsou slibem, že EA Javelin bude software ignorovat. Pokud si nejste jistí, nechte loader zavřené a před dalším spuštěním matchmakingu si přečtěte odpovídající návod na blogu."
           ]
         },
         {
@@ -902,12 +902,12 @@
     },
     "privacy": {
       "title": "Zásady ochravacy soukromí",
-      "description": "Jak cheats-valorant.org nakládá s analytikou, soubory cookie a kontaktními údaji.",
+      "description": "Jak cheatsapexlegends.com nakládá s analytikou, soubory cookie a kontaktními údaji.",
       "sections": [
         {
           "heading": "Informace, které shromažďujeme",
           "paragraphs": [
-            "Prostřednictvím služby Google Analytics můžeme (pokud je povolena) shromažďovat standardní webové statistiky, jako jsou zobrazení stránek, typ zařízení, prohlížeč a přibližný region. Pokladna a doručování licencí probíhají na externích stránkách. Data platebních karet na cheats-valorant.org neukládáme."
+            "Prostřednictvím služby Google Analytics můžeme (pokud je povolena) shromažďovat standardní webové statistiky, jako jsou zobrazení stránek, typ zařízení, prohlížeč a přibližný region. Pokladna a doručování licencí probíhají na externích stránkách. Data platebních karet na cheatsapexlegends.com neukládáme."
           ]
         },
         {
@@ -932,26 +932,26 @@
     },
     "terms": {
       "title": "Podmínky použití",
-      "description": "Podmínky nákupu, licencí, vrácení peněz a používání produktů prodávaných na cheats-valorant.org.",
+      "description": "Podmínky nákupu, licencí, vrácení peněz a používání produktů prodávaných na cheatsapexlegends.com.",
       "sections": [
         {
           "heading": "Souhlas",
           "paragraphs": [
-            "Naposledy aktualizováno: říjen 2026. Používáním cheats-valorant.org nebo dokončením objednávky libovolného produktu zde vyjadřujete souhlas s těmito Podmínkami použití a našimi Zásadami ochrany osobnícvacch údajů."
+            "Naposledy aktualizováno: říjen 2026. Používáním cheatsapexlegends.com nebo dokončením objednávky libovolného produktu zde vyjadřujete souhlas s těmito Podmínkami použití a našimi Zásadami ochrany osobnícvacch údajů."
           ]
         },
         {
           "heading": "Co kupujete",
           "paragraphs": [
-            "Prodáváme VALORANT menu a HWID spoofer. Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer je $50 for 31 days nebo $150 lifetime. Každý produkt představuje samostatnou licenci.",
-            "Seznamy funkcí na stránce každého produktu popisují, co je součástí v době nákupu. Moduly se mohou měnit při aktualizaci VALORANT nebo Vanguard. lifetime menu key nezahrnuje spoofer."
+            "Prodáváme Apex Legends menu a HWID spoofer. Menu je $35 for 31 days nebo $150 lifetime. HWID spoofer je $50 for 31 days nebo $150 lifetime. Každý produkt představuje samostatnou licenci.",
+            "Seznamy funkcí na stránce každého produktu popisují, co je součástí v době nákupu. Moduly se mohou měnit při aktualizaci Apex Legends nebo EA Javelin. lifetime menu key nezahrnuje spoofer."
           ]
         },
         {
           "heading": "Platba a doručení",
           "paragraphs": [
-            "Platba a doručení licence probíhají na externích stránkách pokladny. cheats-valorant.org nezpracovává ani neukládá čísla platebních karet.",
-            "Po nákupu použijte portál ze své objednávky ke stažení aktuálního loader před spuštěním VALORANT. Nechte HVCI, core isolation, TPM a secure boot zapnuté."
+            "Platba a doručení licence probíhají na externích stránkách pokladny. cheatsapexlegends.com nezpracovává ani neukládá čísla platebních karet.",
+            "Po nákupu použijte portál ze své objednávky ke stažení aktuálního loader před spuštěním Apex Legends. Nechte HVCI, core isolation, TPM a secure boot zapnuté."
           ]
         },
         {
@@ -963,7 +963,7 @@
         {
           "heading": "Vrácení peněz a nákupy",
           "paragraphs": [
-            "Všechny prodeje jsou po dokončení platby konečné. Neposkytujeme náhrady za nákupy rozmyšlené dodatečně, bany účtů, penalizace Vanguard ani za problémy způsobené ignorováním pokynů k nastavení nebo spuštěním v době, kdy stránka není pro danou aktualizaci aktuální.",
+            "Všechny prodeje jsou po dokončení platby konečné. Neposkytujeme náhrady za nákupy rozmyšlené dodatečně, bany účtů, penalizace EA Javelin ani za problémy způsobené ignorováním pokynů k nastavení nebo spuštěním v době, kdy stránka není pro danou aktualizaci aktuální.",
             "Pokud produkt nefunguje podle popisu na podporované sestavě – Windows 10 nebo 11 se zapnutými HVCI, core isolation, TPM a secure boot a s aktuálním loader z portálu – kontaktujte nás prostřednictvím stránky Podpory. Uveďte e-mail z objednávky, verzi Windows a přesný text loader.",
             "Můžeme dle vlastního uvážení nabídnout opravu, náhradní přístup nebo částečnou/full náhradu peněz, jakmile potvrdíme chybu na naší straně. Nemáme povinnost schválit každou žádost."
           ]
@@ -971,7 +971,7 @@
         {
           "heading": "Dostupnost a riziko",
           "paragraphs": [
-            "Nástroje třetích stran pro VALORANT mohou být v konfliktu s aktualizacemi her a Vanguard. Tento software používáte na vlastní nebezpečí, včetně možných postihů účtu.",
+            "Nástroje třetích stran pro Apex Legends mohou být v konfliktu s aktualizacemi her a EA Javelin. Tento software používáte na vlastní nebezpečí, včetně možných postihů účtu.",
             "Před každou relací zkontrolujte stavový banner na úvodní stránce. Nepřipojujte se na svůj hlavní server, pokud jsou moduly offline nebo po aktualizaci nesprávně nastavené."
           ]
         },
@@ -990,8 +990,8 @@
       ]
     },
     "support": {
-      "title": "Podpora pro Valorant",
-      "description": "Nápověda pro Loader, HWID spoofer a pokladnu pro cheats-valorant.org."
+      "title": "Podpora pro Apex Legends",
+      "description": "Nápověda pro Loader, HWID spoofer a pokladnu pro cheatsapexlegends.com."
     }
   },
   "productCatalog": {
@@ -1025,9 +1025,9 @@
     "skipLink": "Přejít na hlavní obsah",
     "browseCheats": "Vyzkoušet ihned",
     "browseCheatsMobile": "Zahájit objednávku",
-    "homeAria": "Valorant Cheats domů",
+    "homeAria": "Apex Legends cheats domů",
     "checkoutAria": "Zahájit objednávku",
-    "discordAria": "Koupit Valorant Cheats",
+    "discordAria": "Koupit Apex Legends cheats",
     "menuOpen": "Otevřít nabídku",
     "menuClose": "Zavřít nabídku",
     "themeLight": "Přepnout na světlý režim",
@@ -1072,7 +1072,7 @@
     "badgeActive": "Aktivní",
     "cards": {
       "cheats": {
-        "title": "Cheats for Valorant",
+        "title": "Apex legends cheat",
         "desc": "Aimbot Možnosti, Vizuální možnosti hráčů, Vizuální možnosti světa a Různé možnosti."
       },
       "spoofer": {
@@ -1089,11 +1089,11 @@
       },
       "status": {
         "title": "Stav",
-        "desc": "ZELENÁ nebo ČERVENÁ před spuštěním plus upozornění na aktualizace Vanguard."
+        "desc": "ZELENÁ nebo ČERVENÁ před spuštěním plus upozornění na aktualizace EA Javelin."
       },
       "faq": {
         "title": "FAQ",
-        "desc": "Plány, nastavení, riziko Vanguard a produkty."
+        "desc": "Plány, nastavení, riziko EA Javelin a produkty."
       },
       "support": {
         "title": "Podpora",
@@ -1135,7 +1135,7 @@
     "code": "404",
     "title": "Stránka nenalezena",
     "description": "Tato URL adresa neexistuje nebo možná byla přesunuta. Vraťte se na domovskou stránku nebo si projděte produkty.",
-    "metaDescription": "Požadovaná stránka nebyla na cheats-valorant.org nalezena.",
+    "metaDescription": "Požadovaná stránka nebyla na cheatsapexlegends.com nalezena.",
     "metaTitleSuffix": "Stránka nenalezena",
     "backHome": "Zpět domů",
     "viewProducts": "Zobrazit produkty",
@@ -1145,10 +1145,10 @@
     "eyebrow": "Poznámky k patchům",
     "title": "Stavový štítek před spuštěním",
     "subtitle": "ZELENÁ znamená, že aktuální soubor je připraven k načtení. ČERVENÁ znamená počkat.",
-    "pageDesc": "Mezníky Vanguard v roce 2026 zahrnovaly květnovou aktualizaci zaměřenou na DMA, červnové základy na vyžádání a listopadový rámec integrity. Po každém z těchto kroků nebo herním patchi si před spuštěním přečtěte tuto stránku. ZELENÁ znamená načíst. ČERVENÁ znamená počkat. Aktualizováno neznamená záruku.",
+    "pageDesc": "Mezníky EA Javelin v roce 2026 zahrnovaly květnovou aktualizaci zaměřenou na DMA, červnové základy na vyžádání a listopadový rámec integrity. Po každém z těchto kroků nebo herním patchi si před spuštěním přečtěte tuto stránku. ZELENÁ znamená načíst. ČERVENÁ znamená počkat. Aktualizováno neznamená záruku.",
     "breadcrumb": "Stav",
-    "aceReminderLabel": "Vanguard připomenutí",
-    "aceReminder": "Zkontrolujte tuto stránku po každém Vanguard nebo aktualizaci klienta — včetně květnového vydání 2026 zaměřeného na DMA a listopadového rámce integrity 2026. ZELENÁ znamená načíst. ČERVENÁ znamená počkat.",
+    "aceReminderLabel": "EA Javelin připomenutí",
+    "aceReminder": "Zkontrolujte tuto stránku po každém EA Javelin nebo aktualizaci klienta — včetně květnového vydání 2026 zaměřeného na DMA a listopadového rámce integrity 2026. ZELENÁ znamená načíst. ČERVENÁ znamená počkat.",
     "recentTitle": "Nedávné aktualizace",
     "activeLinePrefix": "Naposledy zkontrolováno",
     "activeLineActive": "Aktivní",
@@ -1161,49 +1161,49 @@
         "title": "Integritní rámec VCT 2027",
         "icon": "shield",
         "when": "5. listopadu 2026",
-        "summary": "Riot nastínil rutinu Vanguard Pre-Check pro kvalifikace v otevřených soutěžích. Online týmy nyní čelí přísnější kontrole softwarové vrstvy a kontrole procesů na pozadí před zápasem. Tento obchod nepopisuje, jak tuto kontrolu projít. Přečtěte si štítek stavu pro tuto nabídku po poznámce a považujte pravidla turnaje za oddělená od běžné fronty."
+        "summary": "Riot nastínil rutinu EA Javelin Pre-Check pro kvalifikace v otevřených soutěžích. Online týmy nyní čelí přísnější kontrole softwarové vrstvy a kontrole procesů na pozadí před zápasem. Tento obchod nepopisuje, jak tuto kontrolu projít. Přečtěte si štítek stavu pro tuto nabídku po poznámce a považujte pravidla turnaje za oddělená od běžné fronty."
       },
       {
         "id": "vanguard-on-demand",
-        "title": "Vanguard na vyžádání a standardy Windows 11",
+        "title": "EA Javelin na vyžádání a standardy Windows 11",
         "icon": "settings",
         "when": "Červen 2026",
-        "summary": "Režim na vyžádání Vanguard může zůstat vypnutý, když je VALORANT zavřený, ale jeho zapnutí vynucuje přísnější standard Windows 11: HVCI, VBS a TPM 2.0. To uzavírá běžné mezery pro injectory. Ponechte tyto funkce zapnuté v sestavě, proti které načítáte. Tato stránka nedokumentuje postupy pro obejití."
+        "summary": "Režim na vyžádání EA Javelin může zůstat vypnutý, když je Apex Legends zavřený, ale jeho zapnutí vynucuje přísnější standard Windows 11: HVCI, VBS a TPM 2.0. To uzavírá běžné mezery pro injectory. Ponechte tyto funkce zapnuté v sestavě, proti které načítáte. Tato stránka nedokumentuje postupy pro obejití."
       },
       {
         "id": "dma-may-2026",
-        "title": "22. května 2026 — Aktualizace Vanguard zaměřená na DMA",
+        "title": "22. května 2026 — Aktualizace EA Javelin zaměřená na DMA",
         "icon": "alert",
         "when": "22. května 2026",
-        "summary": "Riot se zaměřil na externí nastavení přímého přístupu do paměti (DMA) SATA/NVMe a související obcházení firmwaru. Veřejná diskuse se soustředila na IOMMU Windows a přemapování DMA blokující škodlivé DLL soubory zařízení. Riot uvedl, že legitimní hardware není fyzicky zničen; nelegitimní konfigurace config cheats mohou na této PC selhat. Tento obchod prodává Windows loader, nikoli kartu DMA. Blogový příspěvek „Časová osa zabezpečení Vanguard (2026)“ shrnuje stejná data."
+        "summary": "Riot se zaměřil na externí nastavení přímého přístupu do paměti (DMA) SATA/NVMe a související obcházení firmwaru. Veřejná diskuse se soustředila na IOMMU Windows a přemapování DMA blokující škodlivé DLL soubory zařízení. Riot uvedl, že legitimní hardware není fyzicky zničen; nelegitimní konfigurace config cheats mohou na této PC selhat. Tento obchod prodává Windows loader, nikoli kartu DMA. Blogový příspěvek „Časová osa zabezpečení EA Javelin (2026)“ shrnuje stejná data."
       },
       {
         "id": "status-label",
         "title": "Štítek stavu",
         "icon": "shield",
         "when": "8. listopadu 2026",
-        "summary": "ZELENÁ znamená, že tato poznámka uvádí aktuální soubor k načtení. ČERVENÁ znamená počkat. Přečtěte si tuto stránku po aktualizaci VALORANT nebo Vanguard před spuštěním. Štítek není tvrzením o nezjistitelnosti a neznamená, že zápas zůstane čistý."
+        "summary": "ZELENÁ znamená, že tato poznámka uvádí aktuální soubor k načtení. ČERVENÁ znamená počkat. Přečtěte si tuto stránku po aktualizaci Apex Legends nebo EA Javelin před spuštěním. Štítek není tvrzením o nezjistitelnosti a neznamená, že zápas zůstane čistý."
       },
       {
         "id": "menu-covers",
         "title": "Co nabídka pokrývá",
         "icon": "mapHack",
         "when": "8. listopadu 2026",
-        "summary": "Zveřejněná nabídka uvádí možnosti Aimbot, vizuální možnosti hráčů, vizuální možnosti světa a různé možnosti. Klávesová zkratka bojového režimu skrývá schopnosti a pasti ESP. Neodstraňuje riziko Vanguard."
+        "summary": "Zveřejněná nabídka uvádí možnosti Aimbot, vizuální možnosti hráčů, vizuální možnosti světa a různé možnosti. Klávesová zkratka bojového režimu skrývá schopnosti a pasti ESP. Neodstraňuje riziko EA Javelin."
       },
       {
         "id": "pc-requirements",
         "title": "Požadavky PC",
         "icon": "settings",
         "when": "8. listopadu 2026",
-        "summary": "Windows 10 nebo 11, Intel Core i5 nebo AMD Ryzen 5 nebo lepší a nejnovější klient VALORANT PC. Ponechte zapnuté HVCI, Core Isolation, TPM a Secure Boot."
+        "summary": "Windows 10 nebo 11, Intel Core i5 nebo AMD Ryzen 5 nebo lepší a nejnovější klient Apex Legends PC. Ponechte zapnuté HVCI, Core Isolation, TPM a Secure Boot."
       },
       {
         "id": "updated-claim",
         "title": "„Aktualizováno“ není tvrzení o nezjistitelnosti",
         "icon": "alert",
         "when": "7. listopadu 2026",
-        "summary": "Aktualizováno znamená, že tato poznámka byla obnovena. Neznamená to, že loader je nezjistitelný, a neznamená to, že zápas zůstane čistý po příští aktualizaci Vanguard nebo hry."
+        "summary": "Aktualizováno znamená, že tato poznámka byla obnovena. Neznamená to, že loader je nezjistitelný, a neznamená to, že zápas zůstane čistý po příští aktualizaci EA Javelin nebo hry."
       },
       {
         "id": "plans",
@@ -1217,7 +1217,7 @@
   "forum": {
     "eyebrow": "Komunita",
     "title": "Fórum: nastavení, rizika a plány",
-    "subtitle": "Vlákna o Valorant cheats, Vanguard versus VAC, přepínačích vlastních her a HWID spoofer. Odpovědi vývojářů jsou označeny.",
+    "subtitle": "Vlákna o Apex Legends cheats, EA Javelin versus VAC, přepínačích vlastních her a HWID spoofer. Odpovědi vývojářů jsou označeny.",
     "breadcrumb": "Fórum",
     "postsAria": "Příspěvky komunity",
     "sortAria": "Řazení příspěvků",
@@ -1244,7 +1244,7 @@
     "previous": "Předchozí",
     "next": "Další",
     "sidebarAboutTitle": "Fórum",
-    "sidebarAboutCopy": "Vlákna o rizicích třetích stran, Vanguard versus VAC, přepínačích vlastních her a HWID spoofer. Odpovědi vývojářů jsou označeny.",
+    "sidebarAboutCopy": "Vlákna o rizicích třetích stran, EA Javelin versus VAC, přepínačích vlastních her a HWID spoofer. Odpovědi vývojářů jsou označeny.",
     "sidebarTopics": "témata",
     "sidebarExploreGuides": "Prozkoumat všechny průvodce",
     "sidebarCommunities": "Komunity",
@@ -1299,10 +1299,10 @@
   },
   "faqPage": {
     "eyebrow": "Centrum nápovědy",
-    "title": "FAQ k plánům, Vanguard a nastavení",
-    "subtitle": "Plány, ESP a aimbot možnosti, HWID spoofer a co zkontrolovat po aktualizaci Vanguard.",
+    "title": "FAQ k plánům, EA Javelin a nastavení",
+    "subtitle": "Plány, ESP a aimbot možnosti, HWID spoofer a co zkontrolovat po aktualizaci EA Javelin.",
     "schemaName": "FAQ — plány, produkty a nastavení",
-    "schemaDescription": "Odpovědi ohledně menu, HWID spoofer, rizika Vanguard a platby na cheats-valorant.org."
+    "schemaDescription": "Odpovědi ohledně menu, HWID spoofer, rizika EA Javelin a platby na cheatsapexlegends.com."
   },
   "siteFaqSection": {
     "allTopicsEyebrow": "Všechna témata",
@@ -1351,7 +1351,7 @@
     "totalFeatures": "Celkem {count}",
     "popularBadge": "Oblíbené",
     "limitedBadge": "Omezené",
-    "gameBadge": "VALORANT",
+    "gameBadge": "Apex Legends",
     "platformBadge": "Windows",
     "systemReqPanel": {
       "title": "Systémové požadavky",
@@ -1386,11 +1386,11 @@
         },
         {
           "label": "Klient",
-          "value": "Nejnovější klient VALORANT PC"
+          "value": "Nejnovější klient Apex Legends PC"
         }
       ],
       "cloudDmaTitle": "Štítek stavu",
-      "cloudDmaDesc": "ZELENÁ znamená, že poznámka uvádí soubor k načtení. ČERVENÁ znamená počkat. Po aktualizaci Vanguard si přečtěte stránku stavu.",
+      "cloudDmaDesc": "ZELENÁ znamená, že poznámka uvádí soubor k načtení. ČERVENÁ znamená počkat. Po aktualizaci EA Javelin si přečtěte stránku stavu.",
       "cloudDmaNote": ""
     }
   },

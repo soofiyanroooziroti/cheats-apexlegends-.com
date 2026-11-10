@@ -76,7 +76,7 @@ const plansJson = JSON.stringify(
 
 const planToggleLabel = (plan: (typeof plans)[number]) => {
   const name =
-    plan.id === 'monthly'
+    plan.id === 'mon'
       ? (pricing.oneMonth ?? catalog.oneMonth ?? '31 days')
       : plan.id === 'threeMonth'
         ? (pricing.threeMonths ?? catalog.threeMonths ?? '31 days')
@@ -170,7 +170,7 @@ const statusBadgeIcon = (text: string): IconName => {
         data-catalog-price-line
       >
         {formatPlanPrice(defaultPlan.priceUsd)}
-        {defaultPlan.id === 'monthly'
+        {defaultPlan.id === 'mon'
           ? (pricing.monthlySuffix ?? catalog.monthlySuffix ?? '')
           : defaultPlan.id === 'threeMonth'
             ? (pricing.threeMonthSuffix ?? catalog.threeMonthSuffix ?? ' / 3 mo')
@@ -219,7 +219,7 @@ const statusBadgeIcon = (text: string): IconName => {
       {
         lifetimePlan && (
           <p class="catalog-card__plan-helper text-[0.65rem] leading-snug text-muted-foreground" data-catalog-plan-helper>
-            {defaultPlan.id === 'monthly'
+            {defaultPlan.id === 'mon'
               ? monthlyPlanNote
               : defaultPlan.id === 'threeMonth'
                 ? threeMonthPlanNote

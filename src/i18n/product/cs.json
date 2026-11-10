@@ -2,7 +2,7 @@
   "steps": [
     {
       "title": "Kontrola stavu",
-      "desc": "Před nákupem zkontrolujte stránku stavu po aktualizaci Valorant nebo Vanguard. ZELENÁ znamená, že poznámka uvádí soubor k načtení. ČERVENÁ znamená počkat."
+      "desc": "Před nákupem zkontrolujte stránku stavu po aktualizaci Apex Legends nebo EA Javelin. ZELENÁ znamená, že poznámka uvádí soubor k načtení. ČERVENÁ znamená počkat."
     },
     {
       "title": "Výběr plánu",
@@ -84,7 +84,7 @@
       }
     ],
     "overview": {
-      "title": "Nabídka Windows pro VALORANT",
+      "title": "Nabídka Windows pro Apex Legends",
       "paragraphs": [
         "Jedna licence pokrývá možnosti Aimbot, vizuální možnosti hráčů, vizuální možnosti světa a různé možnosti – stejná nabídka u každého plánu.",
         "Před spuštěním si přečtěte stránku stavu. $35 for 31 days nebo $150 lifetime."
@@ -108,14 +108,14 @@
         "text": "31denní plán je $35. Lifetime je $150 jednorázově. Asi čtyři 31denní obnovení za $35 se rovnají lifetime."
       }
     ],
-    "goodToKnow": "Valorant a Vanguard se často aktualizují. Před spuštěním si přečtěte stránku stavu. ZELENÁ znamená, že poznámka uvádí tento soubor. ČERVENÁ znamená počkat. Chování overlay se může po záplatě změnit.",
-    "limitations": "Software třetích stran může porušovat podmínky hry a vést k banům. Tento software používáte na vlastní nebezpečí. Kompatibilita se může změnit po aktualizaci hry, Vanguard nebo Windows. Streamproof toto riziko neodstraňuje.",
+    "goodToKnow": "Apex Legends a EA Javelin se často aktualizují. Před spuštěním si přečtěte stránku stavu. ZELENÁ znamená, že poznámka uvádí tento soubor. ČERVENÁ znamená počkat. Chování overlay se může po záplatě změnit.",
+    "limitations": "Software třetích stran může porušovat podmínky hry a vést k banům. Tento software používáte na vlastní nebezpečí. Kompatibilita se může změnit po aktualizaci hry, EA Javelin nebo Windows. Streamproof toto riziko neodstraňuje.",
     "requirements": [
       "HVCI ZAPNUTÉ · CORE ISOLATION ZAPNUTÉ · TPM ZAPNUTÉ · SECURE BOOT ZAPNUTÉ",
       "Windows 10 nebo 11 na podporovaných sestavách",
       "Intel Core i5 nebo AMD Ryzen 5 nebo lepší",
-      "Stabilní internet · nejnovější klient VALORANT PC",
-      "Klient: oficiální klient VALORANT PC"
+      "Stabilní internet · nejnovější klient Apex Legends PC",
+      "Klient: oficiální klient Apex Legends PC"
     ]
   },
   "spoofer": {
@@ -161,7 +161,7 @@
         "text": "$50 for 31 days nebo $150 lifetime"
       }
     ],
-    "goodToKnow": "Nástroje HWID mění, jak vypadá otisk vašeho PC. Neodstraňují postihy platné pouze pro účet. Než znovu spustíte VALORANT, přečtěte si poznámky na portálu.",
+    "goodToKnow": "Nástroje HWID mění, jak vypadá otisk vašeho PC. Neodstraňují postihy platné pouze pro účet. Než znovu spustíte Apex Legends, přečtěte si poznámky na portálu.",
     "limitations": "Používání spooferu obnáší technická rizika a může porušovat podmínky hry. Výsledky se liší podle typu zákazu a nastavení ovladačů. Používejte pouze na systémech, které vlastníte.",
     "requirements": [
       "Windows 10 nebo 11 64-bit s oprávněním správce.",

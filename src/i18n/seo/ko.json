@@ -1,0 +1,164 @@
+{
+  "site": {
+    "title": "Apex Legends cheats",
+    "description": "Apex Legends용 Aimbot, Player Visuals, World/Loot, 및 Misc 메뉴 그룹 (Windows PC). USD pricing."
+  },
+  "pages": {
+    "/": {
+      "title": "Apex legends cheats for Windows PC | Menu & Spoofer",
+      "description": "Apex legends cheats on Windows: player visuals, loot readouts, aim tuning, $35 and $150 plans, live status labels, and EA Javelin setup notes before you load."
+    },
+    "/products/apex-legends-cheats/": {
+      "title": "Products | Menu $35 & $150 · HWID Spoofer",
+      "description": "Windows menu and HWID spoofer with separate checkouts. Menu $35 for 31 days or $150 lifetime; spoofer $50 or $150."
+    },
+    "/products/apex-legends-cheats/loader/": {
+      "title": "Apex legends cheat | Aimbot, Player & Loot Visuals",
+      "description": "Four menu groups: Aimbot, Player Visuals, World/Loot, and Misc. $35 for 31 days or $150 lifetime on Windows PC."
+    },
+    "/products/apex-legends-cheats/hwid-spoofer/": {
+      "title": "Apex legends spoofer | HWID Recovery on PC",
+      "description": "Apex legends spoofer 하드웨어 플래그용. $50 for 31 days 또는 $150 lifetime. 계정 전용 페널티는 해제되지 않습니다."
+    },
+    "/products/apex-legends-cheats/utilities/": {
+      "title": "HWID Spoofer 유틸리티 개요",
+      "description": "하드웨어 플래그로 인해 하나의 PC에서 새 계정이 차단될 때, HWID spoofer는 메뉴와는 별도의 결제 항목입니다."
+    },
+    "/blog/": {
+      "title": "Apex Legends 가이드 허브 | 설정, Javelin 및 요금제",
+      "description": "loader 설정, EA Javelin 패치 일자, 오버레이 튜닝, Reddit 주장, HWID 플래그, streamproof overlay 및 $35 / $150 결제 노트에 대한 가이드."
+    },
+    "/forum/": {
+      "title": "설정, 위험 및 계획에 관한 커뮤니티 Threads",
+      "description": "서드파티 위험, 다른 anti-chea와의 Javelin 비교, 프리셋 튜닝 및 HWID spoofer에 관한 닫힌 threads입니다."
+    },
+    "/faq/": {
+      "title": "플랜, Javelin 및 설정 참고 사항에 대한 FAQ",
+      "description": "$35 및 $150 플랜, EA Javelin 업데이트, Windows 요구 사항, 하드웨어 플래그, 메뉴와 spoofer의 차이점에 대한 답변입니다."
+    },
+    "/support/": {
+      "title": "Loader, 결제 및 설정 지원",
+      "description": "메뉴와 HWID spoofer에 대한 Loader, 결제 및 포털 지원입니다. 주문 이메일을 포함해 주세요."
+    },
+    "/about/": {
+      "title": "About cheatsapexlegends.com | Delivery, Pricing, Risk",
+      "description": "Who runs this store, what the menu and HWID spoofer include, Windows portal delivery, Javelin ban risk, and how status and support fit checkout."
+    },
+    "/privacy/": {
+      "title": "Privacy notes for analytics, cookies, and contact",
+      "description": "How this store handles analytics, cookies, and contact data. Payment card numbers stay on the checkout provider."
+    },
+    "/terms/": {
+      "title": "License terms, refunds, and acceptable use",
+      "description": "License terms, acceptable use, and the no-refund rule for the loader and HWID spoofer sold here."
+    },
+    "/status/": {
+      "title": "상태 라벨 및 EA Javelin 패치 노트",
+      "description": "GREEN means load. RED means wait. Store lineup and Javelin patch reminders—read before you launch Apex Legends."
+    },
+    "/blog/24-7-support/": {
+      "title": "24/7 지원 팀과 함께 연중무휴 도움 받기",
+      "description": "24/7 support needs the order email, your Windows version, and the exact text on screen. A ticket cannot undo a publisher action or replace the portal download."
+    },
+    "/blog/apex-legend-cheating-ranked/": {
+      "title": "Apex Legend Cheating in Ranked: What Players Should Know",
+      "description": "Apex legend cheating in ranked puts the season, the account, and the PC on the same decision. Read the status label before you queue."
+    },
+    "/blog/stream-proof/": {
+      "title": "Stream Safely Without Showing Hacks to Your Audience",
+      "description": "Stream Proof is meant to keep the menu off typical local capture while you still see it. Test your own software before you go live. A teammate's recording is a different camera."
+    },
+    "/blog/loot-esp/": {
+      "title": "Secure High-Tier Gear Instantly Using Loot ESP",
+      "description": "Loot labels are for bins, death boxes, and care packages while you path. Hide them when the fight starts so ground text is not a combat overlay."
+    },
+    "/blog/no-recoil/": {
+      "title": "Hit Every Shot by Eliminating Weapon Recoil Entirely",
+      "description": "No Recoil is a separate control for gun kick. Test it without aim smoothing, and expect long bursts to climb anyway."
+    },
+    "/blog/weapon-esp/": {
+      "title": "Custom Weapon ESP로 최고의 총기를 빠르게 찾으세요",
+      "description": "적의 손에 든 무기를 미리 파악하세요. 교전이 시작되면 레이블이 시야를 가리지 않도록 끄면 됩니다."
+    },
+    "/blog/distance-esp/": {
+      "title": "Distance ESP로 교전 거리를 완벽하게 계산하세요",
+      "description": "Distance ESP는 플레이어와의 거리를 표시합니다. 멀리 있는 거리 표시는 제한하고, 이 수치를 활용해 교전 여부를 결정하세요."
+    },
+    "/blog/health-bar-overlay/": {
+      "title": "Health Bar Overlay로 적의 HP를 완벽하게 추적하세요",
+      "description": "Health bar overlay는 남은 health와 쉴드를 게이지로 표시합니다. 텍스트가 겹치면 이름은 생략하고 바만 유지하세요."
+    },
+    "/blog/skeleton-esp/": {
+      "title": "Skeleton ESP로 모든 적의 움직임을 예측하세요",
+      "description": "Skeleton 선은 전체 몸이 엄폐물에서 나오기 전에 살짝 보기, 앉기 또는 lean을 보여줍니다. 세 명의 플레이어가 겹칠 때는 꺼두세요."
+    },
+    "/blog/box-esp/": {
+      "title": "Box ESP를 사용하여 어디서나 숨은 적을 발견하세요",
+      "description": "Box ESP는 너비와 자세를 볼 수 있도록 코너 프레임을 그려줍니다. 플레이어가 겹칠 때는 얇게 만들고, 동일한 프레임에 이름과 뼈대 선을 겹쳐서 표시하지 마세요."
+    },
+    "/blog/apex-legends-aimbot/": {
+      "title": "저희 Apex Legends Aimbot을 사용하여 즉시 적에게 조준을 고정하세요",
+      "description": "여기서 apex legends aimbot는 FOV, smoothing, 뼈대 선택 및 가시성 검사입니다. 활성화할 때까지 꺼져 있습니다. 차단 위험은 여전히 존재합니다."
+    },
+    "/blog/apex-legends-esp/": {
+      "title": "Gain Total Map Awareness with Apex Legends ESP",
+      "description": "Apex legends esp here is separate toggles: players, boxes, skeletons, health, distance, weapons, and loot. Turn off what you do not read."
+    },
+    "/blog/hwid-spoofer-safety/": {
+      "title": "Discover What an HWID Spoofer Does for Safety",
+      "description": "An HWID tool changes how a PC presents disk, MAC, and GPU identifiers. It does not clear an account-only penalty or make a match ."
+    },
+    "/blog/best-apex-legends-cheats/": {
+      "title": "Best Apex Legends Cheats Review & Comparison 2026: Features, Safety & Value",
+      "description": "A 2026 look at the best apex legends cheats by features, status-label safety, and price: $35 for 31 days or $150 lifetime on one Windows menu."
+    },
+    "/blog/apex-legends-dma/": {
+      "title": "Apex Legends DMA 설명: 하드웨어 설정 대 소프트웨어 메뉴",
+      "description": "Apex legends dma in search results often means a second PC and a card. This store ships a Windows menu on the PC you already play on."
+    },
+    "/blog/apex-legends-hacks-safe/": {
+      "title": "이번 ea즌에 Apex Legends 핡을 사용하는 것은 위험하지 않나요?",
+      "description": "apex legends 해킹은 이번 season에 문제가 없나요? 매칭 상태 라벨은 clean-매치 보장이 아닙니다. Windows에서 로드하기 전에 Read GREEN 또는 RED를 확인하세요."
+    },
+    "/blog/ea-javelin-bypass/": {
+      "title": "탐지 방지: EA Javelin가 어떻게 Apex Anticheat을 우회하는지",
+      "description": "Javelin 지향 토글은 상태 페이지와 비교하여 확인되는 메뉴 항목입니다. 녹색은 means 노트에 이 파일이 나열되어 있음을 나타냅니다. 빨간색은 means 대기를 나타냅니다. 일치 항목은 여전히 제한될 수 있습니다."
+    },
+    "/forum/refund-if-the-loader-wont-open/": {
+      "title": "loader이 열리지 않으면 환불받을 수 있나요?",
+      "description": "Apex Legends loader이 열리지 않는 경우의 환불에 대한 사전 구매 질문입니다. 지원 팀이 당사 측의 결함을 확인한 경우를 제외하고는 모든 판매가 최종적입니다."
+    },
+    "/forum/31-day-or-lifetime-before-buying/": {
+      "title": "31일 또는 lifetime인가요? 그리고 메뉴에 spoofer가 포함되나요?",
+      "description": "구매 전 참고 사항: 메뉴는 $35 for 31 days 또는 $150 lifetime입니다. HWID spoofer은 별도의 키이며 포함되어 있지 않습니다."
+    },
+    "/forum/loader-blank-after-client-update/": {
+      "title": "클라이언트 업데이트 후 Loader은 열리지만 아무것도 그려지지 않음",
+      "description": "Apex 클라이언트 업데이트 후 상태 라벨이 빨간색이었기 때문에 메뉴에 아무것도 그려지지 않았습니다. 초록색으로 바뀔 때까지 기다린 후 포털 파일을 다시 로드하여 해결했습니다."
+    },
+    "/forum/box-esp-covering-the-fight/": {
+      "title": "Box ESP이(가) 3스택에서 내 화면을 eating 중",
+      "description": "Box ESP이(가) 전투 중 너무 시끄러워졌습니다. 얇은 모서리, 총격전 중 루팅 비활성화, 그리고 저장된 프리셋 하나로 화면 복잡함이 해결되었습니다."
+    },
+    "/forum/aim-pulls-onto-my-teammate/": {
+      "title": "같은 문에서 에임이 계속 듀오에게 끌려갑니다",
+      "description": "시야각이 너무 넓어서 에임 보정이 팀원에게 끌리고 있었습니다. 더 작은 시야각과 저장된 프리셋으로 끌림 현상이 멈췄습니다."
+    },
+    "/forum/no-recoil-still-climbs-far/": {
+      "title": "No Recoil은(는) 근접에서 밋밋하고 원거리에서는 여전히 튑니다",
+      "description": "No Recoil은(는) 크로누스나 반동 스크립트가 아닌 메뉴 토글입니다. 근접 스프레이는 밋밋하게 느껴졌고, 장거리 스프레이는 여전히 점사가 필요합니다."
+    },
+    "/forum/new-account-fails-on-this-pc/": {
+      "title": "New account fails on this PC but works on my laptop",
+      "description": "A new Apex account failing on one PC and working on another is a hardware-flag pattern. An ID ban is not confirmed. The spoofer is a separate key."
+    },
+    "/forum/stream-proof-showed-on-a-discord-clip/": {
+      "title": "Stream Proof hid my recording but my duo still clipped the boxes",
+      "description": "Stream Proof covers your own capture. A teammate recording their screen is outside that toggle. The local test passed after they checked their own file."
+    },
+    "/forum/loot-labels-loud-after-season-31/": {
+      "title": "Season 31 loot labels are screaming at me in the fight",
+      "description": "Season 31 Strongholds and loot labels got too loud. Filtering tiers and hiding loot when the fight starts made the overlay readable again."
+    }
+  }
+}

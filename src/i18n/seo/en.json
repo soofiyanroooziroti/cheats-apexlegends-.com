@@ -1,48 +1,48 @@
 {
   "site": {
-    "title": "Valorant Cheats",
-    "description": "Aimbot Options, Player Visual Options, World Visual Options, and Misc Options for VALORANT on Windows PC. USD pricing."
+    "title": "Apex Legends cheats",
+    "description": "Aimbot, Player Visuals, World/Loot, and Misc menu groups for Apex Legends on Windows PC. USD pricing."
   },
   "pages": {
     "/": {
-      "title": "Valorant Cheats for Windows PC | ESP, Aimbot & Menu",
-      "description": "valorant cheats on Windows: player ESP, aimbot, streamproof overlay, $35 and $150 plans, live Status labels, and Vanguard setup notes before you load."
+      "title": "Apex legends cheats for Windows PC | Menu & Spoofer",
+      "description": "Apex legends cheats on Windows: player visuals, loot readouts, aim tuning, $35 and $150 plans, live status labels, and EA Javelin setup notes before you load."
     },
-    "/products/valorant-cheats/": {
-      "title": "Valorant Hacks for PC | Menu $35 & $150",
-      "description": "Valorant hacks for PC: menu $35 or $150 lifetime. HWID spoofer $50 or $150. Separate checkouts."
+    "/products/apex-legends-cheats/": {
+      "title": "Products | Menu $35 & $150 · HWID Spoofer",
+      "description": "Windows menu and HWID spoofer with separate checkouts. Menu $35 for 31 days or $150 lifetime; spoofer $50 or $150."
     },
-    "/products/valorant-cheats/loader/": {
-      "title": "Valorant Menu | Aimbot, Player & World Visuals",
-      "description": "Four menu groups: Aimbot Options, Player Visual Options, World Visual Options, and Misc Options. $35 for 31 days or $150 lifetime."
+    "/products/apex-legends-cheats/loader/": {
+      "title": "Apex legends cheat | Aimbot, Player & Loot Visuals",
+      "description": "Four menu groups: Aimbot, Player Visuals, World/Loot, and Misc. $35 for 31 days or $150 lifetime on Windows PC."
     },
-    "/products/valorant-cheats/hwid-spoofer/": {
-      "title": "HWID Spoofer for Hardware Flags on PC",
-      "description": "HWID spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
+    "/products/apex-legends-cheats/hwid-spoofer/": {
+      "title": "Apex legends spoofer | HWID Recovery on PC",
+      "description": "Apex legends spoofer for a hardware flag. $50 for 31 days or $150 lifetime. It does not clear an account-only penalty."
     },
-    "/products/valorant-cheats/utilities/": {
+    "/products/apex-legends-cheats/utilities/": {
       "title": "HWID Spoofer Utility Overview",
       "description": "When a hardware flag blocks new accounts on one PC, the HWID spoofer is a separate checkout from the menu."
     },
     "/blog/": {
-      "title": "Valorant Guides Hub | ESP, Vanguard, Aimbot & Plans",
-      "description": "Guides on ESP, custom-game toggles, Vanguard versus VAC, aimbot settings, Reddit claims, HWID flags, streamproof overlays, and $35 / $150 checkout notes."
+      "title": "Apex Legends Guides Hub | Setup, Javelin & Plans",
+      "description": "Guides on loader setup, EA Javelin patch days, overlay tuning, Reddit claims, HWID flags, streamproof overlays, and $35 / $150 checkout notes."
     },
     "/forum/": {
       "title": "Community Threads on Setup, Risk, and Plans",
-      "description": "Closed threads on third-party risk, Vanguard versus VAC, custom-game toggles, and the HWID spoofer."
+      "description": "Closed threads on third-party risk, Javelin versus other anti-cheats, preset tuning, and the HWID spoofer."
     },
     "/faq/": {
-      "title": "Plans – A banner from yesterday is not a current build",
-      "description": "Answers on the $35 and $150 plans, Vanguard updates, Windows requirements, hardware flags, and how the menu and spoofer differ."
+      "title": "FAQ on Plans, Javelin, and Setup Notes",
+      "description": "Answers on the $35 and $150 plans, EA Javelin updates, Windows requirements, hardware flags, and how the menu and spoofer differ."
     },
     "/support/": {
       "title": "Support for Loader, Checkout, and Setup",
       "description": "Loader, checkout, and portal help for the menu and the HWID spoofer. Include your order email."
     },
     "/about/": {
-      "title": "About cheats-valorant.org | Delivery, Pricing, Risk",
-      "description": "Cheats Valorant Org: Who runs this store, what the menu and HWID spoofer include, Windows portal delivery, Vanguard ban risk, and how status and support fit checkout."
+      "title": "About cheatsapexlegends.com | Delivery, Pricing, Risk",
+      "description": "Who runs this store, what the menu and HWID spoofer include, Windows portal delivery, Javelin ban risk, and how status and support fit checkout."
     },
     "/privacy/": {
       "title": "Privacy notes for analytics, cookies, and contact",
@@ -53,108 +53,112 @@
       "description": "License terms, acceptable use, and the no-refund rule for the loader and HWID spoofer sold here."
     },
     "/status/": {
-      "title": "Status Label and Vanguard Patch Notes",
-      "description": "GREEN means load. RED means wait. May 2026 DMA, June on-demand baselines, and November 2026 integrity notes—read before you launch."
+      "title": "Status Label and EA Javelin Patch Notes",
+      "description": "GREEN means load. RED means wait. Store lineup and Javelin patch reminders—read before you launch Apex Legends."
     },
-    "/blog/valorant-vanguard-security-2026/": {
-      "title": "Valorant Anti-Cheat: Vanguard Security Updates in 2026",
-      "description": "May 2026 DMA and IOMMU, June on-demand HVCI/VBS/TPM, and November 2026 VCT Pre-Check—plain risk context for VALORANT, not a bypass guide."
+    "/blog/24-7-support/": {
+      "title": "Get Round-the-Clock Help with Our 24/7 Support Team",
+      "description": "24/7 support needs the order email, your Windows version, and the exact text on screen. A ticket cannot undo a publisher action or replace the portal download."
     },
-    "/blog/valorant-cheats-pricing/": {
-      "title": "31 Day – Valorant Staff The same menu is on both plans",
-      "description": "The menu is $35 for 31 days or $150 lifetime. The HWID spoofer is a separate card. All articles Plans 4 min read Nov 3, 2026 31-day and lifetime prices."
+    "/blog/apex-legend-cheating-ranked/": {
+      "title": "Apex Legend Cheating in Ranked: What Players Should Know",
+      "description": "Apex legend cheating in ranked puts the season, the account, and the PC on the same decision. Read the status label before you queue."
     },
-    "/blog/what-an-hwid-spoofer-does/": {
-      "title": "Hwid Spoofer – It is a separate checkout from the menu",
-      "description": "HWID spoofer valorant notes: use it for a hardware flag, not an account-only ban. It is a separate checkout from the menu."
+    "/blog/stream-proof/": {
+      "title": "Stream Safely Without Showing Hacks to Your Audience",
+      "description": "Stream Proof is meant to keep the menu off typical local capture while you still see it. Test your own software before you go live. A teammate's recording is a different camera."
     },
-    "/blog/what-is-an-hwid-spoofer/": {
-      "title": "What an HWID Spoofer Changes on a PC",
-      "description": "An HWID spoofer changes hardware identifiers on a PC you own. It does not clear an account-only penalty."
+    "/blog/loot-esp/": {
+      "title": "Secure High-Tier Gear Instantly Using Loot ESP",
+      "description": "Loot labels are for bins, death boxes, and care packages while you path. Hide them when the fight starts so ground text is not a combat overlay."
     },
-    "/blog/valorant-streamproof/": {
-      "title": "Streamproof Overlay: Capture vs Local View",
-      "description": "The streamproof overlay tries to keep ESP and the menu off typical recordings while you still see them. It does not remove Vanguard risk."
+    "/blog/no-recoil/": {
+      "title": "Hit Every Shot by Eliminating Weapon Recoil Entirely",
+      "description": "No Recoil is a separate control for gun kick. Test it without aim smoothing, and expect long bursts to climb anyway."
     },
-    "/blog/valorant-aimbot/": {
-      "title": "Aimbot FOV, Smoothing, and Bone",
-      "description": "Valorant aimbot settings here are FOV, smoothing, bone choice, a visibility check, and a max distance. Off until you enable it."
+    "/blog/weapon-esp/": {
+      "title": "Find the Best Guns Fast with Custom Weapon ESP",
+      "description": "A weapon name on a player tells you what they are holding before the push. Turn it off once the spray starts so the label does not cover the fight."
     },
-    "/blog/valorant-rank-esp/": {
-      "title": "Rank ESP Rank and Level Labels",
-      "description": "Rank ESP shows rank or account level when the overlay exposes those labels. It is optional next to player ESP."
+    "/blog/distance-esp/": {
+      "title": "Calculate Engagements Flawlessly with Distance ESP",
+      "description": "Distance ESP is a range number on a player. Cap how far it draws so the horizon stays empty, and use the number to take or leave a fight."
     },
-    "/blog/valorant-health-esp/": {
-      "title": "Health ESP Bars and Numbers",
-      "description": "Health ESP shows a bar or a number on players so a damaged target is easy to read before you swing."
+    "/blog/health-bar-overlay/": {
+      "title": "Track Enemy HP Perfectly with the Health Bar Overlay",
+      "description": "A health bar overlay shows remaining health and shield as bars, not a sentence. Keep the bars and drop the name text if they overlap."
     },
-    "/blog/valorant-skeleton-esp/": {
-      "title": "Skeleton ESP Bone Lines and Posture",
-      "description": "Skeleton ESP draws bone lines so head level and peek direction stay readable next to the player box."
+    "/blog/skeleton-esp/": {
+      "title": "Predict Every Enemy Movement with Skeleton ESP",
+      "description": "Skeleton lines show a peek, a crouch, or a lean before the full body clears cover. Turn them off when three figures knot together."
     },
-    "/blog/valorant-spike-esp/": {
-      "title": "Spike ESP Plant Status and Location",
-      "description": "Spike ESP tracks plant status and a location cue when the menu exposes them. It is separate from player boxes."
+    "/blog/box-esp/": {
+      "title": "Spot Hidden Enemies Anywhere Using Box ESP",
+      "description": "Box ESP draws a corner frame so you can see width and stance. Thin it when players stack, and do not pile names and bone lines on the same frame."
     },
-    "/blog/valorant-agent-esp/": {
-      "title": "Agent ESP Names on the Overlay",
-      "description": "Agent ESP shows which agent each player is running so utility and duel matchups are readable before you swing."
+    "/blog/apex-legends-aimbot/": {
+      "title": "Lock Onto Enemies Instantly Using Our Apex Legends Aimbot",
+      "description": "An apex legends aimbot here is FOV, smoothing, bone choice, and a visibility check. It stays off until you enable it. Ban risk remains."
     },
-    "/blog/valorant-player-esp/": {
-      "title": "Player ESP Boxes, Distance, and Weapons",
-      "description": "Player ESP on this menu draws boxes, distance, weapon labels, and a color you can set, with a max-distance cap."
+    "/blog/apex-legends-esp/": {
+      "title": "Gain Total Map Awareness with Apex Legends ESP",
+      "description": "Apex legends esp here is separate toggles: players, boxes, skeletons, health, distance, weapons, and loot. Turn off what you do not read."
     },
-    "/blog/valorant-cheats-reddit/": {
-      "title": "Valorant Cheats on Reddit vs the Menu",
-      "description": "Valorant cheats reddit threads mix custom-game tips, ban stories, and product claims. This note sticks to the menu published here."
+    "/blog/hwid-spoofer-safety/": {
+      "title": "Discover What an HWID Spoofer Does for Safety",
+      "description": "An HWID tool changes how a PC presents disk, MAC, and GPU identifiers. It does not clear an account-only penalty or make a match safe."
     },
-    "/blog/valorant-custom-game-cheats/": {
-      "title": "Turn On Cheats in Valorant Custom Games",
-      "description": "Valorant custom game cheats are Riot practice toggles. This note separates those menus from the Windows loader sold here."
+    "/blog/best-apex-legends-cheats/": {
+      "title": "Best Apex Legends Cheats Review & Comparison 2026: Features, Safety & Value",
+      "description": "A 2026 look at the best apex legends cheats by features, status-label safety, and price: $35 for 31 days or $150 lifetime on one Windows menu."
     },
-    "/blog/valorant-vanguard-vs-vac/": {
-      "title": "Valorant Anti-Cheat vs CS2: Vanguard and VAC",
-      "description": "Valorant anti-cheat (Vanguard) and CS2’s VAC stack are different systems. A note for one game is not clearance for the other."
+    "/blog/apex-legends-dma/": {
+      "title": "Apex Legends DMA Explained: Hardware Setups vs Software Menus",
+      "description": "Apex legends dma in search results often means a second PC and a card. This store ships a Windows menu on the PC you already play on."
     },
-    "/blog/valorant-xray-tool/": {
-      "title": "Valorant X-Ray Tool and Visual Overlay",
-      "description": "Valorant xray on this store means the visual modules: player, agent, spike, skeleton, health, and rank ESP on one license."
+    "/blog/apex-legends-hacks-safe/": {
+      "title": "Are Apex Legends Hacks Safe to Use This Season?",
+      "description": "Are apex legends hacks safe this season? A matching status label is not a clean-match promise. Read GREEN or RED before you load on Windows."
     },
-    "/forum/vanguard-pre-check-november-2026/": {
-      "title": "Vanguard Pre-Check and the November 2026 integrity framework",
-      "description": "A thread on the November 5, 2026 Vanguard Pre-Check announcement and what it means for background software risk."
+    "/blog/ea-javelin-bypass/": {
+      "title": "Stay Undetected: How the EA Javelin Bypass Beats the Apex Anticheat",
+      "description": "The Javelin-oriented toggle is a menu item checked against the status page. GREEN means the note lists this file. RED means wait. A match can still be restricted."
     },
-    "/forum/third-party-valorant-cheats-risks/": {
-      "title": "Are third-party Valorant cheats worth the account risk?",
-      "description": "A closed thread on product claims, account risk, and why a status label is not a verified result."
+    "/forum/refund-if-the-loader-wont-open/": {
+      "title": "If the loader does not open, do I get a refund?",
+      "description": "Pre-purchase question on refunds if the Apex Legends loader does not open. Sales are final except when support confirms a fault on our side."
     },
-    "/forum/valorant-anti-cheat-vs-cs2/": {
-      "title": "Valorant anti-cheat vs CS2: Vanguard and VAC",
-      "description": "A closed comparison of Riot Vanguard in Valorant and VAC-related protections in Counter-Strike 2."
+    "/forum/31-day-or-lifetime-before-buying/": {
+      "title": "31 day or lifetime? and does the menu include the spoofer?",
+      "description": "Before you buy: the menu is $35 for 31 days or $150 lifetime. The HWID spoofer is a separate key and is not included."
     },
-    "/forum/valorant-cheat-menu-use-cases/": {
-      "title": "What is the Valorant cheat menu actually useful for?",
-      "description": "A closed thread separating official custom-game tools from the Windows menu on this store."
+    "/forum/loader-blank-after-client-update/": {
+      "title": "Loader opens but nothing draws after the client update",
+      "description": "After an Apex client update the menu drew nothing because the status label was red. Waiting for green and reloading the portal file fixed it."
     },
-    "/forum/valorant-cheat-codes-commands/": {
-      "title": "Does Valorant have cheat codes or console commands?",
-      "description": "A closed thread on whether Valorant uses typed cheat codes or menu-based custom-game tools."
+    "/forum/box-esp-covering-the-fight/": {
+      "title": "Box ESP is eating my screen in a 3 stack",
+      "description": "Box ESP got too loud in a fight. Thin corners, loot off during the gunfight, and one saved preset fixed the clutter."
     },
-    "/forum/how-to-turn-on-valorant-custom-game-cheats/": {
-      "title": "How do I turn on Valorant custom game cheats?",
-      "description": "A closed how-to for Riot practice toggles in a custom game, separate from the Windows menu sold here."
+    "/forum/aim-pulls-onto-my-teammate/": {
+      "title": "Aim keeps dragging onto my duo in the same door",
+      "description": "Aim assist was pulling onto a teammate because the cone was too wide. A smaller field of view and a saved preset stopped the drag."
     },
-    "/forum/valorant-cheats-custom-game/": {
-      "title": "Can Valorant custom game cheats be used in a live match?",
-      "description": "A closed thread on why custom-game practice tools stay in that lobby and do not become the live menu."
+    "/forum/no-recoil-still-climbs-far/": {
+      "title": "No Recoil feels flat up close and still climbs at range",
+      "description": "No Recoil is a menu toggle, not a Cronus or recoil script. Close sprays felt flat. Long sprays still need a burst."
     },
-    "/forum/lifetime-separate-spoofer/": {
-      "title": "Does the $150 lifetime key include the HWID spoofer?",
-      "description": "The menu is $35 or $150. The HWID spoofer is $50 or $150. Separate keys."
+    "/forum/new-account-fails-on-this-pc/": {
+      "title": "New account fails on this PC but works on my laptop",
+      "description": "A new Apex account failing on one PC and working on another is a hardware-flag pattern. An ID ban is not confirmed. The spoofer is a separate key."
     },
-    "/forum/desktop-vs-laptop-hwid/": {
-      "title": "New account fails on this PC but works on a laptop — which product?",
-      "description": "A hardware-flag pattern matches the HWID spoofer. The menu key does not include it."
+    "/forum/stream-proof-showed-on-a-discord-clip/": {
+      "title": "Stream Proof hid my recording but my duo still clipped the boxes",
+      "description": "Stream Proof covers your own capture. A teammate recording their screen is outside that toggle. The local test passed after they checked their own file."
+    },
+    "/forum/loot-labels-loud-after-season-31/": {
+      "title": "Season 31 loot labels are screaming at me in the fight",
+      "description": "Season 31 Strongholds and loot labels got too loud. Filtering tiers and hiding loot when the fight starts made the overlay readable again."
     }
   }
 }

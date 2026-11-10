@@ -2,6 +2,7 @@
  * npm run translate — Gemini translations for i18n/seo JSON and blog posts (blogs run first when pending).
  * Requires GEMINI_API_KEY in .env (dotenv). Resumes: skips up-to-date targets.
  */
+import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -71,6 +72,141 @@ const i18nEnPath = path.join(projectRoot, 'src/i18n/en.json');
 const seoEnPath = path.join(projectRoot, 'src/i18n/seo/en.json');
 const forumEnPath = path.join(projectRoot, 'src/i18n/forum/en.json');
 const productEnPath = path.join(projectRoot, 'src/i18n/product/en.json');
+const progressPath = path.join(projectRoot, '.translate-progress.json');
+const stampsPath = path.join(projectRoot, '.translate-stamps.json');
+
+function fileSha16(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  return createHash('sha256').update(fs.readFileSync(filePath)).digest('hex').slice(0, 16);
+}
+
+function readStamps() {
+  try {
+    const data = JSON.parse(fs.readFileSync(stampsPath, 'utf8'));
+    return data && typeof data === 'object' ? data : {};
+  } catch {
+    return {};
+  }
+}
+
+let stampsCache = null;
+function stampsStore() {
+  if (!stampsCache) stampsCache = readStamps();
+  return stampsCache;
+}
+
+function stampKey(job) {
+  const rel = path.relative(projectRoot, job.dest).replace(/\\/g, '/');
+  return `${rel}#${job.kind}`;
+}
+
+function writeTranslateStamp(job) {
+  try {
+    const store = stampsStore();
+    store[stampKey(job)] = {
+      srcSha: fileSha16(job.src),
+      at: new Date().toISOString(),
+    };
+    fs.writeFileSync(stampsPath, `${JSON.stringify(store, null, 2)}\n`);
+  } catch {
+    // non-fatal
+  }
+}
+
+/** Finished job with same English source — do not re-run Gemini on every npm run translate. */
+function stampedJobComplete(job) {
+  if (FORCE) return false;
+  if (isMainI18nJson(job.dest) && fileHasWrongGameCopy(job.dest)) return false;
+  if (isSeoJson(job.dest) && fileHasWrongGameCopy(job.dest)) return false;
+  if (isProductJson(job.dest) && fileHasWrongGameCopy(job.dest)) return false;
+  const entry = stampsStore()[stampKey(job)];
+  if (!entry?.srcSha) return false;
+  return entry.srcSha === fileSha16(job.src);
+}
+
+/** Locale / JSON work before blogs so Ctrl+C resume continues site copy, not the blog queue. */
+const JOB_KIND_PRIORITY = {
+  json: 10,
+  'forum-ui': 20,
+  'status-ui': 25,
+  seo: 30,
+  forum: 40,
+  product: 50,
+  blog: 100,
+};
+
+function readTranslateProgress() {
+  try {
+    return JSON.parse(fs.readFileSync(progressPath, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
+function writeTranslateProgress(job) {
+  try {
+    fs.writeFileSync(
+      progressPath,
+      `${JSON.stringify(
+        {
+          dest: path.relative(projectRoot, job.dest).replace(/\\/g, '/'),
+          kind: job.kind,
+          locale: job.locale,
+          at: new Date().toISOString(),
+        },
+        null,
+        2,
+      )}\n`,
+    );
+  } catch {
+    // non-fatal
+  }
+}
+
+function sortJobsForResume(jobs) {
+  const resume = readTranslateProgress();
+  const resumeLocale = resume?.locale;
+  const resumeKind = resume?.kind;
+  const resumeDest = resume?.dest
+    ? path.normalize(path.join(projectRoot, resume.dest.replace(/\//g, path.sep)))
+    : null;
+  return [...jobs].sort((a, b) => {
+    if (resumeLocale) {
+      const aR = a.locale === resumeLocale ? 0 : 1;
+      const bR = b.locale === resumeLocale ? 0 : 1;
+      if (aR !== bR) return aR - bR;
+    }
+    const pa = JOB_KIND_PRIORITY[a.kind] ?? 60;
+    const pb = JOB_KIND_PRIORITY[b.kind] ?? 60;
+    if (pa !== pb) return pa - pb;
+    if (resumeDest && resumeKind) {
+      const aHit = a.dest === resumeDest && a.kind === resumeKind ? 0 : 1;
+      const bHit = b.dest === resumeDest && b.kind === resumeKind ? 0 : 1;
+      if (aHit !== bHit) return aHit - bHit;
+    }
+    const destCmp = String(a.dest).localeCompare(String(b.dest));
+    if (destCmp !== 0) return destCmp;
+    return a.kind.localeCompare(b.kind);
+  });
+}
+
+/** Record stamps for files already translated (before .translate-stamps.json existed). */
+function backfillTranslateStamps() {
+  if (FORCE) return;
+  let added = 0;
+  for (const job of enumerateJobs()) {
+    if (!isUpToDate(job.src, job.dest, job.locale, job.kind)) continue;
+    const key = stampKey(job);
+    const entry = stampsStore()[key];
+    const srcSha = fileSha16(job.src);
+    if (entry?.srcSha === srcSha) continue;
+    writeTranslateStamp(job);
+    added++;
+  }
+  if (added > 0) {
+    console.log(`translate: resume cache — stamped ${added} already-complete file(s)`);
+  }
+}
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -99,6 +235,19 @@ function readEnSeo() {
     return JSON.parse(fs.readFileSync(seoEnPath, 'utf8'));
   } catch {
     return null;
+  }
+}
+
+/** Valorant-template strings must never count as “done” (npm run i18n:purge-legacy fixes files). */
+const WRONG_GAME_COPY_RE =
+  /Valorant Cheats|Valorant Hacks|cheats-valorant\.org|\/products\/valorant-cheats|\bVALORANT\b|\bValorant\b|\bVanguard\b/i;
+
+function fileHasWrongGameCopy(filePath) {
+  if (!fs.existsSync(filePath)) return false;
+  try {
+    return WRONG_GAME_COPY_RE.test(fs.readFileSync(filePath, 'utf8'));
+  } catch {
+    return false;
   }
 }
 
@@ -136,24 +285,108 @@ function i18nForumUiIncomplete(dest, locale) {
   }
 }
 
-function statusUpdatesIncomplete(dest, locale) {
+const TRANSLATE_SKIP_KEYS = new Set([
+  'id',
+  'icon',
+  'href',
+  'slug',
+  'image',
+  'date',
+  'dateIso',
+  'featured',
+  'tag',
+  'domain',
+  'discord',
+  'num',
+  'level',
+  'scrollTarget',
+  'ariaLabel',
+]);
+
+let protectedTermsLower = null;
+
+function loadProtectedTermsLower() {
+  if (protectedTermsLower) return protectedTermsLower;
+  const file = path.join(root, 'protected-terms.json');
+  try {
+    const list = JSON.parse(fs.readFileSync(file, 'utf8'));
+    protectedTermsLower = new Set(
+      (Array.isArray(list) ? list : []).map((t) => String(t).trim().toLowerCase()).filter((t) => t.length >= 2),
+    );
+  } catch {
+    protectedTermsLower = new Set();
+  }
+  return protectedTermsLower;
+}
+
+let englishModuleNamesLower = null;
+
+function loadEnglishModuleNamesLower() {
+  if (englishModuleNamesLower) return englishModuleNamesLower;
+  const en = readEnI18n();
+  const names = new Set();
+  if (Array.isArray(en?.hero?.modes)) {
+    for (const m of en.hero.modes) {
+      if (typeof m === 'string') names.add(m.trim().toLowerCase());
+    }
+  }
+  if (Array.isArray(en?.features?.items)) {
+    for (const item of en.features.items) {
+      if (item?.title && typeof item.title === 'string') names.add(item.title.trim().toLowerCase());
+    }
+  }
+  englishModuleNamesLower = names;
+  return names;
+}
+
+/** Only exact protected/module/path tokens may match English — not full sentences. */
+function stringMayStayEnglish(value) {
+  const t = String(value).trim();
+  if (t.length < 3) return true;
+  if (/^[\s$€£¥0-9/W.:+#?=&%·-]+$/.test(t)) return true;
+  if (t.startsWith('http') || (t.startsWith('/') && !/\s/.test(t))) return true;
+  if (t.includes('[[T')) return true;
+  const lower = t.toLowerCase();
+  if (loadProtectedTermsLower().has(lower)) return true;
+  if (loadEnglishModuleNamesLower().has(lower)) return true;
+  return false;
+}
+
+/** True when locale still contains untranslated English leaves (structural keys skipped). */
+function hasEnglishCopy(enNode, locNode) {
+  if (enNode == null || locNode == null) return enNode != null && locNode == null;
+  if (typeof enNode === 'string' && typeof locNode === 'string') {
+    const t = enNode.trim();
+    if (t.length < 3) return false;
+    if (locNode === enNode) return !stringMayStayEnglish(enNode);
+    return false;
+  }
+  if (Array.isArray(enNode) && Array.isArray(locNode)) {
+    if (locNode.length < enNode.length) return true;
+    for (let i = 0; i < enNode.length; i++) {
+      if (hasEnglishCopy(enNode[i], locNode[i])) return true;
+    }
+    return false;
+  }
+  if (typeof enNode === 'object' && typeof locNode === 'object') {
+    for (const key of Object.keys(enNode)) {
+      if (TRANSLATE_SKIP_KEYS.has(key)) continue;
+      if (hasEnglishCopy(enNode[key], locNode[key])) return true;
+    }
+    return false;
+  }
+  return false;
+}
+
+function statusBundleIncomplete(dest, locale) {
   if (locale === 'en') return false;
   const en = readEnI18n();
-  const enStatusUpdates = en?.status?.updates;
-  if (!Array.isArray(enStatusUpdates) || enStatusUpdates.length === 0) return false;
+  if (!en?.status) return false;
   if (!fs.existsSync(dest)) return true;
   try {
     const parsed = JSON.parse(fs.readFileSync(dest, 'utf8'));
-    const locStatusUpdates = parsed?.status?.updates;
-    if (!Array.isArray(locStatusUpdates) || locStatusUpdates.length < enStatusUpdates.length) return true;
-    for (let i = 0; i < enStatusUpdates.length; i++) {
-      const eu = enStatusUpdates[i];
-      const lu = locStatusUpdates[i];
-      if (!lu || typeof lu !== 'object') return true;
-      if (eu?.title && lu.title === eu.title) return true;
-      if (eu?.summary && lu.summary === eu.summary) return true;
-    }
-    return false;
+    if (!parsed?.status) return true;
+    return hasEnglishCopy(en.status, parsed.status);
   } catch {
     return true;
   }
@@ -161,6 +394,7 @@ function statusUpdatesIncomplete(dest, locale) {
 
 function i18nBundleIncomplete(dest, locale) {
   if (locale === 'en') return false;
+  if (fileHasWrongGameCopy(dest)) return true;
   if (isEmptyJsonFile(dest)) return true;
   const en = readEnI18n();
   if (!en) return true;
@@ -168,11 +402,8 @@ function i18nBundleIncomplete(dest, locale) {
     const parsed = JSON.parse(fs.readFileSync(dest, 'utf8'));
     if (!Array.isArray(parsed?.hero?.modes) || parsed.hero.modes.length < 4) return true;
     if (!Array.isArray(parsed?.features?.items) || parsed.features.items.length < 3) return true;
-    if (parsed?.hero?.subtitle === en?.hero?.subtitle) return true;
-    if (parsed?.exploreSection?.title === en?.exploreSection?.title) return true;
     if (i18nForumUiIncomplete(dest, locale)) return true;
-    if (!parsed?.status?.pageDesc || parsed.status.pageDesc === en?.status?.pageDesc) return true;
-    return false;
+    return hasEnglishCopy(en, parsed);
   } catch {
     return true;
   }
@@ -180,16 +411,13 @@ function i18nBundleIncomplete(dest, locale) {
 
 function seoBundleIncomplete(dest, locale) {
   if (locale === 'en') return false;
+  if (fileHasWrongGameCopy(dest)) return true;
   if (isEmptyJsonFile(dest)) return true;
   const en = readEnSeo();
   if (!en) return true;
   try {
     const parsed = JSON.parse(fs.readFileSync(dest, 'utf8'));
-    if (parsed?.site?.description === en?.site?.description) return true;
-    const home = parsed?.pages?.['/'];
-    const homeEn = en?.pages?.['/'];
-    if (home?.title === homeEn?.title && home?.description === homeEn?.description) return true;
-    return false;
+    return hasEnglishCopy(en, parsed);
   } catch {
     return true;
   }
@@ -221,6 +449,7 @@ function readEnProduct() {
 
 function productBundleIncomplete(dest, locale) {
   if (locale === 'en') return false;
+  if (fileHasWrongGameCopy(dest)) return true;
   if (!fs.existsSync(dest)) return true;
   const en = readEnProduct();
   if (!en?.cheats?.overview?.title) return true;
@@ -232,6 +461,8 @@ function productBundleIncomplete(dest, locale) {
       if (enSlides > 0 && locSlides < enSlides) return true;
     }
     if (parsed?.cheats?.overview?.title === en.cheats.overview.title) return true;
+    if (en.cheats && hasEnglishCopy(en.cheats, parsed.cheats)) return true;
+    if (en.spoofer && hasEnglishCopy(en.spoofer, parsed.spoofer)) return true;
     return false;
   } catch {
     return true;
@@ -283,6 +514,12 @@ function forumBundleIncomplete(dest, locale) {
   }
 }
 
+function blogBodyFingerprint(body) {
+  if (body == null) return '';
+  if (typeof body === 'string') return body.trim();
+  return JSON.stringify(body);
+}
+
 function blogBundleIncomplete(dest, src) {
   if (!fs.existsSync(dest)) return true;
   try {
@@ -291,8 +528,15 @@ function blogBundleIncomplete(dest, src) {
     const en = parseBlogFrontmatter(enRaw);
     const destEnd = destRaw.indexOf('\n---', 3);
     const destData = JSON.parse(destRaw.slice(3, destEnd));
-    if (destData?.title === en?.title && destData?.desc === en?.desc) return true;
-    return false;
+    const titleOk = Boolean(destData?.title && destData.title !== en?.title);
+    const descOk = Boolean(destData?.desc && destData.desc !== en?.desc);
+    const enBody = blogBodyFingerprint(en?.body);
+    const locBody = blogBodyFingerprint(destData?.body);
+    const bodyOk =
+      enBody.length <= 80 ||
+      (locBody.length > 0 && locBody !== enBody && locBody.length >= enBody.length * 0.5);
+    if (titleOk && descOk && bodyOk) return false;
+    return true;
   } catch {
     return true;
   }
@@ -300,6 +544,8 @@ function blogBundleIncomplete(dest, src) {
 
 function isUpToDate(src, dest, locale, kind) {
   if (FORCE || !fs.existsSync(dest)) return false;
+  const job = { kind, locale, src, dest };
+  if (stampedJobComplete(job)) return true;
   if (kind === 'blog') {
     if (blogBundleIncomplete(dest, src)) return false;
     // Title/desc already differ from EN — do not re-run Gemini when blog/en was re-exported (mtime only).
@@ -313,10 +559,19 @@ function isUpToDate(src, dest, locale, kind) {
     if (productBundleIncomplete(dest, locale)) return false;
     return true;
   }
-  if (kind === 'status-ui' && isMainI18nJson(dest)) return !statusUpdatesIncomplete(dest, locale);
-  if (kind === 'forum-ui' && isMainI18nJson(dest) && i18nForumUiIncomplete(dest, locale)) return false;
-  if (isMainI18nJson(dest) && i18nBundleIncomplete(dest, locale)) return false;
-  if (isForumJson(dest) && forumBundleIncomplete(dest, locale)) return false;
+  if (kind === 'status-ui' && isMainI18nJson(dest)) return !statusBundleIncomplete(dest, locale);
+  if (kind === 'forum-ui' && isMainI18nJson(dest)) {
+    if (i18nForumUiIncomplete(dest, locale)) return false;
+    return true;
+  }
+  if (isMainI18nJson(dest)) {
+    if (i18nBundleIncomplete(dest, locale)) return false;
+    return true;
+  }
+  if (isForumJson(dest)) {
+    if (forumBundleIncomplete(dest, locale)) return false;
+    return true;
+  }
   return fs.statSync(dest).mtimeMs >= fs.statSync(src).mtimeMs;
 }
 
@@ -325,7 +580,7 @@ function includeKind(kinds, ...aliases) {
   return aliases.some((a) => kinds.includes(a));
 }
 
-function buildJobs() {
+function enumerateJobs() {
   const jobs = [];
   const blogEnDir = path.join(projectRoot, 'src/content/blog/en');
 
@@ -337,22 +592,8 @@ function buildJobs() {
     .map((s) => s.trim())
     .filter(Boolean);
 
-  if (fs.existsSync(blogEnDir) && includeKind(kinds, 'blog')) {
-    for (const file of fs.readdirSync(blogEnDir).filter((f) => f.endsWith('.md'))) {
-      const src = path.join(blogEnDir, file);
-      for (const locale of locales) {
-        jobs.push({
-          kind: 'blog',
-          locale,
-          src,
-          dest: path.join(projectRoot, 'src/content/blog', locale, file),
-        });
-      }
-    }
-  }
-
   for (const locale of locales) {
-    if (includeKind(kinds, 'i18n', 'ui', 'pages')) {
+    if (includeKind(kinds, 'json', 'i18n', 'ui', 'pages')) {
       jobs.push({
         kind: 'json',
         locale,
@@ -402,7 +643,52 @@ function buildJobs() {
     }
   }
 
-  return jobs.filter((j) => !isUpToDate(j.src, j.dest, j.locale, j.kind));
+  if (fs.existsSync(blogEnDir) && includeKind(kinds, 'blog')) {
+    for (const file of fs.readdirSync(blogEnDir).filter((f) => f.endsWith('.md'))) {
+      const src = path.join(blogEnDir, file);
+      for (const locale of locales) {
+        jobs.push({
+          kind: 'blog',
+          locale,
+          src,
+          dest: path.join(projectRoot, 'src/content/blog', locale, file),
+        });
+      }
+    }
+  }
+
+  return jobs;
+}
+
+function buildJobs() {
+  const all = enumerateJobs();
+  const pending = all.filter((j) => !isUpToDate(j.src, j.dest, j.locale, j.kind));
+  const pendingJsonDests = new Set(pending.filter((j) => j.kind === 'json').map((j) => j.dest));
+  const deduped = pending.filter((j) => {
+    if ((j.kind === 'forum-ui' || j.kind === 'status-ui') && pendingJsonDests.has(j.dest)) {
+      return false;
+    }
+    return true;
+  });
+  return sortJobsForResume(deduped);
+}
+
+function jobQueueStats() {
+  const all = enumerateJobs();
+  const pending = all.filter((j) => !isUpToDate(j.src, j.dest, j.locale, j.kind));
+  const pendingJsonDests = new Set(pending.filter((j) => j.kind === 'json').map((j) => j.dest));
+  const toRun = pending.filter((j) => {
+    if ((j.kind === 'forum-ui' || j.kind === 'status-ui') && pendingJsonDests.has(j.dest)) {
+      return false;
+    }
+    return true;
+  });
+  return {
+    all: all.length,
+    pending: toRun.length,
+    skipped: all.length - pending.length,
+    skippedDuplicate: pending.length - toRun.length,
+  };
 }
 
 async function geminiGenerate(prompt, { jsonMode = false } = {}) {
@@ -453,11 +739,12 @@ async function geminiGenerate(prompt, { jsonMode = false } = {}) {
   throw lastErr ?? new Error('Gemini request failed');
 }
 
-const KEYWORD_KEEP_RULE = `- Keep SEO and brand phrases in English exactly (including casing where shown): Valorant Cheats, Valorant Hacks, valorant cheats, valorant hacks, Cheats for Valorant, cheats-valorant.org, VALORANT, Vanguard, VAC, HWID Spoofer, and [[T#]] placeholders.
-- Do not translate footer "More sites" labels Unturned cheats, Aion 2 hack, or CS2 cheats.`;
+const KEYWORD_KEEP_RULE = `- Never translate (keep exact English/Latin spelling and casing when shown): Apex Legends, Apex; EA, Respawn; Javelin, Easy Anti-Cheat, EAC; ESP, HWID, DMA, FOV; Aimbot, Wallhack, Spoofer.
+- Also keep cheatsapexlegends.com, Zadeyo, Discord, USD prices, product URL paths, and every [[T#]] placeholder unchanged.
+- Do not translate footer "More sites" sister-site labels (each ends with "cheats").`;
 
 function jsonPrompt(locale, protectedText) {
-  return `You are a professional translator for a VALORANT (Windows PC) software website.
+  return `You are a professional translator for an Apex Legends (Windows PC) software website (cheatsapexlegends.com).
 Translate this JSON file from English to ${LANG_NAME[locale]} (${locale}).
 Rules:
 - Return ONLY valid JSON, no markdown fences or commentary.
@@ -475,20 +762,20 @@ ${protectedText}`;
 
 function seoPrompt(locale, protectedText) {
   const hints = localeSeoKeywords[locale] ?? {};
-  return `You are an SEO copywriter and translator for cheats-valorant.org (VALORANT on Windows PC).
+  return `You are an SEO copywriter and translator for cheatsapexlegends.com (Apex Legends on Windows PC).
 Translate this SEO JSON from English to ${LANG_NAME[locale]} (${locale}).
 
 Primary English keywords (must appear verbatim in titles/descriptions where relevant — never translate these phrases):
-- Home: ${hints.homePrimary ?? 'valorant cheats'}
-- Product hub: ${hints.cheatsProduct ?? 'valorant hacks'}
+- Home: ${hints.homePrimary ?? 'apex cheats'}
+- Product hub: ${hints.cheatsProduct ?? 'apex hacks'}
 - Spoofer: ${hints.spoofer ?? 'HWID Spoofer'}
-- Also keep in English when used: ${hints.terms ?? 'Valorant Cheats, valorant hacks, Cheats for Valorant, aimbot, ESP, Vanguard, VAC'}
+- Also keep in English when used: ${hints.terms ?? 'Apex cheats, apex hacks, Cheats for Apex Legends, aimbot, ESP, Javelin, HWID Spoofer'}
 
 Rules:
 - Return ONLY valid JSON, same structure and keys as input.
 - Translate surrounding copy in title and description strings; leave the keyword phrases above in English.
 - Title ≤ 60 characters where possible; meta description ≤ 160 characters.
-- Keep paths as keys unchanged (/products/valorant-cheats/, etc.).
+- Keep paths as keys unchanged (/products/apex-legends-cheats/, etc.).
 ${KEYWORD_KEEP_RULE}
 - Never use the words "undetected" or "safe".
 
@@ -497,16 +784,16 @@ ${protectedText}`;
 }
 
 function productJsonPrompt(locale, protectedText) {
-  return `You are a professional translator for cheats-valorant.org (VALORANT on Windows PC).
+  return `You are a professional translator for cheatsapexlegends.com (Apex Legends on Windows PC).
 Translate this product-page JSON from English to ${LANG_NAME[locale]} (${locale}).
 
 Rules:
 - Return ONLY valid JSON, same structure and keys as input.
-- Translate all human-readable strings (overview, body, steps, goodToKnow, limitations, requirements, groupNames, descs, slides, features arrays).
+- Translate all human-readable strings (overview, body, steps, goodToKnow, limitations, requirements, groupNames, descs, slides, features arrays, loader feature lists, and every product description line).
 - Keep JSON keys unchanged (cheats, spoofer, steps, howToGet, etc.).
 - Keep placeholder {name} in howToGet exactly as-is.
 ${KEYWORD_KEEP_RULE}
-- Keep USD prices, P31D, P99Y, Zadeyo, Discord, Vanguard, VAC, HWID, ESP, aimbot, FOV, player ESP, agent ESP where gamers expect Latin/English.
+- Keep USD prices, P31D, P99Y, Zadeyo, Discord, Javelin, EA Javelin Anticheat, HWID, ESP, aimbot, FOV, player ESP, legend ESP where gamers expect Latin/English.
 - Feature option names like "FOV", "Smooth", "Skeleton" may stay English if standard in ${LANG_NAME[locale]} gaming UI; translate groupNames and description sentences fully.
 - Never use the words "undetected" or "safe".
 
@@ -515,14 +802,14 @@ ${protectedText}`;
 }
 
 function forumJsonPrompt(locale, protectedText) {
-  return `You are a professional translator for the cheats-valorant.org community forum (VALORANT on Windows PC).
+  return `You are a professional translator for the cheatsapexlegends.com community forum (Apex Legends on Windows PC).
 Translate this forum JSON from English to ${LANG_NAME[locale]} (${locale}).
 
 Rules:
 - Return ONLY valid JSON, same structure and keys as input.
 - Translate categories.* display names and posts.* title, excerpt, body strings, flair, and comment/reply bodies.
 - Keep post slug keys unchanged.
-- Keep author names unchanged (ValorantStaff, etc.).
+- Keep author names unchanged (StoreStaff, MenuDev, OrderDesk, etc.).
 - Keep every [[T#]] placeholder exactly as-is.
 ${KEYWORD_KEEP_RULE}
 - Never use the words "undetected" or "safe".
@@ -579,7 +866,7 @@ function blogPrompt(locale, protectedText) {
   const inner = protectedText.startsWith('---')
     ? protectedText.slice(protectedText.indexOf('\n', 3) + 1, protectedText.indexOf('\n---', 3))
     : protectedText;
-  return `You are a professional translator for cheats-valorant.org (VALORANT on Windows PC).
+  return `You are a professional translator for cheatsapexlegends.com (Apex Legends on Windows PC).
 Translate this blog post JSON frontmatter from English to ${LANG_NAME[locale]} (${locale}).
 Rules:
 - Return ONLY valid JSON (no markdown fences, no --- lines).
@@ -593,17 +880,16 @@ JSON:
 ${inner}`;
 }
 
-function statusUpdatesPrompt(locale, protectedText) {
-  return `You are a professional translator for cheats-valorant.org (VALORANT on Windows PC).
-Translate this status-page updates JSON from English to ${LANG_NAME[locale]} (${locale}).
+function statusPagePrompt(locale, protectedText) {
+  return `You are a professional translator for cheatsapexlegends.com (Apex Legends on Windows PC).
+Translate this entire status page JSON (page chrome + update cards) from English to ${LANG_NAME[locale]} (${locale}).
 
 Rules:
 - Return ONLY valid JSON, same structure and keys as input.
-- Translate title, when, and summary for each update entry.
-- Keep id and icon values unchanged.
+- Translate every human-readable string: eyebrow, title, subtitle, pageDesc, breadcrumb, aceReminderLabel, aceReminder, recentTitle, storeLineup, latestLabel, activeLinePrefix, activeLineActive, activeLineUpdated, and every update title/when/summary.
+- Keep id and icon values unchanged on each update entry.
 - Localize the "when" date strings naturally for ${LANG_NAME[locale]} readers (month names may be translated).
 ${KEYWORD_KEEP_RULE}
-- Keep VALORANT, Vanguard, Windows 11, HVCI, VBS, TPM 2.0, DMA, VCT, Riot, IOMMU, HWID, and product pricing in English/Latin where standard.
 - Never use the words "undetected" or "safe".
 
 JSON to translate:
@@ -612,12 +898,12 @@ ${protectedText}`;
 
 async function translateStatusUiJob(job) {
   const en = readEnI18n();
-  if (!en?.status?.updates?.length) {
-    throw new Error('src/i18n/en.json missing status.updates — run npm run i18n:export-en');
+  if (!en?.status) {
+    throw new Error('src/i18n/en.json missing status — run npm run i18n:export-en');
   }
-  const sourceObj = { status: { updates: en.status.updates } };
+  const sourceObj = { status: en.status };
   const fileLabel = path.relative(projectRoot, job.dest);
-  const buildPrompt = (locale, protectedText) => statusUpdatesPrompt(locale, protectedText);
+  const buildPrompt = (locale, protectedText) => statusPagePrompt(locale, protectedText);
   const translated = await translateJsonDocument({
     sourceObj,
     locale: job.locale,
@@ -627,17 +913,18 @@ async function translateStatusUiJob(job) {
     sleep,
     delayMs: DELAY_MS,
     fileLabel: `${fileLabel} status`,
-    maxKeys: 200,
+    maxKeys: 220,
   });
   let localeRoot = {};
   if (fs.existsSync(job.dest)) {
     localeRoot = JSON.parse(fs.readFileSync(job.dest, 'utf8'));
   }
-  localeRoot.status = localeRoot.status ?? {};
-  localeRoot.status.updates = translated.status.updates;
+  localeRoot.status = translated.status;
   fs.mkdirSync(path.dirname(job.dest), { recursive: true });
   fs.writeFileSync(job.dest, `${JSON.stringify(localeRoot, null, 2)}\n`, 'utf8');
-  console.log(`ok ${fileLabel} (status updates)`);
+  console.log(`ok ${fileLabel} (status page)`);
+  writeTranslateProgress(job);
+  writeTranslateStamp(job);
   await sleep(DELAY_MS);
 }
 
@@ -667,6 +954,8 @@ async function translateForumUiJob(job) {
   fs.mkdirSync(path.dirname(job.dest), { recursive: true });
   fs.writeFileSync(job.dest, `${JSON.stringify(localeRoot, null, 2)}\n`, 'utf8');
   console.log(`ok ${fileLabel} (forum UI)`);
+  writeTranslateProgress(job);
+  writeTranslateStamp(job);
   await sleep(DELAY_MS);
 }
 
@@ -701,10 +990,13 @@ async function translateJsonJob(job) {
   fs.mkdirSync(path.dirname(job.dest), { recursive: true });
   fs.writeFileSync(job.dest, `${JSON.stringify(merged, null, 2)}\n`, 'utf8');
   console.log(`ok ${fileLabel}`);
+  writeTranslateProgress(job);
+  writeTranslateStamp(job);
   await sleep(DELAY_MS);
 }
 
 async function translateJob(job) {
+  writeTranslateProgress(job);
   if (job.kind === 'status-ui') {
     return translateStatusUiJob(job);
   }
@@ -735,6 +1027,8 @@ async function translateJob(job) {
       fs.mkdirSync(path.dirname(job.dest), { recursive: true });
       fs.writeFileSync(job.dest, normalized, 'utf8');
       console.log(`ok ${path.relative(projectRoot, job.dest)}`);
+      writeTranslateProgress(job);
+      writeTranslateStamp(job);
       await sleep(DELAY_MS);
       return;
     } catch (err) {
@@ -782,11 +1076,10 @@ function ensureEnglishExport() {
     if (!fs.existsSync(forumEnPath)) forumDataStale = true;
     else forumDataStale = fs.statSync(forumDataPath).mtimeMs > fs.statSync(forumEnPath).mtimeMs;
   }
+  const exportEn = process.env.TRANSLATE_EXPORT_EN === '1';
   const refreshEn =
     needs ||
-    i18nEnStale ||
-    forumDataStale ||
-    FORCE ||
+    (exportEn && (i18nEnStale || forumDataStale)) ||
     (FORCE && process.env.I18N_EXPORT_BEFORE_TRANSLATE === '1');
   if (refreshEn) {
     console.log('translate: refreshing en.json, seo/en.json, and forum/en.json from English sources…');
@@ -802,10 +1095,11 @@ function ensureEnglishExport() {
   if (!productStale && fs.existsSync(catalogPath)) {
     productStale = fs.statSync(catalogPath).mtimeMs > fs.statSync(productEnPath).mtimeMs;
   }
-  if (productStale || (FORCE && process.env.I18N_EXPORT_PRODUCT === '1')) {
+  const exportProduct = process.env.TRANSLATE_EXPORT_PRODUCT === '1';
+  if ((exportProduct && productStale) || (FORCE && process.env.I18N_EXPORT_PRODUCT === '1')) {
     console.log('translate: refreshing src/i18n/product/en.json from product catalog…');
     const script = path.join(root, 'export-product-locale-en.mjs');
-    const run = spawnSync('node', [script], { cwd: projectRoot, stdio: 'inherit', shell: true });
+    const run = spawnSync('npx', ['tsx', script], { cwd: projectRoot, stdio: 'inherit', shell: true });
     if (run.status !== 0) {
       process.exit(run.status ?? 1);
     }
@@ -818,18 +1112,33 @@ async function main() {
     console.error('Missing GEMINI_API_KEY or GEMINI_API_KEYS in .env');
     process.exit(1);
   }
+  const protRun = spawnSync('node', [path.join(root, 'export-protected-terms.mjs')], {
+    cwd: projectRoot,
+    stdio: 'inherit',
+  });
+  if (protRun.status !== 0) {
+    process.exit(protRun.status ?? 1);
+  }
   if (apiKeys.length > 1) {
     console.log(`translate: ${apiKeys.length} Gemini API key(s) loaded (rotate on 429)`);
   }
   ensureEnglishExport();
+  backfillTranslateStamps();
   if (process.env.TRANSLATE_KINDS?.trim()) {
     console.log(`translate: TRANSLATE_KINDS=${process.env.TRANSLATE_KINDS} (not a full run — unset for one command for everything)`);
   }
   if (process.env.TRANSLATE_LOCALES?.trim()) {
     console.log(`translate: TRANSLATE_LOCALES=${process.env.TRANSLATE_LOCALES}`);
   }
+  const stats = jobQueueStats();
   const jobs = buildJobs();
-  console.log(`translate: ${jobs.length} file(s) pending`);
+  const resume = readTranslateProgress();
+  console.log(
+    `translate: ${stats.pending} to run, ${stats.skipped} already complete (${stats.all} slots; ${stats.skippedDuplicate ?? 0} duplicate UI passes skipped)`,
+  );
+  if (resume?.dest && stats.pending > 0) {
+    console.log(`translate: resume near ${resume.dest} (${resume.kind}, ${resume.locale})`);
+  }
   if (process.env.TRANSLATE_DRY_RUN === '1') {
     for (const job of jobs) {
       console.log(`  - ${path.relative(projectRoot, job.dest)} (${job.kind})`);

@@ -14,37 +14,55 @@ const seeAllLabel = (s as { seeAllLabel?: string }).seeAllLabel ?? 'See all feat
 const subtitleLead = (s as { subtitleLead?: string }).subtitleLead ?? '';
 const subtitleLinkLabel = (s as { subtitleLinkLabel?: string }).subtitleLinkLabel ?? 'full feature list';
 const subtitleTail = (s as { subtitleTail?: string }).subtitleTail ?? '';
+const showSubtitle = Boolean(subtitleLead.trim() || subtitleTail.trim());
 ---
 
 <section id="home-features" class="border-y border-border bg-muted/20 py-12 md:py-16" aria-labelledby="home-features-title">
   <div class="mx-auto max-w-6xl px-5">
     <SectionHeader eyebrow={s.eyebrow} title={s.title} titleId="home-features-title" />
-    <p class="section-header__subtitle mt-3 max-w-3xl">
-      {subtitleLead}
-      <a href={featuresHref} class="font-medium text-primary underline-offset-2 hover:underline">
-        {subtitleLinkLabel}
-      </a>
-      {subtitleTail}
-    </p>
+    {
+      showSubtitle && (
+        <p class="section-header__subtitle mt-3 max-w-3xl">
+          {subtitleLead}
+          <a href={featuresHref} class="font-medium text-primary underline-offset-2 hover:underline">
+            {subtitleLinkLabel}
+          </a>
+          {subtitleTail}
+        </p>
+      )
+    }
 
     <ul
       class="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4"
       role="list"
     >
       {
-        s.items.map((item) => (
+        s.items.map((item) => {
+          const iconKey = item.bullets?.[0] ?? item.title;
+          return (
           <li>
             <article class="feature-category-card flex h-full gap-3 rounded-xl border border-border bg-card p-4 shadow-sm transition-colors hover:border-primary/35">
               <span class="flex size-9 shrink-0 items-center justify-center rounded-lg bg-primary/10">
-                <Icon name={featureIcons[item.title] ?? 'crosshair'} size={17} />
+                <Icon name={featureIcons[iconKey] ?? 'crosshair'} size={17} />
               </span>
               <div class="min-w-0 space-y-1">
-                <h3 class="text-sm font-bold leading-snug text-foreground md:text-[0.9375rem]">{item.title}</h3>
-                <p class="text-xs leading-relaxed text-muted-foreground md:text-sm">{item.subtitle}</p>
+                {item.bullets?.length ? (
+                  <ul class="space-y-1.5 text-sm font-medium leading-snug text-foreground md:text-[0.9375rem]" role="list">
+                    {item.bullets.map((line) => (
+                      <li>{line}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <>
+                    <h3 class="text-sm font-bold leading-snug text-foreground md:text-[0.9375rem]">{item.title}</h3>
+                    <p class="text-xs leading-relaxed text-muted-foreground md:text-sm">{item.subtitle}</p>
+                  </>
+                )}
               </div>
             </article>
           </li>
-        ))
+        );
+        })
       }
     </ul>
 
