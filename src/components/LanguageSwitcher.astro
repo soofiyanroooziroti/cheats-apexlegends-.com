@@ -4,9 +4,9 @@ import {
   getTranslations,
   localeMeta,
   localePath,
-  locales,
   stripLocaleFromPath,
 } from '../i18n';
+import { switcherLocales } from '../../scripts/locale-ship.mjs';
 import type { Locale } from '../i18n/locales';
 import { getBlogLocalesForSlug } from '../data/blog';
 import Icon from './icons/Icon.astro';
@@ -25,9 +25,9 @@ const basePath = stripLocaleFromPath(Astro.url.pathname);
 const blogSlugMatch = basePath.match(/^\/blog\/([^/]+)\/?$/);
 const blogLocalesForPage = blogSlugMatch ? getBlogLocalesForSlug(blogSlugMatch[1]!) : null;
 
-const showSwitcher = locales.length > 1;
+const showSwitcher = switcherLocales.length > 0;
 
-const options = locales.map((code) => {
+const options = switcherLocales.map((code) => {
   let href = localePath(basePath, code);
   if (blogLocalesForPage && !blogLocalesForPage.includes(code)) {
     href = localePath('/', code);

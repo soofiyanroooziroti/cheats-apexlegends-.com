@@ -19,6 +19,10 @@ const allShipLocales = [
 export const shipLocales =
   process.env.BUILD_SHIP_LOCALES === 'en-only' ? ['en'] : allShipLocales;
 
+/** Header / mobile language menu — English only until `SITE_LOCALES=all`. */
+export const switcherLocales =
+  process.env.SITE_LOCALES === 'all' ? allShipLocales : [defaultLocale];
+
 export const nonDefaultShipLocales = shipLocales.filter((l) => l !== defaultLocale);
 
 /** Human-readable names for translate.mjs prompts. */
